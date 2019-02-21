@@ -7,11 +7,11 @@ import cv2			#pip3 install opencv-python
 				# https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
 
 URL=['https://youtu.be/Z78zbnLlPUA', 'https://www.youtube.com/watch?v=9bZkp7q19f0', 'https://youtube.com/watch?v=XJGiS83eQLk', 'https://www.youtube.com/watch?v=ph5UVsuqPUU'] #TODO:
-OUTPATH='/home/jihuun/project/scripts/youtube_capture' #TODO:
-#FILENAME='file1'
-FILENAME='trello'
-CAPTION_LANG='en'
-CAPTION_FILE = OUTPATH + '/' + FILENAME + '.srt'
+OUTPATH = os.getcwd()
+FILENAME = 'trello'
+CAPTION_LANG = 'en'
+CAPTION_FILE = os.path.join(OUTPATH, FILENAME + '.srt')
+GEN_FILES_DEL = []
 
 def download_youtube(url):
 
@@ -25,6 +25,7 @@ def download_youtube(url):
 
 	# Sream download
 	stream.download(output_path=OUTPATH, filename=FILENAME)
+	GEN_FILES_DEL.append(os.path.join(OUTPATH, FILENAME + '.mp4'))
 
 	# Caption download
 	print(yt.captions.all())
@@ -32,6 +33,7 @@ def download_youtube(url):
 	fp = open(CAPTION_FILE, 'w')
 	fp.write(caption.generate_srt_captions())
 	print('Downloading a caption file \"%s\"\n' %CAPTION_FILE)
+	GEN_FILES_DEL.append(CAPTION_FILE)
 	fp.close()
 
 
@@ -132,6 +134,7 @@ def modify_cap_time():
 	if os.path.exists(new_cap_file):
 		#os.remove(CAPTION_FILE)  # FIXME:
 		CAPTION_FILE = new_cap_file
+		GEN_FILES_DEL.append(CAPTION_FILE)
 
 	fp.close()
 	nfp.close()
@@ -145,7 +148,6 @@ def imshow_by_caption_dur(__frame, __duration):
 
 
 def capture_video(target_file):
-	#cap = cv2.VideoCapture(OUTPATH + FILENAME + '.mp4')
 	cap = cv2.VideoCapture(target_file)
 
 	cap_time_stamps, total_frames = get_ts_by_caption()
@@ -175,6 +177,7 @@ def wait_job_done(pool):
 		if p.returncode and p.returncode != 0:
 			raise subprocess.CalledProcessError(p.returncode, p.args)
 
+# This is ffmped command on bash shell
 def make_ffmpeg_cmd(_input, _output, srt):
 	return 'ffmpeg -i ' + _input + ' -vf' + ' subtitles=' + srt + ' -acodec copy ' + _output
 
@@ -185,26 +188,28 @@ def combine_caption():
 	input_video = FILENAME + '.mp4'
 	output_video = FILENAME + '_sub' + '.mp4'
 
-	path_output_video = OUTPATH + '/' + output_video
+	path_output_video = os.path.join(OUTPATH, output_video)
 	if os.path.exists(path_output_video):
 		os.remove(path_output_video)
 
 	cmd = make_ffmpeg_cmd(input_video, output_video, caption_file)
 	bg_pool.append(subprocess.Popen([cmd], cwd=OUTPATH, shell=True))
 	wait_job_done(bg_pool)
+	GEN_FILES_DEL.append(path_output_video)
 
-	return OUTPATH + '/' + output_video
+	return path_output_video
 
 #TODO: is the caption has overlap issue?
 def is_need_mod_cap():
 	return True
 
 def main():
-	download_youtube(url)
+	download_youtube(None)
 	if is_need_mod_cap():
 		modify_cap_time()
 
 	video_file = combine_caption() #TODO:
+	print(GEN_FILES_DEL)
 	capture_video(video_file)
 
 if __name__ == "__main__":

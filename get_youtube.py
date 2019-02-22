@@ -8,6 +8,7 @@ import cv2			#pip3 install opencv-python
 				#Do 'pip3 uninstall numpy' few times until all numpy version will be removed.
 				# https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
 
+IMG_FORMAT = '.jpg'
 GEN_FILES_DEL = []
 
 def download_youtube(args):
@@ -188,7 +189,7 @@ def capture_video(args, target_file, caption_file):
 
 		if (duration > cap_time_stamps[cap_cnt]):
 			#cv_show_images(frame, duration)
-			savepath = os.path.join(img_path, file_name + str(cap_cnt) + '.png') #TODO:imgs
+			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
 			cv_save_images(frame, duration, savepath)
 			cap_cnt += 1
 		fcnt += 1
@@ -197,6 +198,8 @@ def capture_video(args, target_file, caption_file):
 			break
 	cap.release()
 	cv2.destroyAllWindows()
+
+	return total_frames, img_path
 
 def wait_job_done(pool):
 	for p in pool:
@@ -224,6 +227,25 @@ def combine_caption(args, input_video, caption_file):
 
 	return path_output_video
 
+def md_insert_hyperlink(src, link):
+	return '[' + src + '](' + link + ')'
+
+def md_insert_img(name, link):
+	return '![' + name + '](' + link + ')  \n'
+
+def make_md_page(nr_img, path_img, name_img):
+	outpath = os.getcwd()
+	md_file = os.path.join(outpath, name_img + '.md')
+	fd = open(md_file, 'w')
+
+	for nr in range(nr_img):
+		numberd_name = name_img + str(nr + 1)
+		img = os.path.join(path_img, numberd_name) + IMG_FORMAT
+		format_md_img = md_insert_img(numberd_name, img)
+		fd.write(format_md_img)
+
+	fd.close()
+
 #TODO: is the caption has overlap issue?
 def need_modify_cap():
 	return True
@@ -247,7 +269,8 @@ def main():
 
 	video_sub = combine_caption(args, video, caption) #TODO:
 	print(GEN_FILES_DEL)
-	capture_video(args, video_sub, caption)
+	nr_imgs, img_path = capture_video(args, video_sub, caption)
+	make_md_page(nr_imgs, img_path, args.name)
 
 if __name__ == "__main__":
 	main()

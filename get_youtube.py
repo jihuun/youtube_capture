@@ -1,21 +1,17 @@
 import os
 import subprocess
 import argparse
+import shutil
 from pytube import YouTube	#pip3 install pytube
 import cv2			#pip3 install opencv-python
 				# If there would be "numpy.core.multiarray" problem of numpy
 				#Do 'pip3 uninstall numpy' few times until all numpy version will be removed.
 				# https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
 
-URL=['https://youtu.be/Z78zbnLlPUA', 'https://www.youtube.com/watch?v=9bZkp7q19f0', 'https://youtube.com/watch?v=XJGiS83eQLk', 'https://www.youtube.com/watch?v=ph5UVsuqPUU'] #TODO:
-OUTPATH = os.getcwd()
-FILENAME = 'trello'
-CAPTION_LANG = 'en'
-CAPTION_FILE = os.path.join(OUTPATH, FILENAME + '.srt')
 GEN_FILES_DEL = []
 
 def download_youtube(args):
-	outpath = os.getcwd()
+	outpath = os.getcwd() #FIXME: change to the diretory has get_youtube.py
 	url = args.url
 	file_name = args.name
 	caption_lang = args.lang
@@ -154,12 +150,15 @@ def modify_cap_time(args):
 
 	return caption_file
 
-def imshow_by_caption_dur(__frame, __duration):
+def cv_show_images(__frame, __duration):
 	dur_str = '%f' %__duration
 	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0)) #Add text on frame
 	cv2.imshow('Img show by caption duration', __frame)
-	#TODO: save image
 
+def cv_save_images(__frame, __duration, __path): #TODO: try:except:
+	dur_str = '%f' %__duration
+	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0)) #Add text on frame
+	cv2.imwrite(__path, __frame)
 
 def capture_video(args, target_file, caption_file):
 	cap = cv2.VideoCapture(target_file)
@@ -169,14 +168,28 @@ def capture_video(args, target_file, caption_file):
 	cap_cnt = 1
 	fcnt = 0
 
-	print(cap_time_stamps, total_frames)
+	outpath = os.getcwd()
+	img_path = os.path.join(outpath, 'imgs')
+	file_name = args.name
+	caption_file = os.path.join(outpath, file_name + '.srt')
+
+	if os.path.exists(img_path):
+		print("remove %s" %img_path)
+		#os.remove(img_path)
+		shutil.rmtree(img_path, ignore_errors=True)
+	os.mkdir(img_path)
+
+	print("number of total frames: %d\ntime stamps of each images:\n" %total_frames)
+	print(cap_time_stamps)
 
 	while(cap_cnt <= total_frames):
 		ret, frame = cap.read()
 		duration = float(fcnt) / float(fps)
 
 		if (duration > cap_time_stamps[cap_cnt]):
-			imshow_by_caption_dur(frame, duration)
+			#cv_show_images(frame, duration)
+			savepath = os.path.join(img_path, file_name + str(cap_cnt) + '.png') #TODO:imgs
+			cv_save_images(frame, duration, savepath)
 			cap_cnt += 1
 		fcnt += 1
 
@@ -197,22 +210,22 @@ def make_ffmpeg_cmd(_input, _output, srt):
 
 def combine_caption(args, input_video, caption_file):
 	bg_pool = []
-
+	outpath = os.getcwd()
 	output_video = args.name + '_sub' + '.mp4'
 
-	path_output_video = os.path.join(OUTPATH, output_video)
+	path_output_video = os.path.join(outpath, output_video)
 	if os.path.exists(path_output_video):
 		os.remove(path_output_video)
 
 	cmd = make_ffmpeg_cmd(input_video, output_video, caption_file)
-	bg_pool.append(subprocess.Popen([cmd], cwd=OUTPATH, shell=True))
+	bg_pool.append(subprocess.Popen([cmd], cwd=outpath, shell=True))
 	wait_job_done(bg_pool)
 	GEN_FILES_DEL.append(path_output_video)
 
 	return path_output_video
 
 #TODO: is the caption has overlap issue?
-def is_need_mod_cap():
+def need_modify_cap():
 	return True
 
 def parse_args():
@@ -229,7 +242,7 @@ def parse_args():
 def main():
 	args = parse_args()
 	video, caption = download_youtube(args)
-	if is_need_mod_cap():
+	if need_modify_cap():
 		caption = modify_cap_time(args)
 
 	video_sub = combine_caption(args, video, caption) #TODO:

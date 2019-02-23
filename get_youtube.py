@@ -240,7 +240,9 @@ def make_md_page(nr_img, path_img, name_img):
 
 	for nr in range(nr_img):
 		numberd_name = name_img + str(nr + 1)
-		img = os.path.join(path_img, numberd_name) + IMG_FORMAT
+                #FIXME: /imgs/* path must be a reletive path
+		#img = os.path.join(path_img, numberd_name) + IMG_FORMAT
+		img = os.path.join('imgs', numberd_name) + IMG_FORMAT
 		format_md_img = md_insert_img(numberd_name, img)
 		fd.write(format_md_img)
 

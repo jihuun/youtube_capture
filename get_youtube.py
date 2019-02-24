@@ -18,9 +18,13 @@ def download_youtube(args):
 	caption_lang = args.lang
 	caption_file = os.path.join(outpath, file_name + '.srt')
 	video_file = os.path.join(outpath, file_name + '.mp4')
+	video_infos = dict()
 
 	yt = YouTube(url)
-	print('Downloading a video \"%s\"\n' %yt.title)
+	video_infos['title'] = yt.title
+	video_infos['thumbnail'] = yt.thumbnail_url
+	print('Downloading a video \"%s\"\n' %video_infos['title'])
+	print('Thumbnail URL is \"%s\"\n' %video_infos['thumbnail'])
 
 	# Stream selection
 	print(yt.streams.all())
@@ -40,7 +44,7 @@ def download_youtube(args):
 	GEN_FILES_DEL.append(caption_file)
 	fp.close()
 
-	return video_file, caption_file
+	return video_file, caption_file, video_infos
 
 def imshow_by_time(__frame, __fps, __fcnt, __duration, __sec):
 	if (__fcnt % (__fps * __sec)) == 0:
@@ -233,10 +237,22 @@ def md_insert_hyperlink(src, link):
 def md_insert_img(name, link):
 	return '![' + name + '](' + link + ')  \n'
 
-def make_md_page(nr_img, path_img, name_img):
+def md_insert_header(subject, depth):
+	header = ''
+	for i in range(depth):
+		header += '#'
+	header += ' ' + subject + '  \n'
+	return header
+
+def make_md_page(nr_img, path_img, name_img, video_infos):
 	outpath = os.getcwd()
 	md_file = os.path.join(outpath, name_img + '.md')
 	fd = open(md_file, 'w')
+
+	format_title = md_insert_header(video_infos['title'], 1)
+	fd.write(format_title)
+	format_thumbnail_img = md_insert_img('thumbnail', video_infos['thumbnail'])
+	fd.write(format_thumbnail_img)
 
 	for nr in range(nr_img):
 		numberd_name = name_img + str(nr + 1)
@@ -265,14 +281,14 @@ def parse_args():
 
 def main():
 	args = parse_args()
-	video, caption = download_youtube(args)
+	video, caption, infos = download_youtube(args)
 	if need_modify_cap():
 		caption = modify_cap_time(args)
 
 	video_sub = combine_caption(args, video, caption) #TODO:
 	print(GEN_FILES_DEL)
 	nr_imgs, img_path = capture_video(args, video_sub, caption)
-	make_md_page(nr_imgs, img_path, args.name)
+	make_md_page(nr_imgs, img_path, args.name, infos)
 
 if __name__ == "__main__":
 	main()

@@ -82,3 +82,4 @@
 ![fermi_pardox82](imgs/fermi_pardox82.jpg)  
 ![fermi_pardox83](imgs/fermi_pardox83.jpg)  
 ![fermi_pardox84](imgs/fermi_pardox84.jpg)  
+![fermi_pardox85](imgs/fermi_pardox85.jpg)  

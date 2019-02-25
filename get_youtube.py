@@ -74,7 +74,7 @@ def get_ts_by_caption(caption_file):
 	fp = open(caption_file, 'r')
 	lines = fp.readlines()
 	line_cnt = 0
-	ts_dict = dict()
+	frame_infos = []
 
 	while line_cnt < len(lines):
 		if not lines[line_cnt]:
@@ -83,13 +83,21 @@ def get_ts_by_caption(caption_file):
 		frame_num = lines[line_cnt][:-1]
 		line_cnt += 1
 		time_info = lines[line_cnt][:-1]
-		line_cnt += 3
+		line_cnt += 1
+		script = lines[line_cnt][:-1]
+		line_cnt += 2
 
-		ts_dict[int(frame_num)] = get_srt_mean_time(time_info)
+		ts_dict = dict()
+		ts_dict['frame_num'] = frame_num
+		ts_dict['time_info'] = get_srt_mean_time(time_info)
+		ts_dict['script'] = script
+
+		frame_infos.append(ts_dict)
+		#ts_dict[int(frame_num)] = get_srt_mean_time(time_info)
 
 	fp.close()
 
-	return ts_dict, int(frame_num)
+	return frame_infos, int(frame_num)
 
 def merge_st_end_srt(st, end):
 	return st + ' --> ' + end + '\n'
@@ -157,20 +165,22 @@ def modify_cap_time(args):
 
 def cv_show_images(__frame, __duration):
 	dur_str = '%f' %__duration
-	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0)) #Add text on frame
+	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
 	cv2.imshow('Img show by caption duration', __frame)
 
-def cv_save_images(__frame, __duration, __path): #TODO: try:except:
+def cv_save_images(__frame, __duration, __path, __infos): #TODO: try:except:
 	dur_str = '%f' %__duration
-	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0)) #Add text on frame
+	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
+	#script = __infos.get('script')
+	#cv2.putText(__frame, script , (0, 300), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
 	cv2.imwrite(__path, __frame)
 
 def capture_video(args, target_file, caption_file):
 	cap = cv2.VideoCapture(target_file)
 
-	cap_time_stamps, total_frames = get_ts_by_caption(caption_file)
+	frame_infos, total_frames = get_ts_by_caption(caption_file)
 	fps = int(cap.get(cv2.CAP_PROP_FPS))
-	cap_cnt = 1
+	cap_cnt = 0
 	fcnt = 0
 
 	outpath = os.getcwd()
@@ -180,21 +190,20 @@ def capture_video(args, target_file, caption_file):
 
 	if os.path.exists(img_path):
 		print("remove %s" %img_path)
-		#os.remove(img_path)
 		shutil.rmtree(img_path, ignore_errors=True)
 	os.mkdir(img_path)
 
 	print("number of total frames: %d\ntime stamps of each images:\n" %total_frames)
-	print(cap_time_stamps)
+	print(frame_infos)
 
-	while(cap_cnt <= total_frames):
+	while(cap_cnt < total_frames):
 		ret, frame = cap.read()
 		duration = float(fcnt) / float(fps)
 
-		if (duration > cap_time_stamps[cap_cnt]):
+		if (duration > frame_infos[cap_cnt].get('time_info')):
 			#cv_show_images(frame, duration)
 			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
-			cv_save_images(frame, duration, savepath)
+			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt])
 			cap_cnt += 1
 		fcnt += 1
 
@@ -212,8 +221,9 @@ def wait_job_done(pool):
 			raise subprocess.CalledProcessError(p.returncode, p.args)
 
 # This is ffmped command on bash shell
-def make_ffmpeg_cmd(_input, _output, srt):
-	return 'ffmpeg -i ' + _input + ' -vf' + ' subtitles=' + srt + ' -acodec copy ' + _output
+def make_ffmpeg_cmd(_input, _output, srt, font_size):
+	return 'ffmpeg -i ' + _input + ' -vf' + ' subtitles=' + srt + ':force_style=\'Fontsize=' + str(font_size) + '\'' + ' -acodec copy ' + _output
+
 
 def combine_caption(args, input_video, caption_file):
 	bg_pool = []
@@ -224,7 +234,7 @@ def combine_caption(args, input_video, caption_file):
 	if os.path.exists(path_output_video):
 		os.remove(path_output_video)
 
-	cmd = make_ffmpeg_cmd(input_video, output_video, caption_file)
+	cmd = make_ffmpeg_cmd(input_video, output_video, caption_file, args.fontsize)
 	bg_pool.append(subprocess.Popen([cmd], cwd=outpath, shell=True))
 	wait_job_done(bg_pool)
 	GEN_FILES_DEL.append(path_output_video)
@@ -255,7 +265,7 @@ def make_md_page(nr_img, path_img, name_img, video_infos):
 	fd.write(format_thumbnail_img)
 
 	for nr in range(nr_img):
-		numberd_name = name_img + str(nr + 1)
+		numberd_name = name_img + str(nr)
                 #FIXME: /imgs/* path must be a reletive path
 		#img = os.path.join(path_img, numberd_name) + IMG_FORMAT
 		img = os.path.join('imgs', numberd_name) + IMG_FORMAT
@@ -269,11 +279,11 @@ def need_modify_cap():
 	return True
 
 def parse_args():
-	#argparser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
-	parser = argparse.ArgumentParser(description='Screen capture automatically from Youtube video')
+	parser = argparse.ArgumentParser(description='Screen capture automatically from Youtube video\nexample: python3 get_youtube.py -u <youtube link> -n <outfile name> -l <language> -f <fontsize>')
 	parser.add_argument('-u', '--url', dest='url', help='Youtube vedio url')
 	parser.add_argument('-n', '--name', dest='name', default='downloaded_video', help='Output file name')
-	parser.add_argument('-l', '--lang', dest='lang', default='en', help='Caption language')
+	parser.add_argument('-l', '--lang', dest='lang', default='en', help='Caption language code (default: en)')
+	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, help='Font size of caption (default: 30)')
 
 	args = parser.parse_args()
 	print(args)

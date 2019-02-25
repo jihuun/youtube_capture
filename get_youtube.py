@@ -212,8 +212,10 @@ def wait_job_done(pool):
 			raise subprocess.CalledProcessError(p.returncode, p.args)
 
 # This is ffmped command on bash shell
-def make_ffmpeg_cmd(_input, _output, srt):
-	return 'ffmpeg -i ' + _input + ' -vf' + ' subtitles=' + srt + ' -acodec copy ' + _output
+def make_ffmpeg_cmd(_input, _output, srt, font_size):
+	#return 'ffmpeg -i ' + _input + ' -vf' + ' subtitles=' + srt + ' -acodec copy ' + _output
+	return 'ffmpeg -i ' + _input + ' -vf' + ' subtitles=' + srt + ':force_style=\'Fontsize=' + str(font_size) + '\'' + ' -acodec copy ' + _output
+
 
 def combine_caption(args, input_video, caption_file):
 	bg_pool = []
@@ -224,7 +226,7 @@ def combine_caption(args, input_video, caption_file):
 	if os.path.exists(path_output_video):
 		os.remove(path_output_video)
 
-	cmd = make_ffmpeg_cmd(input_video, output_video, caption_file)
+	cmd = make_ffmpeg_cmd(input_video, output_video, caption_file, args.fontsize)
 	bg_pool.append(subprocess.Popen([cmd], cwd=outpath, shell=True))
 	wait_job_done(bg_pool)
 	GEN_FILES_DEL.append(path_output_video)
@@ -269,11 +271,11 @@ def need_modify_cap():
 	return True
 
 def parse_args():
-	#argparser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
-	parser = argparse.ArgumentParser(description='Screen capture automatically from Youtube video')
+	parser = argparse.ArgumentParser(description='Screen capture automatically from Youtube video\nexample: python3 get_youtube.py -u <youtube link> -n <outfile name> -l <language> -f <fontsize>')
 	parser.add_argument('-u', '--url', dest='url', help='Youtube vedio url')
 	parser.add_argument('-n', '--name', dest='name', default='downloaded_video', help='Output file name')
-	parser.add_argument('-l', '--lang', dest='lang', default='en', help='Caption language')
+	parser.add_argument('-l', '--lang', dest='lang', default='en', help='Caption language code (default: en)')
+	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, help='Font size of caption (default: 30)')
 
 	args = parser.parse_args()
 	print(args)

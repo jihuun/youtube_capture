@@ -2,6 +2,7 @@ import os
 import subprocess
 import argparse
 import shutil
+from caption import bake_caption
 from pytube import YouTube	#pip3 install pytube
 import cv2			#pip3 install opencv-python
 				# If there would be "numpy.core.multiarray" problem of numpy
@@ -10,6 +11,7 @@ import cv2			#pip3 install opencv-python
 
 IMG_FORMAT = '.jpg'
 GEN_FILES_DEL = []
+FONT_FILE = 'NanumGothic.ttf'
 
 def download_youtube(args):
 	outpath = os.getcwd() #FIXME: change to the diretory has get_youtube.py
@@ -187,6 +189,7 @@ def capture_video(args, target_file, caption_file):
 	img_path = os.path.join(outpath, 'imgs')
 	file_name = args.name
 	caption_file = os.path.join(outpath, file_name + '.srt')
+	font_size = args.fontsize
 
 	if os.path.exists(img_path):
 		print("remove %s" %img_path)
@@ -194,7 +197,7 @@ def capture_video(args, target_file, caption_file):
 	os.mkdir(img_path)
 
 	print("number of total frames: %d\ntime stamps of each images:\n" %total_frames)
-	print(frame_infos)
+	#print(frame_infos)
 
 	while(cap_cnt < total_frames):
 		ret, frame = cap.read()
@@ -204,6 +207,8 @@ def capture_video(args, target_file, caption_file):
 			#cv_show_images(frame, duration)
 			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
 			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt])
+			text = frame_infos[cap_cnt].get('script')
+			bake_caption(savepath, text, FONT_FILE, font_size) # add subtitle
 			cap_cnt += 1
 		fcnt += 1
 
@@ -295,9 +300,9 @@ def main():
 	if need_modify_cap():
 		caption = modify_cap_time(args)
 
-	video_sub = combine_caption(args, video, caption) #TODO:
+	#video_sub = combine_caption(args, video, caption) #TODO:
 	print(GEN_FILES_DEL)
-	nr_imgs, img_path = capture_video(args, video_sub, caption)
+	nr_imgs, img_path = capture_video(args, video, caption)
 	make_md_page(nr_imgs, img_path, args.name, infos)
 
 if __name__ == "__main__":

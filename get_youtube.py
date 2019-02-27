@@ -1,4 +1,5 @@
 import os
+import sys
 import subprocess
 import argparse
 import shutil
@@ -13,9 +14,10 @@ import cv2			#pip3 install opencv-python
 IMG_FORMAT = '.jpg'
 GEN_FILES_DEL = []
 FONT_FILE = 'NanumGothic.ttf'
+FILE_PATH = os.path.dirname(os.path.realpath(__file__))
 
 def download_youtube(args):
-	outpath = os.getcwd() #FIXME: change to the diretory has get_youtube.py
+	outpath = FILE_PATH
 	url = args.url
 	file_name = args.name
 	caption_lang = args.lang
@@ -41,11 +43,15 @@ def download_youtube(args):
 	# Caption download
 	print(yt.captions.all())
 	caption = yt.captions.get_by_language_code(caption_lang) #TODO: defalt:en, select:kor
-	fp = open(caption_file, 'w')
-	fp.write(caption.generate_srt_captions())
-	print('Downloading a caption file \"%s\"\n' %caption_file)
+	if caption:
+		fp = open(caption_file, 'w')
+		fp.write(caption.generate_srt_captions())
+		print('Downloading a caption file \"%s\"\n' %caption_file)
+		fp.close()
+	else:
+		print('Fail to download a caption file \"%s\"\n' %caption_file)
+		sys.exit()
 	GEN_FILES_DEL.append(caption_file)
-	fp.close()
 
 	return video_file, caption_file, video_infos
 
@@ -122,7 +128,7 @@ def gen_new_time_info(curr_t, next_t):
 # ...
 # Nst end-time does not need to modify
 def modify_cap_time(args):
-	outpath = os.getcwd()
+	outpath = FILE_PATH
 	url = args.url
 	file_name = args.name
 	caption_lang = args.lang
@@ -187,7 +193,7 @@ def capture_video(args, target_file, caption_file):
 	cap_cnt = 0
 	fcnt = 0
 
-	outpath = os.getcwd()
+	outpath = FILE_PATH
 	img_path = os.path.join(outpath, 'imgs')
 	file_name = args.name
 	caption_file = os.path.join(outpath, file_name + '.srt')
@@ -236,7 +242,7 @@ def make_ffmpeg_cmd(_input, _output, srt, font_size):
 
 def combine_caption(args, input_video, caption_file):
 	bg_pool = []
-	outpath = os.getcwd()
+	outpath = FILE_PATH
 	output_video = args.name + '_sub' + '.mp4'
 
 	path_output_video = os.path.join(outpath, output_video)
@@ -264,7 +270,7 @@ def md_insert_header(subject, depth):
 	return header
 
 def make_md_page(nr_img, path_img, name_img, video_infos):
-	outpath = os.getcwd()
+	outpath = FILE_PATH
 	md_file = os.path.join(outpath, name_img + '.md')
 	fd = open(md_file, 'w')
 

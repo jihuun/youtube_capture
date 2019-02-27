@@ -2,6 +2,7 @@ import os
 import subprocess
 import argparse
 import shutil
+import re
 from caption import bake_caption
 from pytube import YouTube	#pip3 install pytube
 import cv2			#pip3 install opencv-python
@@ -72,6 +73,11 @@ def get_srt_mean_time(ti):
 
 	return (begin_ts + end_ts) / 2
 
+def remove_tags(text):
+	cleanr =re.compile('<.*?>')
+	cleantext = re.sub(cleanr, '', text)
+	return cleantext
+
 def get_ts_by_caption(caption_file):
 	fp = open(caption_file, 'r')
 	lines = fp.readlines()
@@ -92,10 +98,9 @@ def get_ts_by_caption(caption_file):
 		ts_dict = dict()
 		ts_dict['frame_num'] = frame_num
 		ts_dict['time_info'] = get_srt_mean_time(time_info)
-		ts_dict['script'] = script
+		ts_dict['script'] = remove_tags(script)
 
 		frame_infos.append(ts_dict)
-		#ts_dict[int(frame_num)] = get_srt_mean_time(time_info)
 
 	fp.close()
 
@@ -156,7 +161,6 @@ def modify_cap_time(args):
 
 	# replace original srt to new srt
 	if os.path.exists(new_cap_file):
-		#os.remove(caption_file)  # FIXME:
 		caption_file = new_cap_file
 		GEN_FILES_DEL.append(caption_file)
 
@@ -173,8 +177,6 @@ def cv_show_images(__frame, __duration):
 def cv_save_images(__frame, __duration, __path, __infos): #TODO: try:except:
 	dur_str = '%f' %__duration
 	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
-	#script = __infos.get('script')
-	#cv2.putText(__frame, script , (0, 300), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
 	cv2.imwrite(__path, __frame)
 
 def capture_video(args, target_file, caption_file):
@@ -290,7 +292,7 @@ def parse_args():
 	parser.add_argument('-u', '--url', dest='url', help='Youtube vedio url')
 	parser.add_argument('-n', '--name', dest='name', default='downloaded_video', help='Output file name')
 	parser.add_argument('-l', '--lang', dest='lang', default='en', help='Caption language code (default: en)')
-	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, help='Font size of caption (default: 30)')
+	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, type=int, help='Font size of caption (default: 30)')
 	parser.add_argument('--no-sub', dest='nosub', action='store_true', help='If the video has a closed caption, no need to add caption additionally')
 
 	args = parser.parse_args()

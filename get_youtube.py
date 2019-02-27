@@ -1,7 +1,9 @@
 import os
+import sys
 import subprocess
 import argparse
 import shutil
+import re
 from caption import bake_caption
 from pytube import YouTube	#pip3 install pytube
 import cv2			#pip3 install opencv-python
@@ -12,9 +14,10 @@ import cv2			#pip3 install opencv-python
 IMG_FORMAT = '.jpg'
 GEN_FILES_DEL = []
 FONT_FILE = 'NanumGothic.ttf'
+FILE_PATH = os.path.dirname(os.path.realpath(__file__))
 
 def download_youtube(args):
-	outpath = os.getcwd() #FIXME: change to the diretory has get_youtube.py
+	outpath = FILE_PATH
 	url = args.url
 	file_name = args.name
 	caption_lang = args.lang
@@ -40,11 +43,15 @@ def download_youtube(args):
 	# Caption download
 	print(yt.captions.all())
 	caption = yt.captions.get_by_language_code(caption_lang) #TODO: defalt:en, select:kor
-	fp = open(caption_file, 'w')
-	fp.write(caption.generate_srt_captions())
-	print('Downloading a caption file \"%s\"\n' %caption_file)
+	if caption:
+		fp = open(caption_file, 'w')
+		fp.write(caption.generate_srt_captions())
+		print('Downloading a caption file \"%s\"\n' %caption_file)
+		fp.close()
+	else:
+		print('Fail to download a caption file \"%s\"\n' %caption_file)
+		sys.exit()
 	GEN_FILES_DEL.append(caption_file)
-	fp.close()
 
 	return video_file, caption_file, video_infos
 
@@ -72,6 +79,11 @@ def get_srt_mean_time(ti):
 
 	return (begin_ts + end_ts) / 2
 
+def remove_tags(text):
+	cleanr =re.compile('<.*?>')
+	cleantext = re.sub(cleanr, '', text)
+	return cleantext
+
 def get_ts_by_caption(caption_file):
 	fp = open(caption_file, 'r')
 	lines = fp.readlines()
@@ -92,10 +104,9 @@ def get_ts_by_caption(caption_file):
 		ts_dict = dict()
 		ts_dict['frame_num'] = frame_num
 		ts_dict['time_info'] = get_srt_mean_time(time_info)
-		ts_dict['script'] = script
+		ts_dict['script'] = remove_tags(script)
 
 		frame_infos.append(ts_dict)
-		#ts_dict[int(frame_num)] = get_srt_mean_time(time_info)
 
 	fp.close()
 
@@ -117,7 +128,7 @@ def gen_new_time_info(curr_t, next_t):
 # ...
 # Nst end-time does not need to modify
 def modify_cap_time(args):
-	outpath = os.getcwd()
+	outpath = FILE_PATH
 	url = args.url
 	file_name = args.name
 	caption_lang = args.lang
@@ -156,7 +167,6 @@ def modify_cap_time(args):
 
 	# replace original srt to new srt
 	if os.path.exists(new_cap_file):
-		#os.remove(caption_file)  # FIXME:
 		caption_file = new_cap_file
 		GEN_FILES_DEL.append(caption_file)
 
@@ -173,8 +183,6 @@ def cv_show_images(__frame, __duration):
 def cv_save_images(__frame, __duration, __path, __infos): #TODO: try:except:
 	dur_str = '%f' %__duration
 	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
-	#script = __infos.get('script')
-	#cv2.putText(__frame, script , (0, 300), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
 	cv2.imwrite(__path, __frame)
 
 def capture_video(args, target_file, caption_file):
@@ -185,11 +193,12 @@ def capture_video(args, target_file, caption_file):
 	cap_cnt = 0
 	fcnt = 0
 
-	outpath = os.getcwd()
+	outpath = FILE_PATH
 	img_path = os.path.join(outpath, 'imgs')
 	file_name = args.name
 	caption_file = os.path.join(outpath, file_name + '.srt')
 	font_size = args.fontsize
+	no_add_caption = args.nosub
 
 	if os.path.exists(img_path):
 		print("remove %s" %img_path)
@@ -208,7 +217,8 @@ def capture_video(args, target_file, caption_file):
 			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
 			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt])
 			text = frame_infos[cap_cnt].get('script')
-			bake_caption(savepath, text, FONT_FILE, font_size) # add subtitle
+			if not no_add_caption:
+				bake_caption(savepath, text, FONT_FILE, font_size) # add subtitle
 			cap_cnt += 1
 		fcnt += 1
 
@@ -232,7 +242,7 @@ def make_ffmpeg_cmd(_input, _output, srt, font_size):
 
 def combine_caption(args, input_video, caption_file):
 	bg_pool = []
-	outpath = os.getcwd()
+	outpath = FILE_PATH
 	output_video = args.name + '_sub' + '.mp4'
 
 	path_output_video = os.path.join(outpath, output_video)
@@ -260,7 +270,7 @@ def md_insert_header(subject, depth):
 	return header
 
 def make_md_page(nr_img, path_img, name_img, video_infos):
-	outpath = os.getcwd()
+	outpath = FILE_PATH
 	md_file = os.path.join(outpath, name_img + '.md')
 	fd = open(md_file, 'w')
 
@@ -288,7 +298,8 @@ def parse_args():
 	parser.add_argument('-u', '--url', dest='url', help='Youtube vedio url')
 	parser.add_argument('-n', '--name', dest='name', default='downloaded_video', help='Output file name')
 	parser.add_argument('-l', '--lang', dest='lang', default='en', help='Caption language code (default: en)')
-	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, help='Font size of caption (default: 30)')
+	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, type=int, help='Font size of caption (default: 30)')
+	parser.add_argument('--no-sub', dest='nosub', action='store_true', help='If the video has a closed caption, no need to add caption additionally')
 
 	args = parser.parse_args()
 	print(args)

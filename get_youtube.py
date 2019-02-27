@@ -190,6 +190,7 @@ def capture_video(args, target_file, caption_file):
 	file_name = args.name
 	caption_file = os.path.join(outpath, file_name + '.srt')
 	font_size = args.fontsize
+	no_add_caption = args.nosub
 
 	if os.path.exists(img_path):
 		print("remove %s" %img_path)
@@ -208,7 +209,8 @@ def capture_video(args, target_file, caption_file):
 			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
 			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt])
 			text = frame_infos[cap_cnt].get('script')
-			bake_caption(savepath, text, FONT_FILE, font_size) # add subtitle
+			if not no_add_caption:
+				bake_caption(savepath, text, FONT_FILE, font_size) # add subtitle
 			cap_cnt += 1
 		fcnt += 1
 
@@ -289,6 +291,7 @@ def parse_args():
 	parser.add_argument('-n', '--name', dest='name', default='downloaded_video', help='Output file name')
 	parser.add_argument('-l', '--lang', dest='lang', default='en', help='Caption language code (default: en)')
 	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, help='Font size of caption (default: 30)')
+	parser.add_argument('--no-sub', dest='nosub', action='store_true', help='If the video has a closed caption, no need to add caption additionally')
 
 	args = parser.parse_args()
 	print(args)

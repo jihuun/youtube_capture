@@ -10,6 +10,8 @@ import cv2			#pip3 install opencv-python
 				# If there would be "numpy.core.multiarray" problem of numpy
 				#Do 'pip3 uninstall numpy' few times until all numpy version will be removed.
 				# https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
+from PIL import Image
+import imagehash
 
 IMG_FORMAT = '.jpg'
 GEN_FILES_DEL = []
@@ -105,6 +107,8 @@ def get_ts_by_caption(caption_file):
 		ts_dict['frame_num'] = frame_num
 		ts_dict['time_info'] = get_srt_mean_time(time_info)
 		ts_dict['script'] = remove_tags(script)
+		ts_dict['hash'] = None
+		ts_dict['sub_hash'] = None
 
 		frame_infos.append(ts_dict)
 
@@ -180,10 +184,27 @@ def cv_show_images(__frame, __duration):
 	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
 	cv2.imshow('Img show by caption duration', __frame)
 
-def cv_save_images(__frame, __duration, __path, __infos): #TODO: try:except:
-	dur_str = '%f' %__duration
+def cv_save_images(__frame, __duration, __path, __infos, __cnt): #TODO: try:except:
+	dur_str = '%d, %f ' %(__cnt, __duration)
 	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
 	cv2.imwrite(__path, __frame)
+
+def compare_hash(prev, curr, thresh = 0):
+	if abs(prev - curr) <= thresh:
+		ret = True
+	else:
+		ret = False
+	return ret
+
+def crop_img(img, h_ratio=4):
+	w, h = img.size # Get dimensions
+
+	x = 0
+	y = h - (h / h_ratio)
+	wi = x + w
+	he = y + (h - y)
+	area = (x, y, wi, he)
+	return area
 
 def capture_video(args, target_file, caption_file):
 	cap = cv2.VideoCapture(target_file)
@@ -192,6 +213,7 @@ def capture_video(args, target_file, caption_file):
 	fps = int(cap.get(cv2.CAP_PROP_FPS))
 	cap_cnt = 0
 	fcnt = 0
+	dup_cnt = 0
 
 	outpath = FILE_PATH
 	img_path = os.path.join(outpath, 'imgs')
@@ -214,16 +236,52 @@ def capture_video(args, target_file, caption_file):
 
 		if (duration > frame_infos[cap_cnt].get('time_info')):
 			#cv_show_images(frame, duration)
+
+			# 1. Save image
 			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
-			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt])
-			text = frame_infos[cap_cnt].get('script')
-			if not no_add_caption:
+			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt], cap_cnt)
+
+			# 2. Compare hash in case of --no-sub option.
+			#    Need to compare if closed-caption was changed or not.
+			if no_add_caption:
+				img_ori = Image.open(savepath)
+				#TODO: convert gray scale img_ori
+				#TODO: crop_img: width should be more narrow
+				area = crop_img(img_ori, h_ratio=4) #cropping caption area
+				#print(area)
+				img_c = img_ori.crop(area)
+
+				frame_hash = imagehash.average_hash(img_c)
+				prev_frame_hash = frame_infos[cap_cnt-1]['hash']
+				#print(prev_frame_hash, frame_hash)
+
+				# threah is tunnable value
+				# With a highier value, It would delete more duplicated images.
+				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=1):
+					print('.', end='', flush=True)
+					shutil.move(savepath, savepath + 'dupli.jpg')
+					dup_cnt +=1
+					cap_cnt += 1
+					fcnt += 1
+					continue
+				else:
+					#print(frame_hash, prev_frame_hash)
+					None
+
+				frame_infos[cap_cnt]['hash'] = frame_hash
+
+			# 3. Add caption text in plain frame
+			else:
+				text = frame_infos[cap_cnt].get('script')
 				bake_caption(savepath, text, FONT_FILE, font_size) # add subtitle
+
 			cap_cnt += 1
 		fcnt += 1
 
 		if cv2.waitKey(1) & 0xFF == ord('q'):
 			break
+
+	print('Done: %d duplicated image was deleted.' %dup_cnt)
 	cap.release()
 	cv2.destroyAllWindows()
 
@@ -284,8 +342,11 @@ def make_md_page(nr_img, path_img, name_img, video_infos):
                 #FIXME: /imgs/* path must be a reletive path
 		#img = os.path.join(path_img, numberd_name) + IMG_FORMAT
 		img = os.path.join('imgs', numberd_name) + IMG_FORMAT
-		format_md_img = md_insert_img(numberd_name, img)
-		fd.write(format_md_img)
+
+		img_path = os.path.join(outpath, img)
+		if os.path.exists(img_path):
+			format_md_img = md_insert_img(numberd_name, img)
+			fd.write(format_md_img)
 
 	fd.close()
 

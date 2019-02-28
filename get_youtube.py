@@ -29,9 +29,12 @@ def download_youtube(args):
 
 	yt = YouTube(url)
 	video_infos['title'] = yt.title
-	video_infos['thumbnail'] = yt.thumbnail_url
+	video_infos['thumbnail'] = yt.thumbnail_url.replace('default.jpg', 'maxresdefault.jpg')
 	print('Downloading a video \"%s\"\n' %video_infos['title'])
 	print('Thumbnail URL is \"%s\"\n' %video_infos['thumbnail'])
+	'''
+	high_resolution_thumbnail_url = pytube.YouTube(YOUR_youtube_url).thumbnail_url.replace('default.jpg', 'hqdefault.jpg')
+	'''
 
 	# Stream selection
 	print(yt.streams.all())

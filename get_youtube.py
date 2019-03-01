@@ -332,7 +332,7 @@ def md_insert_header(subject, depth):
 
 def make_md_page(args, nr_img, path_img, name_img, video_infos):
 	outpath = FILE_PATH
-	url = args.url
+	url = args.url.lstrip("'").rstrip("'")
 	md_file = os.path.join(outpath, name_img + '.md')
 	fd = open(md_file, 'w')
 

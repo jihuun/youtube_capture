@@ -77,6 +77,11 @@ git branch
 git checkout $DEMO_BRANCH
 git log --oneline
 
+rm *.mp4
+rm *.srt*
+rm *.md
+git rm *.md
+
 echo " "
 usage
 echo " "

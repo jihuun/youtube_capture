@@ -187,9 +187,26 @@ def cv_show_images(__frame, __duration):
 	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
 	cv2.imshow('Img show by caption duration', __frame)
 
-def cv_save_images(__frame, __duration, __path, __infos, __cnt): #TODO: try:except:
-	dur_str = '%d, %f ' %(__cnt, __duration)
-	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
+'''
+Parameters
+img	Image.
+text	Text string to be drawn.
+org	Bottom-left corner of the text string in the image.
+fontFace	Font type, see cv::HersheyFonts.
+fontScale	Font scale factor that is multiplied by the font-specific base size.
+color	Text color.
+thickness	Thickness of the lines used to draw a text.
+lineType	Line type. See the line for details.
+bottomLeftOrigin	When true, the image data origin is at the bottom-left corner. Otherwise, it is at the top-left corner.
+'''
+
+def cv_save_images(__frame, __duration, __path, __infos, __cnt, __tot_frame): #TODO: try:except:
+	rate = '%d/%d, %fs' %(__cnt, __tot_frame, __duration)
+	pos = (10, 10)
+	font = cv2.FONT_HERSHEY_COMPLEX
+	font_scale = 0.8
+	color = (255, 255, 0) #(B,G,R)
+	cv2.putText(__frame, rate, pos, font, font_scale, color, bottomLeftOrigin=False)
 	cv2.imwrite(__path, __frame)
 
 def compare_hash(prev, curr, thresh = 0):
@@ -242,7 +259,7 @@ def capture_video(args, target_file, caption_file):
 
 			# 1. Save image
 			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
-			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt], cap_cnt)
+			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt], cap_cnt, total_frame)
 
 			# 2. Compare hash in case of --no-sub option.
 			#    Need to compare if closed-caption was changed or not.

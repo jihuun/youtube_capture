@@ -200,13 +200,16 @@ lineType	Line type. See the line for details.
 bottomLeftOrigin	When true, the image data origin is at the bottom-left corner. Otherwise, it is at the top-left corner.
 '''
 
-def cv_save_images(__frame, __duration, __path, __infos, __cnt, __tot_frame): #TODO: try:except:
-	rate = '%d/%d, %fs' %(__cnt, __tot_frame, __duration)
-	pos = (10, 10)
-	font = cv2.FONT_HERSHEY_COMPLEX
+def cv_save_images(__frame, __duration, __path, __infos, __cnt, __tot_frame, __font_size): #TODO: try:except:
+	rate = '%d/%d  %fs' %(__cnt, __tot_frame, __duration)
+	font = cv2.FONT_HERSHEY_SIMPLEX
 	font_scale = 0.8
+	fs = round(__font_size * font_scale)
+	pos = (10, fs + 10)
 	color = (255, 255, 0) #(B,G,R)
-	cv2.putText(__frame, rate, pos, font, font_scale, color, bottomLeftOrigin=False)
+	thickness = 1
+	linetype = cv2.LINE_AA
+	cv2.putText(__frame, rate, pos, font, font_scale, color, thickness, linetype)
 	cv2.imwrite(__path, __frame)
 
 def compare_hash(prev, curr, thresh = 0):
@@ -259,7 +262,7 @@ def capture_video(args, target_file, caption_file):
 
 			# 1. Save image
 			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
-			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt], cap_cnt, total_frame)
+			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt], cap_cnt, total_frames, font_size)
 
 			# 2. Compare hash in case of --no-sub option.
 			#    Need to compare if closed-caption was changed or not.

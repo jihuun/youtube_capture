@@ -1,5 +1,7 @@
 # Inside the mind of a master procrastinator | Tim Urban  
-![thumbnail](https://i.ytimg.com/vi/arj7oStGLkU/default.jpg)  
+----
+[Source: https://www.youtube.com/watch?v=arj7oStGLkU](https://www.youtube.com/watch?v=arj7oStGLkU)  
+![thumbnail](https://i.ytimg.com/vi/arj7oStGLkU/maxresdefault.jpg)  
 ![procastinator0](imgs/procastinator0.jpg)  
 ![procastinator1](imgs/procastinator1.jpg)  
 ![procastinator2](imgs/procastinator2.jpg)  
@@ -305,3 +307,4 @@
 ![procastinator302](imgs/procastinator302.jpg)  
 ![procastinator303](imgs/procastinator303.jpg)  
 ![procastinator304](imgs/procastinator304.jpg)  
+[Source: https://www.youtube.com/watch?v=arj7oStGLkU](https://www.youtube.com/watch?v=arj7oStGLkU)  

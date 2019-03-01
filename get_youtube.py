@@ -29,9 +29,12 @@ def download_youtube(args):
 
 	yt = YouTube(url)
 	video_infos['title'] = yt.title
-	video_infos['thumbnail'] = yt.thumbnail_url
+	video_infos['thumbnail'] = yt.thumbnail_url.replace('default.jpg', 'maxresdefault.jpg')
 	print('Downloading a video \"%s\"\n' %video_infos['title'])
 	print('Thumbnail URL is \"%s\"\n' %video_infos['thumbnail'])
+	'''
+	high_resolution_thumbnail_url = pytube.YouTube(YOUR_youtube_url).thumbnail_url.replace('default.jpg', 'hqdefault.jpg')
+	'''
 
 	# Stream selection
 	print(yt.streams.all())
@@ -315,7 +318,7 @@ def combine_caption(args, input_video, caption_file):
 	return path_output_video
 
 def md_insert_hyperlink(src, link):
-	return '[' + src + '](' + link + ')'
+	return '[' + src + '](' + link + ')  \n'
 
 def md_insert_img(name, link):
 	return '![' + name + '](' + link + ')  \n'
@@ -324,16 +327,19 @@ def md_insert_header(subject, depth):
 	header = ''
 	for i in range(depth):
 		header += '#'
-	header += ' ' + subject + '  \n'
+	header += ' ' + subject + '  \n----\n'
 	return header
 
-def make_md_page(nr_img, path_img, name_img, video_infos):
+def make_md_page(args, nr_img, path_img, name_img, video_infos):
 	outpath = FILE_PATH
+	url = args.url
 	md_file = os.path.join(outpath, name_img + '.md')
 	fd = open(md_file, 'w')
 
 	format_title = md_insert_header(video_infos['title'], 1)
 	fd.write(format_title)
+	format_source = md_insert_hyperlink('Source: ' + url, url)
+	fd.write(format_source)
 	format_thumbnail_img = md_insert_img('thumbnail', video_infos['thumbnail'])
 	fd.write(format_thumbnail_img)
 
@@ -348,6 +354,8 @@ def make_md_page(nr_img, path_img, name_img, video_infos):
 			format_md_img = md_insert_img(numberd_name, img)
 			fd.write(format_md_img)
 
+	format_source = md_insert_hyperlink('Source: ' + url, url)
+	fd.write(format_source)
 	fd.close()
 
 #TODO: is the caption has overlap issue?
@@ -375,7 +383,7 @@ def main():
 	#video_sub = combine_caption(args, video, caption) #TODO:
 	print(GEN_FILES_DEL)
 	nr_imgs, img_path = capture_video(args, video, caption)
-	make_md_page(nr_imgs, img_path, args.name, infos)
+	make_md_page(args, nr_imgs, img_path, args.name, infos)
 
 if __name__ == "__main__":
 	main()

@@ -12,6 +12,8 @@ import cv2			#pip3 install opencv-python
 				# https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
 from PIL import Image
 import imagehash
+import json
+from collections import OrderedDict
 
 IMG_FORMAT = '.jpg'
 GEN_FILES_DEL = []
@@ -25,11 +27,13 @@ def download_youtube(args):
 	caption_lang = args.lang
 	caption_file = os.path.join(outpath, file_name + '.srt')
 	video_file = os.path.join(outpath, file_name + '.mp4')
-	video_infos = dict()
+	video_infos = OrderedDict()
 
 	yt = YouTube(url)
 	video_infos['title'] = yt.title
+	video_infos['file_name'] = file_name
 	video_infos['thumbnail'] = yt.thumbnail_url.replace('default.jpg', 'maxresdefault.jpg')
+	video_infos['frame_infos'] = None
 	print('Downloading a video \"%s\"\n' %video_infos['title'])
 	print('Thumbnail URL is \"%s\"\n' %video_infos['thumbnail'])
 	'''
@@ -106,8 +110,9 @@ def get_ts_by_caption(caption_file):
 		script = lines[line_cnt][:-1]
 		line_cnt += 2
 
-		ts_dict = dict()
-		ts_dict['frame_num'] = frame_num
+		ts_dict = OrderedDict()
+		ts_dict['frame_num'] = int(frame_num) - 1
+		ts_dict['img_path'] = None
 		ts_dict['time_info'] = get_srt_mean_time(time_info)
 		ts_dict['script'] = remove_tags(script)
 		ts_dict['hash'] = None
@@ -264,6 +269,7 @@ def capture_video(args, target_file, caption_file):
 			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
 			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt], cap_cnt, total_frames, font_size)
 
+
 			# 2. Compare hash in case of --no-sub option.
 			#    Need to compare if closed-caption was changed or not.
 			if no_add_caption:
@@ -275,14 +281,16 @@ def capture_video(args, target_file, caption_file):
 				img_c = img_ori.crop(area)
 
 				frame_hash = imagehash.average_hash(img_c)
-				prev_frame_hash = frame_infos[cap_cnt-1]['hash']
+				prev_frame_hash = frame_infos[cap_cnt-1]['sub_hash']
 				#print(prev_frame_hash, frame_hash)
 
 				# threah is tunnable value
 				# With a highier value, It would delete more duplicated images.
 				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=1):
 					print('.', end='', flush=True)
-					shutil.move(savepath, savepath + 'dupli.jpg')
+					savepath_dup = savepath + '.dupli.jpg'
+					shutil.move(savepath, savepath_dup)
+					savepath = savepath_dup
 					dup_cnt +=1
 					cap_cnt += 1
 					fcnt += 1
@@ -291,14 +299,16 @@ def capture_video(args, target_file, caption_file):
 					#print(frame_hash, prev_frame_hash)
 					None
 
-				frame_infos[cap_cnt]['hash'] = frame_hash
+				frame_infos[cap_cnt]['sub_hash'] = frame_hash
 
 			# 3. Add caption text in plain frame
 			else:
 				text = frame_infos[cap_cnt].get('script')
 				bake_caption(savepath, text, FONT_FILE, font_size) # add subtitle
 
+			frame_infos[cap_cnt]['img_path'] = savepath
 			cap_cnt += 1
+
 		fcnt += 1
 
 		if cv2.waitKey(1) & 0xFF == ord('q'):
@@ -308,7 +318,7 @@ def capture_video(args, target_file, caption_file):
 	cap.release()
 	cv2.destroyAllWindows()
 
-	return total_frames, img_path
+	return total_frames, img_path, frame_infos
 
 def wait_job_done(pool):
 	for p in pool:
@@ -394,16 +404,29 @@ def parse_args():
 	print(args)
 	return args
 
+def make_json(v_infos):
+	outpath = FILE_PATH
+	file_name = v_infos['file_name']
+	json_file = os.path.join(outpath, file_name + '.json')
+	fd = open(json_file, 'w')
+	v_infos_json = json.dumps(v_infos, ensure_ascii=False, indent="\t")
+	fd.write(v_infos_json)
+
 def main():
 	args = parse_args()
-	video, caption, infos = download_youtube(args)
+	video, caption, v_infos = download_youtube(args)
 	if need_modify_cap():
 		caption = modify_cap_time(args)
 
 	#video_sub = combine_caption(args, video, caption) #TODO:
 	print(GEN_FILES_DEL)
-	nr_imgs, img_path = capture_video(args, video, caption)
-	make_md_page(args, nr_imgs, img_path, args.name, infos)
+	nr_imgs, img_path, f_infos = capture_video(args, video, caption)
+	make_md_page(args, nr_imgs, img_path, args.name, v_infos)
+
+	v_infos['frame_infos'] = f_infos
+	if not args.nosub: #FIXME: make a json file with --no-sub
+		make_json(v_infos)
+
 
 if __name__ == "__main__":
 	main()

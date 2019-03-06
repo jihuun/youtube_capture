@@ -254,6 +254,7 @@ def capture_video(args, target_file, caption_file):
 	caption_file = os.path.join(outpath, file_name + '.srt')
 	font_size = args.fontsize
 	no_add_caption = args.nosub
+	background_opacity = float(args.bg_opacity)
 
 	if os.path.exists(img_path):
 		print("remove %s" %img_path)
@@ -311,7 +312,7 @@ def capture_video(args, target_file, caption_file):
 			# 3. Add caption text in plain frame
 			else:
 				text = frame_infos[cap_cnt].get('script')
-				bake_caption(savepath, text, FONT_FILE, font_size) # add subtitle
+				bake_caption(savepath, text, FONT_FILE, font_size, background_opacity)
 
 			frame_infos[cap_cnt]['img_path'] = savepath
 			cap_cnt += 1
@@ -405,6 +406,7 @@ def parse_args():
 	parser.add_argument('-n', '--name', dest='name', default='downloaded_video', help='Output file name')
 	parser.add_argument('-l', '--lang', dest='lang', default='en', help='Caption language code (default: en)')
 	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, type=int, help='Font size of caption (default: 30)')
+	parser.add_argument('-b', '--bg-opacity', dest='bg_opacity', default=0, type=float, help='Add backgound behind of caption text with opacity (0.0 ~ 1.0) (default opacity : 0.0)')
 	parser.add_argument('--no-sub', dest='nosub', action='store_true', help='If the video has a closed caption, no need to add caption additionally')
 
 	args = parser.parse_args()

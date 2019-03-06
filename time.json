@@ -1,0 +1,1100 @@
+{
+	"title": "Time: The History & Future of Everything – Remastered",
+	"youtube_url": "'https://www.youtube.com/watch?v=5TbUxGZtwGI'",
+	"lang_code": "ko",
+	"font_size": 30,
+	"file_name": "time",
+	"nosub_opt": true,
+	"thumbnail": "https://i.ytimg.com/vi/5TbUxGZtwGI/maxresdefault.jpg",
+	"frame_infos": [
+		{
+			"frame_num": 0,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time0.jpg",
+			"time_info": 3.0,
+			"script": "시간은 작은 조각에선 이해가 됩니다.",
+			"hash": null,
+			"sub_hash": "0000000000000000",
+			"usage": true
+		},
+		{
+			"frame_num": 1,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time1.jpg.dupli.jpg",
+			"time_info": 8.0,
+			"script": "하지만 긴 시간은 머리에 잘 와닿지 않습니다.",
+			"hash": null,
+			"sub_hash": "0000000000000000",
+			"usage": false
+		},
+		{
+			"frame_num": 2,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time2.jpg",
+			"time_info": 14.0,
+			"script": "그러니 분, 시간, 일부터 작게 시작합시다!",
+			"hash": null,
+			"sub_hash": "0000fffcfeffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 3,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time3.jpg.dupli.jpg",
+			"time_info": 19.0,
+			"script": "여러분은 아마 지난 24시간 동안 자고, 일했을 것이고",
+			"hash": null,
+			"sub_hash": "0000fffcfcffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 4,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time4.jpg",
+			"time_info": 23.5,
+			"script": "인터넷과 즐거운 시간을 보냈을 것입니다.",
+			"hash": null,
+			"sub_hash": "0081ffe8ebffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 5,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time5.jpg",
+			"time_info": 28.0,
+			"script": "일은 주가 되고, 주는 개월이 되어, 우리에게 년으로 다가옵니다.",
+			"hash": null,
+			"sub_hash": "0000fffcfeffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 6,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time6.jpg.dupli.jpg",
+			"time_info": 31.5,
+			"script": "(1)2017년을 한번 볼까요?",
+			"hash": null,
+			"sub_hash": "0000fffcfeffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 7,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time7.jpg.dupli.jpg",
+			"time_info": 34.5,
+			"script": "프랑스는 테러 드론을 사냥하기 위해 독수리를 훈련시키기 시작했습니다.",
+			"hash": null,
+			"sub_hash": "0000fffcfeffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 8,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time8.jpg.dupli.jpg",
+			"time_info": 38.5,
+			"script": "체코의 핵 발전소에서는 새 인턴을 뽑기 위해 비키니 콘테스트를 열었으며",
+			"hash": null,
+			"sub_hash": "0001fffcfeffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 9,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time9.jpg.dupli.jpg",
+			"time_info": 43.0,
+			"script": "인터넷 사람들은 표백제 먹방에 도전했습니다.",
+			"hash": null,
+			"sub_hash": "0000fffcfeffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 10,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time10.jpg.dupli.jpg",
+			"time_info": 46.0,
+			"script": "뭐, 항상 있는 일이죠",
+			"hash": null,
+			"sub_hash": "0000fffcfeffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 11,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time11.jpg",
+			"time_info": 48.0,
+			"script": "좀 더 멀리 가봅시다.",
+			"hash": null,
+			"sub_hash": "0080ff7cfeffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 12,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time12.jpg.dupli.jpg",
+			"time_info": 51.5,
+			"script": "21세기 첫 해에 태어난 아이는 이제 18살이 되었습니다.",
+			"hash": null,
+			"sub_hash": "0080ff7c7effffff",
+			"usage": false
+		},
+		{
+			"frame_num": 13,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time13.jpg.dupli.jpg",
+			"time_info": 56.5,
+			"script": "(심즈) (위키백과) (유튜브) (아이폰) (쿠르츠게작트) (스타워즈 7편) (우주로 간 자동차) 하지만 당신이 젋든 아니든, 21세기는 아직 어립니다.",
+			"hash": null,
+			"sub_hash": "0000ff7c7effffff",
+			"usage": false
+		},
+		{
+			"frame_num": 14,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time14.jpg",
+			"time_info": 62.5,
+			"script": "21세기는 9/11 테러에 의한 영향을 많이 받았는데, 이것이 아프가니스탄과 이라크 전쟁을 촉발했죠.",
+			"hash": null,
+			"sub_hash": "0000ff7f7fffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 15,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time15.jpg",
+			"time_info": 69.0,
+			"script": "2011년 3월, 시리아 내전이 발발했는데, 현재까지 7년간 지속되고 있습니다.",
+			"hash": null,
+			"sub_hash": "0080ff6fefffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 16,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time16.jpg",
+			"time_info": 73.5,
+			"script": "우리 대부분은 20세기에 태어났습니다.",
+			"hash": null,
+			"sub_hash": "0001ff7c7fffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 17,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time17.jpg.dupli.jpg",
+			"time_info": 77.0,
+			"script": "인류 역사상 가장 파괴적이었던 두 전쟁과 냉전이 있었던 시기죠.",
+			"hash": null,
+			"sub_hash": "0001ff7c7fffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 18,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time18.jpg.dupli.jpg",
+			"time_info": 82.0,
+			"script": "인류는 역사상 최초로 핵무기로 하여금 스스로를 파괴해버릴 수 있는 종족이 되었으며, 거의 파괴해 버릴 뻔 했죠.",
+			"hash": null,
+			"sub_hash": "0001ff7c7fffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 19,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time19.jpg.dupli.jpg",
+			"time_info": 87.0,
+			"script": "하지만 동시에 우주경쟁을 벌이면서 최초로 지구를 벗어난 종족이 되었습니다.",
+			"hash": null,
+			"sub_hash": "0001ff7c7fffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 20,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time20.jpg",
+			"time_info": 91.5,
+			"script": "인터넷이 개발되면서 우리를 밈, 페이스북, 트위터로 인도했습니다.",
+			"hash": null,
+			"sub_hash": "0001ff7f7fffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 21,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time21.jpg",
+			"time_info": 96.0,
+			"script": "결국, 21세기가 긍정적으로 발전한 건지 아닌지 확신할 순 없겠네요.",
+			"hash": null,
+			"sub_hash": "019f3d3c3dbfbfbf",
+			"usage": true
+		},
+		{
+			"frame_num": 22,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time22.jpg",
+			"time_info": 101.0,
+			"script": "인간의 평균 연령은 79살인데, 그 정도면 근현대사의 대부분을 경험할 수 있는 시간이군요.",
+			"hash": null,
+			"sub_hash": "0081ff60e7ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 23,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time23.jpg",
+			"time_info": 107.0,
+			"script": "현재까지 가장 오래 산 안간은 칠레의 1896년생인 Celino Jaramillo인데,",
+			"hash": null,
+			"sub_hash": "0001ffb8b9ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 24,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time24.jpg",
+			"time_info": 113.0,
+			"script": "그분의 생일은 현재보다 나폴레옹이 유럽을 지배하던 때와 더 가깝습니다.",
+			"hash": null,
+			"sub_hash": "0f0f0f0f0f0f0f0f",
+			"usage": true
+		},
+		{
+			"frame_num": 25,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time25.jpg",
+			"time_info": 119.0,
+			"script": "겨우 250년 전에, 산업혁명이 일어나 세계의 기계화를 이끌었고,",
+			"hash": null,
+			"sub_hash": "0081ff3075ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 26,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time26.jpg.dupli.jpg",
+			"time_info": 124.5,
+			"script": "농부는 노동자가 되었으며, 지식의 전파는 더 쉬워졌습니다.",
+			"hash": null,
+			"sub_hash": "0081ff3075ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 27,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time27.jpg.dupli.jpg",
+			"time_info": 129.0,
+			"script": "이 때쯤에 오늘날 기후변화를 향한 과정이 시작되었습니다.",
+			"hash": null,
+			"sub_hash": "0081ff3075ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 28,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time28.jpg.dupli.jpg",
+			"time_info": 132.0,
+			"script": "그리 오래되진 않았군요!",
+			"hash": null,
+			"sub_hash": "0081ff3075ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 29,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time29.jpg.dupli.jpg",
+			"time_info": 136.0,
+			"script": "진화에 대한 이론이 우리 스스로와 우리가 사는 세계에 대한 인식을 바꿔놓았습니다.",
+			"hash": null,
+			"sub_hash": "0081ff3075ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 30,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time30.jpg.dupli.jpg",
+			"time_info": 140.5,
+			"script": "뉴턴이 중력에 대한 이론을 정립했습니다",
+			"hash": null,
+			"sub_hash": "0081ff3075ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 31,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time31.jpg.dupli.jpg",
+			"time_info": 144.5,
+			"script": "멀리 있는 별들과 가까이 있는 박테리아를 관찰하기 시작했습니다.",
+			"hash": null,
+			"sub_hash": "0081ff3075ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 32,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time32.jpg",
+			"time_info": 148.5,
+			"script": "15세기는 정말 역동적이었는데,",
+			"hash": null,
+			"sub_hash": "0080ff70f8ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 33,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time33.jpg.dupli.jpg",
+			"time_info": 153.5,
+			"script": "콜럼버스의 미대륙 \"발견\" 과 콘스탄티노플의 몰락이 중세의 마지막을 장식합니다.",
+			"hash": null,
+			"sub_hash": "0080ff70f8ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 34,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time34.jpg",
+			"time_info": 158.0,
+			"script": "중세시대 전체에 전쟁이 만연해 있었는데,",
+			"hash": null,
+			"sub_hash": "0081ff60e2ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 35,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time35.jpg.dupli.jpg",
+			"time_info": 160.0,
+			"script": "가장 많은 킬 카운트는 모 질병이 차지합니다.",
+			"hash": null,
+			"sub_hash": "0081ff60e2ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 36,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time36.jpg.dupli.jpg",
+			"time_info": 164.0,
+			"script": "흑사병이 단 6년 만에 유럽 인구의 3분의 1을 죽였습니다.",
+			"hash": null,
+			"sub_hash": "0081ff60e2ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 37,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time37.jpg",
+			"time_info": 169.5,
+			"script": "2000년 전쯤에 우리는 임의로 우리 달력의 원년을 지정하였고,",
+			"hash": null,
+			"sub_hash": "0000fffcfcffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 38,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time38.jpg.dupli.jpg",
+			"time_info": 173.0,
+			"script": "그 달력을 현재 대부분의 세계에서 사용하고 있죠.",
+			"hash": null,
+			"sub_hash": "0000fffcfcffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 39,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time39.jpg",
+			"time_info": 175.5,
+			"script": "하지만 로마인에게는, 세상은 이미 오래된 것이었습니다.",
+			"hash": null,
+			"sub_hash": "0080ff78f8ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 40,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time40.jpg",
+			"time_info": 179.0,
+			"script": "대 피라미드가 4500년 전에 지어졌거든요!",
+			"hash": null,
+			"sub_hash": "00f8f3f0f0ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 41,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time41.jpg",
+			"time_info": 184.0,
+			"script": "그러니 로마인들이 대하는 피라미드는, 우리들이 대하는 로마인보다 더 오래되었습니다.",
+			"hash": null,
+			"sub_hash": "f0f0f0f0f0f0f0f0",
+			"usage": true
+		},
+		{
+			"frame_num": 42,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time42.jpg.dupli.jpg",
+			"time_info": 189.5,
+			"script": "너무 오래되어서, 아직 살아있는 맘모스를 볼 수 있었죠.",
+			"hash": null,
+			"sub_hash": "f0f0f0f0f0f0f0f0",
+			"usage": false
+		},
+		{
+			"frame_num": 43,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time43.jpg",
+			"time_info": 195.5,
+			"script": "이 전에도 많은 일이 있었는데, 7000년 전에 인류는 글쓰기를 시작했습니다.",
+			"hash": null,
+			"sub_hash": "0084ff387cffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 44,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time44.jpg.dupli.jpg",
+			"time_info": 201.0,
+			"script": "12000년 전, 인간 연합 단체(인류)가 출범했습니다.",
+			"hash": null,
+			"sub_hash": "0084ff387cffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 45,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time45.jpg.dupli.jpg",
+			"time_info": 205.5,
+			"script": "우리는 인류 최초의 신전을 세웠고, 농경을 시작했으며,",
+			"hash": null,
+			"sub_hash": "0084ff387cffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 46,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time46.jpg.dupli.jpg",
+			"time_info": 209.5,
+			"script": "거대한 집단을 형성해 가기 시작했습니다.",
+			"hash": null,
+			"sub_hash": "0084ff387cffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 47,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time47.jpg.dupli.jpg",
+			"time_info": 213.0,
+			"script": "인류의 지구 지배는 여기에서 시작된거죠.",
+			"hash": null,
+			"sub_hash": "0084ff387cffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 48,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time48.jpg",
+			"time_info": 218.0,
+			"script": "호모 사피엔스 사피엔스, 즉 현생 인류는 적어도 20만 년 전에 진화했습니다.",
+			"hash": null,
+			"sub_hash": "0001fffcffffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 49,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time49.jpg",
+			"time_info": 223.5,
+			"script": "5만년 전, 인지혁명이 일어나 우리의 정신에 혁명을 가져왔습니다.",
+			"hash": null,
+			"sub_hash": "0081ff3d3fffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 50,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time50.jpg.dupli.jpg",
+			"time_info": 227.5,
+			"script": "이때까진, 우린 적어도 다섯 종류의 인간종과 지구를 공유하고 있었습니다.",
+			"hash": null,
+			"sub_hash": "0081ff3d3fffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 51,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time51.jpg.dupli.jpg",
+			"time_info": 231.0,
+			"script": "결국 멸종되었거나, 우리가 멸종시켜벼렸지만요.",
+			"hash": null,
+			"sub_hash": "0081ff3d3fffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 52,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time52.jpg",
+			"time_info": 235.5,
+			"script": "200만 년 전 우리 조상들은 이미 불을 피울 줄 알았고,",
+			"hash": null,
+			"sub_hash": "0081ff3c3dffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 53,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time53.jpg.dupli.jpg",
+			"time_info": 239.5,
+			"script": "나무와 돌을 이용하여 도구를 만들었습니다.",
+			"hash": null,
+			"sub_hash": "0081ff3c3dffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 54,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time54.jpg.dupli.jpg",
+			"time_info": 244.0,
+			"script": "그리고 600만 년 전에는 침팬지와 인간의 마지막 공통 조상이 살았었습니다.",
+			"hash": null,
+			"sub_hash": "0081ff3c3dffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 55,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time55.jpg",
+			"time_info": 249.0,
+			"script": "그러니 이만큼이 종으로서 인간의 전체 역사입니다.",
+			"hash": null,
+			"sub_hash": "00bdff0081ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 56,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time56.jpg",
+			"time_info": 254.0,
+			"script": "우리의 가까운 사촌인 호모 에렉투스는 우리 호모 사피엔스 사피엔스보다 10배나 더 오래 생존했습니다.",
+			"hash": null,
+			"sub_hash": "0083ff3c3dffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 57,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time57.jpg",
+			"time_info": 260.5,
+			"script": "이 작은 부분이 인류력입니다. 당신의 인생을 보기 위해서는 많이 확대해야 햐겠군요.",
+			"hash": null,
+			"sub_hash": "0000ffffffffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 58,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time58.jpg.dupli.jpg",
+			"time_info": 265.5,
+			"script": "하지만 여전히 인간 역사는 그리 길지 않습니다.",
+			"hash": null,
+			"sub_hash": "0000ffffffffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 59,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time59.jpg",
+			"time_info": 270.5,
+			"script": "6500만 년 전, 거대한 폭발에 의해 공룡이 멸종했습니다.",
+			"hash": null,
+			"sub_hash": "0003ffbcfcffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 60,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time60.jpg",
+			"time_info": 277.0,
+			"script": "공룡은 1억 6500만 년 동안 지구의 지배자였습니다.",
+			"hash": null,
+			"sub_hash": "0083ff9c5c5fcfee",
+			"usage": true
+		},
+		{
+			"frame_num": 61,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time61.jpg.dupli.jpg",
+			"time_info": 281.0,
+			"script": "인간보다 27배나 더 긴 시간이죠.",
+			"hash": null,
+			"sub_hash": "0083ff9c5c5fcfee",
+			"usage": false
+		},
+		{
+			"frame_num": 62,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time62.jpg",
+			"time_info": 285.0,
+			"script": "너무나도 길어서, 6500만 년 전에 살았던 티라노사우루스는",
+			"hash": null,
+			"sub_hash": "0003ffbcfcffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 63,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time63.jpg.dupli.jpg",
+			"time_info": 290.5,
+			"script": "스테고사우로스를 보러 가는 것보다 현대로 오는 것이 더 가깝습니다.",
+			"hash": null,
+			"sub_hash": "0003ffbcfcffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 64,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time64.jpg.dupli.jpg",
+			"time_info": 295.5,
+			"script": "그 공룡들은 현재 건강한 닭의 형태로 우리 주변에 있습니다.",
+			"hash": null,
+			"sub_hash": "0003ffbcfcffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 65,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time65.jpg",
+			"time_info": 300.0,
+			"script": "이 행성의 동물들은 6억 년 전에 시작되었습니다.",
+			"hash": null,
+			"sub_hash": "0081fff9f9ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 66,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time66.jpg",
+			"time_info": 304.5,
+			"script": "최초의 동물은 물고기, 그리고 다른 작고 단순한 해양생물이었으며,",
+			"hash": null,
+			"sub_hash": "0081ff39b9ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 67,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time67.jpg.dupli.jpg",
+			"time_info": 308.0,
+			"script": "이어서 곤충, 파충류,",
+			"hash": null,
+			"sub_hash": "0081ff39b9ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 68,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time68.jpg.dupli.jpg",
+			"time_info": 311.5,
+			"script": "마침내 2억 년 전, 포유류가 동물에 합류합니다!",
+			"hash": null,
+			"sub_hash": "0081ff39b9ffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 69,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time69.jpg",
+			"time_info": 315.5,
+			"script": "생명 그 자체는 좀 더 예전에 탄생했습니다.",
+			"hash": null,
+			"sub_hash": "0000fefcfcffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 70,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time70.jpg",
+			"time_info": 319.0,
+			"script": "41억 년 전에 생명이 탄생했다는 증거가 발견되었습니다.",
+			"hash": null,
+			"sub_hash": "0081fe3c3cffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 71,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time71.jpg",
+			"time_info": 324.5,
+			"script": "이에 따르면 최소 35억 년 동안 생명은 단세포 생명체로 존재했다는 뜻이죠.",
+			"hash": null,
+			"sub_hash": "0001ff3e3fffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 72,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time72.jpg",
+			"time_info": 330.5,
+			"script": "45억 년 전, 거대하고 역동적인 가스 구름 속에서, 태양이 태어났습니다.",
+			"hash": null,
+			"sub_hash": "ff7e00c343000000",
+			"usage": true
+		},
+		{
+			"frame_num": 73,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time73.jpg.dupli.jpg",
+			"time_info": 335.0,
+			"script": "6000만 년 후, 지구도 생겨났죠.",
+			"hash": null,
+			"sub_hash": "ff7e00c343000000",
+			"usage": false
+		},
+		{
+			"frame_num": 74,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time74.jpg.dupli.jpg",
+			"time_info": 340.0,
+			"script": "지구 생성 초기에 주기적인 혜성과 운석의 폭격이 지구의 거대한 바다를 만들었습니다.",
+			"hash": null,
+			"sub_hash": "ff3e00c343000000",
+			"usage": false
+		},
+		{
+			"frame_num": 75,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time75.jpg.dupli.jpg",
+			"time_info": 346.0,
+			"script": "하지만 우주의 입장에서 보면, 우리 태양계의 탄생은 꽤 새로운 일에 속합니다.",
+			"hash": null,
+			"sub_hash": "ff3e00c343000000",
+			"usage": false
+		},
+		{
+			"frame_num": 76,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time76.jpg",
+			"time_info": 351.0,
+			"script": "137억 5000만 년 전, 우주가 태어났습니다.",
+			"hash": null,
+			"sub_hash": "ff0700c343000000",
+			"usage": true
+		},
+		{
+			"frame_num": 77,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time77.jpg.dupli.jpg",
+			"time_info": 357.0,
+			"script": "그리고 5억 년쯤 뒤에, 10억 개의 항성들이 우리 은하를 형성했습니다.",
+			"hash": null,
+			"sub_hash": "ff0700c343000000",
+			"usage": false
+		},
+		{
+			"frame_num": 78,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time78.jpg",
+			"time_info": 362.0,
+			"script": "그런데 빅뱅 이전에는 뭐가 있었을까요?",
+			"hash": null,
+			"sub_hash": "0410466600000000",
+			"usage": true
+		},
+		{
+			"frame_num": 79,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time79.jpg",
+			"time_info": 365.0,
+			"script": "사실, 우리도 모릅니다. 어쩌면 영원히 모를지도요.",
+			"hash": null,
+			"sub_hash": "e0e0e0e0e0e0f0f0",
+			"usage": true
+		},
+		{
+			"frame_num": 80,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time80.jpg",
+			"time_info": 368.5,
+			"script": "그리고 이것이, 과거입니다.",
+			"hash": null,
+			"sub_hash": "ff07000303000000",
+			"usage": true
+		},
+		{
+			"frame_num": 81,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time81.jpg",
+			"time_info": 371.5,
+			"script": "이제 미래에 대해 우리가 알고있는 것을 봅시다.",
+			"hash": null,
+			"sub_hash": "fff8006020000000",
+			"usage": true
+		},
+		{
+			"frame_num": 82,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time82.jpg.dupli.jpg",
+			"time_info": 376.0,
+			"script": "약 10억 년 뒤, 태양은 너무 뜨거워져서 지구상에 생명이 살 수 없게 됩니다.",
+			"hash": null,
+			"sub_hash": "fff8006020000000",
+			"usage": false
+		},
+		{
+			"frame_num": 83,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time83.jpg.dupli.jpg",
+			"time_info": 382.0,
+			"script": "40억 년 후에는 태양이 죽고, 태양계의 종언을 고합니다.",
+			"hash": null,
+			"sub_hash": "fff8006020000000",
+			"usage": false
+		},
+		{
+			"frame_num": 84,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time84.jpg.dupli.jpg",
+			"time_info": 387.5,
+			"script": "만일 그 이후에도 살아남고 싶다면, 우리는 다른 항성으로 여행을 떠나야 하겠죠.",
+			"hash": null,
+			"sub_hash": "fff8006020000000",
+			"usage": false
+		},
+		{
+			"frame_num": 85,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time85.jpg",
+			"time_info": 391.5,
+			"script": "그러면 그 이후에는 어떤 일이 벌어질까요?",
+			"hash": null,
+			"sub_hash": "ff7f000000000000",
+			"usage": true
+		},
+		{
+			"frame_num": 86,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time86.jpg",
+			"time_info": 395.5,
+			"script": "1000억 년이 지나면 대부분의 거대한 항성들은 죽을 것이고,",
+			"hash": null,
+			"sub_hash": "ff7e000707000000",
+			"usage": true
+		},
+		{
+			"frame_num": 87,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time87.jpg.dupli.jpg",
+			"time_info": 399.0,
+			"script": "우주는 점차 어두워져",
+			"hash": null,
+			"sub_hash": "ff7c000707000000",
+			"usage": false
+		},
+		{
+			"frame_num": 88,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time88.jpg.dupli.jpg",
+			"time_info": 402.0,
+			"script": "작은 적색 왜성과 백색 왜성만이 빛날 것입니다.",
+			"hash": null,
+			"sub_hash": "ff7c000707000000",
+			"usage": false
+		},
+		{
+			"frame_num": 89,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time89.jpg",
+			"time_info": 407.0,
+			"script": "그 둘도 언젠가는 다 타버릴 것이고, 결국 우주의 마지막 별도 죽을 것입니다.",
+			"hash": null,
+			"sub_hash": "efe0000000000000",
+			"usage": true
+		},
+		{
+			"frame_num": 90,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time90.jpg",
+			"time_info": 411.5,
+			"script": "우주는 완전히 어두워질 것이고,",
+			"hash": null,
+			"sub_hash": "ffff000000000000",
+			"usage": true
+		},
+		{
+			"frame_num": 91,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time91.jpg.dupli.jpg",
+			"time_info": 415.0,
+			"script": "심지어 언젠가는 블랙홀조차 증발하여 죽을 것입니다.",
+			"hash": null,
+			"sub_hash": "ffff000000000000",
+			"usage": false
+		},
+		{
+			"frame_num": 92,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time92.jpg.dupli.jpg",
+			"time_info": 418.5,
+			"script": "그때가 되면, 우리의 우주는 마지막 단계인",
+			"hash": null,
+			"sub_hash": "ffff000000000000",
+			"usage": false
+		},
+		{
+			"frame_num": 93,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time93.jpg.dupli.jpg",
+			"time_info": 421.0,
+			"script": "'열 죽음'에 도달하게 됩니다.",
+			"hash": null,
+			"sub_hash": "ffff000000000000",
+			"usage": false
+		},
+		{
+			"frame_num": 94,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time94.jpg.dupli.jpg",
+			"time_info": 424.0,
+			"script": "아무것도 바뀌지 않으며, 우주는, 죽습니다.",
+			"hash": null,
+			"sub_hash": "ffff000000000000",
+			"usage": false
+		},
+		{
+			"frame_num": 95,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time95.jpg",
+			"time_info": 426.5,
+			"script": "영원히.",
+			"hash": null,
+			"sub_hash": "ffff001800000000",
+			"usage": true
+		},
+		{
+			"frame_num": 96,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time96.jpg",
+			"time_info": 428.5,
+			"script": "당신은 지금 이상한 기분이 들지도 모르겠습니다.",
+			"hash": null,
+			"sub_hash": "ff7e000000000000",
+			"usage": true
+		},
+		{
+			"frame_num": 97,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time97.jpg",
+			"time_info": 430.5,
+			"script": "아닌가요?",
+			"hash": null,
+			"sub_hash": "0000ffffffffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 98,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time98.jpg.dupli.jpg",
+			"time_info": 432.0,
+			"script": "우리도 그렇습니다!",
+			"hash": null,
+			"sub_hash": "0000ffffffffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 99,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time99.jpg.dupli.jpg",
+			"time_info": 433.5,
+			"script": "지극히 자연스러운 일입니다.",
+			"hash": null,
+			"sub_hash": "0000ffffffffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 100,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time100.jpg.dupli.jpg",
+			"time_info": 434.5,
+			"script": "좋은 소식은",
+			"hash": null,
+			"sub_hash": "0000ffffffffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 101,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time101.jpg.dupli.jpg",
+			"time_info": 436.5,
+			"script": "아직 멀었다는 거죠!",
+			"hash": null,
+			"sub_hash": "0001ffffffffffff",
+			"usage": false
+		},
+		{
+			"frame_num": 102,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time102.jpg",
+			"time_info": 440.0,
+			"script": "정말 중요한 시간은 현재 뿐입니다!",
+			"hash": null,
+			"sub_hash": "e7e7ffffffffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 103,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time103.jpg",
+			"time_info": 443.0,
+			"script": "당신 마음에 든 그 사람",
+			"hash": null,
+			"sub_hash": "0000000000000000",
+			"usage": true
+		},
+		{
+			"frame_num": 104,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time104.jpg",
+			"time_info": 444.5,
+			"script": "만나자고 해보세요!",
+			"hash": null,
+			"sub_hash": "e7e7ffffffffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 105,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time105.jpg",
+			"time_info": 446.0,
+			"script": "시간은 소중합니다.",
+			"hash": null,
+			"sub_hash": "0000000000000000",
+			"usage": true
+		},
+		{
+			"frame_num": 106,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time106.jpg.dupli.jpg",
+			"time_info": 451.0,
+			"script": "충실히 보내세요!",
+			"hash": null,
+			"sub_hash": "0000000000000000",
+			"usage": false
+		},
+		{
+			"frame_num": 107,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time107.jpg",
+			"time_info": 457.0,
+			"script": "가장 많이 들은 질문 중 하나는 어떻게 이런 애니메이션을 만드나는 겁니다.",
+			"hash": null,
+			"sub_hash": "fefe7c7838383939",
+			"usage": true
+		},
+		{
+			"frame_num": 108,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time108.jpg",
+			"time_info": 461.0,
+			"script": "짧은 답변은 어도비 애프터 이펙트와 수년간의 훈련입니다.",
+			"hash": null,
+			"sub_hash": "1f1f1f3f3f3fbfff",
+			"usage": true
+		},
+		{
+			"frame_num": 109,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time109.jpg",
+			"time_info": 464.5,
+			"script": "만약 노하우가 알고 싶으시다면, 당신에게 드릴 것이 있습니다.",
+			"hash": null,
+			"sub_hash": "4141417d7f7f7f7f",
+			"usage": true
+		},
+		{
+			"frame_num": 110,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time110.jpg",
+			"time_info": 469.5,
+			"script": "우리는 Skillshare 강좌를 통하여 어떻게 이런 애니메이션을 만드는지 자세히 설명하고 있습니다.",
+			"hash": null,
+			"sub_hash": "0f0f8f0000800c0f",
+			"usage": true
+		},
+		{
+			"frame_num": 111,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time111.jpg",
+			"time_info": 475.0,
+			"script": "Skillshare를 아직 모르시는 분께 설명하자면, Skillshare는 온라인 학습 커뮤니티로",
+			"hash": null,
+			"sub_hash": "ff00003c3c0c0000",
+			"usage": true
+		},
+		{
+			"frame_num": 112,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time112.jpg.dupli.jpg",
+			"time_info": 479.5,
+			"script": "글쓰기, 애니메이션, 비디오 편집에 대한 18000개 이상의 강의가 개설되어 있습니다.",
+			"hash": null,
+			"sub_hash": "ff00003c3c0c0000",
+			"usage": false
+		},
+		{
+			"frame_num": 113,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time113.jpg",
+			"time_info": 484.5,
+			"script": "프리미엄 멤버쉽은 당신에게 전문가들에 의한 양질의 강의에 제한없이 접근할 수 있게 합니다.",
+			"hash": null,
+			"sub_hash": "ff0c003c3c3c0000",
+			"usage": true
+		},
+		{
+			"frame_num": 114,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time114.jpg",
+			"time_info": 490.0,
+			"script": "당신의 능력을 향상시키고, 새로운 기회를 여시고, 당신이 좋아하는 일에 뛰어들어 보세요.",
+			"hash": null,
+			"sub_hash": "ff00003c3c2c0000",
+			"usage": true
+		},
+		{
+			"frame_num": 115,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time115.jpg",
+			"time_info": 495.5,
+			"script": "가격또한 매우 저렴합니다. 연간 구독권이 한달 10달러 미만이거든요!",
+			"hash": null,
+			"sub_hash": "ff08003c7c3c0020",
+			"usage": true
+		},
+		{
+			"frame_num": 116,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time116.jpg",
+			"time_info": 500.5,
+			"script": "1000명의 사람들에게 첫 2개월의 서비스를 99센트에 제공하는 이벤트를 진행하고 있습니다.",
+			"hash": null,
+			"sub_hash": "7e1c0000000001ff",
+			"usage": true
+		},
+		{
+			"frame_num": 117,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time117.jpg",
+			"time_info": 505.5,
+			"script": "새로운걸 배우면서 저희를 지원하고 싶으시다면, 한번 시도해 보세요",
+			"hash": null,
+			"sub_hash": "0c038387c9fffffb",
+			"usage": true
+		},
+		{
+			"frame_num": 118,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time118.jpg",
+			"time_info": 509.0,
+			"script": "이 리메이크에 대해 어떻게 생각하시나요?",
+			"hash": null,
+			"sub_hash": "00000000ff7f3f3f",
+			"usage": true
+		},
+		{
+			"frame_num": 119,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time119.jpg",
+			"time_info": 512.0,
+			"script": "몇몇 오래된 동영상을 1~2년에 걸쳐 리마스터링하는 작업을 계획중입니다.",
+			"hash": null,
+			"sub_hash": "8301a0b8b8ffffff",
+			"usage": true
+		},
+		{
+			"frame_num": 120,
+			"img_path": "/home/ubuntu/project/youtube_capture/imgs/time120.jpg",
+			"time_info": 515.5,
+			"script": "리마스터를 원하는 다른 동영상이 있나요",
+			"hash": null,
+			"sub_hash": "3e7e7c7c2c000000",
+			"usage": true
+		}
+	]
+}

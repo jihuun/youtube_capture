@@ -17,8 +17,15 @@ def drawTextWithOutline(text, x, y):
 	return
 
 
+def make_bg_color(bg_opacity):
+	if bg_opacity > 1:
+		bg_opacity = 1
+	elif bg_opacity < 0:
+		bg_opacity = 0
+	op = round(255 * bg_opacity)
+	return (0,0,0,op)
 
-def drawText(img, draw, msg, pos, font, size):
+def drawText(img, draw, msg, pos, font, size, bg_opacity):
 	fontSize = size
 	lines = []
 
@@ -98,6 +105,10 @@ def drawText(img, draw, msg, pos, font, size):
 		#else:
 		#	textY = img.height - h * i
 		textY = lastY + h
+		# background
+		if bg_opacity:
+			bg_color = make_bg_color(bg_opacity)
+			draw.rectangle(((textX, textY), (textX+w, textY+h)), fill=bg_color)
 		draw.text((textX-PAD, textY-PAD),lines[i],(0,0,0),font=font)
 		draw.text((textX+PAD, textY-PAD),lines[i],(0,0,0),font=font)
 		draw.text((textX+PAD, textY+PAD),lines[i],(0,0,0),font=font)
@@ -107,14 +118,12 @@ def drawText(img, draw, msg, pos, font, size):
 
 	return
 
-def bake_caption(img_file, msg, font_file, font_size):
+def bake_caption(img_file, msg, font_file, font_size, bg_opacity):
 	img = Image.open(img_file)
-	draw = ImageDraw.Draw(img)
+	draw = ImageDraw.Draw(img, 'RGBA')
 	font = ImageFont.truetype(font_file, font_size)
-	drawText(img, draw, msg, "bottom", font, font_size)
+	drawText(img, draw, msg, "bottom", font, font_size, bg_opacity)
 	img.save(img_file)
-
-	#print("Baking caption done")
 	print('.', end='', flush=True)
 
 	return

@@ -31,7 +31,11 @@ def download_youtube(args):
 
 	yt = YouTube(url)
 	video_infos['title'] = yt.title
+	video_infos['youtube_url'] = url
+	video_infos['lang_code'] = args.lang
+	video_infos['font_size'] = args.fontsize
 	video_infos['file_name'] = file_name
+	video_infos['nosub_opt'] = args.nosub
 	video_infos['thumbnail'] = yt.thumbnail_url.replace('default.jpg', 'maxresdefault.jpg')
 	video_infos['frame_infos'] = None
 	print('Downloading a video \"%s\"\n' %video_infos['title'])
@@ -117,6 +121,7 @@ def get_ts_by_caption(caption_file):
 		ts_dict['script'] = remove_tags(script)
 		ts_dict['hash'] = None
 		ts_dict['sub_hash'] = None
+		ts_dict['usage'] = True
 
 		frame_infos.append(ts_dict)
 
@@ -285,23 +290,23 @@ def capture_video(args, target_file, caption_file):
 				if prev_frame_hash_str:
 					prev_frame_hash = imagehash.hex_to_hash(prev_frame_hash_str)
 
+				# Save hash value with string
+				frame_infos[cap_cnt]['sub_hash'] = '%s' %frame_hash
+
 				# The threah is a tunnable value
 				# With a highier value, It would delete more duplicated images.
 				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=1):
 					print('.', end='', flush=True)
 					savepath_dup = savepath + '.dupli.jpg'
 					shutil.move(savepath, savepath_dup)
-					savepath = savepath_dup
+					frame_infos[cap_cnt]['img_path'] = savepath_dup
+					frame_infos[cap_cnt]['usage'] = False
 					dup_cnt +=1
 					cap_cnt += 1
 					fcnt += 1
 					continue
 				else:
-					#print(frame_hash, prev_frame_hash)
 					None
-
-				# Save hash value with string
-				frame_infos[cap_cnt]['sub_hash'] = '%s' %frame_hash
 
 			# 3. Add caption text in plain frame
 			else:
@@ -410,6 +415,10 @@ def make_json(v_infos):
 	outpath = FILE_PATH
 	file_name = v_infos['file_name']
 	json_file = os.path.join(outpath, file_name + '.json')
+
+	if os.path.exists(json_file):
+		os.remove(json_file)
+
 	fd = open(json_file, 'w')
 	v_infos_json = json.dumps(v_infos, ensure_ascii=False, indent="\t")
 	fd.write(v_infos_json)
@@ -421,12 +430,17 @@ def main():
 		caption = modify_cap_time(args)
 
 	#video_sub = combine_caption(args, video, caption) #TODO:
-	print(GEN_FILES_DEL)
 	nr_imgs, img_path, f_infos = capture_video(args, video, caption)
 	make_md_page(args, nr_imgs, img_path, args.name, v_infos)
 
 	v_infos['frame_infos'] = f_infos
 	make_json(v_infos)
+
+	print(GEN_FILES_DEL)
+	for f in GEN_FILES_DEL:
+		if os.path.exists(f):
+			os.remove(f)
+
 
 if __name__ == "__main__":
 	main()

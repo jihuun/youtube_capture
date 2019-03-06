@@ -277,14 +277,15 @@ def capture_video(args, target_file, caption_file):
 				#TODO: convert gray scale img_ori
 				#TODO: crop_img: width should be more narrow
 				area = crop_img(img_ori, h_ratio=4) #cropping caption area
-				#print(area)
 				img_c = img_ori.crop(area)
 
 				frame_hash = imagehash.average_hash(img_c)
-				prev_frame_hash = frame_infos[cap_cnt-1]['sub_hash']
-				#print(prev_frame_hash, frame_hash)
+				prev_frame_hash = None
+				prev_frame_hash_str = frame_infos[cap_cnt-1]['sub_hash']
+				if prev_frame_hash_str:
+					prev_frame_hash = imagehash.hex_to_hash(prev_frame_hash_str)
 
-				# threah is tunnable value
+				# The threah is a tunnable value
 				# With a highier value, It would delete more duplicated images.
 				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=1):
 					print('.', end='', flush=True)
@@ -299,7 +300,8 @@ def capture_video(args, target_file, caption_file):
 					#print(frame_hash, prev_frame_hash)
 					None
 
-				frame_infos[cap_cnt]['sub_hash'] = frame_hash
+				# Save hash value with string
+				frame_infos[cap_cnt]['sub_hash'] = '%s' %frame_hash
 
 			# 3. Add caption text in plain frame
 			else:
@@ -424,9 +426,7 @@ def main():
 	make_md_page(args, nr_imgs, img_path, args.name, v_infos)
 
 	v_infos['frame_infos'] = f_infos
-	if not args.nosub: #FIXME: make a json file with --no-sub
-		make_json(v_infos)
-
+	make_json(v_infos)
 
 if __name__ == "__main__":
 	main()

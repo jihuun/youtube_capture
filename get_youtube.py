@@ -15,10 +15,26 @@ import imagehash
 import json
 from collections import OrderedDict
 
+DEFAULT_L_CODE = 'en'
 IMG_FORMAT = '.jpg'
 GEN_FILES_DEL = []
 FONT_FILE = 'NanumGothic.ttf'
 FILE_PATH = os.path.dirname(os.path.realpath(__file__))
+
+def is_caption_exist(cap_class, caption_lang):
+	ret = None
+	caplist = cap_class.all()
+	print('Available language codes :',  end=' ', flush=True)
+	for i in caplist:
+		get_code = i.__dict__['code']
+		print(get_code, end=' ', flush=True)
+		if get_code == 'ko': # FIXME: defalut ko?
+			ret = 'ko'
+		if get_code == caption_lang:
+			ret = caption_lang
+
+	print('')
+	return ret
 
 def download_youtube(args):
 	outpath = FILE_PATH
@@ -45,7 +61,7 @@ def download_youtube(args):
 	'''
 
 	# Stream selection
-	print(yt.streams.all())
+	#print(yt.streams.all(), '\n')
 	#stream = yt.streams.filter(file_extension='mp4').first() #TODO:
 	stream = yt.streams.get_by_itag('18') #FIXME: itag:18-360p,mp4
 
@@ -53,16 +69,25 @@ def download_youtube(args):
 	stream.download(output_path=outpath, filename=file_name)
 	GEN_FILES_DEL.append(video_file)
 
+	# Check if the caption code is exist in the video
+	#print(yt.captions.all())
+	caption_code = is_caption_exist(yt.captions, caption_lang)
+
+	if caption_code:
+		caption = yt.captions.get_by_language_code(caption_code)
+	else:
+		print('\'%s\' language code does not exist. Please try again with option \'-l <code>\'.\nAnyway Checking default language code \'en\' is exist or not' %caption_lang)
+		caption_code = DEFAULT_L_CODE #defalut language code
+
 	# Caption download
-	print(yt.captions.all())
-	caption = yt.captions.get_by_language_code(caption_lang) #TODO: defalt:en, select:kor
+	caption = yt.captions.get_by_language_code(caption_code)
 	if caption:
 		fp = open(caption_file, 'w')
 		fp.write(caption.generate_srt_captions())
-		print('Downloading a caption file \"%s\"\n' %caption_file)
+		print('Downloading a caption file \'%s\' with language code \'%s\' is done.\n'  %(caption_file, caption_code))
 		fp.close()
 	else:
-		print('Fail to download a caption file \"%s\"\n' %caption_file)
+		print('There is no caption in the Youtube video. Can not capture this video, Sorry. language code: \'%s\'\n' %(caption_code))
 		sys.exit()
 	GEN_FILES_DEL.append(caption_file)
 
@@ -404,7 +429,7 @@ def parse_args():
 	parser = argparse.ArgumentParser(description='Screen capture automatically from Youtube video\nexample: python3 get_youtube.py -u <youtube link> -n <outfile name> -l <language> -f <fontsize>')
 	parser.add_argument('-u', '--url', dest='url', help='Youtube vedio url')
 	parser.add_argument('-n', '--name', dest='name', default='downloaded_video', help='Output file name')
-	parser.add_argument('-l', '--lang', dest='lang', default='en', help='Caption language code (default: en)')
+	parser.add_argument('-l', '--lang', dest='lang', default=DEFAULT_L_CODE, help='Caption language code (default: en)')
 	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, type=int, help='Font size of caption (default: 30)')
 	parser.add_argument('-b', '--bg-opacity', dest='bg_opacity', default=0, type=float, help='Add backgound behind of caption text with opacity (0.0 ~ 1.0) (default opacity : 0.0)')
 	parser.add_argument('--no-sub', dest='nosub', action='store_true', help='If the video has a closed caption, no need to add caption additionally')
@@ -442,7 +467,6 @@ def main():
 	for f in GEN_FILES_DEL:
 		if os.path.exists(f):
 			os.remove(f)
-
 
 if __name__ == "__main__":
 	main()

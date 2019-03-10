@@ -15,7 +15,7 @@ Options:
 	}
 
 # read the options
-TEMP=`getopt -o hu:n:l:f:t: --long no-sub  -- "$@"`
+TEMP=`getopt -o hu:n:l:f:b:t: --long no-sub  -- "$@"`
 [ $? -eq 0 ] || {
     echo "ERROR: Incorrect options provided"
     exit 1
@@ -44,6 +44,11 @@ while true ; do
 			shift
 			CAP_FONT_SIZE="$1"
 			CAP_CMD="$CAP_CMD -f $CAP_FONT_SIZE"
+			;;
+		-b)
+			shift
+			CAP_BG_OPACITY="$1"
+			CAP_CMD="$CAP_CMD -b $CAP_BG_OPACITY"
 			;;
 		-t)
 			shift
@@ -77,10 +82,12 @@ git branch
 git checkout $DEMO_BRANCH
 git log --oneline
 
+rm *.json
 rm *.mp4
 rm *.srt*
 rm *.md
 git rm *.md
+git rm *.json
 
 echo " "
 usage
@@ -101,7 +108,7 @@ then
 	# NOTE: DO AFTER CONFIRMED THE BRANCH IS CREANED
 
 	# 3. Make a commit and push to the origin
-	git add $CAP_NAME.md imgs
+	git add $CAP_NAME.md $CAP_NAME.json imgs
 	git commit -sm "demo $CAP_TAG_NUM $CAP_NAME"
 	git tag -a "demo#$CAP_TAG_NUM" HEAD -m "$CAP_TAG_NUM $CAP_NAME"
 	git push origin $DEMO_BRANCH

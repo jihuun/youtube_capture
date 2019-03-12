@@ -16,10 +16,12 @@ import json
 from collections import OrderedDict
 
 DEFAULT_L_CODE = 'en'
+DEFAULT_VID_NAME = 'dl_video'
 IMG_FORMAT = '.jpg'
 GEN_FILES_DEL = []
 FONT_FILE = 'NanumGothic.ttf'
 FILE_PATH = os.path.dirname(os.path.realpath(__file__))
+RESULT_DIR = 'results'
 
 def is_caption_exist(cap_class, caption_lang):
 	ret = None
@@ -37,33 +39,46 @@ def is_caption_exist(cap_class, caption_lang):
 	return ret
 
 def download_youtube(args):
-	outpath = FILE_PATH
 	url = args.url
+	yt = YouTube(url)
+
 	file_name = args.name
+	if file_name == DEFAULT_VID_NAME:
+		file_name = yt.video_id
+
+	outpath = os.path.join(FILE_PATH, RESULT_DIR) # youtube_cature/results/
+	if not os.path.exists(outpath):
+		os.mkdir(outpath)
+
+	outpath = os.path.join(outpath, file_name) # youtube_cature/results/<file_name>/
+	if os.path.exists(outpath):
+		print('The requested video is already in the DB. No need to capture again.')
+		sys.exit()
+	else:
+		os.mkdir(outpath)
+
 	caption_lang = args.lang
 	caption_file = os.path.join(outpath, file_name + '.srt')
 	video_file = os.path.join(outpath, file_name + '.mp4')
 	video_infos = OrderedDict()
 
-	yt = YouTube(url)
+	video_infos['url'] = url
 	video_infos['title'] = yt.title
-	video_infos['youtube_url'] = url
+	video_infos['video_id'] = yt.video_id
 	video_infos['lang_code'] = args.lang
 	video_infos['font_size'] = args.fontsize
 	video_infos['file_name'] = file_name
+	video_infos['file_path'] = outpath
 	video_infos['nosub_opt'] = args.nosub
+	video_infos['bg_opacity'] = args.bg_opacity
 	video_infos['thumbnail'] = yt.thumbnail_url.replace('default.jpg', 'maxresdefault.jpg')
 	video_infos['frame_infos'] = None
-	print('Downloading a video \"%s\"\n' %video_infos['title'])
-	print('Thumbnail URL is \"%s\"\n' %video_infos['thumbnail'])
-	'''
-	high_resolution_thumbnail_url = pytube.YouTube(YOUR_youtube_url).thumbnail_url.replace('default.jpg', 'hqdefault.jpg')
-	'''
+	print('The video informations:')
+	print(video_infos)
 
 	# Stream selection
 	#print(yt.streams.all(), '\n')
-	#stream = yt.streams.filter(file_extension='mp4').first() #TODO:
-	stream = yt.streams.get_by_itag('18') #FIXME: itag:18-360p,mp4
+	stream = yt.streams.get_by_itag('18') #FIXME: itag:18-360p,mp4 #TODO: if no itag:18?
 
 	# Sream download
 	stream.download(output_path=outpath, filename=file_name)
@@ -173,11 +188,11 @@ def gen_new_time_info(curr_t, next_t):
 # 2st end-time will be 3st start-time
 # ...
 # Nst end-time does not need to modify
-def modify_cap_time(args):
-	outpath = FILE_PATH
-	url = args.url
-	file_name = args.name
-	caption_lang = args.lang
+def modify_cap_time(v_infos):
+	outpath = v_infos['file_path']
+	url = v_infos['url']
+	file_name = v_infos['file_name']
+	caption_lang = v_infos['lang_code']
 	caption_file = os.path.join(outpath, file_name + '.srt')
 
 	fp = open(caption_file, 'r')
@@ -230,19 +245,6 @@ def cv_show_images(__frame, __duration):
 	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
 	cv2.imshow('Img show by caption duration', __frame)
 
-'''
-Parameters
-img	Image.
-text	Text string to be drawn.
-org	Bottom-left corner of the text string in the image.
-fontFace	Font type, see cv::HersheyFonts.
-fontScale	Font scale factor that is multiplied by the font-specific base size.
-color	Text color.
-thickness	Thickness of the lines used to draw a text.
-lineType	Line type. See the line for details.
-bottomLeftOrigin	When true, the image data origin is at the bottom-left corner. Otherwise, it is at the top-left corner.
-'''
-
 def cv_save_images(__frame, __duration, __path, __infos, __cnt, __tot_frame, __font_size): #TODO: try:except:
 	rate = '%d/%d  %fs' %(__cnt, __tot_frame, __duration)
 	font = cv2.FONT_HERSHEY_SIMPLEX
@@ -272,7 +274,7 @@ def crop_img(img, h_ratio=4):
 	area = (x, y, wi, he)
 	return area
 
-def capture_video(args, target_file, caption_file):
+def capture_video(v_infos, target_file, caption_file):
 	cap = cv2.VideoCapture(target_file)
 
 	frame_infos, total_frames = get_ts_by_caption(caption_file)
@@ -281,21 +283,20 @@ def capture_video(args, target_file, caption_file):
 	fcnt = 0
 	dup_cnt = 0
 
-	outpath = FILE_PATH
+	outpath = v_infos['file_path']
 	img_path = os.path.join(outpath, 'imgs')
-	file_name = args.name
+	file_name = v_infos['file_name']
 	caption_file = os.path.join(outpath, file_name + '.srt')
-	font_size = args.fontsize
-	no_add_caption = args.nosub
-	background_opacity = float(args.bg_opacity)
+	font_size = v_infos['font_size']
+	no_add_caption = v_infos['nosub_opt']
+	background_opacity = float(v_infos['bg_opacity'])
 
 	if os.path.exists(img_path):
 		print("remove %s" %img_path)
 		shutil.rmtree(img_path, ignore_errors=True)
 	os.mkdir(img_path)
 
-	print("number of total frames: %d\ntime stamps of each images:\n" %total_frames)
-	#print(frame_infos)
+	print("number of total frames: %d\nProcessing" %total_frames)
 
 	while(cap_cnt < total_frames):
 		ret, frame = cap.read()
@@ -368,20 +369,21 @@ def wait_job_done(pool):
 			raise subprocess.CalledProcessError(p.returncode, p.args)
 
 # This is ffmped command on bash shell
+# Not using anymore
 def make_ffmpeg_cmd(_input, _output, srt, font_size):
 	return 'ffmpeg -i ' + _input + ' -vf' + ' subtitles=' + srt + ':force_style=\'Fontsize=' + str(font_size) + '\'' + ' -acodec copy ' + _output
 
 
-def combine_caption(args, input_video, caption_file):
+def combine_caption(v_infos, input_video, caption_file):
 	bg_pool = []
-	outpath = FILE_PATH
-	output_video = args.name + '_sub' + '.mp4'
+	outpath = v_infos['file_path']
+	output_video = v_infos['file_name'] + '_sub' + '.mp4'
 
 	path_output_video = os.path.join(outpath, output_video)
 	if os.path.exists(path_output_video):
 		os.remove(path_output_video)
 
-	cmd = make_ffmpeg_cmd(input_video, output_video, caption_file, args.fontsize)
+	cmd = make_ffmpeg_cmd(input_video, output_video, caption_file, v_infos['font_size'])
 	bg_pool.append(subprocess.Popen([cmd], cwd=outpath, shell=True))
 	wait_job_done(bg_pool)
 	GEN_FILES_DEL.append(path_output_video)
@@ -401,9 +403,12 @@ def md_insert_header(subject, depth):
 	header += ' ' + subject + '  \n----\n'
 	return header
 
-def make_md_page(args, nr_img, path_img, name_img, video_infos):
-	outpath = FILE_PATH
-	url = args.url.lstrip("'").rstrip("'")
+def make_md_page(v_infos, nr_img, path_img, video_infos):
+	outpath = v_infos['file_path']
+	name_img = v_infos['file_name']
+	#url = args.url.lstrip("'").rstrip("'")
+	url = v_infos['url'].lstrip("'").rstrip("'")
+
 	md_file = os.path.join(outpath, name_img + '.md')
 	fd = open(md_file, 'w')
 
@@ -436,7 +441,7 @@ def need_modify_cap():
 def parse_args():
 	parser = argparse.ArgumentParser(description='Screen capture automatically from Youtube video\nexample: python3 get_youtube.py -u <youtube link> -n <outfile name> -l <language> -f <fontsize>')
 	parser.add_argument('-u', '--url', dest='url', help='Youtube vedio url')
-	parser.add_argument('-n', '--name', dest='name', default='downloaded_video', help='Output file name')
+	parser.add_argument('-n', '--name', dest='name', default=DEFAULT_VID_NAME, help='Output file name')
 	parser.add_argument('-l', '--lang', dest='lang', default=DEFAULT_L_CODE, help='Caption language code (default: en)')
 	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, type=int, help='Font size of caption (default: 30)')
 	parser.add_argument('-b', '--bg-opacity', dest='bg_opacity', default=0, type=float, help='Add backgound behind of caption text with opacity (0.0 ~ 1.0) (default opacity : 0.0)')
@@ -447,7 +452,7 @@ def parse_args():
 	return args
 
 def make_json(v_infos):
-	outpath = FILE_PATH
+	outpath = v_infos['file_path']
 	file_name = v_infos['file_name']
 	json_file = os.path.join(outpath, file_name + '.json')
 
@@ -458,23 +463,24 @@ def make_json(v_infos):
 	v_infos_json = json.dumps(v_infos, ensure_ascii=False, indent="\t")
 	fd.write(v_infos_json)
 
+def del_unneccesary_files(gen_files):
+	print('These unneccesary files are removed\n', gen_files)
+	for f in gen_files:
+		if os.path.exists(f):
+			os.remove(f)
+
 def main():
 	args = parse_args()
 	video, caption, v_infos = download_youtube(args)
 	if need_modify_cap():
-		caption = modify_cap_time(args)
+		caption = modify_cap_time(v_infos)
 
-	#video_sub = combine_caption(args, video, caption) #TODO:
-	nr_imgs, img_path, f_infos = capture_video(args, video, caption)
-	make_md_page(args, nr_imgs, img_path, args.name, v_infos)
+	nr_imgs, img_path, f_infos = capture_video(v_infos, video, caption)
+	make_md_page(v_infos, nr_imgs, img_path, v_infos)
 
 	v_infos['frame_infos'] = f_infos
 	make_json(v_infos)
-
-	print(GEN_FILES_DEL)
-	for f in GEN_FILES_DEL:
-		if os.path.exists(f):
-			os.remove(f)
+	del_unneccesary_files(GEN_FILES_DEL)
 
 if __name__ == "__main__":
 	main()

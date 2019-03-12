@@ -1,0 +1,869 @@
+{
+	"url": "'https://www.youtube.com/watch?v=mF9Gwq8kVbg'",
+	"title": "심슨 바트를 한국인으로 만들려는 호머",
+	"video_id": "mF9Gwq8kVbg",
+	"lang_code": "en",
+	"font_size": 30,
+	"file_name": "simpson",
+	"file_path": "/home/ubuntu/project/youtube_capture/results/simpson",
+	"nosub_opt": true,
+	"bg_opacity": 0,
+	"thumbnail": "https://i.ytimg.com/vi/mF9Gwq8kVbg/maxresdefault.jpg",
+	"frame_infos": [
+		{
+			"frame_num": 0,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson0.jpg",
+			"time_info": 0.5,
+			"script": "now please take out your homework",
+			"hash": null,
+			"sub_hash": "4c4c4c48e8edfd69",
+			"usage": true
+		},
+		{
+			"frame_num": 1,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson1.jpg",
+			"time_info": 2.5,
+			"script": "homework what homework we have to build",
+			"hash": null,
+			"sub_hash": "2a2b2bab8b8b9b81",
+			"usage": true
+		},
+		{
+			"frame_num": 2,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson2.jpg",
+			"time_info": 5.5,
+			"script": "a Hopi Indian Pueblo white features and",
+			"hash": null,
+			"sub_hash": "33135bc3cbcfffc1",
+			"usage": true
+		},
+		{
+			"frame_num": 3,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson3.jpg",
+			"time_info": 11.0,
+			"script": "dizziness Hopi phones Ivo Martin Bravo",
+			"hash": null,
+			"sub_hash": "e0f074787c3e3d39",
+			"usage": true
+		},
+		{
+			"frame_num": 4,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson4.jpg",
+			"time_info": 15.5,
+			"script": "now let's see what the rest of you",
+			"hash": null,
+			"sub_hash": "18181898b8f0fcc0",
+			"usage": true
+		},
+		{
+			"frame_num": 5,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson5.jpg",
+			"time_info": 21.5,
+			"script": "dullards have to offer you've destroyed",
+			"hash": null,
+			"sub_hash": "c4cccececeeaeeee",
+			"usage": true
+		},
+		{
+			"frame_num": 6,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson6.jpg",
+			"time_info": 28.0,
+			"script": "every idea I've had about teaching since",
+			"hash": null,
+			"sub_hash": "f8f8f8fcfcfc3808",
+			"usage": true
+		},
+		{
+			"frame_num": 7,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson7.jpg",
+			"time_info": 30.0,
+			"script": "I saw it to Sir with love as a little",
+			"hash": null,
+			"sub_hash": "f0e0f8fcfcfc3c3e",
+			"usage": true
+		},
+		{
+			"frame_num": 8,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson8.jpg",
+			"time_info": 32.5,
+			"script": "girl you're all Bart I'm sending your",
+			"hash": null,
+			"sub_hash": "fcf0f0f8fcfc3e3e",
+			"usage": true
+		},
+		{
+			"frame_num": 9,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson9.jpg",
+			"time_info": 35.5,
+			"script": "parents a letter irresponsible",
+			"hash": null,
+			"sub_hash": "6666666e66ee3e40",
+			"usage": true
+		},
+		{
+			"frame_num": 10,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson10.jpg",
+			"time_info": 38.5,
+			"script": "unprepared bad seed",
+			"hash": null,
+			"sub_hash": "3838383838b83c73",
+			"usage": true
+		},
+		{
+			"frame_num": 11,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson11.jpg",
+			"time_info": 43.5,
+			"script": "Martin outgoing mail slot now stop that",
+			"hash": null,
+			"sub_hash": "191b1b19393b1909",
+			"usage": true
+		},
+		{
+			"frame_num": 12,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson12.jpg",
+			"time_info": 56.0,
+			"script": "letter now why do you have ten letters",
+			"hash": null,
+			"sub_hash": "edefe444444d7d6d",
+			"usage": true
+		},
+		{
+			"frame_num": 13,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson13.jpg",
+			"time_info": 66.0,
+			"script": "coming from school and I need to be home",
+			"hash": null,
+			"sub_hash": "fc78181818383c38",
+			"usage": true
+		},
+		{
+			"frame_num": 14,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson14.jpg",
+			"time_info": 68.0,
+			"script": "to keep mom and dad from getting it mom",
+			"hash": null,
+			"sub_hash": "cdcfc74f5ffed241",
+			"usage": true
+		},
+		{
+			"frame_num": 15,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson15.jpg",
+			"time_info": 69.5,
+			"script": "I have a fever",
+			"hash": null,
+			"sub_hash": "6f67672f7f7f7a61",
+			"usage": true
+		},
+		{
+			"frame_num": 16,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson16.jpg",
+			"time_info": 73.0,
+			"script": "I gotta get that letter before mom and",
+			"hash": null,
+			"sub_hash": "1c3c3c9c989c1f17",
+			"usage": true
+		},
+		{
+			"frame_num": 17,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson17.jpg",
+			"time_info": 82.0,
+			"script": "dad do stay focused focused focused",
+			"hash": null,
+			"sub_hash": "1f1b1b1b131bf9fc",
+			"usage": true
+		},
+		{
+			"frame_num": 18,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson18.jpg",
+			"time_info": 88.5,
+			"script": "[Music]",
+			"hash": null,
+			"sub_hash": "df9b93838383898f",
+			"usage": true
+		},
+		{
+			"frame_num": 19,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson19.jpg",
+			"time_info": 90.5,
+			"script": "these are Bart's uncompleted homework",
+			"hash": null,
+			"sub_hash": "c06060e060606000",
+			"usage": true
+		},
+		{
+			"frame_num": 20,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson20.jpg",
+			"time_info": 92.5,
+			"script": "assignments for the last month",
+			"hash": null,
+			"sub_hash": "0c0c0c0d0d0d0d0d",
+			"usage": true
+		},
+		{
+			"frame_num": 21,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson21.jpg",
+			"time_info": 94.0,
+			"script": "worksheets problem sets book reports",
+			"hash": null,
+			"sub_hash": "fdfff58006070f1f",
+			"usage": true
+		},
+		{
+			"frame_num": 22,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson22.jpg",
+			"time_info": 96.5,
+			"script": "math trembles dioramas topic sentences",
+			"hash": null,
+			"sub_hash": "1f3f7f7f67030307",
+			"usage": true
+		},
+		{
+			"frame_num": 23,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson23.jpg.dupli.jpg",
+			"time_info": 99.0,
+			"script": "conclusions bibliographies synonyms mean",
+			"hash": null,
+			"sub_hash": "1f3f7f7f67030307",
+			"usage": false
+		},
+		{
+			"frame_num": 24,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson24.jpg",
+			"time_info": 106.0,
+			"script": "I don't have to do it with him do I know",
+			"hash": null,
+			"sub_hash": "c4c4f0f0c2c0f0f0",
+			"usage": true
+		},
+		{
+			"frame_num": 25,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson25.jpg",
+			"time_info": 113.5,
+			"script": "if they keep overwhelming him he might",
+			"hash": null,
+			"sub_hash": "1d1d1f1f1f0f0329",
+			"usage": true
+		},
+		{
+			"frame_num": 26,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson26.jpg",
+			"time_info": 116.0,
+			"script": "be turned off school forever",
+			"hash": null,
+			"sub_hash": "4343c3c3e3e3c3df",
+			"usage": true
+		},
+		{
+			"frame_num": 27,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson27.jpg",
+			"time_info": 118.5,
+			"script": "dizzy by funko go man ask the crystal",
+			"hash": null,
+			"sub_hash": "f3f3e3e3e3c3c3c3",
+			"usage": true
+		},
+		{
+			"frame_num": 28,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson28.jpg.dupli.jpg",
+			"time_info": 121.5,
+			"script": "light ball you're supposed to be doing",
+			"hash": null,
+			"sub_hash": "f3f3e3e3e3c3c3c3",
+			"usage": false
+		},
+		{
+			"frame_num": 29,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson29.jpg",
+			"time_info": 123.5,
+			"script": "your homework",
+			"hash": null,
+			"sub_hash": "7270f07038bc3c1c",
+			"usage": true
+		},
+		{
+			"frame_num": 30,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson30.jpg",
+			"time_info": 128.5,
+			"script": "no more TV for you it's okay boy just do",
+			"hash": null,
+			"sub_hash": "9c7c5c1cfc181810",
+			"usage": true
+		},
+		{
+			"frame_num": 31,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson31.jpg",
+			"time_info": 134.5,
+			"script": "a couple vocabulary words and come have",
+			"hash": null,
+			"sub_hash": "f8fafefeccc4c6c6",
+			"usage": true
+		},
+		{
+			"frame_num": 32,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson32.jpg",
+			"time_info": 137.0,
+			"script": "some milk and cookies Haley's mom and",
+			"hash": null,
+			"sub_hash": "f0f0f0f878787878",
+			"usage": true
+		},
+		{
+			"frame_num": 33,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson33.jpg.dupli.jpg",
+			"time_info": 139.0,
+			"script": "dad just told me two different things",
+			"hash": null,
+			"sub_hash": "f0f0f0f878787878",
+			"usage": false
+		},
+		{
+			"frame_num": 34,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson34.jpg.dupli.jpg",
+			"time_info": 141.0,
+			"script": "how is that possible well sometimes",
+			"hash": null,
+			"sub_hash": "f0f0f0f878787878",
+			"usage": false
+		},
+		{
+			"frame_num": 35,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson35.jpg",
+			"time_info": 143.0,
+			"script": "people who agree on most things have one",
+			"hash": null,
+			"sub_hash": "f363636b417f7e00",
+			"usage": true
+		},
+		{
+			"frame_num": 36,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson36.jpg",
+			"time_info": 145.0,
+			"script": "issue that they disagree strongly wait a",
+			"hash": null,
+			"sub_hash": "b363636b437d7e00",
+			"usage": true
+		},
+		{
+			"frame_num": 37,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson37.jpg",
+			"time_info": 148.0,
+			"script": "minute can I play them against each",
+			"hash": null,
+			"sub_hash": "1e1e1e1e0e1e7e4f",
+			"usage": true
+		},
+		{
+			"frame_num": 38,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson38.jpg",
+			"time_info": 150.5,
+			"script": "other so I don't have to do any homework",
+			"hash": null,
+			"sub_hash": "3e3e3e3e0e1c3e0f",
+			"usage": true
+		},
+		{
+			"frame_num": 39,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson39.jpg",
+			"time_info": 157.5,
+			"script": "at all put down those books and go play",
+			"hash": null,
+			"sub_hash": "f07070d4d4dcbc74",
+			"usage": true
+		},
+		{
+			"frame_num": 40,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson40.jpg",
+			"time_info": 166.5,
+			"script": "this instant if you say so dear lord",
+			"hash": null,
+			"sub_hash": "0d2f0d2f2f1e7fcf",
+			"usage": true
+		},
+		{
+			"frame_num": 41,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson41.jpg",
+			"time_info": 170.0,
+			"script": "please give my stubborn husband the",
+			"hash": null,
+			"sub_hash": "0f0f0f0f3f3e7fcf",
+			"usage": true
+		},
+		{
+			"frame_num": 42,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson42.jpg",
+			"time_info": 172.5,
+			"script": "wisdom to see that I am right as usual",
+			"hash": null,
+			"sub_hash": "0f0f0f0f2f1e7fcf",
+			"usage": true
+		},
+		{
+			"frame_num": 43,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson43.jpg",
+			"time_info": 175.5,
+			"script": "jewel 8 March I already used the prayer",
+			"hash": null,
+			"sub_hash": "acccc6cecccc9ccc",
+			"usage": true
+		},
+		{
+			"frame_num": 44,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson44.jpg",
+			"time_info": 178.5,
+			"script": "block on your prayer",
+			"hash": null,
+			"sub_hash": "1e0f4f4f4ecfcfce",
+			"usage": true
+		},
+		{
+			"frame_num": 45,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson45.jpg",
+			"time_info": 183.0,
+			"script": "[Music]",
+			"hash": null,
+			"sub_hash": "4252737373f3f3f3",
+			"usage": true
+		},
+		{
+			"frame_num": 46,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson46.jpg",
+			"time_info": 187.5,
+			"script": "[Music]",
+			"hash": null,
+			"sub_hash": "61373f3f2f7e3e13",
+			"usage": true
+		},
+		{
+			"frame_num": 47,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson47.jpg",
+			"time_info": 190.5,
+			"script": "hey why aren't you doing your homework I",
+			"hash": null,
+			"sub_hash": "60606272787c7c3c",
+			"usage": true
+		},
+		{
+			"frame_num": 48,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson48.jpg",
+			"time_info": 193.0,
+			"script": "said he could take a break the violence",
+			"hash": null,
+			"sub_hash": "6060626270787c7c",
+			"usage": true
+		},
+		{
+			"frame_num": 49,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson49.jpg",
+			"time_info": 195.0,
+			"script": "really relaxes me",
+			"hash": null,
+			"sub_hash": "6161636363632b3f",
+			"usage": true
+		},
+		{
+			"frame_num": 50,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson50.jpg",
+			"time_info": 197.0,
+			"script": "you don't get to relax do you get to the",
+			"hash": null,
+			"sub_hash": "e0c0803cf0f0f8f0",
+			"usage": true
+		},
+		{
+			"frame_num": 51,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson51.jpg",
+			"time_info": 199.0,
+			"script": "bottom of this homework stick don't get",
+			"hash": null,
+			"sub_hash": "4743070b4b4b5b03",
+			"usage": true
+		},
+		{
+			"frame_num": 52,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson52.jpg",
+			"time_info": 201.0,
+			"script": "me in front of arson hmm well don't be",
+			"hash": null,
+			"sub_hash": "632303032169b9a1",
+			"usage": true
+		},
+		{
+			"frame_num": 53,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson53.jpg",
+			"time_info": 205.0,
+			"script": "wound in front of arson tiger",
+			"hash": null,
+			"sub_hash": "7878787878787878",
+			"usage": true
+		},
+		{
+			"frame_num": 54,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson54.jpg",
+			"time_info": 209.5,
+			"script": "smooth move mom",
+			"hash": null,
+			"sub_hash": "cececcce8c26464e",
+			"usage": true
+		},
+		{
+			"frame_num": 55,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson55.jpg",
+			"time_info": 211.5,
+			"script": "tricking dad into having lunch at the",
+			"hash": null,
+			"sub_hash": "5c5a52565e5e5e5f",
+			"usage": true
+		},
+		{
+			"frame_num": 56,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson56.jpg",
+			"time_info": 213.0,
+			"script": "one place that doesn't serve beer what",
+			"hash": null,
+			"sub_hash": "1e3e3e5ed2d88880",
+			"usage": true
+		},
+		{
+			"frame_num": 57,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson57.jpg",
+			"time_info": 215.0,
+			"script": "did I want to eat it",
+			"hash": null,
+			"sub_hash": "38f9fdad45454500",
+			"usage": true
+		},
+		{
+			"frame_num": 58,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson58.jpg",
+			"time_info": 217.0,
+			"script": "boats Express I was going to apologize",
+			"hash": null,
+			"sub_hash": "fdfdf9f0f0902030",
+			"usage": true
+		},
+		{
+			"frame_num": 59,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson59.jpg",
+			"time_info": 225.5,
+			"script": "but now I'm not going after sex I'm not",
+			"hash": null,
+			"sub_hash": "2fae2f3f0f0f3e07",
+			"usage": true
+		},
+		{
+			"frame_num": 60,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson60.jpg",
+			"time_info": 234.0,
+			"script": "talking to you well then there won't be",
+			"hash": null,
+			"sub_hash": "e3e3e3e7e7e7efe7",
+			"usage": true
+		},
+		{
+			"frame_num": 61,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson61.jpg",
+			"time_info": 235.5,
+			"script": "any sex",
+			"hash": null,
+			"sub_hash": "418fcfc3c1e1ff0f",
+			"usage": true
+		},
+		{
+			"frame_num": 62,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson62.jpg",
+			"time_info": 239.0,
+			"script": "you can't sex fire me I quit I just",
+			"hash": null,
+			"sub_hash": "5d1fcf4341414707",
+			"usage": true
+		},
+		{
+			"frame_num": 63,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson63.jpg",
+			"time_info": 243.0,
+			"script": "think when two people disagree the big",
+			"hash": null,
+			"sub_hash": "f0f0f0e0e0e0fce0",
+			"usage": true
+		},
+		{
+			"frame_num": 64,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson64.jpg",
+			"time_info": 246.0,
+			"script": "jerk ah no apologize you know Marge mom",
+			"hash": null,
+			"sub_hash": "1c1c1c1c043c3c04",
+			"usage": true
+		},
+		{
+			"frame_num": 65,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson65.jpg",
+			"time_info": 249.0,
+			"script": "and I had a fight right before she died",
+			"hash": null,
+			"sub_hash": "d8d8787c78787800",
+			"usage": true
+		},
+		{
+			"frame_num": 66,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson66.jpg",
+			"time_info": 251.0,
+			"script": "I played that fight over in my mind a",
+			"hash": null,
+			"sub_hash": "0705073f1f1d1903",
+			"usage": true
+		},
+		{
+			"frame_num": 67,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson67.jpg",
+			"time_info": 257.5,
+			"script": "thousand times a day once again sleeping",
+			"hash": null,
+			"sub_hash": "7c7c7c7c58585840",
+			"usage": true
+		},
+		{
+			"frame_num": 68,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson68.jpg",
+			"time_info": 264.5,
+			"script": "at work has saved my marriage",
+			"hash": null,
+			"sub_hash": "f6f2f2f2a0030307",
+			"usage": true
+		},
+		{
+			"frame_num": 69,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson69.jpg",
+			"time_info": 267.0,
+			"script": "compromise has no place in a marriage",
+			"hash": null,
+			"sub_hash": "0c0ca4bc3969f9a3",
+			"usage": true
+		},
+		{
+			"frame_num": 70,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson70.jpg",
+			"time_info": 269.0,
+			"script": "stick to your guns and if he leaves",
+			"hash": null,
+			"sub_hash": "e8e8f8f8f0f0f0e0",
+			"usage": true
+		},
+		{
+			"frame_num": 71,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson71.jpg",
+			"time_info": 272.0,
+			"script": "you'll be free and happy like us I'm",
+			"hash": null,
+			"sub_hash": "1f9dbd7d3f313000",
+			"usage": true
+		},
+		{
+			"frame_num": 72,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson72.jpg",
+			"time_info": 275.0,
+			"script": "gonna find my husband what's the",
+			"hash": null,
+			"sub_hash": "1d9dbd7d3f3c3400",
+			"usage": true
+		},
+		{
+			"frame_num": 73,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson73.jpg",
+			"time_info": 278.5,
+			"script": "pologize mr. poachers",
+			"hash": null,
+			"sub_hash": "3636243c3e3e3f02",
+			"usage": true
+		},
+		{
+			"frame_num": 74,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson74.jpg",
+			"time_info": 284.5,
+			"script": "[Music]",
+			"hash": null,
+			"sub_hash": "6767078787e7ffe7",
+			"usage": true
+		},
+		{
+			"frame_num": 75,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson75.jpg",
+			"time_info": 290.0,
+			"script": "I'm sorry we ever fought but dancing",
+			"hash": null,
+			"sub_hash": "a4848898d9d9fae2",
+			"usage": true
+		},
+		{
+			"frame_num": 76,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson76.jpg",
+			"time_info": 293.5,
+			"script": "flares boys gonna be here a while",
+			"hash": null,
+			"sub_hash": "fcfcfcf8f8f8f878",
+			"usage": true
+		},
+		{
+			"frame_num": 77,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson77.jpg",
+			"time_info": 299.0,
+			"script": "hmm dad I know you're gonna say no but",
+			"hash": null,
+			"sub_hash": "9595941c7dfdfd04",
+			"usage": true
+		},
+		{
+			"frame_num": 78,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson78.jpg",
+			"time_info": 304.0,
+			"script": "mom would say whatever knock yourself",
+			"hash": null,
+			"sub_hash": "86868686869e1e06",
+			"usage": true
+		},
+		{
+			"frame_num": 79,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson79.jpg.dupli.jpg",
+			"time_info": 306.0,
+			"script": "out what do you mean you may not realize",
+			"hash": null,
+			"sub_hash": "96868686869e1e06",
+			"usage": false
+		},
+		{
+			"frame_num": 80,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson80.jpg",
+			"time_info": 308.0,
+			"script": "this part but your mother and I have",
+			"hash": null,
+			"sub_hash": "b6b68686869e1e06",
+			"usage": true
+		},
+		{
+			"frame_num": 81,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson81.jpg",
+			"time_info": 309.5,
+			"script": "been fighting about you a lot lately and",
+			"hash": null,
+			"sub_hash": "3773334a4a1e1e06",
+			"usage": true
+		},
+		{
+			"frame_num": 82,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson82.jpg",
+			"time_info": 311.0,
+			"script": "I realized our marriage is more",
+			"hash": null,
+			"sub_hash": "7e5c1cbcaca4a4b4",
+			"usage": true
+		},
+		{
+			"frame_num": 83,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson83.jpg",
+			"time_info": 313.5,
+			"script": "important than your future from now on",
+			"hash": null,
+			"sub_hash": "e6e6e276607852c6",
+			"usage": true
+		},
+		{
+			"frame_num": 84,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson84.jpg",
+			"time_info": 315.5,
+			"script": "you're on your own",
+			"hash": null,
+			"sub_hash": "1f1f3f3f1f3f0f0d",
+			"usage": true
+		},
+		{
+			"frame_num": 85,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson85.jpg",
+			"time_info": 317.5,
+			"script": "ah peaceful Saturday afternoon with no",
+			"hash": null,
+			"sub_hash": "7070607070787870",
+			"usage": true
+		},
+		{
+			"frame_num": 86,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson86.jpg",
+			"time_info": 320.0,
+			"script": "Bart Simpson and no Milhouse for that",
+			"hash": null,
+			"sub_hash": "70706040507c7c70",
+			"usage": true
+		},
+		{
+			"frame_num": 87,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson87.jpg.dupli.jpg",
+			"time_info": 322.0,
+			"script": "matter nothing on my agenda but to sit",
+			"hash": null,
+			"sub_hash": "70706060507c7c70",
+			"usage": false
+		},
+		{
+			"frame_num": 88,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson88.jpg",
+			"time_info": 324.0,
+			"script": "here and watch hummingbirds",
+			"hash": null,
+			"sub_hash": "70706040707c7c70",
+			"usage": true
+		},
+		{
+			"frame_num": 89,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson89.jpg",
+			"time_info": 330.5,
+			"script": "[Music]",
+			"hash": null,
+			"sub_hash": "2a273f3e3e3e3e1c",
+			"usage": true
+		},
+		{
+			"frame_num": 90,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson90.jpg.dupli.jpg",
+			"time_info": 337.5,
+			"script": "you can't hide forever and I'm a very",
+			"hash": null,
+			"sub_hash": "2a273e3e3e3e3e1c",
+			"usage": false
+		},
+		{
+			"frame_num": 91,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson91.jpg",
+			"time_info": 340.5,
+			"script": "patient man I once waited an hour and a",
+			"hash": null,
+			"sub_hash": "f81010109c3d7d1d",
+			"usage": true
+		},
+		{
+			"frame_num": 92,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson92.jpg",
+			"time_info": 343.0,
+			"script": "half for a haircut",
+			"hash": null,
+			"sub_hash": "2623e263effe7c7c",
+			"usage": true
+		},
+		{
+			"frame_num": 93,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson93.jpg",
+			"time_info": 347.5,
+			"script": "[Music]",
+			"hash": null,
+			"sub_hash": "0082ff9f1f0f9fbf",
+			"usage": true
+		},
+		{
+			"frame_num": 94,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/simpson/imgs/simpson94.jpg",
+			"time_info": 353.0,
+			"script": "I never knew Springfield had a subway",
+			"hash": null,
+			"sub_hash": "0000003c3c3c7c38",
+			"usage": true
+		}
+	]
+}

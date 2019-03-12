@@ -1,0 +1,2201 @@
+{
+	"url": "'https://www.youtube.com/watch?v=96hl5J47c3k&feature=youtu.be'",
+	"title": "The Case for Abstraction | The Art Assignment | PBS Digital Studios",
+	"video_id": "96hl5J47c3k",
+	"lang_code": "en",
+	"font_size": 30,
+	"file_name": "abstraction_art",
+	"file_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art",
+	"nosub_opt": false,
+	"bg_opacity": 0.5,
+	"thumbnail": "https://i.ytimg.com/vi/96hl5J47c3k/maxresdefault.jpg",
+	"frame_infos": [
+		{
+			"frame_num": 0,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art0.jpg",
+			"time_info": 1.0,
+			"script": "[THEME MUSIC]",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 1,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art1.jpg",
+			"time_info": 2.5,
+			"script": "",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 2,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art2.jpg",
+			"time_info": 4.0,
+			"script": "NARRATOR: For much of human history,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 3,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art3.jpg",
+			"time_info": 5.5,
+			"script": "when people set out to make art they",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 4,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art4.jpg",
+			"time_info": 7.5,
+			"script": "did so by trying to represent things as they appeared",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 5,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art5.jpg",
+			"time_info": 9.5,
+			"script": "in the world around them.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 6,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art6.jpg",
+			"time_info": 11.5,
+			"script": "And then about 100 years ago, a bunch of artists",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 7,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art7.jpg",
+			"time_info": 13.5,
+			"script": "stopped trying to do that.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 8,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art8.jpg",
+			"time_info": 14.5,
+			"script": "It was shocking.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 9,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art9.jpg",
+			"time_info": 16.0,
+			"script": "This is not what art was supposed to be or do.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 10,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art10.jpg",
+			"time_info": 17.5,
+			"script": "And no one was given a compass really",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 11,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art11.jpg",
+			"time_info": 19.5,
+			"script": "for navigating this new art terrain, for interpreting it,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 12,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art12.jpg",
+			"time_info": 21.5,
+			"script": "for appreciating it.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 13,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art13.jpg",
+			"time_info": 23.5,
+			"script": "It's less shocking now, but it's still upsets and confounds.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 14,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art14.jpg",
+			"time_info": 26.5,
+			"script": "How are we supposed to deal with an art completely untethered",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 15,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art15.jpg",
+			"time_info": 29.0,
+			"script": "from the world of recognizable objects?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 16,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art16.jpg",
+			"time_info": 31.0,
+			"script": "And more importantly, why should we?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 17,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art17.jpg",
+			"time_info": 33.5,
+			"script": "This is the case for abstraction.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 18,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art18.jpg",
+			"time_info": 36.0,
+			"script": "It's important to note that we didn't just",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 19,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art19.jpg",
+			"time_info": 38.0,
+			"script": "dive headlong into complete abstraction in art.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 20,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art20.jpg",
+			"time_info": 40.0,
+			"script": "JMW Turner's Seascapes, for example,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 21,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art21.jpg",
+			"time_info": 42.0,
+			"script": "demonstrate that things that exist in the world",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 22,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art22.jpg",
+			"time_info": 44.0,
+			"script": "can often look abstract.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 23,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art23.jpg",
+			"time_info": 46.0,
+			"script": "James McNeil Whistler's \"Nocturne\" show this too.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 24,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art24.jpg",
+			"time_info": 48.0,
+			"script": "As do Victor Hugo's ink drawings.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 25,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art25.jpg",
+			"time_info": 50.5,
+			"script": "But as the 19th century unfolded with the Industrial Revolution",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 26,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art26.jpg",
+			"time_info": 53.0,
+			"script": "and the invention of photography,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 27,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art27.jpg",
+			"time_info": 55.5,
+			"script": "life in European and American cities changed dramatically.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 28,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art28.jpg",
+			"time_info": 58.0,
+			"script": "And it should come as no surprise that representations",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 29,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art29.jpg",
+			"time_info": 60.0,
+			"script": "of that life changed too.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 30,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art30.jpg",
+			"time_info": 62.0,
+			"script": "Artists were increasingly interested in depicting things",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 31,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art31.jpg",
+			"time_info": 63.5,
+			"script": "non-naturalistically.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 32,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art32.jpg",
+			"time_info": 65.0,
+			"script": "Setting about abstracting things, i.e.,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 33,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art33.jpg",
+			"time_info": 67.0,
+			"script": "starting with worldly subject matter",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 34,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art34.jpg",
+			"time_info": 69.5,
+			"script": "but stylizing it, simplifying it, flattening it.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 35,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art35.jpg",
+			"time_info": 72.0,
+			"script": "By the 20th century, Matisse and Andre Derain",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 36,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art36.jpg",
+			"time_info": 74.5,
+			"script": "were painting familiar things, but in unfamiliar ways.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 37,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art37.jpg",
+			"time_info": 77.0,
+			"script": "Using such intense colors in broad brush",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 38,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art38.jpg",
+			"time_info": 80.0,
+			"script": "strokes that a critic dubbed them the Fauvs or wild beasts.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 39,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art39.jpg",
+			"time_info": 83.0,
+			"script": "Picasso and Georges Braque pioneered the Cubist style,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 40,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art40.jpg",
+			"time_info": 85.5,
+			"script": "painting much of the usual still life fodder,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 41,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art41.jpg",
+			"time_info": 88.0,
+			"script": "but breaking it up into geometric shapes,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 42,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art42.jpg",
+			"time_info": 90.5,
+			"script": "fragmenting the picture plane, and showing multiple sides",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 43,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art43.jpg",
+			"time_info": 92.5,
+			"script": "of a thing a once.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 44,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art44.jpg",
+			"time_info": 94.0,
+			"script": "Cubism simultaneously revealed more than",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 45,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art45.jpg",
+			"time_info": 96.5,
+			"script": "what the eye could see, fusing multiple perspectives",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 46,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art46.jpg",
+			"time_info": 99.0,
+			"script": "and moments in time, while also drawing attention",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 47,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art47.jpg",
+			"time_info": 101.0,
+			"script": "to the flatness of the canvas itself.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 48,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art48.jpg",
+			"time_info": 103.0,
+			"script": "The Italian Futurists wanted to reflect the speed",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 49,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art49.jpg",
+			"time_info": 105.5,
+			"script": "and over-simulation of modern urban life,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 50,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art50.jpg",
+			"time_info": 108.0,
+			"script": "also collapsing space and time into one image.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 51,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art51.jpg",
+			"time_info": 110.0,
+			"script": "German Expressionist Ernst Ludwig Kirchner",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 52,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art52.jpg",
+			"time_info": 112.5,
+			"script": "used abstraction and rich unreal colors",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 53,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art53.jpg",
+			"time_info": 115.0,
+			"script": "to depict the chaos and anxiety of the city street.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 54,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art54.jpg",
+			"time_info": 117.5,
+			"script": "His contemporaries Franz Mark and Wassily Kandinsky",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 55,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art55.jpg",
+			"time_info": 120.5,
+			"script": "cited influences as diverse as tribal art",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 56,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art56.jpg",
+			"time_info": 123.5,
+			"script": "from Africa, medieval German woodcuts, Russian folk art, Art",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 57,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art57.jpg",
+			"time_info": 126.0,
+			"script": "Nouveau, and art by children.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 58,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art58.jpg",
+			"time_info": 128.0,
+			"script": "But while Mark pursued abstraction",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 59,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art59.jpg",
+			"time_info": 129.5,
+			"script": "to connect with the natural world,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 60,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art60.jpg",
+			"time_info": 131.5,
+			"script": "Kandinsky's interest was to commune with the spiritual.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 61,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art61.jpg",
+			"time_info": 134.0,
+			"script": "He claimed his art was quote, \"What the spectator lives",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 62,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art62.jpg",
+			"time_info": 136.5,
+			"script": "or feels while under the effect of the form and color",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 63,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art63.jpg",
+			"time_info": 139.0,
+			"script": "combinations of the picture.\"",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 64,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art64.jpg",
+			"time_info": 141.5,
+			"script": "For Kandinsky, abstraction was not opposed to Realism.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 65,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art65.jpg",
+			"time_info": 143.5,
+			"script": "It was Realism.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 66,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art66.jpg",
+			"time_info": 145.5,
+			"script": "I mean, there are real things that can't be seen, after all.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 67,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art67.jpg",
+			"time_info": 148.0,
+			"script": "Emotion and consciousness are realities.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 68,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art68.jpg",
+			"time_info": 150.0,
+			"script": "And maybe they could be painted too.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 69,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art69.jpg",
+			"time_info": 152.0,
+			"script": "Kazimir Malevich called his brand",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 70,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art70.jpg",
+			"time_info": 154.5,
+			"script": "of abstraction Supremitism, saying his geometric elements",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 71,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art71.jpg",
+			"time_info": 157.0,
+			"script": "alone and in arrangements constituted",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 72,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art72.jpg",
+			"time_info": 160.0,
+			"script": "to zero a form beyond which laid the quote, \"supremacy",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 73,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art73.jpg",
+			"time_info": 162.5,
+			"script": "of pure artistic feeling.\"",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 74,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art74.jpg",
+			"time_info": 164.0,
+			"script": "In the years leading up to World War I,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 75,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art75.jpg",
+			"time_info": 166.5,
+			"script": "all these groups with names give the false impression",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 76,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art76.jpg",
+			"time_info": 169.0,
+			"script": "that what was happening was cohesive or organized.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 77,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art77.jpg",
+			"time_info": 170.5,
+			"script": "It wasn't.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 78,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art78.jpg",
+			"time_info": 172.5,
+			"script": "Abstraction did emerge through an international network",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 79,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art79.jpg",
+			"time_info": 175.0,
+			"script": "of artists who followed what each other we're doing.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 80,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art80.jpg",
+			"time_info": 177.5,
+			"script": "But then again, we now know that Swedish painter Hilma af",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 81,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art81.jpg",
+			"time_info": 180.5,
+			"script": "Klint was painting mostly abstract works as early 1905.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 82,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art82.jpg",
+			"time_info": 183.5,
+			"script": "She was part of a group called The Five who conducted seances",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 83,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art83.jpg",
+			"time_info": 186.0,
+			"script": "to communicate with spirits through pictures.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 84,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art84.jpg",
+			"time_info": 188.5,
+			"script": "Klint's abstractions came from this interest in the spiritual",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 85,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art85.jpg",
+			"time_info": 191.5,
+			"script": "and occult as well as science, and the depiction",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 86,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art86.jpg",
+			"time_info": 194.0,
+			"script": "of invisible forces like recently discovered",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 87,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art87.jpg",
+			"time_info": 197.0,
+			"script": "electromagnetic fields, x-rays, and infrared light.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 88,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art88.jpg",
+			"time_info": 200.0,
+			"script": "Theosophist Annie Besant and Charles Leadbeater",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 89,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art89.jpg",
+			"time_info": 203.0,
+			"script": "had published images in 1901 they called Thought Forms.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 90,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art90.jpg",
+			"time_info": 206.5,
+			"script": "Illustrating their belief that ideas, emotions, and sounds",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 91,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art91.jpg",
+			"time_info": 209.0,
+			"script": "manifest as visual auras.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 92,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art92.jpg",
+			"time_info": 211.0,
+			"script": "Kandinsky and many others read this work",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 93,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art93.jpg",
+			"time_info": 213.5,
+			"script": "and also saw in music an important parallel,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 94,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art94.jpg",
+			"time_info": 216.0,
+			"script": "an art form considered on its own terms",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 95,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art95.jpg",
+			"time_info": 218.0,
+			"script": "and freed from the burden of representing things",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 96,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art96.jpg",
+			"time_info": 219.5,
+			"script": "in the world.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 97,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art97.jpg",
+			"time_info": 221.0,
+			"script": "Kandinsky liked Wagner and Schoenberg.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 98,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art98.jpg",
+			"time_info": 223.0,
+			"script": "Paul Klee loved Bach.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 99,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art99.jpg",
+			"time_info": 225.0,
+			"script": "Frantisek Kupka also drew a strong connection",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 100,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art100.jpg",
+			"time_info": 227.0,
+			"script": "between music and painting, believing",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 101,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art101.jpg",
+			"time_info": 229.0,
+			"script": "that without the distraction of subject matter,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 102,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art102.jpg",
+			"time_info": 231.0,
+			"script": "art could act directly on the soul.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 103,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art103.jpg",
+			"time_info": 233.5,
+			"script": "But Robert Delaunay was quote, \"horrified\" by music and noise",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 104,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art104.jpg",
+			"time_info": 236.0,
+			"script": "and said I never speak of mathematics",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 105,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art105.jpg",
+			"time_info": 238.0,
+			"script": "and never bother with spirit.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 106,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art106.jpg",
+			"time_info": 240.0,
+			"script": "He was more concerned with the immediacy",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 107,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art107.jpg",
+			"time_info": 242.5,
+			"script": "and pictorial realities of color and contrast.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 108,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art108.jpg",
+			"time_info": 244.5,
+			"script": "And his first disk was considered",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 109,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art109.jpg",
+			"time_info": 246.0,
+			"script": "the purest abstraction at the time.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 110,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art110.jpg",
+			"time_info": 248.5,
+			"script": "His wife, Sonia Delauney, illustrated an influential book",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 111,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art111.jpg",
+			"time_info": 252.0,
+			"script": "of poetry, combining abstraction and typography,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 112,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art112.jpg",
+			"time_info": 255.0,
+			"script": "a style she extended into painting",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 113,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art113.jpg",
+			"time_info": 256.5,
+			"script": "and later into fashion.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 114,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art114.jpg",
+			"time_info": 258.0,
+			"script": "Piet Mondrian found his own way to abstraction,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 115,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art115.jpg",
+			"time_info": 260.0,
+			"script": "translating his favorite subjects",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 116,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art116.jpg",
+			"time_info": 262.5,
+			"script": "like trees and architecture into gridded arrangements.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 117,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art117.jpg",
+			"time_info": 266.0,
+			"script": "Spacial illusion is replaced by what Mondrian termed truth.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 118,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art118.jpg",
+			"time_info": 269.0,
+			"script": "For him, everything could be processed",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 119,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art119.jpg",
+			"time_info": 271.0,
+			"script": "into horizontal and vertical lines,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 120,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art120.jpg",
+			"time_info": 272.5,
+			"script": "revealing the structure of the world",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 121,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art121.jpg",
+			"time_info": 274.0,
+			"script": "through binary oppositions.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 122,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art122.jpg",
+			"time_info": 276.0,
+			"script": "So abstraction was never monolithic.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 123,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art123.jpg",
+			"time_info": 278.5,
+			"script": "In the traumatic years of World War I, artists like Paul Klee",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 124,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art124.jpg",
+			"time_info": 281.0,
+			"script": "can be seen as consciously turning away",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 125,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art125.jpg",
+			"time_info": 282.5,
+			"script": "from the material world.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 126,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art126.jpg",
+			"time_info": 284.5,
+			"script": "Serving in the German army, Klee wrote in 1915,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 127,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art127.jpg",
+			"time_info": 287.0,
+			"script": "\"the more horrifying this world becomes,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 128,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art128.jpg",
+			"time_info": 289.0,
+			"script": "the more art becomes abstract.\"",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 129,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art129.jpg",
+			"time_info": 291.0,
+			"script": "After the war, Klee and a number of abstract artists",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 130,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art130.jpg",
+			"time_info": 293.5,
+			"script": "taught at the Bauhaus School, founded in 1919",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 131,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art131.jpg",
+			"time_info": 295.5,
+			"script": "in Weimar, Germany.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 132,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art132.jpg",
+			"time_info": 297.0,
+			"script": "It was organized around the principle",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 133,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art133.jpg",
+			"time_info": 299.0,
+			"script": "that the crafts were on equal footing with art.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 134,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art134.jpg",
+			"time_info": 301.0,
+			"script": "And they sought to elevate the quality of life",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 135,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art135.jpg",
+			"time_info": 303.0,
+			"script": "through architecture and objects as well as art.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 136,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art136.jpg",
+			"time_info": 305.0,
+			"script": "This focus on function as well as form",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 137,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art137.jpg",
+			"time_info": 307.5,
+			"script": "was also adopted by Theo von Doesburg and members",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 138,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art138.jpg",
+			"time_info": 309.5,
+			"script": "of the Dutch De Stijl group.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 139,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art139.jpg",
+			"time_info": 311.0,
+			"script": "There was quote, \"a new plastic art.\"",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 140,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art140.jpg",
+			"time_info": 313.0,
+			"script": "A simplified geometric style they",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 141,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art141.jpg",
+			"time_info": 315.0,
+			"script": "could serve as a universal aesthetic language",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 142,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art142.jpg",
+			"time_info": 316.5,
+			"script": "for everyday life.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 143,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art143.jpg",
+			"time_info": 318.5,
+			"script": "Abstraction also found its way forward through explorations",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 144,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art144.jpg",
+			"time_info": 322.0,
+			"script": "of chance, with Dada artists Hans Arp, collaging squares he",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 145,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art145.jpg",
+			"time_info": 324.5,
+			"script": "dropped arbitrarily onto paper.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 146,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art146.jpg",
+			"time_info": 326.0,
+			"script": "It wasn't all just painting and drawing either,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 147,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art147.jpg",
+			"time_info": 328.5,
+			"script": "abstract sculpture took hold, for instance, in Russia,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 148,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art148.jpg",
+			"time_info": 331.5,
+			"script": "with the work of Vladimir Tatlin and his professed truth",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 149,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art149.jpg",
+			"time_info": 335.0,
+			"script": "to materials before the war and Aleksandr Rodchenko after it.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 150,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art150.jpg",
+			"time_info": 338.0,
+			"script": "Rodchenko exhibited three monochromatic paintings",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 151,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art151.jpg",
+			"time_info": 341.0,
+			"script": "in 1921, after which he wrote \"It's all over.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 152,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art152.jpg",
+			"time_info": 344.0,
+			"script": "There is to be no more representation.\"",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 153,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art153.jpg",
+			"time_info": 346.0,
+			"script": "He then denounced painting and fine art altogether,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 154,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art154.jpg",
+			"time_info": 348.0,
+			"script": "and with the Productivists aimed to integrate art",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 155,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art155.jpg",
+			"time_info": 350.5,
+			"script": "into life, focusing on the design of posters and ads.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 156,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art156.jpg",
+			"time_info": 353.0,
+			"script": "But of course, the enterprise of abstract painting",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 157,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art157.jpg",
+			"time_info": 355.5,
+			"script": "would continue to go on and on and on, and all",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 158,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art158.jpg",
+			"time_info": 357.5,
+			"script": "with different motivations.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 159,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art159.jpg",
+			"time_info": 360.0,
+			"script": "There was El Lizzitzky, Marsden Hartley, Juan Miro,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 160,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art160.jpg",
+			"time_info": 363.5,
+			"script": "Alexander Calder, Arshile Corky, and many others",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 161,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art161.jpg",
+			"time_info": 365.5,
+			"script": "in many parts of the world.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 162,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art162.jpg",
+			"time_info": 367.5,
+			"script": "During World War II, many European artists fled to the US",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 163,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art163.jpg",
+			"time_info": 371.0,
+			"script": "and worked there, including Josef and Anni Albers, Fernand",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 164,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art164.jpg",
+			"time_info": 374.5,
+			"script": "Leger, Mondrian, Jacques Lipchitz, Hans Hofmann,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 165,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art165.jpg",
+			"time_info": 377.5,
+			"script": "Andre Masson, and Max Ernst, bringing new approaches",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 166,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art166.jpg",
+			"time_info": 380.0,
+			"script": "to Abstraction with them.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 167,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art167.jpg",
+			"time_info": 382.0,
+			"script": "That influx of avant-garde thinking",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 168,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art168.jpg",
+			"time_info": 384.0,
+			"script": "is considered to be an important precondition for the success",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 169,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art169.jpg",
+			"time_info": 386.5,
+			"script": "of the abstract expressionists in New York in the 1940s",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 170,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art170.jpg",
+			"time_info": 388.5,
+			"script": "and '50s.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 171,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art171.jpg",
+			"time_info": 390.0,
+			"script": "Many of those guys looked to ancient myths",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 172,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art172.jpg",
+			"time_info": 392.5,
+			"script": "and archaic cultures in search for timeless subject matter",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 173,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art173.jpg",
+			"time_info": 395.5,
+			"script": "and were influenced by Jungian psychology as well as jazz.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 174,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art174.jpg",
+			"time_info": 398.0,
+			"script": "This largely improvisational approach",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 175,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art175.jpg",
+			"time_info": 400.0,
+			"script": "imparted a kind of directness and immediacy",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 176,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art176.jpg",
+			"time_info": 402.5,
+			"script": "meant to provoke strong emotional responses",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 177,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art177.jpg",
+			"time_info": 405.5,
+			"script": "through large scale and either dynamic gesture",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 178,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art178.jpg",
+			"time_info": 407.5,
+			"script": "or expansive fields of color.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 179,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art179.jpg",
+			"time_info": 410.0,
+			"script": "The Gutai group in Japan also embraced the canvas as an arena",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 180,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art180.jpg",
+			"time_info": 412.5,
+			"script": "for action.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 181,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art181.jpg",
+			"time_info": 414.0,
+			"script": "Kazou Shiraga even painting with his feet.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 182,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art182.jpg",
+			"time_info": 416.0,
+			"script": "There was post painterly abstraction",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 183,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art183.jpg",
+			"time_info": 418.0,
+			"script": "with Helen Frankenthaler and Morris Louis.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 184,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art184.jpg",
+			"time_info": 420.0,
+			"script": "And hard edge abstract painting which",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 185,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art185.jpg",
+			"time_info": 422.0,
+			"script": "can be used to describe the work of Ellsworth Kelly, Kenneth",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 186,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art186.jpg",
+			"time_info": 425.0,
+			"script": "Noland, Felrath Hines, Agnes Martin, and Ad Reinhardt.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 187,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art187.jpg",
+			"time_info": 428.0,
+			"script": "There was Op art, and of course Minimalism,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 188,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art188.jpg",
+			"time_info": 430.5,
+			"script": "which seemed to boil down art to its most basic materials.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 189,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art189.jpg",
+			"time_info": 433.0,
+			"script": "And then Post Minimalism, which emphasized",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 190,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art190.jpg",
+			"time_info": 435.5,
+			"script": "unconventional materials and the physical process of making.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 191,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art191.jpg",
+			"time_info": 438.5,
+			"script": "There was Neo-expressionism in the 1980s, Conceptual",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 192,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art192.jpg",
+			"time_info": 441.0,
+			"script": "Abstraction in the '90s.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 193,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art193.jpg",
+			"time_info": 443.0,
+			"script": "We're skipping over scads of important and interesting work",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 194,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art194.jpg",
+			"time_info": 444.5,
+			"script": "here.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 195,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art195.jpg",
+			"time_info": 445.5,
+			"script": "But as we hurtle toward the present,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 196,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art196.jpg",
+			"time_info": 447.0,
+			"script": "it becomes clear that abstraction",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 197,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art197.jpg",
+			"time_info": 449.0,
+			"script": "has been deployed by a wide range of artists",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 198,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art198.jpg",
+			"time_info": 451.0,
+			"script": "toward innumerable ends.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 199,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art199.jpg",
+			"time_info": 453.5,
+			"script": "Abstraction is no longer an iconoclastic choice,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 200,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art200.jpg",
+			"time_info": 455.5,
+			"script": "but it has nonetheless proved itself",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 201,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art201.jpg",
+			"time_info": 457.5,
+			"script": "to be a productive field for those who commit themselves",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 202,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art202.jpg",
+			"time_info": 459.0,
+			"script": "to it.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 203,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art203.jpg",
+			"time_info": 460.5,
+			"script": "The most compelling abstract work being made today",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 204,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art204.jpg",
+			"time_info": 463.0,
+			"script": "often builds upon the traditions of the medium,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 205,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art205.jpg",
+			"time_info": 465.0,
+			"script": "recycling and reinterpreting prior approaches",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 206,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art206.jpg",
+			"time_info": 467.0,
+			"script": "toward the creation of something new.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 207,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art207.jpg",
+			"time_info": 469.5,
+			"script": "Abstraction can be used to think about technology,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 208,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art208.jpg",
+			"time_info": 471.5,
+			"script": "its forms and functions.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 209,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art209.jpg",
+			"time_info": 473.5,
+			"script": "And also the denial of technology through an emphasis",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 210,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art210.jpg",
+			"time_info": 476.0,
+			"script": "on tactility and physical presence.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 211,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art211.jpg",
+			"time_info": 478.5,
+			"script": "It also continues to ask us what is the right and wrong way",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 212,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art212.jpg",
+			"time_info": 480.5,
+			"script": "to make art?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 213,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art213.jpg",
+			"time_info": 482.0,
+			"script": "In what ways can we still intrigue the eye and mind?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 214,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art214.jpg",
+			"time_info": 484.0,
+			"script": "There's a fair bit of grumbling today about how",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 215,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art215.jpg",
+			"time_info": 486.0,
+			"script": "the current inflated art market unfairly",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 216,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art216.jpg",
+			"time_info": 488.0,
+			"script": "privileges abstract painting.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 217,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art217.jpg",
+			"time_info": 490.0,
+			"script": "But there's something important at play in that fact.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 218,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art218.jpg",
+			"time_info": 492.0,
+			"script": "Much can be contained in abstraction.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 219,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art219.jpg",
+			"time_info": 493.5,
+			"script": "It's not just one thing.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 220,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art220.jpg",
+			"time_info": 495.0,
+			"script": "It can be a mirror or a window.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 221,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art221.jpg",
+			"time_info": 497.0,
+			"script": "And it can shift depending on who is looking at it",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 222,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art222.jpg",
+			"time_info": 499.0,
+			"script": "and where and when.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 223,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art223.jpg",
+			"time_info": 501.0,
+			"script": "It is done well and it is done poorly.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 224,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art224.jpg",
+			"time_info": 503.5,
+			"script": "But the flexibility that makes it open to interpretation also",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 225,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art225.jpg",
+			"time_info": 506.5,
+			"script": "makes it market friendly and international.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 226,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art226.jpg",
+			"time_info": 509.5,
+			"script": "When it's good, it rewards longer stints of looking.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 227,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art227.jpg",
+			"time_info": 511.5,
+			"script": "It changes as you change.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 228,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art228.jpg",
+			"time_info": 513.5,
+			"script": "But that expansiveness can also be frustrating, too wide.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 229,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art229.jpg",
+			"time_info": 516.0,
+			"script": "But if we zoom out, we can see that many",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 230,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art230.jpg",
+			"time_info": 518.5,
+			"script": "of the core ways we have of interacting with the world",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 231,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art231.jpg",
+			"time_info": 521.5,
+			"script": "are abstract-- religion, markets, currency.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 232,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art232.jpg",
+			"time_info": 524.0,
+			"script": "And humans have always liked abstractions.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 233,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art233.jpg",
+			"time_info": 527.0,
+			"script": "We see abstract patterns way early on cave carvings",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 234,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art234.jpg",
+			"time_info": 530.0,
+			"script": "and as marks on pottery and textiles.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 235,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art235.jpg",
+			"time_info": 532.5,
+			"script": "Geometric marks and forms have been with us all along,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 236,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art236.jpg",
+			"time_info": 535.0,
+			"script": "often dismissed as decoration or relegated",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 237,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art237.jpg",
+			"time_info": 536.5,
+			"script": "to the world of craft.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 238,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art238.jpg",
+			"time_info": 538.5,
+			"script": "This whole narrative is a farce if we consider how long",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 239,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art239.jpg",
+			"time_info": 541.0,
+			"script": "abstraction has been with us.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 240,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art240.jpg",
+			"time_info": 543.5,
+			"script": "That it was not invented so much is discovered or accepted.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 241,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art241.jpg",
+			"time_info": 546.5,
+			"script": "When looked at a different way, what's strange maybe the period",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 242,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/abstraction_art/imgs/abstraction_art242.jpg",
+			"time_info": 549.5,
+			"script": "when humans did not embrace abstraction.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		}
+	]
+}

@@ -127,9 +127,13 @@ def get_ts_by_caption(caption_file):
 	lines = fp.readlines()
 	line_cnt = 0
 	frame_infos = []
+	length_lines = len(lines)
 
-	while line_cnt < len(lines):
+	while line_cnt < length_lines:
 		if not lines[line_cnt]:
+			break;
+
+		if line_cnt + 4 > length_lines:
 			break;
 
 		frame_num = lines[line_cnt][:-1]
@@ -184,16 +188,20 @@ def modify_cap_time(args):
 
 	lines = fp.readlines()
 	line_cnt = 0
+	lenth_lines = len(lines)
 
-	while line_cnt < len(lines):
+	while line_cnt < lenth_lines:
 		if not lines[line_cnt]:
 			break;
 
 		# a final caption
-		if line_cnt + 5 > len(lines):
-			nfp.write(lines[line_cnt])
-			nfp.write(lines[line_cnt + 1])
-			nfp.write(lines[line_cnt + 2])
+		if line_cnt + 5 > lenth_lines:
+			if line_cnt < lenth_lines:
+				nfp.write(lines[line_cnt])
+			if line_cnt + 1 < lenth_lines:
+				nfp.write(lines[line_cnt + 1])
+			if line_cnt + 2 < lenth_lines:
+				nfp.write(lines[line_cnt + 2])
 			break;
 
 		frame_num = lines[line_cnt]

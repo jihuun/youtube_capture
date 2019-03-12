@@ -1,0 +1,2642 @@
+{
+	"url": "'https://www.youtube.com/watch?v=Os6i6fneV-E'",
+	"title": "The Case for Realism",
+	"video_id": "Os6i6fneV-E",
+	"lang_code": "en",
+	"font_size": 30,
+	"file_name": "realism_art",
+	"file_path": "/home/ubuntu/project/youtube_capture/results/realism_art",
+	"nosub_opt": false,
+	"bg_opacity": 0.6,
+	"thumbnail": "https://i.ytimg.com/vi/Os6i6fneV-E/maxresdefault.jpg",
+	"frame_infos": [
+		{
+			"frame_num": 0,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art0.jpg",
+			"time_info": 0.5,
+			"script": "[MUSIC PLAYING]",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 1,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art1.jpg",
+			"time_info": 2.0,
+			"script": "",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 2,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art2.jpg",
+			"time_info": 4.0,
+			"script": "NARRATOR: Thanks to Wix for supporting PBS Digital Studios.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 3,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art3.jpg",
+			"time_info": 6.0,
+			"script": "[UPBEAT INSTRUMENTAL MUSIC PLAYING]",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 4,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art4.jpg",
+			"time_info": 8.5,
+			"script": "When photography was invented, some people",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 5,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art5.jpg",
+			"time_info": 11.0,
+			"script": "thought painting would inevitably die.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 6,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art6.jpg",
+			"time_info": 13.0,
+			"script": "Why, after all, would we continue",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 7,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art7.jpg",
+			"time_info": 15.5,
+			"script": "to painstakingly reproduce the world as we see it",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 8,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art8.jpg",
+			"time_info": 18.5,
+			"script": "by repeatedly dobbing small bits of pigments suspended",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 9,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art9.jpg",
+			"time_info": 21.0,
+			"script": "in liquid onto a piece of fabric using",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 10,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art10.jpg",
+			"time_info": 23.0,
+			"script": "a stick with short little hairs attached,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 11,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art11.jpg",
+			"time_info": 25.5,
+			"script": "when a camera could do so incredibly effectively,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 12,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art12.jpg",
+			"time_info": 27.5,
+			"script": "and much, much faster?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 13,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art13.jpg",
+			"time_info": 29.5,
+			"script": "We all know that painting persisted--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 14,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art14.jpg",
+			"time_info": 32.5,
+			"script": "and not just the impressionism, and abstraction,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 15,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art15.jpg",
+			"time_info": 35.5,
+			"script": "and pop art, and what have you, that took paintings",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 16,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art16.jpg",
+			"time_info": 37.5,
+			"script": "in directions other than the pursuit",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 17,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art17.jpg",
+			"time_info": 39.0,
+			"script": "of realistic optical effects.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 18,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art18.jpg",
+			"time_info": 41.0,
+			"script": "Artists still attempt to recreate",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 19,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art19.jpg",
+			"time_info": 44.0,
+			"script": "what we see in approximately the way we humans see it.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 20,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art20.jpg",
+			"time_info": 46.5,
+			"script": "But why?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 21,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art21.jpg",
+			"time_info": 48.0,
+			"script": "What's with this tireless obsession?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 22,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art22.jpg",
+			"time_info": 50.5,
+			"script": "And why is it worth our time to look at it when the world",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 23,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art23.jpg",
+			"time_info": 53.0,
+			"script": "itself is all around us in pure form?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 24,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art24.jpg",
+			"time_info": 55.5,
+			"script": "This is the case for Realism.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 25,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art25.jpg",
+			"time_info": 58.5,
+			"script": "So there's an actual art historical movement called",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 26,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art26.jpg",
+			"time_info": 61.0,
+			"script": "Realism, and it came about in Western Europe",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 27,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art27.jpg",
+			"time_info": 63.5,
+			"script": "in the mid 19th century, right around-- come to think of it--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 28,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art28.jpg",
+			"time_info": 66.5,
+			"script": "when photography was emerging and getting its fingers",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 29,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art29.jpg",
+			"time_info": 69.0,
+			"script": "into every aspect of our lives.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 30,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art30.jpg",
+			"time_info": 71.0,
+			"script": "The French art critic, Champfleury,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 31,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art31.jpg",
+			"time_info": 73.0,
+			"script": "used the term Realism to describe",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 32,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art32.jpg",
+			"time_info": 75.5,
+			"script": "what Gustave Courbet was doing in the 1840s, which",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 33,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art33.jpg",
+			"time_info": 78.5,
+			"script": "was rejecting the stronghold of academic teaching--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 34,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art34.jpg",
+			"time_info": 82.0,
+			"script": "the dictated subjects be mythological or historical.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 35,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art35.jpg",
+			"time_info": 85.5,
+			"script": "Courbet wanted to paint what he saw around him instead--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 36,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art36.jpg",
+			"time_info": 88.5,
+			"script": "everyday people and places of his own time--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 37,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art37.jpg",
+			"time_info": 91.5,
+			"script": "more gritty and less idealized than, say,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 38,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art38.jpg",
+			"time_info": 94.5,
+			"script": "Jean-Francois Millet, who painted contemporary rural",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 39,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art39.jpg",
+			"time_info": 96.5,
+			"script": "life--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 40,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art40.jpg",
+			"time_info": 98.0,
+			"script": "but let's face it-- in a sentimental way.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 41,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art41.jpg",
+			"time_info": 100.5,
+			"script": "So Realism the movement was about depicting the world",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 42,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art42.jpg",
+			"time_info": 103.5,
+			"script": "as we find it, rather than as we want it to be.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 43,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art43.jpg",
+			"time_info": 106.5,
+			"script": "But it wasn't about painting in a photographically realistic",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 44,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art44.jpg",
+			"time_info": 108.5,
+			"script": "way.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 45,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art45.jpg",
+			"time_info": 110.0,
+			"script": "Naturalism was the term for that.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 46,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art46.jpg",
+			"time_info": 111.5,
+			"script": "Although the two approaches were often",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 47,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art47.jpg",
+			"time_info": 113.5,
+			"script": "paired as in the work of John Constable, whose",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 48,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art48.jpg",
+			"time_info": 116.0,
+			"script": "landscape paintings show us the English countryside",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 49,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art49.jpg",
+			"time_info": 119.0,
+			"script": "of the early 1800s, and in a manner closer to the way",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 50,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art50.jpg",
+			"time_info": 123.0,
+			"script": "we see it, neither realism nor naturalism were anything new.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 51,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art51.jpg",
+			"time_info": 125.5,
+			"script": "Nothing ever is.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 52,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art52.jpg",
+			"time_info": 127.5,
+			"script": "Courbet had been influenced by Velazquez and the painters",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 53,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art53.jpg",
+			"time_info": 130.0,
+			"script": "of the Spanish golden age, who represented",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 54,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art54.jpg",
+			"time_info": 132.5,
+			"script": "their time with astonishingly realistic effects.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 55,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art55.jpg",
+			"time_info": 135.5,
+			"script": "Courbet was also wowed by the work of 17th century",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 56,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art56.jpg",
+			"time_info": 138.5,
+			"script": "Dutch painters like Rembrandt and Franz Hals,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 57,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art57.jpg",
+			"time_info": 141.5,
+			"script": "whose work people at the time claimed looks like life itself.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 58,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art58.jpg",
+			"time_info": 144.5,
+			"script": "The Flemish painter, Bruegel, was a painter of everyday life",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 59,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art59.jpg",
+			"time_info": 146.5,
+			"script": "before that.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 60,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art60.jpg",
+			"time_info": 148.0,
+			"script": "Miniature painting of the Mughal Empire",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 61,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art61.jpg",
+			"time_info": 150.0,
+			"script": "drew from many traditions and dazzles",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 62,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art62.jpg",
+			"time_info": 152.0,
+			"script": "with moments of incredible naturalism,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 63,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art63.jpg",
+			"time_info": 154.5,
+			"script": "as does 18th century Chinese scroll painting.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 64,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art64.jpg",
+			"time_info": 157.5,
+			"script": "And don't even get me started with the Italian Renaissance.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 65,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art65.jpg",
+			"time_info": 160.5,
+			"script": "Yes-- the development and use of linear perspective",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 66,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art66.jpg",
+			"time_info": 163.0,
+			"script": "helped tremendously in crafting the appearance",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 67,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art67.jpg",
+			"time_info": 166.0,
+			"script": "of a three-dimensional world on a two-dimensional surface.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 68,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art68.jpg",
+			"time_info": 169.0,
+			"script": "But artists like Leonardo da Vinci",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 69,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art69.jpg",
+			"time_info": 171.0,
+			"script": "also pioneered painting techniques",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 70,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art70.jpg",
+			"time_info": 173.0,
+			"script": "that yielded faces and figures that",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 71,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art71.jpg",
+			"time_info": 175.0,
+			"script": "are startlingly true-to-life.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 72,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art72.jpg",
+			"time_info": 177.0,
+			"script": "And Caravaggio's dramatically lit scenes",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 73,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art73.jpg",
+			"time_info": 179.5,
+			"script": "brought well-known biblical stories into the present day",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 74,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art74.jpg",
+			"time_info": 182.5,
+			"script": "with shocking immediacy and impact.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 75,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art75.jpg",
+			"time_info": 185.0,
+			"script": "And of course, those artists were looking back",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 76,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art76.jpg",
+			"time_info": 187.0,
+			"script": "to the ancient Greeks and Romans,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 77,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art77.jpg",
+			"time_info": 189.0,
+			"script": "who for sure represented ideal figures,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 78,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art78.jpg",
+			"time_info": 191.0,
+			"script": "but also during the Hellenistic period,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 79,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art79.jpg",
+			"time_info": 194.0,
+			"script": "portrayed old age, peasant life, and physical anomalies.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 80,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art80.jpg",
+			"time_info": 197.0,
+			"script": "This reminds us that realism, naturalism,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 81,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art81.jpg",
+			"time_info": 199.0,
+			"script": "or whatever you want to call this desire",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 82,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art82.jpg",
+			"time_info": 202.5,
+			"script": "to depict life itself, has long played out in three dimensions.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 83,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art83.jpg",
+			"time_info": 206.0,
+			"script": "Polychromatic wood sculptures, like this one",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 84,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art84.jpg",
+			"time_info": 208.5,
+			"script": "made for a church, of Jesus laid out for burial,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 85,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art85.jpg",
+			"time_info": 212.0,
+			"script": "were made even more lifelike with glass eyes and fingernails",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 86,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art86.jpg",
+			"time_info": 214.5,
+			"script": "made of bull's horn.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 87,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art87.jpg",
+			"time_info": 216.5,
+			"script": "And today we experience the wildly uncanny feeling",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 88,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art88.jpg",
+			"time_info": 219.0,
+			"script": "of three-dimensional realism when",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 89,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art89.jpg",
+			"time_info": 221.5,
+			"script": "encountering a Duane Hanson sculpture in an art gallery;",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 90,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art90.jpg",
+			"time_info": 225.0,
+			"script": "or Ai Weiwei's exquisitely crafted porcelain sunflower",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 91,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art91.jpg",
+			"time_info": 227.0,
+			"script": "seeds.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 92,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art92.jpg",
+			"time_info": 229.0,
+			"script": "Realism emerges as a strategy among many, that's",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 93,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art93.jpg",
+			"time_info": 232.0,
+			"script": "combined with other approaches and employed",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 94,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art94.jpg",
+			"time_info": 234.0,
+			"script": "toward a wide variety of ends.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 95,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art95.jpg",
+			"time_info": 237.0,
+			"script": "Even before photography, artists used optical devices",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 96,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art96.jpg",
+			"time_info": 239.5,
+			"script": "as a painter's aid.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 97,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art97.jpg",
+			"time_info": 241.0,
+			"script": "It's long been suspected that Vermeer",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 98,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art98.jpg",
+			"time_info": 243.0,
+			"script": "used a mechanism akin to a camera obscura",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 99,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art99.jpg",
+			"time_info": 245.0,
+			"script": "to make his paintings.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 100,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art100.jpg",
+			"time_info": 247.0,
+			"script": "Contemporary artist, David Hockney,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 101,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art101.jpg",
+			"time_info": 249.0,
+			"script": "has argued that artists have long presented us",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 102,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art102.jpg",
+			"time_info": 251.0,
+			"script": "with photographic views, and the only thing",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 103,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art103.jpg",
+			"time_info": 253.0,
+			"script": "that happened in the 19th century",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 104,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art104.jpg",
+			"time_info": 255.5,
+			"script": "was that chemicals were invented that allowed",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 105,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art105.jpg",
+			"time_info": 258.0,
+			"script": "these images to become fixed.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 106,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art106.jpg",
+			"time_info": 260.5,
+			"script": "But even so, photography did change everything.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 107,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art107.jpg",
+			"time_info": 263.5,
+			"script": "As soon as it arrived and many scrambled to patent and profit",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 108,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art108.jpg",
+			"time_info": 266.0,
+			"script": "from various processes, artists began",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 109,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art109.jpg",
+			"time_info": 268.0,
+			"script": "to use it in their practice.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 110,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art110.jpg",
+			"time_info": 270.0,
+			"script": "We know Courbet worked from photographs of nudes",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 111,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art111.jpg",
+			"time_info": 272.5,
+			"script": "for many of his most famous works.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 112,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art112.jpg",
+			"time_info": 275.0,
+			"script": "We know that Nadar made this photograph",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 113,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art113.jpg",
+			"time_info": 277.0,
+			"script": "for the use of artist, Jean Leon Gerome,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 114,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art114.jpg",
+			"time_info": 279.5,
+			"script": "to assist in his process of painting \"Phryne",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 115,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art115.jpg",
+			"time_info": 281.5,
+			"script": "Before the Areopagus.\"",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 116,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art116.jpg",
+			"time_info": 283.5,
+			"script": "The new technology was harnessed by landscape painters,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 117,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art117.jpg",
+			"time_info": 286.0,
+			"script": "including Albert Bierstadt, who often",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 118,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art118.jpg",
+			"time_info": 288.5,
+			"script": "worked from stereoscopic photographs taken",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 119,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art119.jpg",
+			"time_info": 290.0,
+			"script": "by his brothers.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 120,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art120.jpg",
+			"time_info": 291.5,
+			"script": "Photography eventually became an accepted art form",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 121,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art121.jpg",
+			"time_info": 293.5,
+			"script": "in its own right.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 122,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art122.jpg",
+			"time_info": 296.0,
+			"script": "But from its outset, it's been in near constant conversation",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 123,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art123.jpg",
+			"time_info": 299.0,
+			"script": "with painting and other media.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 124,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art124.jpg",
+			"time_info": 301.5,
+			"script": "Abstraction would hold sway for much of the 20th century.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 125,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art125.jpg",
+			"time_info": 305.0,
+			"script": "But realism kept playing a part, appearing at different times,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 126,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art126.jpg",
+			"time_info": 308.0,
+			"script": "in different ways, and for different reasons.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 127,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art127.jpg",
+			"time_info": 310.5,
+			"script": "In the late 1960s artists working primarily",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 128,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art128.jpg",
+			"time_info": 313.5,
+			"script": "in New York and California began making paintings",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 129,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art129.jpg",
+			"time_info": 316.5,
+			"script": "where photographs were clearly and unabashedly",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 130,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art130.jpg",
+			"time_info": 319.0,
+			"script": "the primary visual reference.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 131,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art131.jpg",
+			"time_info": 322.0,
+			"script": "In 1969, writer and gallerist, Louis K Meisel,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 132,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art132.jpg",
+			"time_info": 325.5,
+			"script": "gave this work the name Photorealism-- its artists",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 133,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art133.jpg",
+			"time_info": 328.5,
+			"script": "reproducing photographic images with astounding detail",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 134,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art134.jpg",
+			"time_info": 331.5,
+			"script": "with almost hilariously challenging surfaces",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 135,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art135.jpg",
+			"time_info": 333.5,
+			"script": "to elaborate and describe.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 136,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art136.jpg",
+			"time_info": 336.0,
+			"script": "Like pop art, photorealism disrupted many people's",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 137,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art137.jpg",
+			"time_info": 339.0,
+			"script": "expectations about what art should be,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 138,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art138.jpg",
+			"time_info": 341.5,
+			"script": "showing us the often aggressively unartful stuff",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 139,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art139.jpg",
+			"time_info": 344.5,
+			"script": "of everyday life, and acknowledging the invasiveness",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 140,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art140.jpg",
+			"time_info": 347.5,
+			"script": "of advertising and consumer culture",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 141,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art141.jpg",
+			"time_info": 350.5,
+			"script": "in so many parts of American life after World War II.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 142,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art142.jpg",
+			"time_info": 353.0,
+			"script": "While the subjects of photorealist paintings",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 143,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art143.jpg",
+			"time_info": 355.5,
+			"script": "aren't usually that remarkable, the skill",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 144,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art144.jpg",
+			"time_info": 358.0,
+			"script": "involved in their reproduction often is.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 145,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art145.jpg",
+			"time_info": 360.0,
+			"script": "But like many artists throughout history,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 146,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art146.jpg",
+			"time_info": 362.5,
+			"script": "photorealists aren't afraid of using tools",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 147,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art147.jpg",
+			"time_info": 365.0,
+			"script": "to enhance realistic effects, like using a grid",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 148,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art148.jpg",
+			"time_info": 367.5,
+			"script": "system to transpose an image, or enlarging",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 149,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art149.jpg",
+			"time_info": 370.5,
+			"script": "and transcribing slides or photos with a projector.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 150,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art150.jpg",
+			"time_info": 373.5,
+			"script": "Photography can be a helpful source for artists--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 151,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art151.jpg",
+			"time_info": 376.5,
+			"script": "not just because it fixes a moment in time",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 152,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art152.jpg",
+			"time_info": 378.5,
+			"script": "with its particular play of light,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 153,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art153.jpg",
+			"time_info": 381.0,
+			"script": "but also because it shows us how an expansive and dimensional",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 154,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art154.jpg",
+			"time_info": 384.5,
+			"script": "world can be organized onto a defined and two-dimensional",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 155,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art155.jpg",
+			"time_info": 386.5,
+			"script": "surface.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 156,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art156.jpg",
+			"time_info": 388.5,
+			"script": "But that's also a criticism of some realism.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 157,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art157.jpg",
+			"time_info": 392.0,
+			"script": "Is it all technical expertise and no substance-- just a feat",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 158,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art158.jpg",
+			"time_info": 395.0,
+			"script": "of robot-like precision on display?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 159,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art159.jpg",
+			"time_info": 397.0,
+			"script": " I have achieved verisimilitude.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 160,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art160.jpg",
+			"time_info": 399.0,
+			"script": "NARRATOR: A detached, deadpan feeling",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 161,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art161.jpg",
+			"time_info": 401.0,
+			"script": "can exude from photorealism, which",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 162,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art162.jpg",
+			"time_info": 403.0,
+			"script": "we can credit to the degree of remove",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 163,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art163.jpg",
+			"time_info": 405.5,
+			"script": "the camera lens provides, the consistent treatment of subject",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 164,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art164.jpg",
+			"time_info": 408.5,
+			"script": "matter across the composition, and the flat application",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 165,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art165.jpg",
+			"time_info": 410.5,
+			"script": "of paint.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 166,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art166.jpg",
+			"time_info": 412.0,
+			"script": "People are there, but these are not",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 167,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art167.jpg",
+			"time_info": 414.5,
+			"script": "necessarily portraits as much a part of the scene",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 168,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art168.jpg",
+			"time_info": 417.0,
+			"script": "as a parked car or less.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 169,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art169.jpg",
+			"time_info": 419.0,
+			"script": "Photographer Gary Winogrand once said,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 170,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art170.jpg",
+			"time_info": 422.0,
+			"script": "\"There is nothing as mysterious as a fact clearly described.\"",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 171,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art171.jpg",
+			"time_info": 425.0,
+			"script": "And that mystery is part of the ongoing allure",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 172,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art172.jpg",
+			"time_info": 426.5,
+			"script": "of these pictures.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 173,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art173.jpg",
+			"time_info": 429.0,
+			"script": "But while photorealist paintings are for sure clearly described,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 174,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art174.jpg",
+			"time_info": 432.0,
+			"script": "their relationship to fact is more tenuous.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 175,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art175.jpg",
+			"time_info": 435.0,
+			"script": "Photographs, as we well know, crop, omit, and mislead.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 176,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art176.jpg",
+			"time_info": 438.5,
+			"script": "They have selective focus, adjustable depth of field.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 177,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art177.jpg",
+			"time_info": 442.0,
+			"script": "Different kinds of cameras and film create different effects.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 178,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art178.jpg",
+			"time_info": 445.0,
+			"script": "Paintings made from an ektachrome slide",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 179,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art179.jpg",
+			"time_info": 447.5,
+			"script": "tend to have a bluer cast, while Kodachrome skews warmer.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 180,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art180.jpg",
+			"time_info": 451.0,
+			"script": "And digital photography can magnify saturated tones.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 181,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art181.jpg",
+			"time_info": 454.0,
+			"script": "And of course, source images can be manipulated.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 182,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art182.jpg",
+			"time_info": 457.0,
+			"script": "Photorealist painters often edit and combine images with others",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 183,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art183.jpg",
+			"time_info": 460.5,
+			"script": "to overcome the limitations of conventional photography.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 184,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art184.jpg",
+			"time_info": 463.5,
+			"script": "Dramatic shifts in scale diverge wildly from real life.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 185,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art185.jpg",
+			"time_info": 466.0,
+			"script": "And as technology has advanced and made",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 186,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art186.jpg",
+			"time_info": 469.0,
+			"script": "possible digital images of unprecedented resolution",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 187,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art187.jpg",
+			"time_info": 472.0,
+			"script": "and size, painters who use them as sources",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 188,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art188.jpg",
+			"time_info": 474.0,
+			"script": "offer us views that are hyper-real,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 189,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art189.jpg",
+			"time_info": 476.5,
+			"script": "far surpassing the capabilities of our human eyes.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 190,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art190.jpg",
+			"time_info": 479.5,
+			"script": "When we look at realists' art, within and outside",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 191,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art191.jpg",
+			"time_info": 482.5,
+			"script": "of the photorealist tradition, we know it's not real.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 192,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art192.jpg",
+			"time_info": 485.5,
+			"script": "The illusion is almost never lasting.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 193,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art193.jpg",
+			"time_info": 488.0,
+			"script": "But that's exactly why we like it.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 194,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art194.jpg",
+			"time_info": 490.5,
+			"script": "It feels miraculous that mere earthly art supplies",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 195,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art195.jpg",
+			"time_info": 493.5,
+			"script": "can be transformed into images and sculptures that",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 196,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art196.jpg",
+			"time_info": 497.0,
+			"script": "can even begin to pass as photos or actual objects in the world.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 197,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art197.jpg",
+			"time_info": 500.5,
+			"script": "The finesse of these works can be virtuosic.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 198,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art198.jpg",
+			"time_info": 503.5,
+			"script": "And the time-- oh, the time and patience it can take",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 199,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art199.jpg",
+			"time_info": 505.5,
+			"script": "to achieve--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 200,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art200.jpg",
+			"time_info": 507.0,
+			"script": "is worthy of our admiration.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 201,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art201.jpg",
+			"time_info": 509.5,
+			"script": "But time plays a more complicated role as well.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 202,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art202.jpg",
+			"time_info": 512.0,
+			"script": "Contrasted with the long and arduous process that",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 203,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art203.jpg",
+			"time_info": 514.5,
+			"script": "brings the paintings to life is the near instantaneous",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 204,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art204.jpg",
+			"time_info": 517.0,
+			"script": "of the source photos' capture.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 205,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art205.jpg",
+			"time_info": 519.5,
+			"script": "Then there is the moment in time when the photo was taken",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 206,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art206.jpg",
+			"time_info": 522.0,
+			"script": "versus when it was that the image was",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 207,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art207.jpg",
+			"time_info": 524.0,
+			"script": "translated to a new medium.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 208,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art208.jpg",
+			"time_info": 526.5,
+			"script": "And there's the time of now when the works are being experienced",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 209,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art209.jpg",
+			"time_info": 528.5,
+			"script": "and evaluated.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 210,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art210.jpg",
+			"time_info": 531.0,
+			"script": "What's every day in 1971 is exotic in 2018.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 211,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art211.jpg",
+			"time_info": 535.0,
+			"script": "What looks like real life in 1987, looks nostalgic--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 212,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art212.jpg",
+			"time_info": 537.5,
+			"script": "even alien--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 213,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art213.jpg",
+			"time_info": 538.5,
+			"script": "today.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 214,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art214.jpg",
+			"time_info": 540.0,
+			"script": "What seems neutral and inconsequential now,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 215,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art215.jpg",
+			"time_info": 543.5,
+			"script": "becomes in the future emblematic of a time, place, and moment",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 216,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art216.jpg",
+			"time_info": 546.5,
+			"script": "in technological history.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 217,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art217.jpg",
+			"time_info": 548.5,
+			"script": "Realist art has a trace relationship",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 218,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art218.jpg",
+			"time_info": 551.5,
+			"script": "to the objects and people and places it describes--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 219,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art219.jpg",
+			"time_info": 553.5,
+			"script": "but an indirect one.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 220,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art220.jpg",
+			"time_info": 555.5,
+			"script": "The realness to which it strives isn't necessarily",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 221,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art221.jpg",
+			"time_info": 558.0,
+			"script": "the realness of lived experience,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 222,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art222.jpg",
+			"time_info": 560.0,
+			"script": "but the realness of a physical photograph.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 223,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art223.jpg",
+			"time_info": 562.0,
+			"script": "In the process, these artists have",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 224,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art224.jpg",
+			"time_info": 564.0,
+			"script": "constructed a new reality--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 225,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art225.jpg",
+			"time_info": 566.0,
+			"script": "one we must remember is not a window,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 226,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art226.jpg",
+			"time_info": 568.5,
+			"script": "but an intricate web we can explore",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 227,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art227.jpg",
+			"time_info": 571.5,
+			"script": "of images and moments and acts of translation.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 228,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art228.jpg",
+			"time_info": 574.5,
+			"script": "The spread of technology into so many parts of our lives",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 229,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art229.jpg",
+			"time_info": 577.0,
+			"script": "has unleashed a torrent of visual information",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 230,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art230.jpg",
+			"time_info": 579.5,
+			"script": "that we are left to navigate and add to.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 231,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art231.jpg",
+			"time_info": 582.0,
+			"script": "Images float past our eyes--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 232,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art232.jpg",
+			"time_info": 584.0,
+			"script": "some directly from friends--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 233,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art233.jpg",
+			"time_info": 587.0,
+			"script": "filtered, doctored, throwback-- some from credentialed sources,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 234,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art234.jpg",
+			"time_info": 590.5,
+			"script": "and some completely untethered from identifying information.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 235,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art235.jpg",
+			"time_info": 593.0,
+			"script": "And then there are the images we capture",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 236,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art236.jpg",
+			"time_info": 595.0,
+			"script": "and release into the torrent.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 237,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art237.jpg",
+			"time_info": 597.0,
+			"script": "Many of us now see life and anticipate it",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 238,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art238.jpg",
+			"time_info": 599.0,
+			"script": "through photography.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 239,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art239.jpg",
+			"time_info": 601.5,
+			"script": "As artist Tom Blackwell put it back in 1972,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 240,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art240.jpg",
+			"time_info": 605.0,
+			"script": "\"Photographic images, movies, TV, magazines et cetera,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 241,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art241.jpg",
+			"time_info": 608.5,
+			"script": "are as important a part of our reality as actual phenomena.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 242,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art242.jpg",
+			"time_info": 611.0,
+			"script": "They strongly affect our perception",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 243,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art243.jpg",
+			"time_info": 613.0,
+			"script": "of actual phenomena.\"",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 244,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art244.jpg",
+			"time_info": 615.5,
+			"script": "So this torrent of images is affecting how we see.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 245,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art245.jpg",
+			"time_info": 618.0,
+			"script": "And realism helps remind us of that,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 246,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art246.jpg",
+			"time_info": 620.0,
+			"script": "demonstrating that vision is a process,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 247,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art247.jpg",
+			"time_info": 622.5,
+			"script": "and one vulnerable to many influences.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 248,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art248.jpg",
+			"time_info": 625.0,
+			"script": "This kind of art invites us to take a closer look--",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 249,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art249.jpg",
+			"time_info": 627.5,
+			"script": "to appreciate how images hew to life,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 250,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art250.jpg",
+			"time_info": 629.5,
+			"script": "and how they diverge from it.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 251,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art251.jpg",
+			"time_info": 632.0,
+			"script": "Realism reminds us that we don't see in two dimensions,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 252,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art252.jpg",
+			"time_info": 635.5,
+			"script": "and challenges us to distinguish real from virtual",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 253,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art253.jpg",
+			"time_info": 638.0,
+			"script": "in increasingly advanced environments.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 254,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art254.jpg",
+			"time_info": 640.5,
+			"script": "Even when it's really good, realism",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 255,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art255.jpg",
+			"time_info": 643.0,
+			"script": "prompts us to remember that there's",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 256,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art256.jpg",
+			"time_info": 646.0,
+			"script": "no way to perfectly recreate any moment, person, place,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 257,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art257.jpg",
+			"time_info": 648.0,
+			"script": "or thing.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 258,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art258.jpg",
+			"time_info": 649.5,
+			"script": "And yet we still derive pleasure in this attempt",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 259,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art259.jpg",
+			"time_info": 652.5,
+			"script": "to fix some bit of our world in time",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 260,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art260.jpg",
+			"time_info": 655.0,
+			"script": "as artists and appreciators.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 261,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art261.jpg",
+			"time_info": 656.5,
+			"script": "We look closely.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 262,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art262.jpg",
+			"time_info": 658.0,
+			"script": "We think in layers of the opacity",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 263,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art263.jpg",
+			"time_info": 660.5,
+			"script": "and translucency and adaptability",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 264,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art264.jpg",
+			"time_info": 663.0,
+			"script": "of images and a vision.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 265,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art265.jpg",
+			"time_info": 666.0,
+			"script": "Realism asks each of us how we process reality,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 266,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art266.jpg",
+			"time_info": 670.0,
+			"script": "how we organize it, and perhaps, most importantly,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 267,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art267.jpg",
+			"time_info": 673.0,
+			"script": "how we share our reality with others.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 268,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art268.jpg",
+			"time_info": 675.5,
+			"script": "",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 269,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art269.jpg",
+			"time_info": 677.5,
+			"script": "Do you make really cool things and want",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 270,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art270.jpg",
+			"time_info": 679.0,
+			"script": "to share them with the world?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 271,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art271.jpg",
+			"time_info": 681.0,
+			"script": "Check out Wix.com if you're looking",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 272,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art272.jpg",
+			"time_info": 683.0,
+			"script": "to make your own website for any number of reasons.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 273,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art273.jpg",
+			"time_info": 686.0,
+			"script": "We'd like to thank Wix for supporting PBS Digital Studios.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 274,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art274.jpg",
+			"time_info": 688.5,
+			"script": "Wix is a platform that allows you",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 275,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art275.jpg",
+			"time_info": 690.5,
+			"script": "to build a personalized website to showcase your art,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 276,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art276.jpg",
+			"time_info": 693.5,
+			"script": "promote your business, set up an online shop,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 277,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art277.jpg",
+			"time_info": 695.5,
+			"script": "or test out new ideas.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 278,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art278.jpg",
+			"time_info": 697.5,
+			"script": "Their technology allows you to create something unique,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 279,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art279.jpg",
+			"time_info": 700.5,
+			"script": "no matter your skill level, with beautifully designed templates",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 280,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art280.jpg",
+			"time_info": 702.5,
+			"script": "and all-in-one management.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 281,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art281.jpg",
+			"time_info": 704.0,
+			"script": "If you'd like to check it, out you can go",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 282,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art282.jpg",
+			"time_info": 707.0,
+			"script": "to wix.com/go/artassignment or click the link",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 283,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art283.jpg",
+			"time_info": 710.0,
+			"script": "in the description.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 284,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art284.jpg",
+			"time_info": 711.5,
+			"script": "Like our show?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 285,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art285.jpg",
+			"time_info": 712.5,
+			"script": "Subscribe.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 286,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art286.jpg",
+			"time_info": 713.5,
+			"script": "Really like our show?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 287,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art287.jpg",
+			"time_info": 715.5,
+			"script": "Support us by giving a little each month on Patreon.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 288,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art288.jpg",
+			"time_info": 718.0,
+			"script": "Many thanks to all of our patrons, especially",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 289,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art289.jpg",
+			"time_info": 720.0,
+			"script": "grandmasters of the arts, Vincent Apa",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 290,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art290.jpg",
+			"time_info": 722.0,
+			"script": "and Indianapolis Homes Realty.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 291,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/realism_art/imgs/realism_art291.jpg",
+			"time_info": 725.5,
+			"script": "[PLAYFUL INSTRUMENTAL MUSIC PLAYING]",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		}
+	]
+}

@@ -148,7 +148,7 @@ def get_ts_by_caption(caption_file):
 		if not lines[line_cnt]:
 			break;
 
-		if line_cnt + 4 > length_lines:
+		if line_cnt + 3 > length_lines:
 			break;
 
 		frame_num = lines[line_cnt][:-1]
@@ -246,7 +246,7 @@ def cv_show_images(__frame, __duration):
 	cv2.imshow('Img show by caption duration', __frame)
 
 def cv_save_images(__frame, __duration, __path, __infos, __cnt, __tot_frame, __font_size): #TODO: try:except:
-	rate = '%d/%d  %fs' %(__cnt, __tot_frame, __duration)
+	rate = '%d/%d  %fs' %(__cnt, (__tot_frame - 1), __duration)
 	font = cv2.FONT_HERSHEY_SIMPLEX
 	font_scale = 0.8
 	fs = round(__font_size * font_scale)

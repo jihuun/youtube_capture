@@ -148,7 +148,7 @@ def get_ts_by_caption(caption_file):
 		if not lines[line_cnt]:
 			break;
 
-		if line_cnt + 4 > length_lines:
+		if line_cnt + 3 > length_lines:
 			break;
 
 		frame_num = lines[line_cnt][:-1]
@@ -246,7 +246,7 @@ def cv_show_images(__frame, __duration):
 	cv2.imshow('Img show by caption duration', __frame)
 
 def cv_save_images(__frame, __duration, __path, __infos, __cnt, __tot_frame, __font_size): #TODO: try:except:
-	rate = '%d/%d  %fs' %(__cnt, __tot_frame, __duration)
+	rate = '%d/%d  %fs' %(__cnt, (__tot_frame - 1), __duration)
 	font = cv2.FONT_HERSHEY_SIMPLEX
 	font_scale = 0.8
 	fs = round(__font_size * font_scale)
@@ -264,12 +264,14 @@ def compare_hash(prev, curr, thresh = 0):
 		ret = False
 	return ret
 
-def crop_img(img, h_ratio=4):
+# h_ratio: (1, 2, 3, ... )
+# w_ratio: (0.0 ~ 1.0)
+def crop_img(img, h_ratio=4, w_ratio=0.8):
 	w, h = img.size # Get dimensions
 
-	x = 0
-	y = h - (h / h_ratio)
-	wi = x + w
+	x = (w * (1 - w_ratio) * 0.5)
+	y = (h - (h / h_ratio))
+	wi = w - x
 	he = y + (h - y)
 	area = (x, y, wi, he)
 	return area
@@ -316,10 +318,11 @@ def capture_video(v_infos, target_file, caption_file):
 				img_ori = Image.open(savepath)
 				#TODO: convert gray scale img_ori
 				#TODO: crop_img: width should be more narrow
-				area = crop_img(img_ori, h_ratio=4) #cropping caption area
+				area = crop_img(img_ori, h_ratio=6, w_ratio=0.7) #cropping caption area
 				img_c = img_ori.crop(area)
+				img_g = img_c.convert('L') # grayscale image
 
-				frame_hash = imagehash.average_hash(img_c)
+				frame_hash = imagehash.average_hash(img_g)
 				prev_frame_hash = None
 				prev_frame_hash_str = frame_infos[cap_cnt-1]['sub_hash']
 				if prev_frame_hash_str:
@@ -330,7 +333,7 @@ def capture_video(v_infos, target_file, caption_file):
 
 				# The threah is a tunnable value
 				# With a highier value, It would delete more duplicated images.
-				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=1):
+				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=0):
 					print('.', end='', flush=True)
 					savepath_dup = savepath + '.dupli.jpg'
 					shutil.move(savepath, savepath_dup)

@@ -10,10 +10,12 @@ import cv2			#pip3 install opencv-python
 				# If there would be "numpy.core.multiarray" problem of numpy
 				#Do 'pip3 uninstall numpy' few times until all numpy version will be removed.
 				# https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
-from PIL import Image
+from PIL import Image, ImageFilter, ImageEnhance
+import PIL.ImageOps
 import imagehash
 import json
 from collections import OrderedDict
+from pytesseract import image_to_string
 
 DEFAULT_L_CODE = 'en'
 DEFAULT_VID_NAME = 'dl_video'
@@ -163,9 +165,10 @@ def get_ts_by_caption(caption_file):
 		ts_dict['img_path'] = None
 		ts_dict['time_info'] = get_srt_mean_time(time_info)
 		ts_dict['script'] = remove_tags(script)
+		ts_dict['ocr_script'] = None
 		ts_dict['hash'] = None
 		ts_dict['sub_hash'] = None
-		ts_dict['usage'] = True
+		ts_dict['usage'] = 'ok'
 
 		frame_infos.append(ts_dict)
 
@@ -266,7 +269,7 @@ def compare_hash(prev, curr, thresh = 0):
 
 # h_ratio: (1, 2, 3, ... )
 # w_ratio: (0.0 ~ 1.0)
-def crop_img(img, h_ratio=4, w_ratio=0.8):
+def crop_area(img, h_ratio=4, w_ratio=0.8):
 	w, h = img.size # Get dimensions
 
 	x = (w * (1 - w_ratio) * 0.5)
@@ -275,6 +278,39 @@ def crop_img(img, h_ratio=4, w_ratio=0.8):
 	he = y + (h - y)
 	area = (x, y, wi, he)
 	return area
+
+def get_text_from_img(img):
+	text = image_to_string(img, lang='kor')
+	return text
+
+def save_pil_img(pil_img, img_path):
+	pil_img.save(img_path + '.jpg', 'JPEG')
+
+# Image Pre-prosessing for better extracting the subscript text from the image by tesseract-ocr
+def image_preprocess(img_orig, save_path=None):
+	# 1. cropping caption area
+	area = crop_area(img_orig, h_ratio=5, w_ratio=0.9) #cropping caption area
+	img_crop = img_orig.crop(area)
+
+	# 2. convert to grayscale
+	img_gray = img_crop.convert('L') # grayscale image
+
+	# convert to blur : not use
+	#img_gray_gaussian = img_gray.filter(ImageFilter.GaussianBlur(3))
+
+	# 3. convert to low contrast for better edge detecting
+	img_contrast_low = ImageEnhance.Contrast(img_gray).enhance(0.7)
+
+	# 4. get outline of text by edge detection
+	img_outline = img_contrast_low.filter(ImageFilter.FIND_EDGES)
+
+	# 5. change black background to white
+	img_outline_invert = PIL.ImageOps.invert(img_outline)
+	#save_pil_img(img_gray, img_path + '/gray_img_%d' % cap_cnt)
+	#save_pil_img(img_contrast_low, img_path + '/img_contrast_low_%d' % cap_cnt)
+	#save_pil_img(img_outline_invert, img_path + '/img_outline_invert_%d' % cap_cnt)
+
+	return img_outline_invert
 
 def capture_video(v_infos, target_file, caption_file):
 	cap = cv2.VideoCapture(target_file)
@@ -315,14 +351,11 @@ def capture_video(v_infos, target_file, caption_file):
 			# 2. Compare hash in case of --no-sub option.
 			#    Need to compare if closed-caption was changed or not.
 			if no_add_caption:
-				img_ori = Image.open(savepath)
-				#TODO: convert gray scale img_ori
-				#TODO: crop_img: width should be more narrow
-				area = crop_img(img_ori, h_ratio=6, w_ratio=0.7) #cropping caption area
-				img_c = img_ori.crop(area)
-				img_g = img_c.convert('L') # grayscale image
+				img_orig = Image.open(savepath)
+				# Image Preprosessing
+				preprocessed_img = image_preprocess(img_orig)
 
-				frame_hash = imagehash.average_hash(img_g)
+				frame_hash = imagehash.average_hash(preprocessed_img)
 				prev_frame_hash = None
 				prev_frame_hash_str = frame_infos[cap_cnt-1]['sub_hash']
 				if prev_frame_hash_str:
@@ -331,6 +364,9 @@ def capture_video(v_infos, target_file, caption_file):
 				# Save hash value with string
 				frame_infos[cap_cnt]['sub_hash'] = '%s' %frame_hash
 
+				# extract a script from the image using Tesseract-ocr
+				frame_infos[cap_cnt]['ocr_script'] = get_text_from_img(preprocessed_img)
+
 				# The threah is a tunnable value
 				# With a highier value, It would delete more duplicated images.
 				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=0):
@@ -338,7 +374,7 @@ def capture_video(v_infos, target_file, caption_file):
 					savepath_dup = savepath + '.dupli.jpg'
 					shutil.move(savepath, savepath_dup)
 					frame_infos[cap_cnt]['img_path'] = savepath_dup
-					frame_infos[cap_cnt]['usage'] = False
+					frame_infos[cap_cnt]['usage'] = 'duplicated'
 					dup_cnt +=1
 					cap_cnt += 1
 					fcnt += 1

@@ -308,7 +308,7 @@ def image_preprocess(img_orig, save_path=None):
 	img_outline_invert = PIL.ImageOps.invert(img_outline)
 	#save_pil_img(img_gray, img_path + '/gray_img_%d' % cap_cnt)
 	#save_pil_img(img_contrast_low, img_path + '/img_contrast_low_%d' % cap_cnt)
-	#save_pil_img(img_outline_invert, img_path + '/img_outline_invert_%d' % cap_cnt)
+	save_pil_img(img_outline_invert, save_path + '_outline.jpg')
 
 	return img_outline_invert
 
@@ -324,17 +324,19 @@ def capture_video(v_infos, target_file, caption_file):
 	outpath = v_infos['file_path']
 	img_path = os.path.join(outpath, 'imgs')
 	file_name = v_infos['file_name']
+	img_path_name = os.path.join(img_path, file_name)
 	caption_file = os.path.join(outpath, file_name + '.srt')
 	font_size = v_infos['font_size']
 	no_add_caption = v_infos['nosub_opt']
 	background_opacity = float(v_infos['bg_opacity'])
+
+	print("number of total frames: %d\nProcessing" %total_frames)
 
 	if os.path.exists(img_path):
 		print("remove %s" %img_path)
 		shutil.rmtree(img_path, ignore_errors=True)
 	os.mkdir(img_path)
 
-	print("number of total frames: %d\nProcessing" %total_frames)
 
 	while(cap_cnt < total_frames):
 		ret, frame = cap.read()
@@ -344,7 +346,8 @@ def capture_video(v_infos, target_file, caption_file):
 			#cv_show_images(frame, duration)
 
 			# 1. Save image
-			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
+			img_name_numbered = img_path_name + str(cap_cnt)
+			savepath = img_name_numbered + IMG_FORMAT
 			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt], cap_cnt, total_frames, font_size)
 
 
@@ -353,7 +356,7 @@ def capture_video(v_infos, target_file, caption_file):
 			if no_add_caption:
 				img_orig = Image.open(savepath)
 				# Image Preprosessing
-				preprocessed_img = image_preprocess(img_orig)
+				preprocessed_img = image_preprocess(img_orig, img_name_numbered)
 
 				frame_hash = imagehash.average_hash(preprocessed_img)
 				prev_frame_hash = None

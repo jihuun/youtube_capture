@@ -312,31 +312,18 @@ def image_preprocess(img_orig, save_path=None):
 
 	return img_outline_invert
 
-def capture_video(v_infos, target_file, caption_file):
-	cap = cv2.VideoCapture(target_file)
+def capture_by_subtitle(cap, v_infos, caption_file, img_path_name):
 
 	frame_infos, total_frames = get_ts_by_caption(caption_file)
 	fps = int(cap.get(cv2.CAP_PROP_FPS))
+	font_size = v_infos['font_size']
+	no_add_caption = v_infos['nosub_opt']
+	background_opacity = float(v_infos['bg_opacity'])
 	cap_cnt = 0
 	fcnt = 0
 	dup_cnt = 0
 
-	outpath = v_infos['file_path']
-	img_path = os.path.join(outpath, 'imgs')
-	file_name = v_infos['file_name']
-	img_path_name = os.path.join(img_path, file_name)
-	caption_file = os.path.join(outpath, file_name + '.srt')
-	font_size = v_infos['font_size']
-	no_add_caption = v_infos['nosub_opt']
-	background_opacity = float(v_infos['bg_opacity'])
-
 	print("number of total frames: %d\nProcessing" %total_frames)
-
-	if os.path.exists(img_path):
-		print("remove %s" %img_path)
-		shutil.rmtree(img_path, ignore_errors=True)
-	os.mkdir(img_path)
-
 
 	while(cap_cnt < total_frames):
 		ret, frame = cap.read()
@@ -399,6 +386,31 @@ def capture_video(v_infos, target_file, caption_file):
 			break
 
 	print('Done: %d duplicated image was deleted.' %dup_cnt)
+	return frame_infos, total_frames
+
+def capture_by_image_diff():
+	None
+
+
+def capture_video(v_infos, target_file, caption_file):
+	cap = cv2.VideoCapture(target_file)
+
+
+	outpath = v_infos['file_path']
+	img_path = os.path.join(outpath, 'imgs')
+	file_name = v_infos['file_name']
+	img_path_name = os.path.join(img_path, file_name)
+	caption_file = os.path.join(outpath, file_name + '.srt')
+
+
+	if os.path.exists(img_path):
+		print("remove %s" %img_path)
+		shutil.rmtree(img_path, ignore_errors=True)
+	os.mkdir(img_path)
+
+	# if no-sub is false
+	frame_infos, total_frames = capture_by_subtitle(cap, v_infos, caption_file, img_path_name)
+
 	cap.release()
 	cv2.destroyAllWindows()
 

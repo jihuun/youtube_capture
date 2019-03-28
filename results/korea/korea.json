@@ -1,0 +1,5171 @@
+{
+	"url": "'https://youtu.be/cJPQEVnr0fg'",
+	"title": "The Korean Language",
+	"video_id": "cJPQEVnr0fg",
+	"lang_code": "en",
+	"font_size": 30,
+	"file_name": "korea",
+	"file_path": "/home/ubuntu/project/youtube_capture/results/korea",
+	"nosub_opt": false,
+	"bg_opacity": 0,
+	"thumbnail": "https://i.ytimg.com/vi/cJPQEVnr0fg/maxresdefault.jpg",
+	"frame_infos": [
+		{
+			"frame_num": 0,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea0.jpg",
+			"time_info": 1.5,
+			"script": "안녕하세요 여러분. LangFocus 채널에 오신 것을 환영합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 1,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea1.jpg",
+			"time_info": 4.0,
+			"script": "제 이름은 Paul입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 2,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea2.jpg",
+			"time_info": 6.0,
+			"script": "오늘의 주제는 한국어입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 3,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea3.jpg",
+			"time_info": 8.5,
+			"script": "또는 한국말이라고 할 수 있겠네요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 4,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea4.jpg",
+			"time_info": 12.0,
+			"script": "그리고 북한에서는 조선말이라고 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 5,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea5.jpg",
+			"time_info": 16.0,
+			"script": "한국어는 동북아시아 지역에서의 주언어입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 6,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea6.jpg",
+			"time_info": 20.0,
+			"script": "8천만여 명의 사람들이 모국어로 사용합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 7,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea7.jpg",
+			"time_info": 23.0,
+			"script": "5천만 명 정도가 남한에 있고요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 8,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea8.jpg",
+			"time_info": 25.0,
+			"script": "2천 5백만 명 정도가 북한에 있으며",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 9,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea9.jpg",
+			"time_info": 27.5,
+			"script": "250만 명 정도가 중국에 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 10,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea10.jpg",
+			"time_info": 30.5,
+			"script": "옌볜과 창바이 자치현을 포함해서요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 11,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea11.jpg",
+			"time_info": 34.0,
+			"script": "북한 접경지역인 지린 지방에 있는 지역들이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 12,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea12.jpg",
+			"time_info": 38.5,
+			"script": "일본, 러시아, 그리고 다른 여러 나라들에서 소수 사람들이 사용하기도 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 13,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea13.jpg",
+			"time_info": 42.0,
+			"script": "한국 언어의 기원은 불확실하고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 14,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea14.jpg",
+			"time_info": 44.5,
+			"script": "논쟁의 주제입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 15,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea15.jpg",
+			"time_info": 47.5,
+			"script": "몇몇 사람들은 한국 언어가 알타이어계군이라고 생각합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 16,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea16.jpg",
+			"time_info": 50.5,
+			"script": "튀르크어족, 몽골어족, 일본어족과 함께요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 17,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea17.jpg",
+			"time_info": 54.0,
+			"script": "하지만 요즘 더 이상은 알타이어계군이 널리 인정되진 않습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 18,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea18.jpg",
+			"time_info": 57.0,
+			"script": "아니면 증명되지 않았다고 해야 할까요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 19,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea19.jpg",
+			"time_info": 59.0,
+			"script": "다른 이들은 한국 언어가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 20,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea20.jpg",
+			"time_info": 62.0,
+			"script": "남인도와 스리랑카 쪽의 고대 드라비다어의 뿌리를 공유한다고 생각합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 21,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea21.jpg",
+			"time_info": 66.0,
+			"script": "또 다른 이론으로는 오스트로네시아어에서 파생됐다고 하기도 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 22,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea22.jpg",
+			"time_info": 69.5,
+			"script": "하지만 이런 이론들의 아무 명확한 증거도 없는 상태죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 23,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea23.jpg",
+			"time_info": 72.5,
+			"script": "그래서 한국 언어는 종종 독립 언어라고 정의되기도 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 24,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea24.jpg",
+			"time_info": 75.5,
+			"script": "한국어계의 유일한 언어인 것이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 25,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea25.jpg",
+			"time_info": 78.0,
+			"script": "이러한 이론들의 증거 부족은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 26,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea26.jpg",
+			"time_info": 81.0,
+			"script": "한국어로 된 고대 문서 사료가 매우 부족하기 때문입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 27,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea27.jpg",
+			"time_info": 85.0,
+			"script": "가장 오래되었다고 알려진 사료는 천 년도 되지 않았습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 28,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea28.jpg",
+			"time_info": 89.0,
+			"script": "그리고 한문으로 작성되었기 때문에 해석하기도 어렵죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 29,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea29.jpg",
+			"time_info": 91.5,
+			"script": "고대 한국어",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 30,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea30.jpg",
+			"time_info": 92.5,
+			"script": "기원후 첫 백 년은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 31,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea31.jpg",
+			"time_info": 95.5,
+			"script": "만주와 한반도 지역의 삼국 시대로 구분됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 32,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea32.jpg",
+			"time_info": 99.0,
+			"script": "해당 왕국은 고구려,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 33,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea33.jpg",
+			"time_info": 100.5,
+			"script": "백제,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 34,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea34.jpg",
+			"time_info": 101.5,
+			"script": "신라죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 35,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea35.jpg",
+			"time_info": 104.0,
+			"script": "이 왕국들간의 언어가 서로 얼마나 친밀했는지는 알 수 없습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 36,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea36.jpg",
+			"time_info": 108.0,
+			"script": "옛 한국어의 방언들과 밀접하게 관련될 수 있지만,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 37,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea37.jpg",
+			"time_info": 112.0,
+			"script": "각각 한국어계의 서로 다른 어원일 수도 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 38,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea38.jpg",
+			"time_info": 115.0,
+			"script": "지명 같은 제한된 단서로 보면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 39,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea39.jpg",
+			"time_info": 118.0,
+			"script": "왕국의 언어들은 비슷하지만 똑같지는 않아 보입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 40,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea40.jpg",
+			"time_info": 121.5,
+			"script": "한국어계에는 두 개의 언어 그룹이 있었을 수도 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 41,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea41.jpg",
+			"time_info": 125.5,
+			"script": "부여 그룹은 부여, 고구려, 부여-백제를 이루고요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 42,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea42.jpg",
+			"time_info": 129.5,
+			"script": "한나라 그룹은 신라를 포함합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 43,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea43.jpg",
+			"time_info": 131.0,
+			"script": "남한에서는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 44,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea44.jpg",
+			"time_info": 133.0,
+			"script": "신라가 현재 한국의 직계조상이라고 널리 믿어집니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 45,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea45.jpg",
+			"time_info": 136.0,
+			"script": "북한에서는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 46,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea46.jpg",
+			"time_info": 139.5,
+			"script": "고구려가 현재 한국의 직계조상이라고 널리 믿어지죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 47,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea47.jpg",
+			"time_info": 143.0,
+			"script": "통일 신라 시기에는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 48,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea48.jpg",
+			"time_info": 145.0,
+			"script": "7세기경 시작해서",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 49,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea49.jpg",
+			"time_info": 147.0,
+			"script": "신라가 다른 왕국들을 정복했을 때",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 50,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea50.jpg",
+			"time_info": 149.5,
+			"script": "신라어계가 한반도의 주언어가 되었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 51,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea51.jpg",
+			"time_info": 153.5,
+			"script": "이 때의 언어가 한국 중세 역사에서의 옛 한국어체입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 52,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea52.jpg",
+			"time_info": 158.0,
+			"script": "한국은 역사동안 중국으로부터 거대한 영향을 받아왔는데요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 53,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea53.jpg",
+			"time_info": 162.5,
+			"script": "침략 시도, 동맹, 그리고 무역 확장 때문이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 54,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea54.jpg",
+			"time_info": 166.0,
+			"script": "한국 문화에 대한 이 영향력은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 55,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea55.jpg",
+			"time_info": 168.0,
+			"script": "한국 언어에 대한 큰 영향도 포함합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 56,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea56.jpg",
+			"time_info": 170.5,
+			"script": "한국은 고유의 글쓰기 체계가 없었기 때문에",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 57,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea57.jpg",
+			"time_info": 173.0,
+			"script": "중국의 글쓰기 체계를 받아들였죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 58,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea58.jpg",
+			"time_info": 175.5,
+			"script": "한국 중세까지 잘 사용했습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 59,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea59.jpg",
+			"time_info": 178.0,
+			"script": "그리고 많은 양의 중국 어휘가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 60,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea60.jpg",
+			"time_info": 180.5,
+			"script": "문학 언어를 통해 한국에 유입되었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 61,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea61.jpg",
+			"time_info": 182.5,
+			"script": "중세 한국어",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 62,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea62.jpg",
+			"time_info": 184.5,
+			"script": "고려 왕조가 시작됐던 10세기경",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 63,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea63.jpg",
+			"time_info": 187.0,
+			"script": "수도는 개성으로 옮겨졌고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 64,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea64.jpg",
+			"time_info": 189.5,
+			"script": "개성 방언이 주 언어가 되었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 65,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea65.jpg",
+			"time_info": 191.5,
+			"script": "이 시기즈음에는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 66,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea66.jpg",
+			"time_info": 193.5,
+			"script": "한반도가 기본적으로는 똑같은 언어를 사용하는 것처럼 보입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 67,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea67.jpg",
+			"time_info": 196.0,
+			"script": "개성방언은 그냥 사투리 변화 정도인 거죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 68,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea68.jpg",
+			"time_info": 198.0,
+			"script": "우리가 알고 있는 한국의 첫 번째 기록에는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 69,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea69.jpg",
+			"time_info": 200.0,
+			"script": "지명이 아닌",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 70,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea70.jpg",
+			"time_info": 201.5,
+			"script": "다른 것들이 등장합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 71,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea71.jpg",
+			"time_info": 203.0,
+			"script": "자료 자체는 중국어고요",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 72,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea72.jpg",
+			"time_info": 205.0,
+			"script": "한국어 단어의 몇 백의 예시를 보여줍니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 73,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea73.jpg",
+			"time_info": 207.5,
+			"script": "음성학적으로는 한자를 이용해서요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 74,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea74.jpg",
+			"time_info": 210.5,
+			"script": "중세 한국어의 한 가지 특징은 4개의 성조가 있다는 겁니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 75,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea75.jpg",
+			"time_info": 212.5,
+			"script": "그 점과 더불어",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 76,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea76.jpg",
+			"time_info": 214.5,
+			"script": "중국어에서 빌려온 단어들도 여전히 성조를 가지고 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 77,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea77.jpg",
+			"time_info": 218.0,
+			"script": "이 성조 구분은 현대 표준 한국어에서는 사라졌죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 78,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea78.jpg",
+			"time_info": 222.0,
+			"script": "하지만 몇몇 방언에서는 여전히 이 구분이 남아있기도 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 79,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea79.jpg",
+			"time_info": 225.0,
+			"script": "중세 한국어에서는 성조가 있다는 걸 알 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 80,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea80.jpg",
+			"time_info": 227.5,
+			"script": "한글 쓰기 체계에서 성조를 가리키는 표시가 있기 때문이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 81,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea81.jpg",
+			"time_info": 230.5,
+			"script": "한글은 1444년,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 82,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea82.jpg",
+			"time_info": 234.0,
+			"script": "조선의 세종대왕에 의해 만들어졌습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 83,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea83.jpg",
+			"time_info": 238.5,
+			"script": "한글은 빈민과 교육을 받지 못한 이들에게 어학능력을 향상시키기 위해 만들어졌죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 84,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea84.jpg",
+			"time_info": 242.0,
+			"script": "한글 창제 이전에는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 85,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea85.jpg",
+			"time_info": 244.0,
+			"script": "한국은 수많은 여러 글쓰기 체계를 거쳤습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 86,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea86.jpg",
+			"time_info": 247.0,
+			"script": "한국어를 대신하는 여러 한자들을 사용해서요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 87,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea87.jpg",
+			"time_info": 250.0,
+			"script": "아무것도 한국어에 딱 맞지는 않았습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 88,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea88.jpg",
+			"time_info": 251.5,
+			"script": "배우기도 어려웠죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 89,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea89.jpg",
+			"time_info": 253.0,
+			"script": "처음에는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 90,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea90.jpg",
+			"time_info": 255.0,
+			"script": "선비와 학자들은 한글의 사용을 반대했습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 91,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea91.jpg",
+			"time_info": 257.0,
+			"script": "하지만 다음 수 세기 동안",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 92,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea92.jpg",
+			"time_info": 258.5,
+			"script": "널리 퍼지게 되었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 93,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea93.jpg",
+			"time_info": 260.5,
+			"script": "한글은 독창적인 글쓰기 체제입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 94,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea94.jpg",
+			"time_info": 263.5,
+			"script": "널리 퍼지지 않았다면 얼마나 괴로울지 상상도 안 되네요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 95,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea95.jpg",
+			"time_info": 265.5,
+			"script": "오랫동안",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 96,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea96.jpg",
+			"time_info": 268.0,
+			"script": "한자를 섞어서 쓰고 책을 냈습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 97,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea97.jpg",
+			"time_info": 271.0,
+			"script": "내용을 위한 단어는 한자어를",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 98,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea98.jpg",
+			"time_info": 274.0,
+			"script": "기능과 문법적 역할 그리고 억양 등은 한글로 적었죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 99,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea99.jpg",
+			"time_info": 277.5,
+			"script": "이 점은 일본의 현재 글쓰기 체계와 굉장히 유사합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 100,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea100.jpg",
+			"time_info": 280.0,
+			"script": "일본 하니 떠오르네요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 101,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea101.jpg",
+			"time_info": 282.0,
+			"script": "한국은 일본에 점령당했었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 102,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea102.jpg",
+			"time_info": 284.0,
+			"script": "1910년부터 1945년까지요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 103,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea103.jpg",
+			"time_info": 286.0,
+			"script": "식민지 기간 동안",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 104,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea104.jpg",
+			"time_info": 288.0,
+			"script": "일본어가 공식 언어로 지정되어졌고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 105,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea105.jpg",
+			"time_info": 291.0,
+			"script": "한국어를 일본어로 대체시킨 정책들이 적용되었겠죠?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 106,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea106.jpg",
+			"time_info": 294.0,
+			"script": "식민지가 끝나지 않았다면 말이에요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 107,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea107.jpg",
+			"time_info": 297.0,
+			"script": "한국어 수업을 빼고 일본어가 교육의 언어가 되었고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 108,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea108.jpg",
+			"time_info": 300.0,
+			"script": "학교에서 한국어를 말하는 것이 금지되었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 109,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea109.jpg",
+			"time_info": 303.0,
+			"script": "한국인들은 그들의 이름을 일본어로 바꾸도록 강요되어졌고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 110,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea110.jpg",
+			"time_info": 306.5,
+			"script": "한국어 신문은 발간치 못하도록 명령되었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 111,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea111.jpg",
+			"time_info": 309.0,
+			"script": "이 동화주의 정책들은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 112,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea112.jpg",
+			"time_info": 311.0,
+			"script": "지속적으로 나타났고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 113,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea113.jpg",
+			"time_info": 313.5,
+			"script": "식민지 후반에 가서 가속화되어졌습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 114,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea114.jpg",
+			"time_info": 316.0,
+			"script": "고맙게도 한국어는 식민지배 속에서 살아남았지만",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 115,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea115.jpg",
+			"time_info": 319.5,
+			"script": "많은 양의 일본어 어휘가 한국어 속에 스며들었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 116,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea116.jpg",
+			"time_info": 323.5,
+			"script": "식민지 직후 수십여 년 동안",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 117,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea117.jpg",
+			"time_info": 327.0,
+			"script": "한글을 선호하고 한자를 경시하게 되었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 118,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea118.jpg",
+			"time_info": 330.5,
+			"script": "요새는 대부분 또는 모든 글이 한글로 쓰여집니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 119,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea119.jpg",
+			"time_info": 334.5,
+			"script": "한자는 동음이의어의 혼동을 막는 데에만 사용됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 120,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea120.jpg",
+			"time_info": 338.0,
+			"script": "특히 북한에서는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 121,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea121.jpg",
+			"time_info": 341.0,
+			"script": "1949년에 모든 공식 문서에서 한자어가 사라졌습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 122,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea122.jpg",
+			"time_info": 344.5,
+			"script": "한글 사용에 대한 강조가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 123,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea123.jpg",
+			"time_info": 347.5,
+			"script": "일본 식민지 상황에 대한 그들의 반응일 것이라 추측합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 124,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea124.jpg",
+			"time_info": 350.0,
+			"script": "해방을 기리는 정서가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 125,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea125.jpg",
+			"time_info": 353.0,
+			"script": "본인들의 국가 문자를 더 사용하고픈 염원이 된 것이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 126,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea126.jpg",
+			"time_info": 355.5,
+			"script": "한글 문자의 존재는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 127,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea127.jpg",
+			"time_info": 357.5,
+			"script": "한글날에 기념되어지고 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 128,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea128.jpg",
+			"time_info": 360.0,
+			"script": "남한은 10월 9일이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 129,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea129.jpg",
+			"time_info": 363.0,
+			"script": "북한에서는 1월 15일 조선글날입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 130,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea130.jpg",
+			"time_info": 366.5,
+			"script": "남북한 모두 글을 읽고 쓸 수 있는 사람이 99퍼센트 이상입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 131,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea131.jpg",
+			"time_info": 369.0,
+			"script": "충분히 축하할 만한 이유가 있는 것 같네요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 132,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea132.jpg",
+			"time_info": 371.0,
+			"script": "그럼 한국어는 어떤 건가요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 133,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea133.jpg",
+			"time_info": 373.0,
+			"script": "한국어에 대해서는 말할 것이 많습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 134,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea134.jpg",
+			"time_info": 376.5,
+			"script": "하나의 영상에서는 모든 언어적 측면에 대한 상세를 다루기 어렵지만",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 135,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea135.jpg",
+			"time_info": 380.5,
+			"script": "중요한 특징들에 대해서는 살펴보도록 하죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 136,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea136.jpg",
+			"time_info": 382.5,
+			"script": "한글",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 137,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea137.jpg",
+			"time_info": 384.0,
+			"script": "한글은 기막히게 좋은 글쓰기 체계입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 138,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea138.jpg",
+			"time_info": 386.0,
+			"script": "매우 빨리, 읽는 법을 터득할 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 139,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea139.jpg",
+			"time_info": 388.5,
+			"script": "기본적인 자음과 모음이 있는데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 140,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea140.jpg",
+			"time_info": 391.5,
+			"script": "조합해서 최소음절을 형성하게 됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 141,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea141.jpg",
+			"time_info": 393.5,
+			"script": "이것은 '한글'이라고 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 142,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea142.jpg",
+			"time_info": 395.0,
+			"script": "이 표식은 'ㅎ',",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 143,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea143.jpg",
+			"time_info": 396.5,
+			"script": "이것은 'ㅏ',",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 144,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea144.jpg",
+			"time_info": 397.5,
+			"script": "이것은 'ㄴ'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 145,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea145.jpg",
+			"time_info": 398.5,
+			"script": "이것은 'ㄱ',",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 146,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea146.jpg",
+			"time_info": 399.5,
+			"script": "이것은 'ㅡ',",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 147,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea147.jpg",
+			"time_info": 401.0,
+			"script": "그리고 이것은 'ㄹ'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 148,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea148.jpg",
+			"time_info": 402.5,
+			"script": "이 체계는 기발한데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 149,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea149.jpg",
+			"time_info": 404.5,
+			"script": "왜냐면 일단 일반적인 조합을 알게 되기만 하면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 150,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea150.jpg",
+			"time_info": 408.0,
+			"script": "즉시 인식까지 가능하기 때문이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 151,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea151.jpg",
+			"time_info": 410.5,
+			"script": "자음 글자들은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 152,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea152.jpg",
+			"time_info": 412.0,
+			"script": "여러 다른 그룹으로 나뉩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 153,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea153.jpg",
+			"time_info": 413.5,
+			"script": "이 글자들은 연구개음이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 154,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea154.jpg",
+			"time_info": 415.5,
+			"script": "기본 모양이 혀의 모양을 형상화한 겁니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 155,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea155.jpg",
+			"time_info": 419.0,
+			"script": "이것은 구강의 뒤쪽 구조를 표현한 것이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 156,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea156.jpg",
+			"time_info": 422.0,
+			"script": "이것들은 치경음이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 157,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea157.jpg",
+			"time_info": 424.5,
+			"script": "기본 모양은 혀가 입천장에 닿는 것을 보여주죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 158,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea158.jpg",
+			"time_info": 427.0,
+			"script": "이것들은 양순음이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 159,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea159.jpg",
+			"time_info": 429.5,
+			"script": "기본 모양은 위아래 입술을 모은 모습을 하죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 160,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea160.jpg",
+			"time_info": 432.0,
+			"script": "이 자음들은 치성음이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 161,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea161.jpg",
+			"time_info": 435.0,
+			"script": "윗니의 모습을 표현한 것입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 162,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea162.jpg",
+			"time_info": 438.0,
+			"script": "이 자음들은 성문음이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 163,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea163.jpg",
+			"time_info": 441.0,
+			"script": "기본 모양은 이 소리들이 목구멍에 있음을 표현합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 164,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea164.jpg",
+			"time_info": 444.0,
+			"script": "어휘",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 165,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea165.jpg",
+			"time_info": 446.0,
+			"script": "문어에서의 한국어는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 166,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea166.jpg",
+			"time_info": 448.5,
+			"script": "모든 것이 또는 거의 모든 것이 한글로 쓰여집니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 167,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea167.jpg",
+			"time_info": 451.0,
+			"script": "고유어와 한자어를 포함해서요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 168,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea168.jpg",
+			"time_info": 453.0,
+			"script": "중국에서 온 단어 말입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 169,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea169.jpg",
+			"time_info": 454.5,
+			"script": "믿거나 말거나,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 170,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea170.jpg",
+			"time_info": 457.0,
+			"script": "한자어는 한국어 어휘의 60퍼센트 이상을 차지합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 171,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea171.jpg",
+			"time_info": 461.0,
+			"script": "공식 문서 어휘나 교육 어휘에 많이 있고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 172,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea172.jpg",
+			"time_info": 464.5,
+			"script": "일상 대화에도 매우 흔합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 173,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea173.jpg",
+			"time_info": 467.5,
+			"script": "다음 문장에 등장하는 한자어 어휘를 살펴봅시다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 174,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea174.jpg",
+			"time_info": 469.5,
+			"script": "이 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 175,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea175.jpg",
+			"time_info": 471.5,
+			"script": "'당신의 선생님을 좋아하나요?'라는 뜻이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 176,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea176.jpg",
+			"time_info": 474.0,
+			"script": "'선생'이라는 단어를 보시면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 177,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea177.jpg",
+			"time_info": 476.5,
+			"script": "본래는 중국어입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 178,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea178.jpg",
+			"time_info": 479.0,
+			"script": "이 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 179,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea179.jpg",
+			"time_info": 481.5,
+			"script": "'당신의 전화번호가 무엇인가요?'라는 뜻이고요",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 180,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea180.jpg",
+			"time_info": 484.0,
+			"script": "'전화'라는 단어와 '번호'라는 단어가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 181,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea181.jpg",
+			"time_info": 486.0,
+			"script": "본래는 중국어입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 182,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea182.jpg",
+			"time_info": 488.5,
+			"script": "한국어가 한글과 한자로 섞여 쓰일 때는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 183,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea183.jpg",
+			"time_info": 491.5,
+			"script": "한자어를 더 손쉽게 구분할 수 있는데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 184,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea184.jpg",
+			"time_info": 494.5,
+			"script": "같은 소리가 나는 단어들을",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 185,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea185.jpg",
+			"time_info": 497.5,
+			"script": "한자로 다르게 써놓기 때문이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 186,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea186.jpg",
+			"time_info": 500.0,
+			"script": "하지만 요샌 주로 한글을 씁니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 187,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea187.jpg",
+			"time_info": 503.0,
+			"script": "한국어에는 더 많은 차용어가 있는데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 188,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea188.jpg",
+			"time_info": 505.5,
+			"script": "주로 영어죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 189,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea189.jpg",
+			"time_info": 507.5,
+			"script": "'주스' 같은 단어,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 190,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea190.jpg",
+			"time_info": 510.0,
+			"script": "'포크',",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 191,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea191.jpg",
+			"time_info": 512.0,
+			"script": "'샌드위치'.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 192,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea192.jpg",
+			"time_info": 515.0,
+			"script": "확실히 이 단어들의 소리는 자연스레 변경되어",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 193,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea193.jpg",
+			"time_info": 518.0,
+			"script": "한국어 음성학에 맞춰졌네요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 194,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea194.jpg",
+			"time_info": 520.0,
+			"script": "몇몇 단어들은 축약되거나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 195,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea195.jpg",
+			"time_info": 522.5,
+			"script": "원래 단어대로 사용되지 않습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 196,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea196.jpg",
+			"time_info": 524.5,
+			"script": "예를 들면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 197,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea197.jpg",
+			"time_info": 525.5,
+			"script": "'셀카'는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 198,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea198.jpg",
+			"time_info": 526.5,
+			"script": "'Selfie'를 말하는 것이구요",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 199,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea199.jpg",
+			"time_info": 528.5,
+			"script": "'Self'와 'Camera'에서 유래되었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 200,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea200.jpg",
+			"time_info": 530.5,
+			"script": "또 다른 예로는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 201,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea201.jpg",
+			"time_info": 532.5,
+			"script": "'Window shopping'이 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 202,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea202.jpg",
+			"time_info": 535.5,
+			"script": "이 단어는 'Eye'와 'Shopping'에서 왔네요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 203,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea203.jpg",
+			"time_info": 537.5,
+			"script": "문장 구조",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 204,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea204.jpg",
+			"time_info": 539.0,
+			"script": "한국어는 동사가 마지막에 오는 언어입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 205,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea205.jpg",
+			"time_info": 541.0,
+			"script": "동사의 위치가 문장의 끝이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 206,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea206.jpg",
+			"time_info": 543.5,
+			"script": "기본 문장 형태는 '주어-목적어-동사'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 207,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea207.jpg",
+			"time_info": 545.5,
+			"script": "이 문장의 뜻은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 208,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea208.jpg",
+			"time_info": 547.5,
+			"script": "'나는 야구를 해요'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 209,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea209.jpg",
+			"time_info": 549.5,
+			"script": "여기가 주어 '나'고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 210,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea210.jpg",
+			"time_info": 551.0,
+			"script": "여기는 목적어 '야구',",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 211,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea211.jpg",
+			"time_info": 553.0,
+			"script": "여기는 동사 '해요'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 212,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea212.jpg",
+			"time_info": 556.0,
+			"script": "주어 없이 말하는 것도 가능합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 213,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea213.jpg",
+			"time_info": 559.0,
+			"script": "문맥에서 주어가 누군지 확실하다면요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 214,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea214.jpg",
+			"time_info": 561.0,
+			"script": "그런데 잠깐 첫 문장으로 되돌아갑시다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 215,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea215.jpg",
+			"time_info": 563.0,
+			"script": "주어 목적어 동사 순서에 더불어",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 216,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea216.jpg",
+			"time_info": 565.0,
+			"script": "두 개의 또 다른 단어가 쓰였습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 217,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea217.jpg",
+			"time_info": 567.0,
+			"script": "이 단어들은 조사이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 218,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea218.jpg",
+			"time_info": 568.5,
+			"script": "명사 뒤에 위치하고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 219,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea219.jpg",
+			"time_info": 570.0,
+			"script": "기능을 암시하거나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 220,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea220.jpg",
+			"time_info": 572.0,
+			"script": "문장에서 다른 단어와의 관계를 알려줍니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 221,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea221.jpg",
+			"time_info": 573.5,
+			"script": "'를'은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 222,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea222.jpg",
+			"time_info": 574.5,
+			"script": "직접 목적어 조사이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 223,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea223.jpg",
+			"time_info": 576.0,
+			"script": "'야구'라는 단어가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 224,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea224.jpg",
+			"time_info": 578.0,
+			"script": "동사의 목적어가 되는 거죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 225,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea225.jpg",
+			"time_info": 580.5,
+			"script": "'를'은 모음으로 끝나는 단어 뒤에 붙는 형태고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 226,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea226.jpg",
+			"time_info": 584.5,
+			"script": "'을'은 자음 뒤에 붙는 형태입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 227,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea227.jpg",
+			"time_info": 587.5,
+			"script": "'는'은 주격 조사이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 228,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea228.jpg",
+			"time_info": 590.0,
+			"script": "자음으로 끝나는 단어 뒤에는 '은'이 붙습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 229,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea229.jpg",
+			"time_info": 593.0,
+			"script": "'나'는 문장에서 주어이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 230,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea230.jpg",
+			"time_info": 594.5,
+			"script": "주제이기도 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 231,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea231.jpg",
+			"time_info": 598.0,
+			"script": "'나'는 앞서 언급된 주제이거나 문맥을 통해 알 수 있는 정보라는 뜻이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 232,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea232.jpg",
+			"time_info": 602.5,
+			"script": "그리고 이 단어가 상세히 기술되고 있는 주제어죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 233,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea233.jpg",
+			"time_info": 605.0,
+			"script": "또 다른 주격 조사도 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 234,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea234.jpg",
+			"time_info": 607.0,
+			"script": "'이'는 자음 뒤에 오고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 235,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea235.jpg",
+			"time_info": 609.0,
+			"script": "'가'는 모음 뒤에 옵니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 236,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea236.jpg",
+			"time_info": 611.5,
+			"script": "주격 조사는 새로운 정보를 소개하는 데 쓰이거나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 237,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea237.jpg",
+			"time_info": 614.5,
+			"script": "기존 정보의 중요성을 소개하는 데에 쓰입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 238,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea238.jpg",
+			"time_info": 617.0,
+			"script": "다른 말로는 강조 역할입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 239,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea239.jpg",
+			"time_info": 619.0,
+			"script": "위 문장을 바꿀 수도 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 240,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea240.jpg",
+			"time_info": 621.5,
+			"script": "'나'가 주어가 되게끔요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 241,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea241.jpg",
+			"time_info": 624.0,
+			"script": "'나'가 '내'로 발음 되는 것을 눈치채셨을 텐데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 242,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea242.jpg",
+			"time_info": 626.0,
+			"script": "'가'가 따라 붙을 때",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 243,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea243.jpg",
+			"time_info": 628.5,
+			"script": "'가:' 발음이 '가'로 바뀌고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 244,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea244.jpg",
+			"time_info": 630.5,
+			"script": "이 문장에서는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 245,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea245.jpg",
+			"time_info": 631.5,
+			"script": "'내가'가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 246,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea246.jpg",
+			"time_info": 633.0,
+			"script": "'나'라는 주어가 새로운 정보이거나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 247,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea247.jpg",
+			"time_info": 635.0,
+			"script": "강조된 정보라는 것을 보여줍니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 248,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea248.jpg",
+			"time_info": 637.5,
+			"script": "이 문장은 '누가 야구를 하나요?'라는 질문에 대한 답변으로 쓰일 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 249,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea249.jpg",
+			"time_info": 640.0,
+			"script": "영어에서는 주어에 강세를 주죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 250,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea250.jpg",
+			"time_info": 642.0,
+			"script": "'내가 야구를 합니다'처럼요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 251,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea251.jpg",
+			"time_info": 644.0,
+			"script": "여기 또 다른 예가 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 252,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea252.jpg",
+			"time_info": 646.5,
+			"script": "주격 조사를 사용하는 다른 예문인데요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 253,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea253.jpg",
+			"time_info": 649.0,
+			"script": "이 문장의 뜻은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 254,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea254.jpg",
+			"time_info": 651.5,
+			"script": "'우리 엄마가 방에 들어왔다'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 255,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea255.jpg",
+			"time_info": 654.0,
+			"script": "실제로는 '나의 엄마'가 아닌 '우리 엄마'죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 256,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea256.jpg",
+			"time_info": 655.5,
+			"script": "하지만 보통 '나의 엄마'를 말합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 257,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea257.jpg",
+			"time_info": 657.0,
+			"script": "당신이 속한 그룹을 지칭할 때 '우리'를 씁니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 258,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea258.jpg",
+			"time_info": 658.5,
+			"script": "어쨌든",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 259,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea259.jpg",
+			"time_info": 659.5,
+			"script": "이 경우에는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 260,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea260.jpg",
+			"time_info": 660.5,
+			"script": "'나의 엄마'라는 게",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 261,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea261.jpg",
+			"time_info": 661.5,
+			"script": "새로운 정보고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 262,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea262.jpg",
+			"time_info": 662.5,
+			"script": "그 전에는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 263,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea263.jpg",
+			"time_info": 663.5,
+			"script": "등장하지 않았습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 264,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea264.jpg",
+			"time_info": 664.0,
+			"script": "그 전까진 방에 없었어요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 265,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea265.jpg",
+			"time_info": 665.0,
+			"script": "그래서 주격 조사 부분이",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 266,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea266.jpg",
+			"time_info": 666.5,
+			"script": "이 경우엔 적합하죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 267,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea267.jpg",
+			"time_info": 667.5,
+			"script": "여기 '에'라는 단어는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 268,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea268.jpg",
+			"time_info": 669.0,
+			"script": "또 다른 조사인데요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 269,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea269.jpg",
+			"time_info": 670.5,
+			"script": "방향을 나타냅니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 270,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea270.jpg",
+			"time_info": 671.5,
+			"script": "영어 전치사 'to'처럼요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 271,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea271.jpg",
+			"time_info": 672.5,
+			"script": "아니면 'into' 같은 거요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 272,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea272.jpg",
+			"time_info": 674.0,
+			"script": "그런데 엄밀히 말하면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 273,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea273.jpg",
+			"time_info": 675.5,
+			"script": "조사가 명사 뒤에 있기 때문에",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 274,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea274.jpg",
+			"time_info": 677.0,
+			"script": "후치사라고 해야겠죠,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 275,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea275.jpg",
+			"time_info": 679.0,
+			"script": "전치사라고 하기보다는.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 276,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea276.jpg",
+			"time_info": 680.5,
+			"script": "한국어에서는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 277,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea277.jpg",
+			"time_info": 682.0,
+			"script": "수식어가 그 것들이 수식하는 단어 앞에 옵니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 278,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea278.jpg",
+			"time_info": 685.5,
+			"script": "무슨 말이냐면 형용사가 명사 앞에 오는 거예요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 279,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea279.jpg",
+			"time_info": 688.0,
+			"script": "이 뜻은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 280,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea280.jpg",
+			"time_info": 688.5,
+			"script": "'높은 산'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 281,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea281.jpg",
+			"time_info": 690.0,
+			"script": "이게 '높다'라는 의미의 단어고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 282,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea282.jpg",
+			"time_info": 691.5,
+			"script": "이것은 '산'이라는 단어입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 283,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea283.jpg",
+			"time_info": 693.0,
+			"script": "'은'이라는 단어는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 284,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea284.jpg",
+			"time_info": 695.0,
+			"script": "형용사를 명사에 연결시켜줍니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 285,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea285.jpg",
+			"time_info": 697.0,
+			"script": "더 긴 수식어 또한",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 286,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea286.jpg",
+			"time_info": 699.0,
+			"script": "수식하고자 하는 명사 앞에 옵니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 287,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea287.jpg",
+			"time_info": 700.5,
+			"script": "이 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 288,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea288.jpg",
+			"time_info": 702.5,
+			"script": "'내가 오르고 싶은 산'이라는 뜻인데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 289,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea289.jpg",
+			"time_info": 705.0,
+			"script": "단어별로 해석하면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 290,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea290.jpg",
+			"time_info": 707.0,
+			"script": "이게 '나'라는 주어고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 291,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea291.jpg",
+			"time_info": 708.5,
+			"script": "주격 조사,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 292,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea292.jpg",
+			"time_info": 709.0,
+			"script": "'오르다',",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 293,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea293.jpg",
+			"time_info": 709.5,
+			"script": "'하고 싶다',",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 294,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea294.jpg",
+			"time_info": 710.5,
+			"script": "연결,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 295,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea295.jpg",
+			"time_info": 711.0,
+			"script": "'산'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 296,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea296.jpg",
+			"time_info": 712.0,
+			"script": "근데 수식절 전체를",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 297,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea297.jpg",
+			"time_info": 713.5,
+			"script": "한 단어라고 취급하면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 298,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea298.jpg",
+			"time_info": 715.0,
+			"script": "이렇게 생긴 수식어에 명사 덩어리는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 299,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea299.jpg",
+			"time_info": 717.5,
+			"script": "'내가 오르고 싶은 그 산'처럼 됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 300,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea300.jpg",
+			"time_info": 720.5,
+			"script": "그러니까 영어에서는 뒤에 위치했을 수식어가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 301,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea301.jpg",
+			"time_info": 723.0,
+			"script": "한국어에서는 앞에 온다는 겁니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 302,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea302.jpg",
+			"time_info": 725.0,
+			"script": "그 와중에 이 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 303,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea303.jpg",
+			"time_info": 727.5,
+			"script": "'내가 오르고 싶은 어떤 산'이라는 불특정한 의미가 될 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 304,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea304.jpg",
+			"time_info": 730.5,
+			"script": "한국어에는 정관사와 부정관사의 구분이 없죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 305,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea305.jpg",
+			"time_info": 734.0,
+			"script": "문맥을 통해 특정한 것의 여부가 이해될 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 306,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea306.jpg",
+			"time_info": 736.5,
+			"script": "동사와 형용사",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 307,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea307.jpg",
+			"time_info": 738.0,
+			"script": "한국어에서의 모든 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 308,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea308.jpg",
+			"time_info": 740.0,
+			"script": "형용사 또는 동사로 끝납니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 309,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea309.jpg",
+			"time_info": 742.0,
+			"script": "그리고 동사와 형용사가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 310,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea310.jpg",
+			"time_info": 743.5,
+			"script": "매우 비슷한 역할을 하죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 311,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea311.jpg",
+			"time_info": 745.0,
+			"script": "형용사와 동사 모두 활용형이 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 312,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea312.jpg",
+			"time_info": 747.0,
+			"script": "과거활용 그리고 높임법활용.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 313,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea313.jpg",
+			"time_info": 749.0,
+			"script": "먼저 동사를 보겠습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 314,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea314.jpg",
+			"time_info": 751.0,
+			"script": "사전적 의미의 동사는 전부",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 315,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea315.jpg",
+			"time_info": 752.5,
+			"script": "'~다'로 끝납니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 316,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea316.jpg",
+			"time_info": 753.5,
+			"script": "예를 들면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 317,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea317.jpg",
+			"time_info": 754.5,
+			"script": "이 동사",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 318,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea318.jpg",
+			"time_info": 755.5,
+			"script": "'그만두다'라는 뜻이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 319,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea319.jpg",
+			"time_info": 757.0,
+			"script": "그리고 이 동사는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 320,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea320.jpg",
+			"time_info": 759.0,
+			"script": "'자다'라는 뜻입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 321,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea321.jpg",
+			"time_info": 760.5,
+			"script": "이 동사들을 활용하려면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 322,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea322.jpg",
+			"time_info": 762.0,
+			"script": "'다'를 빼고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 323,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea323.jpg",
+			"time_info": 764.0,
+			"script": "동사 어간이 남게 되는데요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 324,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea324.jpg",
+			"time_info": 766.0,
+			"script": "여기에 어미를 붙입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 325,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea325.jpg",
+			"time_info": 768.0,
+			"script": "그럼 앞에서 본 동사들을 과거형으로 활용해보죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 326,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea326.jpg",
+			"time_info": 770.5,
+			"script": "정확히 말하자면 과거형은 아니지만요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 327,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea327.jpg",
+			"time_info": 772.5,
+			"script": "이 문장의 뜻은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 328,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea328.jpg",
+			"time_info": 775.0,
+			"script": "'그는 먹는 것을 멈춘다'라는 뜻입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 329,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea329.jpg",
+			"time_info": 778.0,
+			"script": "'말다'라는 동사를 어떻게 활용했는지 보세요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 330,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea330.jpg",
+			"time_info": 779.5,
+			"script": "어간이",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 331,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea331.jpg",
+			"time_info": 780.5,
+			"script": "'말'이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 332,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea332.jpg",
+			"time_info": 782.0,
+			"script": "비격식 현재시제 형태는 '아'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 333,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea333.jpg",
+			"time_info": 784.5,
+			"script": "격식체 어미는 '요'고요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 334,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea334.jpg",
+			"time_info": 787.5,
+			"script": "이 문장은 비격식 두루높임 활용입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 335,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea335.jpg",
+			"time_info": 790.0,
+			"script": "마지막 모음이 '아'인 동사 어간은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 336,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea336.jpg",
+			"time_info": 791.5,
+			"script": "또는 '오'인 어간은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 337,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea337.jpg",
+			"time_info": 792.5,
+			"script": "'말다'는 자음 'ㄹ'로 끝났지만요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 338,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea338.jpg",
+			"time_info": 794.0,
+			"script": "근데 동사가 '아'로 끝나게 되면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 339,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea339.jpg",
+			"time_info": 796.0,
+			"script": "'요'만 붙게 됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 340,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea340.jpg",
+			"time_info": 798.5,
+			"script": "예를 들면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 341,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea341.jpg",
+			"time_info": 801.0,
+			"script": "그는 잔다",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 342,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea342.jpg",
+			"time_info": 803.0,
+			"script": "보시면, 이 두 동사들 전부",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 343,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea343.jpg",
+			"time_info": 804.5,
+			"script": "'요'를 제거할 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 344,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea344.jpg",
+			"time_info": 806.0,
+			"script": "비격식 낮춤 활용으로 만들기 위해서요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 345,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea345.jpg",
+			"time_info": 808.5,
+			"script": "다른 말로 하면 일반 문장을 만들기 위해서요.(반말)",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 346,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea346.jpg",
+			"time_info": 811.0,
+			"script": "만약 어간이 '으'로 끝나면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 347,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea347.jpg",
+			"time_info": 813.0,
+			"script": "'어요'로 대체됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 348,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea348.jpg",
+			"time_info": 814.5,
+			"script": "여기 예문이 있는데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 349,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea349.jpg",
+			"time_info": 817.0,
+			"script": "'애쓰다'라는 뜻의 동사",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 350,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea350.jpg",
+			"time_info": 820.5,
+			"script": "'그들은 애써요'라는 뜻이 되는데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 351,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea351.jpg",
+			"time_info": 823.0,
+			"script": "만약 어간의 마지막 모음이",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 352,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea352.jpg",
+			"time_info": 825.0,
+			"script": "'아'나 '우'나 '이'라면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 353,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea353.jpg",
+			"time_info": 827.0,
+			"script": "아니면 이중 모음이라면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 354,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea354.jpg",
+			"time_info": 830.0,
+			"script": "'어'나 '어요'가 어간에 붙습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 355,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea355.jpg",
+			"time_info": 834.5,
+			"script": "또 동사 '먹다'라는 걸 볼게요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 356,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea356.jpg",
+			"time_info": 837.5,
+			"script": "문장의 뜻은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 357,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea357.jpg",
+			"time_info": 839.0,
+			"script": "'나는 떡볶이를 먹는다'가 되죠",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 358,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea358.jpg",
+			"time_info": 842.0,
+			"script": "이제 저 문장들을 어떻게 과거형으로 만들 수 있는지 살펴보도록 하겠습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 359,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea359.jpg",
+			"time_info": 846.0,
+			"script": "이 문장이 있었죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 360,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea360.jpg",
+			"time_info": 849.0,
+			"script": "'그는 먹다 말아요'란 뜻이었고요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 361,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea361.jpg",
+			"time_info": 850.5,
+			"script": "'그는 먹다 말았어요'로 바꿔보죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 362,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea362.jpg",
+			"time_info": 853.0,
+			"script": "과거형으로요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 363,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea363.jpg",
+			"time_info": 856.0,
+			"script": "'그는 자요'라는 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 364,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea364.jpg",
+			"time_info": 858.5,
+			"script": "'그는 잤어요'",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 365,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea365.jpg",
+			"time_info": 861.5,
+			"script": "높임 어미인 '요'를 빼보죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 366,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea366.jpg",
+			"time_info": 863.5,
+			"script": "과거 형태를 보면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 367,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea367.jpg",
+			"time_info": 865.0,
+			"script": "현재 형태와 같고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 368,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea368.jpg",
+			"time_info": 867.5,
+			"script": "'~ㅆ어'라는 접사가 붙었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 369,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea369.jpg",
+			"time_info": 869.5,
+			"script": "그 뒤에 높임형으로 만들기 위해",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 370,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea370.jpg",
+			"time_info": 871.5,
+			"script": "'요'를 붙일 수 있네요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 371,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea371.jpg",
+			"time_info": 873.5,
+			"script": "미래 시제",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 372,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea372.jpg",
+			"time_info": 875.0,
+			"script": "실질적으로는 한국어에 미래 시제는 없습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 373,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea373.jpg",
+			"time_info": 877.0,
+			"script": "과거형과 과거가 아닌 형태만 있죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 374,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea374.jpg",
+			"time_info": 879.5,
+			"script": "하지만 항상 미래를 표현할 수 있어요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 375,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea375.jpg",
+			"time_info": 882.0,
+			"script": "가장 흔한 '가능성 있는 미래 형태'.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 376,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea376.jpg",
+			"time_info": 884.0,
+			"script": "가능성을 포함한 미래 시제를 쓰는 거죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 377,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea377.jpg",
+			"time_info": 888.0,
+			"script": "어간에 '~을 거예요'를 붙이면 됩니다",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 378,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea378.jpg",
+			"time_info": 892.5,
+			"script": "이 문장은 '떡볶이를 먹을 거예요'라는 뜻인데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 379,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea379.jpg",
+			"time_info": 895.0,
+			"script": "당신 본인 이외의 것들을 이야기할 때",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 380,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea380.jpg",
+			"time_info": 896.5,
+			"script": "가능성 미래는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 381,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea381.jpg",
+			"time_info": 898.5,
+			"script": "일어날 가능성이 있는 것들을 지목합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 382,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea382.jpg",
+			"time_info": 900.5,
+			"script": "하지만 본인을 지목할 때는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 383,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea383.jpg",
+			"time_info": 902.5,
+			"script": "추측성 발언보다는 결단을 말하게 되죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 384,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea384.jpg",
+			"time_info": 904.5,
+			"script": "그래서 이 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 385,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea385.jpg",
+			"time_info": 906.0,
+			"script": "'나는 떡볶이를 먹을 것이다'",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 386,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea386.jpg",
+			"time_info": 907.5,
+			"script": "아니면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 387,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea387.jpg",
+			"time_info": 909.0,
+			"script": "'나는 떡볶이를 먹게 될 것이다'가 되죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 388,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea388.jpg",
+			"time_info": 911.0,
+			"script": "그런데 제가 아마 '톳포기'라고 발음하고 있을 수도 있어요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 389,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea389.jpg",
+			"time_info": 912.5,
+			"script": "일본어 발음처럼요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 390,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea390.jpg",
+			"time_info": 913.5,
+			"script": "전 일본에 살거든요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 391,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea391.jpg",
+			"time_info": 915.5,
+			"script": "그래서 한국 떡볶이보다 '톳포기'를 많이 먹습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 392,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea392.jpg",
+			"time_info": 917.5,
+			"script": "형용사",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 393,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea393.jpg",
+			"time_info": 919.0,
+			"script": "형용사가 서술적 용법으로 쓰이면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 394,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea394.jpg",
+			"time_info": 921.0,
+			"script": "다른 말로 하면 주어 다음에 오면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 395,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea395.jpg",
+			"time_info": 923.0,
+			"script": "그땐 동사와 유사하게 기능합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 396,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea396.jpg",
+			"time_info": 925.0,
+			"script": "그리고 활용형도 쓰이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 397,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea397.jpg",
+			"time_info": 927.0,
+			"script": "이 문장의 뜻은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 398,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea398.jpg",
+			"time_info": 928.5,
+			"script": "'산이 높아요'이고요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 399,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea399.jpg",
+			"time_info": 930.0,
+			"script": "현재 시제 접사와",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 400,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea400.jpg",
+			"time_info": 931.5,
+			"script": "높임법 접사가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 401,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea401.jpg",
+			"time_info": 933.0,
+			"script": "형용사어간에 붙었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 402,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea402.jpg",
+			"time_info": 934.5,
+			"script": "마치 동사처럼요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 403,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea403.jpg",
+			"time_info": 937.5,
+			"script": "과거 시제도 만들어 볼 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 404,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea404.jpg",
+			"time_info": 940.0,
+			"script": "'산이 높았어요'",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 405,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea405.jpg",
+			"time_info": 941.5,
+			"script": "과거 동사형태 같이 활용되었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 406,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea406.jpg",
+			"time_info": 944.0,
+			"script": "높임법의 정도",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 407,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea407.jpg",
+			"time_info": 946.0,
+			"script": "전 단계에서 동사를 살펴보았습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 408,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea408.jpg",
+			"time_info": 948.5,
+			"script": "주로 비격식형 높임법 형태를 살폈었죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 409,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea409.jpg",
+			"time_info": 952.0,
+			"script": "'말다'의 '말아요' 형태 같은 거요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 410,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea410.jpg",
+			"time_info": 955.0,
+			"script": "그리고 간단하게 언급했었죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 411,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea411.jpg",
+			"time_info": 956.5,
+			"script": "비격식 비높임 형태를",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 412,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea412.jpg",
+			"time_info": 958.0,
+			"script": "'요'를 제거해서 만든다는 거요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 413,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea413.jpg",
+			"time_info": 960.0,
+			"script": "'말아'처럼요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 414,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea414.jpg",
+			"time_info": 962.0,
+			"script": "이 단어들은 한국어의 일곱가지 높임법 수준 중 두 가지 표현입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 415,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea415.jpg",
+			"time_info": 964.0,
+			"script": "학습자들에게 다행스럽게도",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 416,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea416.jpg",
+			"time_info": 966.0,
+			"script": "일곱 가지 높임법 전부가 흔히 쓰이진 않습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 417,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea417.jpg",
+			"time_info": 968.0,
+			"script": "세 가지 또는 네 가지 정도가 흔히 사용되죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 418,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea418.jpg",
+			"time_info": 969.5,
+			"script": "다른 두 가지는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 419,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea419.jpg",
+			"time_info": 971.5,
+			"script": "격식 높임법인 하십시오체",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 420,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea420.jpg",
+			"time_info": 974.0,
+			"script": "격식 비높임법인 해라체",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 421,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea421.jpg",
+			"time_info": 976.5,
+			"script": "비격식 높임법은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 422,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea422.jpg",
+			"time_info": 979.0,
+			"script": "친구나 지인들에게나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 423,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea423.jpg",
+			"time_info": 980.5,
+			"script": "동료나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 424,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea424.jpg",
+			"time_info": 981.5,
+			"script": "비슷한 지위의 사람이나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 425,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea425.jpg",
+			"time_info": 982.5,
+			"script": "점원이나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 426,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea426.jpg",
+			"time_info": 983.5,
+			"script": "그 밖에 다른 사람에게 말할 때 쓰고요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 427,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea427.jpg",
+			"time_info": 985.0,
+			"script": "비격식 비높임법은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 428,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea428.jpg",
+			"time_info": 987.0,
+			"script": "매우 친한 친구나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 429,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea429.jpg",
+			"time_info": 988.5,
+			"script": "형제 자매나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 430,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea430.jpg",
+			"time_info": 990.0,
+			"script": "본인보다 몇 살 어린 사람이나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 431,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea431.jpg",
+			"time_info": 992.0,
+			"script": "무례하게 행동하고 싶은 사람에게 씁니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 432,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea432.jpg",
+			"time_info": 994.0,
+			"script": "격식 높임법은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 433,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea433.jpg",
+			"time_info": 996.0,
+			"script": "본인보다 지위가 높은 사람이나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 434,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea434.jpg",
+			"time_info": 998.5,
+			"script": "처음으로 만나는 사람에게 쓰고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 435,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea435.jpg",
+			"time_info": 1001.0,
+			"script": "격식 비높임법은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 436,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea436.jpg",
+			"time_info": 1003.0,
+			"script": "기본적으로는 중립체고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 437,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea437.jpg",
+			"time_info": 1005.5,
+			"script": "독자나 청자가 누군지 모를 때 사용합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 438,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea438.jpg",
+			"time_info": 1007.5,
+			"script": "다른 말로 표현하자면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 439,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea439.jpg",
+			"time_info": 1009.0,
+			"script": "다양한 사람에게 말할 때 쓰는 거죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 440,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea440.jpg",
+			"time_info": 1011.5,
+			"script": "동일 연령대의 친구들에게 말할 때도 사용됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 441,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea441.jpg",
+			"time_info": 1014.0,
+			"script": "두어 개 정도 더 예문을 살펴보죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 442,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea442.jpg",
+			"time_info": 1016.0,
+			"script": "뭘 찾아낼 수 있는지 봅시다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 443,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea443.jpg",
+			"time_info": 1017.5,
+			"script": "이 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 444,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea444.jpg",
+			"time_info": 1021.5,
+			"script": "자전거가 있지만 차는 없다는 뜻입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 445,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea445.jpg",
+			"time_info": 1025.0,
+			"script": "단어별로 해석하면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 446,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea446.jpg",
+			"time_info": 1025.5,
+			"script": "'나' 주체,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 447,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea447.jpg",
+			"time_info": 1026.5,
+			"script": "'자전거',",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 448,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea448.jpg",
+			"time_info": 1028.0,
+			"script": "주격 조사,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 449,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea449.jpg",
+			"time_info": 1029.0,
+			"script": "있다,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 450,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea450.jpg",
+			"time_info": 1029.5,
+			"script": "그러나,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 451,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea451.jpg",
+			"time_info": 1030.0,
+			"script": "차,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 452,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea452.jpg",
+			"time_info": 1030.5,
+			"script": "주격 조사,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 453,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea453.jpg",
+			"time_info": 1032.0,
+			"script": "없다,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 454,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea454.jpg",
+			"time_info": 1034.0,
+			"script": "이 문장은 소유를 표현하는 방법이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 455,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea455.jpg",
+			"time_info": 1036.0,
+			"script": "한국어로 '무엇을 가지다'라는 의미입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 456,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea456.jpg",
+			"time_info": 1037.5,
+			"script": "문장의 주체는 소유한 사람이구요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 457,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea457.jpg",
+			"time_info": 1039.0,
+			"script": "소유되어진 물건은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 458,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea458.jpg",
+			"time_info": 1041.0,
+			"script": "문장의 주어가 됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 459,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea459.jpg",
+			"time_info": 1042.5,
+			"script": "주격 조사가 붙어있고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 460,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea460.jpg",
+			"time_info": 1045.0,
+			"script": "'있다', '없다'의 뜻을 가진 단어가 따라 붙었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 461,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea461.jpg",
+			"time_info": 1047.5,
+			"script": "그리고 새로운 문장이 시작됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 462,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea462.jpg",
+			"time_info": 1048.5,
+			"script": "'하지만'이라는 단어와 함께",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 463,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea463.jpg",
+			"time_info": 1049.5,
+			"script": "주어인 '차'가 나오고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 464,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea464.jpg",
+			"time_info": 1051.0,
+			"script": "주격 조사가 있고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 465,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea465.jpg",
+			"time_info": 1053.0,
+			"script": "존재를 부정하는 단어인",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 466,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea466.jpg",
+			"time_info": 1055.0,
+			"script": "'없다', '있지 않다'의 '없어요'가 쓰였습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 467,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea467.jpg",
+			"time_info": 1057.5,
+			"script": "두 번째 문장엔 주체가 없는데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 468,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea468.jpg",
+			"time_info": 1060.0,
+			"script": "주체는 생략될 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 469,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea469.jpg",
+			"time_info": 1061.5,
+			"script": "이미 주체가 명백하게 밝혀진다면요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 470,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea470.jpg",
+			"time_info": 1062.5,
+			"script": "다른 문장입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 471,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea471.jpg",
+			"time_info": 1063.5,
+			"script": "이 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 472,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea472.jpg",
+			"time_info": 1064.5,
+			"script": "'이 음식은 맛있어',",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 473,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea473.jpg",
+			"time_info": 1067.5,
+			"script": "'네가 요리했어?'라는 뜻이고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 474,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea474.jpg",
+			"time_info": 1070.0,
+			"script": "단어별로 해석하면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 475,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea475.jpg",
+			"time_info": 1070.5,
+			"script": "이,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 476,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea476.jpg",
+			"time_info": 1071.0,
+			"script": "음식,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 477,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea477.jpg",
+			"time_info": 1071.5,
+			"script": "주격 조사,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 478,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea478.jpg",
+			"time_info": 1072.5,
+			"script": "맛있다,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 479,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea479.jpg",
+			"time_info": 1074.0,
+			"script": "비격식 높임 활용형,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 480,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea480.jpg",
+			"time_info": 1075.0,
+			"script": "너,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 481,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea481.jpg",
+			"time_info": 1076.0,
+			"script": "주격 조사,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 482,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea482.jpg",
+			"time_info": 1077.0,
+			"script": "요리,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 483,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea483.jpg",
+			"time_info": 1077.5,
+			"script": "했어?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 484,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea484.jpg",
+			"time_info": 1079.0,
+			"script": "비격식 비높임 활용",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 485,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea485.jpg",
+			"time_info": 1080.5,
+			"script": "이 첫 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 486,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea486.jpg",
+			"time_info": 1082.0,
+			"script": "굉장히 흔한 유형을 따릅니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 487,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea487.jpg",
+			"time_info": 1083.5,
+			"script": "여기가 주어 부분,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 488,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea488.jpg",
+			"time_info": 1085.5,
+			"script": "문장의 행위 주체이기도 하고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 489,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea489.jpg",
+			"time_info": 1087.5,
+			"script": "그리고 명사 앞에",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 490,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea490.jpg",
+			"time_info": 1088.5,
+			"script": "지시어가 보이는데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 491,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea491.jpg",
+			"time_info": 1090.0,
+			"script": "'이것'의 '이'라는 지시어죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 492,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea492.jpg",
+			"time_info": 1091.5,
+			"script": "그리고 여기 형용사가 있네요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 493,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea493.jpg",
+			"time_info": 1093.0,
+			"script": "동사처럼 활용 형태로 쓰였고요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 494,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea494.jpg",
+			"time_info": 1095.0,
+			"script": "두 번째 문장에서는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 495,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea495.jpg",
+			"time_info": 1096.0,
+			"script": "주어가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 496,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea496.jpg",
+			"time_info": 1096.5,
+			"script": "'너'라는 단어고요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 497,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea497.jpg",
+			"time_info": 1098.5,
+			"script": "주격 조사 '가'가 따라 붙고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 498,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea498.jpg",
+			"time_info": 1101.0,
+			"script": "'요리'가 영어로 'Cooking' 또는 'Cuisine'이고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 499,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea499.jpg",
+			"time_info": 1105.0,
+			"script": "'했어'는 비격식 비높임으로 쓰인 과거 시제입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 500,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea500.jpg",
+			"time_info": 1109.5,
+			"script": "이것은 비격식 높임 형태와 똑같은데",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 501,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea501.jpg",
+			"time_info": 1113.0,
+			"script": "'요'가 양 문장에서 제거되었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 502,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea502.jpg",
+			"time_info": 1116.0,
+			"script": "누군가에게 직접 말을 전달할 때는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 503,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea503.jpg",
+			"time_info": 1118.0,
+			"script": "주격 대명사를 빼는 게 굉장히 흔합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 504,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea504.jpg",
+			"time_info": 1120.5,
+			"script": "예를 들어,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 505,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea505.jpg",
+			"time_info": 1122.0,
+			"script": "근데 이 경우엔",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 506,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea506.jpg",
+			"time_info": 1123.0,
+			"script": "주어와 주격 조사 '가'가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 507,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea507.jpg",
+			"time_info": 1125.0,
+			"script": "'너'를 강조하기 위해 포함되었고요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 508,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea508.jpg",
+			"time_info": 1127.0,
+			"script": "'너'가 요리했어? 처럼요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 509,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea509.jpg",
+			"time_info": 1129.0,
+			"script": "다른 사람이 아닌 '너'",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 510,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea510.jpg",
+			"time_info": 1131.5,
+			"script": "다음에는 한국어에서 굉장히 흔하고 중요한 것을 볼 겁니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 511,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea511.jpg",
+			"time_info": 1134.0,
+			"script": "두 부분으로 이루어진 동사인데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 512,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea512.jpg",
+			"time_info": 1136.0,
+			"script": "한자어 명사가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 513,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea513.jpg",
+			"time_info": 1137.5,
+			"script": "'하다'라는 동사와 함께 쓰이는 거죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 514,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea514.jpg",
+			"time_info": 1139.5,
+			"script": "결과적으로 '하다', '만들다'의 의미가 됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 515,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea515.jpg",
+			"time_info": 1142.0,
+			"script": "많은 한국어 동사가 이런 형태를 취합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 516,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea516.jpg",
+			"time_info": 1144.0,
+			"script": "예를 들어,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 517,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea517.jpg",
+			"time_info": 1146.5,
+			"script": "일하다,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 518,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea518.jpg",
+			"time_info": 1148.0,
+			"script": "공부하다,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 519,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea519.jpg",
+			"time_info": 1149.0,
+			"script": "영어로 된 단어들도 존재합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 520,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea520.jpg",
+			"time_info": 1151.0,
+			"script": "'하다'가 따라붙은 형태로요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 521,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea521.jpg",
+			"time_info": 1153.5,
+			"script": "예를 들면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 522,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea522.jpg",
+			"time_info": 1155.5,
+			"script": "샤워하다",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 523,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea523.jpg",
+			"time_info": 1158.0,
+			"script": "마지막으로 문장 하나를 보죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 524,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea524.jpg",
+			"time_info": 1161.0,
+			"script": "이 문장은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 525,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea525.jpg",
+			"time_info": 1162.5,
+			"script": "'그녀는 좋은 학생이에요'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 526,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea526.jpg",
+			"time_info": 1163.5,
+			"script": "단어별로 해석하면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 527,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea527.jpg",
+			"time_info": 1164.5,
+			"script": "그녀,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 528,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea528.jpg",
+			"time_info": 1165.5,
+			"script": "주격 조사,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 529,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea529.jpg",
+			"time_info": 1166.0,
+			"script": "좋다,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 530,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea530.jpg",
+			"time_info": 1166.5,
+			"script": "접사,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 531,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea531.jpg",
+			"time_info": 1167.5,
+			"script": "학생,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 532,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea532.jpg",
+			"time_info": 1168.5,
+			"script": "은,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 533,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea533.jpg",
+			"time_info": 1169.5,
+			"script": "비격식 높임 현재,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 534,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea534.jpg",
+			"time_info": 1171.0,
+			"script": "여기 주어가 있고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 535,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea535.jpg",
+			"time_info": 1173.0,
+			"script": "주격 조사가 붙은 주체이기도 하고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 536,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea536.jpg",
+			"time_info": 1175.0,
+			"script": "'좋다'라는 뜻의 형용사가 있고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 537,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea537.jpg",
+			"time_info": 1177.0,
+			"script": "그리고 명사 앞에 있으니까",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 538,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea538.jpg",
+			"time_info": 1178.5,
+			"script": "접사가 있게 되고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 539,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea539.jpg",
+			"time_info": 1180.0,
+			"script": "'학생'은 'Student'이고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 540,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea540.jpg",
+			"time_info": 1181.5,
+			"script": "동사가 마지막에 있네요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 541,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea541.jpg",
+			"time_info": 1183.5,
+			"script": "이 동사는 '이다'의 비격식 높임 형태입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 542,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea542.jpg",
+			"time_info": 1185.5,
+			"script": "무슨 뜻이냐면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 543,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea543.jpg",
+			"time_info": 1186.5,
+			"script": "'~이다'라는 뜻이고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 544,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea544.jpg",
+			"time_info": 1188.0,
+			"script": "주로 명사 다음에 옵니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 545,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea545.jpg",
+			"time_info": 1191.0,
+			"script": "부정형으로도 존재하는데,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 546,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea546.jpg",
+			"time_info": 1195.5,
+			"script": "그럼 문장을 부정형으로 만들 수 있는데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 547,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea547.jpg",
+			"time_info": 1198.5,
+			"script": "이제 이 문장의 뜻은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 548,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea548.jpg",
+			"time_info": 1200.0,
+			"script": "'그녀는 좋은 학생이 아니다'입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 549,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea549.jpg",
+			"time_info": 1202.5,
+			"script": "문장이 부정형으로 쓰인 것을 보면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 550,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea550.jpg",
+			"time_info": 1204.5,
+			"script": "주격 조사 '이'가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 551,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea551.jpg",
+			"time_info": 1206.0,
+			"script": "'학생' 다음에 왔는데요,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 552,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea552.jpg",
+			"time_info": 1207.5,
+			"script": "이 동사는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 553,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea553.jpg",
+			"time_info": 1209.0,
+			"script": "주체가 오고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 554,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea554.jpg",
+			"time_info": 1212.0,
+			"script": "보어가 실제로는 주어가 되는 겁니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 555,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea555.jpg",
+			"time_info": 1215.0,
+			"script": "한국어에 대해서 더 많이 말할 수 있지만",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 556,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea556.jpg",
+			"time_info": 1217.5,
+			"script": "한 개 영상으로 모든 것을 다룰 방법은 없습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 557,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea557.jpg",
+			"time_info": 1219.0,
+			"script": "그래도",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 558,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea558.jpg",
+			"time_info": 1220.0,
+			"script": "언어에 대한 맛은 보여줬길 희망하고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 559,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea559.jpg",
+			"time_info": 1222.0,
+			"script": "관심을 불러 일으켰길 바랍니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 560,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea560.jpg",
+			"time_info": 1223.5,
+			"script": "어떻게 보면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 561,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea561.jpg",
+			"time_info": 1225.0,
+			"script": "한국어는 눈에 띌 만큼 일본어와 비슷합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 562,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea562.jpg",
+			"time_info": 1227.0,
+			"script": "하지만 어떻게 보면 매우 다르죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 563,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea563.jpg",
+			"time_info": 1231.0,
+			"script": "몇 년 전 제가 올린 한국어와 일본어의 차이와 유사성을 다룬 비디오를 보고 싶을지도 모르겠네요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 564,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea564.jpg",
+			"time_info": 1236.0,
+			"script": "Langfocus 페이스북이나 트위터나 인스타에서 팔로우 잊지 마시고요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 565,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea565.jpg",
+			"time_info": 1238.5,
+			"script": "그리고 다시 한 번,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 566,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea566.jpg",
+			"time_info": 1240.5,
+			"script": "멋진 제 채널 애청 후원자분들께 감사합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 567,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea567.jpg",
+			"time_info": 1242.0,
+			"script": "특히",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 568,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea568.jpg",
+			"time_info": 1243.0,
+			"script": "최상위 애청 후원자분들요",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 569,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea569.jpg",
+			"time_info": 1245.0,
+			"script": "이 화면에 나가네요",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 570,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea570.jpg",
+			"time_info": 1246.5,
+			"script": "저분들께 감사 드립니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 571,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea571.jpg",
+			"time_info": 1248.0,
+			"script": "모두들에게도 시청 해 주셔서 감사하고",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 572,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/korea/imgs/korea572.jpg",
+			"time_info": 1250.0,
+			"script": "좋은 하루 보내십시",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		}
+	]
+}

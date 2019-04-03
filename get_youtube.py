@@ -437,6 +437,30 @@ def make_md_page(v_infos, nr_img, path_img, video_infos):
 	fd.write(format_source)
 	fd.close()
 
+def make_single_picture(v_infos, nr_img, path_img, video_infos):
+	outpath = v_infos['file_path']
+	name_img = v_infos['file_name']
+	url = v_infos['url'].lstrip("'").rstrip("'")
+
+	result = Image.new("RGB", (800, 800))
+
+	for nr in range(nr_img):
+		numberd_name = name_img + str(nr)
+		img = os.path.join('imgs', numberd_name) + IMG_FORMAT
+		img_path = os.path.join(outpath, img)
+
+		if os.path.exists(img_path):
+			# append pic under the orig pic
+			img_append = Image.open(img_path)
+			img_append.thumbnail((400, 400), Image.ANTIALIAS)
+			x = nr // 2 * 400
+			y = nr % 2 * 400
+			w, h = img_append.size
+			print('pos {0},{1} size {2},{3}'.format(x, y, w, h))
+			result.paste(img_append, (x, y, x + w, y + h))
+
+	result.save(outpath + 'conbined.jpg')
+
 #TODO: is the caption has overlap issue?
 def need_modify_cap():
 	return True
@@ -484,6 +508,7 @@ def main():
 	v_infos['frame_infos'] = f_infos
 	make_json(v_infos)
 	del_unneccesary_files(GEN_FILES_DEL)
+	make_single_picture(v_infos, nr_imgs, img_path, v_infos)
 
 if __name__ == "__main__":
 	main()

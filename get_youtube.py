@@ -437,6 +437,43 @@ def make_md_page(v_infos, nr_img, path_img, video_infos):
 	fd.write(format_source)
 	fd.close()
 
+def get_num_img_path(outpath, name_img, num):
+	numberd_name = name_img + str(num)
+	img = os.path.join('imgs', numberd_name) + IMG_FORMAT
+	img_path = os.path.join(outpath, img)
+
+	return img_path
+
+def get_img_size(img_path):
+	img = Image.open(img_path)
+	return img.size
+
+def make_single_picture(v_infos, nr_img, path_img, video_infos):
+	outpath = v_infos['file_path']
+	name_img = v_infos['file_name']
+	url = v_infos['url'].lstrip("'").rstrip("'")
+	x = 0
+	y = 0
+	img0_path = get_num_img_path(outpath, name_img, 0)
+	tot_w, tot_h = get_img_size(img0_path)
+	tot_h = tot_h * nr_img
+
+	print('Result image size: %d x %d' %(tot_w, tot_h))
+	result = Image.new("RGB", (tot_w, tot_h))
+
+	for nr in range(nr_img):
+		img_path = get_num_img_path(outpath, name_img, nr)
+
+		if os.path.exists(img_path):
+			# append pic under the orig pic
+			img_append = Image.open(img_path)
+			w, h = img_append.size
+			img_append.thumbnail((w, h), Image.ANTIALIAS)
+			result.paste(img_append, (x, y, x + w, y + h))
+			y = y + h
+
+	result.save(os.path.join(outpath, name_img + '_conbined.jpg'))
+
 #TODO: is the caption has overlap issue?
 def need_modify_cap():
 	return True
@@ -484,6 +521,7 @@ def main():
 	v_infos['frame_infos'] = f_infos
 	make_json(v_infos)
 	del_unneccesary_files(GEN_FILES_DEL)
+	make_single_picture(v_infos, nr_imgs, img_path, v_infos)
 
 if __name__ == "__main__":
 	main()

@@ -1,0 +1,1562 @@
+{
+	"url": "'https://youtu.be/zBkVCpbNnkU'",
+	"title": "The Side Effects of Vaccines - How High is the Risk?",
+	"video_id": "zBkVCpbNnkU",
+	"lang_code": "en",
+	"font_size": 30,
+	"file_name": "vaccine",
+	"file_path": "/home/ubuntu/project/youtube_capture/results/vaccine",
+	"nosub_opt": false,
+	"bg_opacity": 0.7,
+	"thumbnail": "https://i.ytimg.com/vi/zBkVCpbNnkU/maxresdefault.jpg",
+	"frame_infos": [
+		{
+			"frame_num": 0,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine0.jpg",
+			"time_info": 3.0,
+			"script": "백신은 질병 치료 분야에서 유명합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 1,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine1.jpg",
+			"time_info": 7.0,
+			"script": "하지만, 점점 늘어가는 수의 사람들이 백신이 우리를 보호한다기보다는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 2,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine2.jpg",
+			"time_info": 10.0,
+			"script": "오히려 우리의 건강을 위협한다고 믿고 있는 것 같습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 3,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine3.jpg",
+			"time_info": 12.5,
+			"script": "인터넷엔 백신이 알러지 반응과 장애를 일으키거나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 4,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine4.jpg",
+			"time_info": 16.5,
+			"script": "심지어는 백신 투여 이후 죽음에까지 이르게 한다고 하는 이야기들로 가득합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 5,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine5.jpg",
+			"time_info": 21.0,
+			"script": "백신에 부작용이 있을 수 있다는 것은 실제로 옳습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 6,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine6.jpg",
+			"time_info": 23.5,
+			"script": "백신은 어떻게 작용하고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 7,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine7.jpg",
+			"time_info": 30.5,
+			"script": "실제로는 얼마나 위험한지 한 번 살펴봅시다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 8,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine8.jpg",
+			"time_info": 39.0,
+			"script": "우리의 면역 체계는 수십억 개의 세포로 이루어진 복잡한 군대입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 9,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine9.jpg",
+			"time_info": 43.5,
+			"script": "군인(대식세포/호중구), 정보원(수지상세포), 그리고 군수 공장(B세포)으로 이루어져 있죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 10,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine10.jpg",
+			"time_info": 47.0,
+			"script": "매일 우리는 수없이 공격받고 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 11,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine11.jpg",
+			"time_info": 50.0,
+			"script": "하지만, 보통은 면역 세포들이 알아서 처리하죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 12,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine12.jpg",
+			"time_info": 53.0,
+			"script": "그래서 느끼지조차도 못합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 13,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine13.jpg",
+			"time_info": 55.0,
+			"script": "그러나 감염이 생각보다 심각해진다면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 14,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine14.jpg",
+			"time_info": 57.5,
+			"script": "정보원이 침입자의 정보를 수집해",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 15,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine15.jpg",
+			"time_info": 60.5,
+			"script": "군수 공장을 활성화합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 16,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine16.jpg",
+			"time_info": 63.5,
+			"script": "아시다시피, 그 무기가 바로 항체죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 17,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine17.jpg",
+			"time_info": 66.0,
+			"script": "이들은 유도 미사일과도 같은데,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 18,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine18.jpg",
+			"time_info": 68.5,
+			"script": "침입자와 싸우는 데 특화되어 있습니다(항원-항체 반응의 특이성).",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 19,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine19.jpg",
+			"time_info": 72.0,
+			"script": "불행하게도, 이 작업을 완료하는 데는 며칠이 걸립니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 20,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine20.jpg",
+			"time_info": 76.0,
+			"script": "침입자들에게 공격할 시간을 굉장히 많이 주는 셈이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 21,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine21.jpg",
+			"time_info": 79.0,
+			"script": "잘 알려진 속설과는 달리,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 22,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine22.jpg",
+			"time_info": 81.5,
+			"script": "아픈 만큼 \"성숙해지는\" 것은 아닙니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 23,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine23.jpg",
+			"time_info": 84.5,
+			"script": "우리의 몸은 계속해서 치열한 전투를 벌이고 싶어하지는 않습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 24,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine24.jpg",
+			"time_info": 88.0,
+			"script": "그래서 우리의 면역 체계는 계속 강해지기 위해",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 25,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine25.jpg",
+			"time_info": 91.0,
+			"script": "기발한 방법을 찾아냈습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 26,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine26.jpg",
+			"time_info": 94.0,
+			"script": "만약 우리가 최종병기가 필요할 만한 질병과 싸우게 된다면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 27,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine27.jpg",
+			"time_info": 98.0,
+			"script": "우리의 면역 체계는 자동적으로 기억 세포를 만들어냅니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 28,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine28.jpg",
+			"time_info": 102.5,
+			"script": "기억세포는 수년 동안 우리 몸 속에 남아 잠들어 있게 됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 29,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine29.jpg",
+			"time_info": 106.5,
+			"script": "이들은 기억하는 것 이외에는 아무 것도 하지 않습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 30,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine30.jpg",
+			"time_info": 109.0,
+			"script": "만약 같은 질병이 또 공격해온다면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 31,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine31.jpg",
+			"time_info": 111.5,
+			"script": "잠자던 기억세포들이 깨어나",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 32,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine32.jpg",
+			"time_info": 115.0,
+			"script": "침입자와 관련된 항체를 만들도록 지시를 내립니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 33,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine33.jpg",
+			"time_info": 118.0,
+			"script": "이 방법은 너무나도 빠르고 효과적이어서,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 34,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine34.jpg",
+			"time_info": 121.0,
+			"script": "대부분의 질병에 두 번 다시는 걸리지 않게 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 35,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine35.jpg",
+			"time_info": 124.5,
+			"script": "어떤 질병은 죽을 때까지 면역이 될 수도 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 36,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine36.jpg",
+			"time_info": 127.5,
+			"script": "아기들이 병에 자주 걸리는 이유도 이것입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 37,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine37.jpg",
+			"time_info": 130.5,
+			"script": "아기들은 아직 기억세포를 충분히 가지고 있지 않습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 38,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine38.jpg",
+			"time_info": 133.5,
+			"script": "그리고 이 아름다운 자연적 메커니즘은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 39,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine39.jpg",
+			"time_info": 137.0,
+			"script": "우리가 백신을 만들 때 응용되기도 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 40,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine40.jpg",
+			"time_info": 140.5,
+			"script": "백신은 어떻게 작용하는가",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 41,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine41.jpg",
+			"time_info": 143.0,
+			"script": "기억 세포들의 효능은 매우 탁월하지만,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 42,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine42.jpg",
+			"time_info": 145.0,
+			"script": "감염을 통해 기억 세포를 얻는 것은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 43,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine43.jpg",
+			"time_info": 147.5,
+			"script": "불쾌하고 때때로 위험하기도 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 44,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine44.jpg",
+			"time_info": 150.5,
+			"script": "백신은 우리 몸을 속여 기억 세포를 만듦으로써",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 45,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine45.jpg",
+			"time_info": 153.5,
+			"script": "그 질병에 면역이 되게 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 46,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine46.jpg",
+			"time_info": 156.0,
+			"script": "위험한 병이라고 가장하는 거지요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 47,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine47.jpg",
+			"time_info": 159.0,
+			"script": "피해를 주지 못하는 침입자를 주입함으로써 이를 달성할 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 48,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine48.jpg",
+			"time_info": 163.0,
+			"script": "예를 들면, 항원을 죽이거나 갈기갈기 찢거나 할 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 49,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine49.jpg",
+			"time_info": 167.5,
+			"script": "우리의 면역 체계는 이와 같은 백신을 꽤 쉽게 처리합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 50,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine50.jpg",
+			"time_info": 172.0,
+			"script": "그러나 우리의 면역 체계가 더 열심히 일하게 해서",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 51,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine51.jpg",
+			"time_info": 175.5,
+			"script": "더 많은 기억 세포들을 생산하게 해야 할 때도 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 52,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine52.jpg",
+			"time_info": 178.0,
+			"script": "여기에는 생백신이 진국입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 53,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine53.jpg",
+			"time_info": 181.5,
+			"script": "확실히 죽은 걸 상대하는 것보단 큰 도전이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 54,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine54.jpg",
+			"time_info": 185.5,
+			"script": "하지만, 이는 끔찍한 아이디어라고 짐작하실 수도 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 55,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine55.jpg",
+			"time_info": 188.0,
+			"script": "항원이 이긴다면 어떻게 될까요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 56,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine56.jpg",
+			"time_info": 191.5,
+			"script": "그걸 방지하기 위해, 우리는 진짜 항원의 사촌쯤 되는 약한 항원을 배양합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 57,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine57.jpg",
+			"time_info": 197.0,
+			"script": "면역 체계를 건드려서 충분한 양의 기억 세포를 만드는 정도로 끝날 수 있게요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 58,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine58.jpg",
+			"time_info": 202.0,
+			"script": "좋습니다. 그러니까 이게 백신의 기본 원리입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 59,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine59.jpg",
+			"time_info": 205.5,
+			"script": "백신은 매우 위험한 질병에 면역을 가지게 하는,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 60,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine60.jpg",
+			"time_info": 209.0,
+			"script": "체내의 자연스러운 과정을 유도합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 61,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine61.jpg",
+			"time_info": 212.0,
+			"script": "인플루엔자 바이러스 등 변이를 자주 일으키는 병원체는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 62,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine62.jpg",
+			"time_info": 214.5,
+			"script": "매년 새로운 백신을 맞아야 하겠지만,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 63,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine63.jpg",
+			"time_info": 218.0,
+			"script": "대부분의 백신은 최소한 몇 년, 길면 평생 여러분을 보호합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 64,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine64.jpg",
+			"time_info": 221.5,
+			"script": "하지만, 문제가 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 65,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine65.jpg",
+			"time_info": 225.0,
+			"script": "인생의 다른 것들과 마찬가지로, 백신에도 어두운 면이 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 66,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine66.jpg",
+			"time_info": 227.5,
+			"script": "바로 부작용이죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 67,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine67.jpg",
+			"time_info": 229.0,
+			"script": "백신의 부작용에는 무엇이 있고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 68,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine68.jpg",
+			"time_info": 231.5,
+			"script": "자녀에게 부작용이 생긴다면 어떻게 될까요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 69,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine69.jpg",
+			"time_info": 234.5,
+			"script": "백신의 위험성",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 70,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine70.jpg",
+			"time_info": 238.5,
+			"script": "백신의 부작용과 질병의 영향을 직접 비교하기는 까다롭습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 71,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine71.jpg",
+			"time_info": 243.5,
+			"script": "예를 들어, 서유럽에서는 수억 명이 홍역 예방주사를 맞았지만,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 72,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine72.jpg",
+			"time_info": 248.5,
+			"script": "2018년에 유럽 전역에서 보고된 홍역 환자는 겨우 8만 3천명뿐입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 73,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine73.jpg",
+			"time_info": 253.5,
+			"script": "규모 차이가 이렇게 크기 떄문에, 질병의 악영향은 거의 보이지 않는 한편",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 74,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine74.jpg",
+			"time_info": 258.0,
+			"script": "백신의 부작용은 아무리 약해도 무섭게 느껴질 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 75,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine75.jpg",
+			"time_info": 262.0,
+			"script": "1963년에 홍역 백신이 개발되기 전에는,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 76,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine76.jpg",
+			"time_info": 266.5,
+			"script": "사실상 지구상의 모든 아이들이 한 번쯤은 홍역을 앓았습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 77,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine77.jpg",
+			"time_info": 271.5,
+			"script": "1950년대에는 신규 환자 수가 무려 1억 3천5백만 명으로 추산되기도 했습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 78,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine78.jpg",
+			"time_info": 275.0,
+			"script": "그것도 매년이요.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 79,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine79.jpg",
+			"time_info": 278.0,
+			"script": "공중보건과 기술이 그렇게까지 발전했는데도,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 80,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine80.jpg",
+			"time_info": 281.5,
+			"script": "2019년에도 홍역이 그렇게 위험하던가요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 81,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine81.jpg",
+			"time_info": 285.0,
+			"script": "백신의 부작용을 여전히 감수해야 하는 걸까요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 82,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine82.jpg",
+			"time_info": 289.0,
+			"script": "실제 숫자를 가지고 사고실험을 해 봅시다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 83,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine83.jpg",
+			"time_info": 292.5,
+			"script": "평행세계에 있는 선진국을 상상해 봅시다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 84,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine84.jpg",
+			"time_info": 296.0,
+			"script": "의료 서비스는 준수하지만, 모든 국민들이 백신을 거부하는 나라입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 85,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine85.jpg",
+			"time_info": 300.0,
+			"script": "이러한 상황에서, 1000만 명이 홍역에 걸렸다고 칩시다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 86,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine86.jpg",
+			"time_info": 303.0,
+			"script": "무슨 일이 일어날까요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 87,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine87.jpg",
+			"time_info": 307.5,
+			"script": "98%에 달하는 980만 명은 고열과 매우 불쾌한 발진에 시달립니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 88,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine88.jpg",
+			"time_info": 313.5,
+			"script": "이들 중 최대 80만 명, 즉 8%는 위험한 설사를 겪습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 89,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine89.jpg",
+			"time_info": 319.5,
+			"script": "70만 명(7%)은 귀 감염이 일어나, 영구적인 청력 손실을 일으킬 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 90,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine90.jpg",
+			"time_info": 326.5,
+			"script": "60만 명(6%)에게는 홍역의 가장 위험한 증상인 폐렴이 발생합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 91,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine91.jpg",
+			"time_info": 331.5,
+			"script": "이 증상 하나만으로도 12000명이 죽음에 이르게 됩니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 92,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine92.jpg",
+			"time_info": 335.5,
+			"script": "최대 1만 명(0.1%)은 뇌염을 겪습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 93,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine93.jpg",
+			"time_info": 341.0,
+			"script": "2500명(0.025%)은 아급성 경화성범뇌염을 앓습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 94,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine94.jpg",
+			"time_info": 345.5,
+			"script": "이는 홍역 바이러스가 뇌내에 잔류해,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 95,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine95.jpg",
+			"time_info": 348.5,
+			"script": "몇 년 이내에 사망하는 질병입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 96,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine96.jpg",
+			"time_info": 350.5,
+			"script": "이를 모두 합산하면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 97,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine97.jpg",
+			"time_info": 354.0,
+			"script": "약 250만 명의 아이들이 꽤 심각한 홍역 증상을 앓으며,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 98,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine98.jpg",
+			"time_info": 359.5,
+			"script": "이 중 약 2만 명은 홍역으로 인해 사망합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 99,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine99.jpg",
+			"time_info": 362.5,
+			"script": "여기서 끝나지 않습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 100,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine100.jpg",
+			"time_info": 365.0,
+			"script": "홍역을 앓은 아이의 면역 체계는 매우 손상된 상태이며,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 101,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine101.jpg",
+			"time_info": 368.5,
+			"script": "회복에 매우 오랜 시간이 걸립니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 102,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine102.jpg",
+			"time_info": 372.0,
+			"script": "다른 질병으로 인해 더 손상되기 좋죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 103,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine103.jpg",
+			"time_info": 377.5,
+			"script": "그걸 제외하고도, 당신의 자녀가 2주 동안 끔찍한 시간을 보낼 거라는 건 거의 확실합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 104,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine104.jpg",
+			"time_info": 382.0,
+			"script": "좋습니다. 그런데 백신은 어떨까요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 105,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine105.jpg",
+			"time_info": 384.5,
+			"script": "백신의 위험성도 살펴봐야 공정하다고 할 수 있겠죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 106,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine106.jpg",
+			"time_info": 387.5,
+			"script": "그러니 아까의 사고실험을 반복해 봅시다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 107,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine107.jpg",
+			"time_info": 391.0,
+			"script": "대신, 1000만 명의 아이들 모두에게 MMR(홍역,볼거리,풍진 백신)을 주사합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 108,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine108.jpg",
+			"time_info": 394.5,
+			"script": "이론적으로 무슨 일이 일어날까요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 109,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine109.jpg",
+			"time_info": 397.5,
+			"script": "1000만 명의 아이들이 접종을 받은 이후,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 110,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine110.jpg",
+			"time_info": 400.0,
+			"script": "약 10%(100만 명)는 열이 발생합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 111,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine111.jpg",
+			"time_info": 403.0,
+			"script": "50만 명(5%)은 경도의 발진이 일어납니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 112,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine112.jpg",
+			"time_info": 407.0,
+			"script": "최대 100명(0.001%)에게는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 113,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine113.jpg",
+			"time_info": 411.0,
+			"script": "심각한 알레르기 반응이 일어나 치료가 필요합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 114,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine114.jpg",
+			"time_info": 415.0,
+			"script": "최대 10명(0.0001%)의 아이들의 경우에는",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 115,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine115.jpg",
+			"time_info": 418.5,
+			"script": "생식기에 염증이 발생할 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 116,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine116.jpg",
+			"time_info": 422.5,
+			"script": "그리고 역시 최대 10명(0.0001%)의 아이들은",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 117,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine117.jpg",
+			"time_info": 427.0,
+			"script": "가장 심각한 부작용인 뇌염을 앓을 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 118,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine118.jpg",
+			"time_info": 430.5,
+			"script": "이렇게 1000만 명의 아이들에게 접종을 해보았습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 119,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine119.jpg",
+			"time_info": 434.5,
+			"script": "합산하면 약 120명이 꽤 심각한 부작용을 앓는다는 계산이 나옵니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 120,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine120.jpg",
+			"time_info": 439.5,
+			"script": "선진국의 의학적 기술이 발달한 덕에, 이들 중 거의 전부가 완치될 겁니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 121,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine121.jpg",
+			"time_info": 443.0,
+			"script": "그런데 자폐증은요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 122,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine122.jpg",
+			"time_info": 446.5,
+			"script": "자폐증과 백신의 관련성을 파고 들어가면 단 하나의 출처가 나오는데,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 123,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine123.jpg",
+			"time_info": 450.5,
+			"script": "이미 골백번도 넘게 반증된 논문입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 124,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine124.jpg",
+			"time_info": 453.5,
+			"script": "설명 창에 더 읽을거리와 동영상을 남기겠습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 125,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine125.jpg",
+			"time_info": 458.5,
+			"script": "일단 2019년이 된 지금은 백신이 자폐를 유발하지 않는다고 확실히 밝힐 수 있겠습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 126,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine126.jpg",
+			"time_info": 463.0,
+			"script": "좋습니다, 그런데 죽지는 않나요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 127,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine127.jpg",
+			"time_info": 467.0,
+			"script": "아까 접종받은 1000만 명 중 단 한 명이 죽는다고 하기조차도 매우 어렵습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 128,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine128.jpg",
+			"time_info": 472.0,
+			"script": "저희도 여러 자료를 조사해봤고 각계각층의 전문가들과 이야기를 나눴지만,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 129,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine129.jpg",
+			"time_info": 475.0,
+			"script": "자기 보고 사례를 제외한다면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 130,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine130.jpg",
+			"time_info": 478.0,
+			"script": "1971년 이후로 MMR을 접종받은 몇억 명의 아동들 중",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 131,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine131.jpg",
+			"time_info": 483.0,
+			"script": "백신으로 인해 사망한 기록은 손에 꼽을 정도밖에 찾지 못했습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 132,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine132.jpg",
+			"time_info": 488.5,
+			"script": "백신 부작용의 최악의 사례만 놓고 본다고 해도,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 133,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine133.jpg",
+			"time_info": 493.5,
+			"script": "홍역이 백신보다 몇천 배는 더 위험합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 134,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine134.jpg",
+			"time_info": 498.5,
+			"script": "치명적인 백신 부작용 사례를 찾으려면 거대한 돋보기가 필요할 정도이고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 135,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine135.jpg",
+			"time_info": 502.5,
+			"script": "그렇게까지 해도 검증된 사례를 찾기는 매우 어렵습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 136,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine136.jpg",
+			"time_info": 506.5,
+			"script": "그러나 홍역으로 인한 사망은 실재하고, 찾아보기도 쉽죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 137,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine137.jpg",
+			"time_info": 512.0,
+			"script": "2017년만 놓고 봐도 전 세계에서 11만 명이 홍역으로 인해 사망했습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 138,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine138.jpg",
+			"time_info": 517.0,
+			"script": "통계적으로 보면, 오늘 하루 동안 300명의 아이들이 홍역으로 사망할 것입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 139,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine139.jpg",
+			"time_info": 520.5,
+			"script": "이 동영상을 보는 중에도 벌써 한 명이 죽었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 140,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine140.jpg",
+			"time_info": 523.5,
+			"script": "백신은 안전벨트에 비유할 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 141,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine141.jpg",
+			"time_info": 527.0,
+			"script": "안전벨트 때문에 사람이 죽은 괴상한 교통사고가 있나요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 142,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine142.jpg",
+			"time_info": 530.0,
+			"script": "있긴 하겠죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 143,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine143.jpg",
+			"time_info": 532.0,
+			"script": "하지만 당신은 개인적으로 아이들이 안전벨트를 \"안\" 매는 게",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 144,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine144.jpg",
+			"time_info": 534.0,
+			"script": "더 안전하다고 생각하시나요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 145,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine145.jpg",
+			"time_info": 536.0,
+			"script": "잠시만요!",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 146,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine146.jpg",
+			"time_info": 538.0,
+			"script": "혹시 아이가 백신에 알러지가 있나요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 147,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine147.jpg",
+			"time_info": 541.5,
+			"script": "아니면 저희가 얘기한 게 당신의 상황에 들어맞지 않나요?",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 148,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine148.jpg",
+			"time_info": 546.5,
+			"script": "그렇다면, 당신은 그 누구보다도 백신을 옹호하셔야 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 149,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine149.jpg",
+			"time_info": 551.5,
+			"script": "아이에게 백신을 접종할 수 없다면, 공동체만이 이들을 보호할 수 있기 때문입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 150,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine150.jpg",
+			"time_info": 555.0,
+			"script": "이것을 집단면역이라고 하며,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 151,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine151.jpg",
+			"time_info": 558.5,
+			"script": "오직 집단면역만이 백신을 맞지 못한 아이를 보호할 수 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 152,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine152.jpg",
+			"time_info": 562.5,
+			"script": "충분히 많은 사람들이 어떤 질병에 면역이 있고,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 153,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine153.jpg",
+			"time_info": 565.0,
+			"script": "그 병원균이 확산되지 않으며 피해자에게 닿지 못하고 사멸하면",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 154,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine154.jpg",
+			"time_info": 567.0,
+			"script": "집단면역이 생겼다고 합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 155,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine155.jpg",
+			"time_info": 569.5,
+			"script": "그러나 홍역만 놓고 생각해보면,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 156,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine156.jpg",
+			"time_info": 573.5,
+			"script": "주변인 중 95%가 백신을 맞아야 집단면역이 발생합니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 157,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine157.jpg",
+			"time_info": 577.0,
+			"script": "결론",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 158,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine158.jpg",
+			"time_info": 580.5,
+			"script": "백신 논쟁에 대한 문제는, 서로의 주장이 공정하지 않게 대립된다는 것입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 159,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine159.jpg",
+			"time_info": 585.0,
+			"script": "백신 찬성론자들은 연구, 통계 자료를 가지고 주장하지만,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 160,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine160.jpg",
+			"time_info": 589.0,
+			"script": "반대론자들은 보통 직감과 개인적인 일화, 오정보를",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 161,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine161.jpg",
+			"time_info": 592.0,
+			"script": "묘하게 섞어놓은 것으로 주장을 폅니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 162,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine162.jpg",
+			"time_info": 595.0,
+			"script": "그리고 감성이 이성을 흐려놓는 경우도 많죠.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 163,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine163.jpg",
+			"time_info": 598.0,
+			"script": "남에게 소리를 지른다고 설득이 되는 것은 아닙니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 164,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine164.jpg",
+			"time_info": 602.0,
+			"script": "그렇다고 반백신 음모론 때문에 일어나는 일을 두고만 볼 수는 없습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 165,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine165.jpg",
+			"time_info": 606.5,
+			"script": "예방접종을 받기에는 너무 어린 아기들이 죽었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 166,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine166.jpg",
+			"time_info": 610.0,
+			"script": "그저 운이 안 좋을 뿐이었던 건강한 아이들이 죽었습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 167,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine167.jpg",
+			"time_info": 614.0,
+			"script": "정복하기 직전이던 심각한 질병들이 다시 일어나고 있습니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 168,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine168.jpg",
+			"time_info": 618.5,
+			"script": "그리고 백신의 가장 큰 부작용은, 그보다 적은 수의 사망뿐입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 169,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine169.jpg",
+			"time_info": 623.5,
+			"script": "백신은 우리들 중 대부분이 이미 잊어버린 괴물을,",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 170,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine170.jpg",
+			"time_info": 627.0,
+			"script": "완전히 뿌리뽑을 최강의 도구입니다.",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 171,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/vaccine/imgs/vaccine171.jpg",
+			"time_info": 629.0,
+			"script": "이런 괴물들을 다시 풀어주지 맙시다",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		}
+	]
+}

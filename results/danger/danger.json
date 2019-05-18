@@ -1,0 +1,2030 @@
+{
+	"url": "'https://www.youtube.com/watch?v=z0M2G5PAJzo'",
+	"title": "Here's the Most Dangerous Thing in the Universe",
+	"video_id": "z0M2G5PAJzo",
+	"lang_code": "en",
+	"font_size": 30,
+	"file_name": "danger",
+	"file_path": "/home/ubuntu/project/youtube_capture/results/danger",
+	"nosub_opt": false,
+	"bg_opacity": 0.7,
+	"thumbnail": "https://i.ytimg.com/vi/z0M2G5PAJzo/maxresdefault.jpg",
+	"frame_infos": [
+		{
+			"frame_num": 0,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger0.jpg",
+			"time_info": 1.5,
+			"script": "[Music]",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 1,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger1.jpg",
+			"time_info": 4.5,
+			"script": "okay forget about alien invasions or",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 2,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger2.jpg",
+			"time_info": 7.0,
+			"script": "giant meteors rushing toward earth",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 3,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger3.jpg",
+			"time_info": 9.5,
+			"script": "there's something much more dangerous",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 4,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger4.jpg",
+			"time_info": 13.0,
+			"script": "lurking in space and it's called strange",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 5,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger5.jpg",
+			"time_info": 17.0,
+			"script": "matter while people don't know much",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 6,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger6.jpg",
+			"time_info": 19.5,
+			"script": "about it",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 7,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger7.jpg",
+			"time_info": 21.0,
+			"script": "experts are sure that under particular",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 8,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger8.jpg",
+			"time_info": 23.0,
+			"script": "conditions this stuff would be able to",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 9,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger9.jpg",
+			"time_info": 26.0,
+			"script": "eat our planet alive but to grasp the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 10,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger10.jpg",
+			"time_info": 29.0,
+			"script": "concept of strange matter better we",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 11,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger11.jpg",
+			"time_info": 31.0,
+			"script": "first need to understand protons",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 12,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger12.jpg",
+			"time_info": 34.0,
+			"script": "neutrons and neutron stars so look at",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 13,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger13.jpg",
+			"time_info": 37.5,
+			"script": "your hand it's made up of tiny cells if",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 14,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger14.jpg",
+			"time_info": 40.0,
+			"script": "you start to zoom in on these cells",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 15,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger15.jpg",
+			"time_info": 42.5,
+			"script": "you'll see a bunch of molecules keep",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 16,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger16.jpg",
+			"time_info": 45.0,
+			"script": "going and you'll notice that molecules",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 17,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger17.jpg",
+			"time_info": 47.0,
+			"script": "consist of atoms which have protons and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 18,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger18.jpg",
+			"time_info": 49.5,
+			"script": "neutrons in their nucleus outside of all",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 19,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger19.jpg",
+			"time_info": 52.0,
+			"script": "that you have electrons flying around in",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 20,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger20.jpg",
+			"time_info": 54.5,
+			"script": "small clouds if you could see all this",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 21,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger21.jpg",
+			"time_info": 57.0,
+			"script": "up close you'd find that these particles",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 22,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger22.jpg",
+			"time_info": 59.0,
+			"script": "aren't crammed together in a tiny space",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 23,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger23.jpg",
+			"time_info": 61.5,
+			"script": "in fact there's enough room between them",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 24,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger24.jpg",
+			"time_info": 64.0,
+			"script": "to make you wonder why your hand feels",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 25,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger25.jpg",
+			"time_info": 67.0,
+			"script": "solid at all but when you touch or press",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 26,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger26.jpg",
+			"time_info": 69.5,
+			"script": "your hand",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 27,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger27.jpg",
+			"time_info": 71.5,
+			"script": "all those atoms resist the force and the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 28,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger28.jpg",
+			"time_info": 74.0,
+			"script": "harder you press the more atoms stop you",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 29,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger29.jpg",
+			"time_info": 76.5,
+			"script": "but what if you push really really hard",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 30,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger30.jpg",
+			"time_info": 79.5,
+			"script": "oh then you'll eventually force the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 31,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger31.jpg",
+			"time_info": 82.0,
+			"script": "nuclei together and fuse some new",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 32,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger32.jpg",
+			"time_info": 84.5,
+			"script": "elements not that this is possible if",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 33,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger33.jpg",
+			"time_info": 86.5,
+			"script": "it's your hand you squeeze really hard",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 34,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger34.jpg",
+			"time_info": 89.5,
+			"script": "but it can happen with a neutron star",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 35,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger35.jpg",
+			"time_info": 93.5,
+			"script": "imagine this a super powerful and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 36,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger36.jpg",
+			"time_info": 96.0,
+			"script": "massive star is reaching the end of its",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 37,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger37.jpg",
+			"time_info": 98.5,
+			"script": "life one of the potential scenarios is",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 38,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger38.jpg",
+			"time_info": 101.5,
+			"script": "that it runs out of its nuclear fuel and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 39,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger39.jpg",
+			"time_info": 104.5,
+			"script": "in a blinding bursts collapses under its",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 40,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger40.jpg",
+			"time_info": 107.5,
+			"script": "own gravity if the star had been massive",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 41,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger41.jpg",
+			"time_info": 110.5,
+			"script": "enough it'll produce a black hole but if",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 42,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger42.jpg",
+			"time_info": 113.5,
+			"script": "it wasn't that big a neutron star will",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 43,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger43.jpg",
+			"time_info": 116.5,
+			"script": "appear in its place at about ten miles",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 44,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger44.jpg",
+			"time_info": 119.5,
+			"script": "across a neutron star is itsy-bitsy when",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 45,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger45.jpg",
+			"time_info": 122.5,
+			"script": "we're talking about stars in general but",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 46,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger46.jpg",
+			"time_info": 125.0,
+			"script": "at the same time this small space is",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 47,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger47.jpg",
+			"time_info": 127.0,
+			"script": "unbelievably dense",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 48,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger48.jpg",
+			"time_info": 130.0,
+			"script": "about 1.4 times the mass of the Sun it",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 49,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger49.jpg",
+			"time_info": 133.0,
+			"script": "means that just one teaspoon of neutron",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 50,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger50.jpg",
+			"time_info": 135.5,
+			"script": "star would weigh a staggering 10 million",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 51,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger51.jpg",
+			"time_info": 138.5,
+			"script": "tonnes scientists say that one day these",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 52,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger52.jpg",
+			"time_info": 141.0,
+			"script": "neutrons can get tired of holding all",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 53,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger53.jpg",
+			"time_info": 143.5,
+			"script": "that weight and the structure keeping",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 54,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger54.jpg",
+			"time_info": 146.0,
+			"script": "the entire thing together will collapse",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 55,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger55.jpg",
+			"time_info": 148.0,
+			"script": "this in turn leads to the appearance of",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 56,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger56.jpg",
+			"time_info": 150.5,
+			"script": "a quark star which is even smaller and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 57,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger57.jpg",
+			"time_info": 153.5,
+			"script": "denser than a neutron star now let's say",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 58,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger58.jpg",
+			"time_info": 156.0,
+			"script": "the pressure inside a quark star is",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 59,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger59.jpg",
+			"time_info": 158.5,
+			"script": "getting stronger as a result things",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 60,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger60.jpg",
+			"time_info": 161.0,
+			"script": "called strange quarks can appear in its",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 61,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger61.jpg",
+			"time_info": 163.5,
+			"script": "core they've been dubbed strange because",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 62,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger62.jpg",
+			"time_info": 166.0,
+			"script": "well they don't behave like normal",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 63,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger63.jpg",
+			"time_info": 168.0,
+			"script": "quarks I would have gone with quirky",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 64,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger64.jpg",
+			"time_info": 171.0,
+			"script": "quarks but that's just me really simply",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 65,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger65.jpg",
+			"time_info": 174.0,
+			"script": "put if these strange quarks are numerous",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 66,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger66.jpg",
+			"time_info": 176.5,
+			"script": "enough they create strange matter which",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 67,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger67.jpg",
+			"time_info": 179.5,
+			"script": "is unique and unlike any matter you find",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 68,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger68.jpg",
+			"time_info": 182.0,
+			"script": "on earth oh yeah and it could be the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 69,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger69.jpg",
+			"time_info": 184.0,
+			"script": "most dangerous thing in our universe",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 70,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger70.jpg",
+			"time_info": 186.0,
+			"script": "[Music]",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 71,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger71.jpg",
+			"time_info": 188.5,
+			"script": "hang on I'm getting there but first",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 72,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger72.jpg",
+			"time_info": 191.5,
+			"script": "let's conduct a virtual experiment with",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 73,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger73.jpg",
+			"time_info": 194.0,
+			"script": "something more familiar than a neutron",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 74,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger74.jpg",
+			"time_info": 196.5,
+			"script": "star we'll take an iron atom and start",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 75,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger75.jpg",
+			"time_info": 199.0,
+			"script": "to squeeze it with tremendous force",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 76,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger76.jpg",
+			"time_info": 201.5,
+			"script": "sooner or later the atoms neutrons and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 77,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger77.jpg",
+			"time_info": 204.5,
+			"script": "protons will blow apart into those quark",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 78,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger78.jpg",
+			"time_info": 207.5,
+			"script": "things add some more pressure and some",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 79,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger79.jpg",
+			"time_info": 210.0,
+			"script": "of these quarks will change become",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 80,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger80.jpg",
+			"time_info": 212.0,
+			"script": "heavier and turn into strange quarks",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 81,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger81.jpg",
+			"time_info": 214.5,
+			"script": "what we have on our hands now isn't an",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 82,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger82.jpg",
+			"time_info": 217.0,
+			"script": "iron atom but something called a",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 83,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger83.jpg",
+			"time_info": 219.5,
+			"script": "strangelet that's a tiny piece of",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 84,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger84.jpg",
+			"time_info": 222.5,
+			"script": "strange matter oh don't you just love",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 85,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger85.jpg",
+			"time_info": 225.5,
+			"script": "science strange matter is much heavier",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 86,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger86.jpg",
+			"time_info": 227.5,
+			"script": "than our matter",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 87,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger87.jpg",
+			"time_info": 229.5,
+			"script": "besides our dear matter is organized and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 88,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger88.jpg",
+			"time_info": 232.0,
+			"script": "predictable it consists of atoms that",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 89,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger89.jpg",
+			"time_info": 234.5,
+			"script": "are in turn made up of nuclei and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 90,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger90.jpg",
+			"time_info": 237.0,
+			"script": "electrons and our quarks are neatly",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 91,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger91.jpg",
+			"time_info": 239.5,
+			"script": "squeezed into neutrons and protons where",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 92,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger92.jpg",
+			"time_info": 242.5,
+			"script": "they should be but strange matter whoa",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 93,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger93.jpg",
+			"time_info": 245.0,
+			"script": "that's a bundle of chaos here's where",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 94,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger94.jpg",
+			"time_info": 247.5,
+			"script": "the strange part comes in it's quarks",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 95,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger95.jpg",
+			"time_info": 250.5,
+			"script": "have no boundaries they just totally run",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 96,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger96.jpg",
+			"time_info": 253.5,
+			"script": "amok wherever and however they want yet",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 97,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger97.jpg",
+			"time_info": 255.5,
+			"script": "surprisingly among",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 98,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger98.jpg",
+			"time_info": 257.5,
+			"script": "this particle chaos strange matter",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 99,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger99.jpg",
+			"time_info": 260.5,
+			"script": "remains stable very dense and impossible",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 100,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger100.jpg",
+			"time_info": 263.5,
+			"script": "to destruct but that's where it gets a",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 101,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger101.jpg",
+			"time_info": 266.0,
+			"script": "bit disconcerting strange matter is so",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 102,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger102.jpg",
+			"time_info": 268.5,
+			"script": "stable that it can exist anywhere in the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 103,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger103.jpg",
+			"time_info": 271.5,
+			"script": "universe even outside a neutron star but",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 104,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger104.jpg",
+			"time_info": 274.0,
+			"script": "the worst thing is that strange matter",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 105,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger105.jpg",
+			"time_info": 277.5,
+			"script": "may be contagious imagine an innocent",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 106,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger106.jpg",
+			"time_info": 281.0,
+			"script": "jar of honey that suddenly goes nuts and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 107,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger107.jpg",
+			"time_info": 283.5,
+			"script": "decides to consume everything around the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 108,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger108.jpg",
+			"time_info": 286.5,
+			"script": "table plates your kitchen.you the whole",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 109,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger109.jpg",
+			"time_info": 290.0,
+			"script": "galaxy huh what a sticky mess but that's",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 110,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger110.jpg",
+			"time_info": 293.0,
+			"script": "exactly what may happen if strange",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 111,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger111.jpg",
+			"time_info": 295.5,
+			"script": "matter was left to roam on its own it's",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 112,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger112.jpg",
+			"time_info": 298.0,
+			"script": "like the vampire of particle physics",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 113,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger113.jpg",
+			"time_info": 300.5,
+			"script": "anything it touches can be transformed",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 114,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger114.jpg",
+			"time_info": 303.5,
+			"script": "into strange matter itself oh yeah but",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 115,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger115.jpg",
+			"time_info": 306.0,
+			"script": "this stuff is happening way out in space",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 116,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger116.jpg",
+			"time_info": 308.5,
+			"script": "and neutron stars that are thousands of",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 117,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger117.jpg",
+			"time_info": 311.5,
+			"script": "light-years away well the thing is when",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 118,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger118.jpg",
+			"time_info": 314.5,
+			"script": "two neutron stars collide or when a",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 119,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger119.jpg",
+			"time_info": 317.0,
+			"script": "neutron star crashes into a black hole",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 120,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger120.jpg",
+			"time_info": 319.5,
+			"script": "these strangelets break free and at",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 121,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger121.jpg",
+			"time_info": 322.5,
+			"script": "millions of miles per hour these tiny or",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 122,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger122.jpg",
+			"time_info": 326.0,
+			"script": "not so tiny guys race through space they",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 123,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger123.jpg",
+			"time_info": 329.0,
+			"script": "can keep going for billions of years",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 124,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger124.jpg",
+			"time_info": 331.0,
+			"script": "until they come across something they",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 125,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger125.jpg",
+			"time_info": 333.5,
+			"script": "can consume sadly a strangelet won't",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 126,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger126.jpg",
+			"time_info": 336.0,
+			"script": "care whether the object it's encountered",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 127,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger127.jpg",
+			"time_info": 339.0,
+			"script": "is a star or a planet full of life this",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 128,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger128.jpg",
+			"time_info": 342.0,
+			"script": "space invader would get down to work",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 129,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger129.jpg",
+			"time_info": 343.5,
+			"script": "right away",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 130,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger130.jpg",
+			"time_info": 345.0,
+			"script": "and it would soon convert earth and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 131,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger131.jpg",
+			"time_info": 347.0,
+			"script": "everything on it into more strange",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 132,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger132.jpg",
+			"time_info": 350.0,
+			"script": "matter so would there be a way to stop",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 133,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger133.jpg",
+			"time_info": 353.0,
+			"script": "all this from happening there is one",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 134,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger134.jpg",
+			"time_info": 355.5,
+			"script": "solution but it seems kind of impossible",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 135,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger135.jpg",
+			"time_info": 358.0,
+			"script": "at the moment you see to get rid of",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 136,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger136.jpg",
+			"time_info": 360.5,
+			"script": "strange matter the only thing we could",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 137,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger137.jpg",
+			"time_info": 363.5,
+			"script": "do is toss it into a black hole but this",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 138,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger138.jpg",
+			"time_info": 366.0,
+			"script": "escape plan raises all kinds of",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 139,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger139.jpg",
+			"time_info": 368.5,
+			"script": "questions itself I mean let's even say",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 140,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger140.jpg",
+			"time_info": 371.0,
+			"script": "that we're at a point where humankind",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 141,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger141.jpg",
+			"time_info": 373.5,
+			"script": "can travel through space star wars style",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 142,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger142.jpg",
+			"time_info": 376.5,
+			"script": "okay but still in order to deposit the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 143,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger143.jpg",
+			"time_info": 379.5,
+			"script": "dangerous stuff you need to get really",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 144,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger144.jpg",
+			"time_info": 381.5,
+			"script": "close to the black hole",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 145,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger145.jpg",
+			"time_info": 383.0,
+			"script": "let's picture what would happen as you",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 146,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger146.jpg",
+			"time_info": 385.5,
+			"script": "approach it first you'll notice some",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 147,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger147.jpg",
+			"time_info": 388.0,
+			"script": "blackness blotting out the light from",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 148,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger148.jpg",
+			"time_info": 389.5,
+			"script": "surrounding stars",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 149,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger149.jpg",
+			"time_info": 391.0,
+			"script": "that's just how strong the gravity of a",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 150,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger150.jpg",
+			"time_info": 393.5,
+			"script": "black hole is not even light can pass",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 151,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger151.jpg",
+			"time_info": 396.5,
+			"script": "through it hence the name as soon as you",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 152,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger152.jpg",
+			"time_info": 399.0,
+			"script": "get to the black hole's edge aka the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 153,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger153.jpg",
+			"time_info": 401.5,
+			"script": "event horizon you won't be able to turn",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 154,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger154.jpg",
+			"time_info": 404.5,
+			"script": "back because it's the point of no return",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 155,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger155.jpg",
+			"time_info": 407.5,
+			"script": "even if you were super strong or were",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 156,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger156.jpg",
+			"time_info": 410.0,
+			"script": "traveling at the speed of light you",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 157,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger157.jpg",
+			"time_info": 411.5,
+			"script": "still wouldn't be able to escape the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 158,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger158.jpg",
+			"time_info": 413.5,
+			"script": "immense gravitational pull plus you",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 159,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger159.jpg",
+			"time_info": 416.0,
+			"script": "wouldn't even be able to reach the event",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 160,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger160.jpg",
+			"time_info": 418.0,
+			"script": "horizon in the first place you'd be",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 161,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger161.jpg",
+			"time_info": 420.5,
+			"script": "spaghetti by that no for real it's",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 162,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger162.jpg",
+			"time_info": 423.0,
+			"script": "actually called spaghettification and it",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 163,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger163.jpg",
+			"time_info": 425.0,
+			"script": "happens when something has stretched",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 164,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger164.jpg",
+			"time_info": 427.0,
+			"script": "paper thin by a black hole's",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 165,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger165.jpg",
+			"time_info": 430.0,
+			"script": "gravitational field everything that",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 166,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger166.jpg",
+			"time_info": 433.0,
+			"script": "approaches a black hole gets broken down",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 167,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger167.jpg",
+			"time_info": 435.5,
+			"script": "into individual atoms and we become long",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 168,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger168.jpg",
+			"time_info": 438.5,
+			"script": "thin pasta not the best way to go I'm",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 169,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger169.jpg",
+			"time_info": 441.0,
+			"script": "afraid yeah it'd be a tough and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 170,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger170.jpg",
+			"time_info": 443.0,
+			"script": "dangerous feat to transport and throw",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 171,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger171.jpg",
+			"time_info": 445.5,
+			"script": "this strange matter into a black hole",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 172,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger172.jpg",
+			"time_info": 448.0,
+			"script": "by the way how would you transport it",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 173,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger173.jpg",
+			"time_info": 450.5,
+			"script": "there anyway you could probably use some",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 174,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger174.jpg",
+			"time_info": 453.0,
+			"script": "kind of catapult but that raises another",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 175,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger175.jpg",
+			"time_info": 455.5,
+			"script": "question how are you gonna prevent the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 176,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger176.jpg",
+			"time_info": 457.5,
+			"script": "strange matter from consuming this",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 177,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger177.jpg",
+			"time_info": 460.0,
+			"script": "catapult your spacecraft or you even in",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 178,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger178.jpg",
+			"time_info": 463.5,
+			"script": "this hypothetical sci-fi space travel",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 179,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger179.jpg",
+			"time_info": 467.0,
+			"script": "scenario it still seems impossible in",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 180,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger180.jpg",
+			"time_info": 470.0,
+			"script": "any case at this point strange matter is",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 181,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger181.jpg",
+			"time_info": 472.0,
+			"script": "just a theory that hasn't been confirmed",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 182,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger182.jpg",
+			"time_info": 475.0,
+			"script": "yet interestingly enough physicists have",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 183,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger183.jpg",
+			"time_info": 478.0,
+			"script": "considered creating strange matter in a",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 184,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger184.jpg",
+			"time_info": 480.0,
+			"script": "particle accelerator not unlike the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 185,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger185.jpg",
+			"time_info": 482.0,
+			"script": "Large Hadron Collider",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 186,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger186.jpg",
+			"time_info": 484.0,
+			"script": "luckily they later came to the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 187,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger187.jpg",
+			"time_info": 486.0,
+			"script": "conclusion that it's impossible to do",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 188,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger188.jpg",
+			"time_info": 488.0,
+			"script": "since particle accelerators get so hot",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 189,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger189.jpg",
+			"time_info": 490.0,
+			"script": "that they would immediately melt any",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 190,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger190.jpg",
+			"time_info": 492.5,
+			"script": "appearing strangelets whoo what a relief",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 191,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger191.jpg",
+			"time_info": 495.5,
+			"script": "but I'd still like to politely ask them",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 192,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger192.jpg",
+			"time_info": 499.0,
+			"script": "not to try it please well it might be",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 193,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger193.jpg",
+			"time_info": 501.5,
+			"script": "comforting to know that even if",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 194,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger194.jpg",
+			"time_info": 503.0,
+			"script": "scientists managed to create some",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 195,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger195.jpg",
+			"time_info": 504.5,
+			"script": "strange matter",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 196,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger196.jpg",
+			"time_info": 506.0,
+			"script": "it'd be too unstable to live long enough",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 197,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger197.jpg",
+			"time_info": 509.0,
+			"script": "to consume nearby atoms plus the strange",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 198,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger198.jpg",
+			"time_info": 512.0,
+			"script": "matter that would appear as a result of",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 199,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger199.jpg",
+			"time_info": 514.0,
+			"script": "the experiment would most likely be",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 200,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger200.jpg",
+			"time_info": 515.5,
+			"script": "positive",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 201,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger201.jpg",
+			"time_info": 517.5,
+			"script": "we charged such strangelets aren't too",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 202,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger202.jpg",
+			"time_info": 520.0,
+			"script": "dangerous for our world sure they'd be",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 203,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger203.jpg",
+			"time_info": 522.0,
+			"script": "happy to snack on nearby electrons but",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 204,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger204.jpg",
+			"time_info": 524.0,
+			"script": "they probably wouldn't provoke that",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 205,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger205.jpg",
+			"time_info": 526.0,
+			"script": "terrible chain reaction I just told you",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 206,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger206.jpg",
+			"time_info": 529.5,
+			"script": "about probably in any case no",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 207,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger207.jpg",
+			"time_info": 533.0,
+			"script": "strangelets have ever invaded earth and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 208,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger208.jpg",
+			"time_info": 535.0,
+			"script": "all the billions of years of its",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 209,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger209.jpg",
+			"time_info": 537.0,
+			"script": "existence which means that this strange",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 210,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger210.jpg",
+			"time_info": 539.5,
+			"script": "invasion is highly unlikely to happen at",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 211,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger211.jpg",
+			"time_info": 542.5,
+			"script": "least not anytime soon so don't sweat it",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 212,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger212.jpg",
+			"time_info": 545.0,
+			"script": "and don't worry about that jar of honey",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 213,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger213.jpg",
+			"time_info": 548.0,
+			"script": "sitting on the kitchen counter do you",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 214,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger214.jpg",
+			"time_info": 551.0,
+			"script": "think it's possible for a stray space",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 215,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger215.jpg",
+			"time_info": 553.5,
+			"script": "strangelet to infect our planet can you",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 216,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger216.jpg",
+			"time_info": 556.5,
+			"script": "say stray space strangelet five times",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 217,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger217.jpg",
+			"time_info": 559.0,
+			"script": "real fast let me know if you can and",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 218,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger218.jpg",
+			"time_info": 561.0,
+			"script": "what else you're thinking about down in",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 219,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger219.jpg",
+			"time_info": 563.0,
+			"script": "the comments and if you love all things",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 220,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger220.jpg",
+			"time_info": 565.5,
+			"script": "space related then give this video a lot",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 221,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger221.jpg",
+			"time_info": 568.0,
+			"script": "share with a friend and head over to the",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 222,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger222.jpg",
+			"time_info": 570.5,
+			"script": "bright side for more videos to satisfy",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		},
+		{
+			"frame_num": 223,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/danger/imgs/danger223.jpg",
+			"time_info": 573.5,
+			"script": "all your cosmic needs</font",
+			"hash": null,
+			"sub_hash": null,
+			"usage": true
+		}
+	]
+}

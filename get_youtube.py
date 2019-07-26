@@ -10,10 +10,12 @@ import cv2			#pip3 install opencv-python
 				# If there would be "numpy.core.multiarray" problem of numpy
 				#Do 'pip3 uninstall numpy' few times until all numpy version will be removed.
 				# https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
-from PIL import Image
+from PIL import Image, ImageFilter, ImageEnhance
+import PIL.ImageOps
 import imagehash
 import json
 from collections import OrderedDict
+from pytesseract import image_to_string
 
 DEFAULT_L_CODE = 'en'
 DEFAULT_VID_NAME = 'dl_video'
@@ -70,6 +72,7 @@ def download_youtube(args):
 	video_infos['file_name'] = file_name
 	video_infos['file_path'] = outpath
 	video_infos['nosub_opt'] = args.nosub
+	video_infos['imgdiff_opt'] = args.imgdiff
 	video_infos['bg_opacity'] = args.bg_opacity
 	video_infos['thumbnail'] = yt.thumbnail_url.replace('default.jpg', 'maxresdefault.jpg')
 	video_infos['frame_infos'] = None
@@ -163,9 +166,10 @@ def get_ts_by_caption(caption_file):
 		ts_dict['img_path'] = None
 		ts_dict['time_info'] = get_srt_mean_time(time_info)
 		ts_dict['script'] = remove_tags(script)
+		ts_dict['ocr_script'] = None
 		ts_dict['hash'] = None
 		ts_dict['sub_hash'] = None
-		ts_dict['usage'] = True
+		ts_dict['usage'] = 'ok'
 
 		frame_infos.append(ts_dict)
 
@@ -266,7 +270,7 @@ def compare_hash(prev, curr, thresh = 0):
 
 # h_ratio: (1, 2, 3, ... )
 # w_ratio: (0.0 ~ 1.0)
-def crop_img(img, h_ratio=4, w_ratio=0.8):
+def crop_area(img, h_ratio=4, w_ratio=0.8):
 	w, h = img.size # Get dimensions
 
 	x = (w * (1 - w_ratio) * 0.5)
@@ -276,27 +280,49 @@ def crop_img(img, h_ratio=4, w_ratio=0.8):
 	area = (x, y, wi, he)
 	return area
 
-def capture_video(v_infos, target_file, caption_file):
-	cap = cv2.VideoCapture(target_file)
+def get_text_from_img(img):
+	text = image_to_string(img, lang='kor', config='--psm 7')
+	return text
+
+def save_pil_img(pil_img, img_path):
+	pil_img.save(img_path + '.jpg', 'JPEG')
+
+# Image Pre-prosessing for better extracting the subscript text from the image by tesseract-ocr
+def image_preprocess(img_orig, save_path=None):
+	# 1. cropping caption area
+	area = crop_area(img_orig, h_ratio=7, w_ratio=0.9) #cropping caption area
+	img_crop = img_orig.crop(area)
+
+	# 2. convert to grayscale
+	img_gray = img_crop.convert('L') # grayscale image
+
+	# convert to blur : not use
+	img_gray_gaussian = img_gray.filter(ImageFilter.GaussianBlur(1))
+
+	# 3. convert to low contrast for better edge detecting
+	img_contrast_low = ImageEnhance.Contrast(img_gray_gaussian).enhance(0.7)
+
+	# 4. get outline of text by edge detection
+	img_outline = img_contrast_low.filter(ImageFilter.FIND_EDGES)
+
+	# 5. change black background to white
+	img_outline_invert = PIL.ImageOps.invert(img_outline)
+	#save_pil_img(img_gray, img_path + '/gray_img_%d' % cap_cnt)
+	#save_pil_img(img_contrast_low, img_path + '/img_contrast_low_%d' % cap_cnt)
+	save_pil_img(img_outline_invert, save_path + '_outline.jpg')
+
+	return img_outline_invert
+
+def capture_by_subtitle(cap, v_infos, caption_file, img_path_name):
 
 	frame_infos, total_frames = get_ts_by_caption(caption_file)
 	fps = int(cap.get(cv2.CAP_PROP_FPS))
-	cap_cnt = 0
-	fcnt = 0
-	dup_cnt = 0
-
-	outpath = v_infos['file_path']
-	img_path = os.path.join(outpath, 'imgs')
-	file_name = v_infos['file_name']
-	caption_file = os.path.join(outpath, file_name + '.srt')
 	font_size = v_infos['font_size']
 	no_add_caption = v_infos['nosub_opt']
 	background_opacity = float(v_infos['bg_opacity'])
-
-	if os.path.exists(img_path):
-		print("remove %s" %img_path)
-		shutil.rmtree(img_path, ignore_errors=True)
-	os.mkdir(img_path)
+	cap_cnt = 0
+	fcnt = 0
+	dup_cnt = 0
 
 	print("number of total frames: %d\nProcessing" %total_frames)
 
@@ -308,21 +334,20 @@ def capture_video(v_infos, target_file, caption_file):
 			#cv_show_images(frame, duration)
 
 			# 1. Save image
-			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
+			img_name_numbered = img_path_name + '_0' + str(cap_cnt)
+			savepath = img_name_numbered + IMG_FORMAT
 			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt], cap_cnt, total_frames, font_size)
 
 
 			# 2. Compare hash in case of --no-sub option.
 			#    Need to compare if closed-caption was changed or not.
 			if no_add_caption:
-				img_ori = Image.open(savepath)
-				#TODO: convert gray scale img_ori
-				#TODO: crop_img: width should be more narrow
-				area = crop_img(img_ori, h_ratio=6, w_ratio=0.7) #cropping caption area
-				img_c = img_ori.crop(area)
-				img_g = img_c.convert('L') # grayscale image
+				img_orig = Image.open(savepath)
+				# Image Preprosessing
+				preprocessed_img = image_preprocess(img_orig, img_name_numbered)
 
-				frame_hash = imagehash.average_hash(img_g)
+				frame_hash = imagehash.average_hash(preprocessed_img)
+
 				prev_frame_hash = None
 				prev_frame_hash_str = frame_infos[cap_cnt-1]['sub_hash']
 				if prev_frame_hash_str:
@@ -331,20 +356,25 @@ def capture_video(v_infos, target_file, caption_file):
 				# Save hash value with string
 				frame_infos[cap_cnt]['sub_hash'] = '%s' %frame_hash
 
+				# extract a script from the image using Tesseract-ocr
+				frame_infos[cap_cnt]['ocr_script'] = get_text_from_img(preprocessed_img)
+
 				# The threah is a tunnable value
 				# With a highier value, It would delete more duplicated images.
+				'''
 				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=0):
 					print('.', end='', flush=True)
 					savepath_dup = savepath + '.dupli.jpg'
 					shutil.move(savepath, savepath_dup)
 					frame_infos[cap_cnt]['img_path'] = savepath_dup
-					frame_infos[cap_cnt]['usage'] = False
+					frame_infos[cap_cnt]['usage'] = 'duplicated'
 					dup_cnt +=1
 					cap_cnt += 1
 					fcnt += 1
 					continue
 				else:
 					None
+				'''
 
 			# 3. Add caption text in plain frame
 			else:
@@ -360,6 +390,103 @@ def capture_video(v_infos, target_file, caption_file):
 			break
 
 	print('Done: %d duplicated image was deleted.' %dup_cnt)
+	return frame_infos, total_frames
+
+def cv_to_pil(cv_img):
+	cv_img = cv2.cvtColor(cv_img, cv2.COLOR_BGR2RGB)
+	pil_img = Image.fromarray(cv_img)
+
+	return pil_img
+
+def capture_by_image_diff(cap, v_infos, img_path_name):
+	fps = int(cap.get(cv2.CAP_PROP_FPS))
+	tot_fcnt = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+	play_time = tot_fcnt / fps
+
+	print(fps, tot_fcnt, play_time)
+
+	cap_cnt = 0
+	frame_no = 0
+	dup_cnt = 0
+	total_frames = round(play_time)
+	frame_infos = []
+
+	while (frame_no < tot_fcnt):
+		cap.set(1, frame_no);
+		ret, frame = cap.read()
+
+		img_name_numbered = img_path_name + '_0' + str(cap_cnt)
+		savepath = img_name_numbered + IMG_FORMAT
+		cv2.imwrite(savepath, frame)
+
+		#print(frame_no, cap_cnt)
+
+		ts_dict = OrderedDict()
+		ts_dict['frame_num'] = frame_no
+		ts_dict['img_path'] = None
+		ts_dict['time_info'] = cap_cnt
+		ts_dict['script'] = None
+		ts_dict['ocr_script'] = None
+		ts_dict['hash'] = None
+		ts_dict['sub_hash'] = None
+		ts_dict['usage'] = 'ok'
+		frame_infos.append(ts_dict)
+
+		#TODO:
+		img_orig = cv_to_pil(frame)
+
+		# Image Preprosessing
+		preprocessed_img = image_preprocess(img_orig, img_name_numbered)
+
+		# get image-hash
+		frame_hash = imagehash.average_hash(preprocessed_img)
+		prev_frame_hash = None
+		prev_frame_hash_str = frame_infos[cap_cnt-1]['sub_hash']
+		if prev_frame_hash_str:
+			prev_frame_hash = imagehash.hex_to_hash(prev_frame_hash_str)
+
+		# Save hash value with string
+		frame_infos[cap_cnt]['sub_hash'] = '%s' %frame_hash
+
+		# The threah is a tunnable value
+		# With a highier value, It would delete more duplicated images.
+		if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=0):
+			print('.', end='', flush=True)
+			savepath_dup = savepath + '.dupli.jpg'
+			shutil.move(savepath, savepath_dup)
+			frame_infos[cap_cnt]['img_path'] = savepath_dup
+			frame_infos[cap_cnt]['usage'] = 'duplicated'
+			dup_cnt +=1
+
+		cap_cnt += 1
+		frame_no = fps * cap_cnt
+
+	print('Done: %d duplicated image was deleted.' %dup_cnt)
+
+	return frame_infos, total_frames
+
+
+def capture_video(v_infos, target_file, caption_file):
+	cap = cv2.VideoCapture(target_file)
+
+	outpath = v_infos['file_path']
+	img_path = os.path.join(outpath, 'imgs')
+	file_name = v_infos['file_name']
+	img_path_name = os.path.join(img_path, file_name)
+	caption_file = os.path.join(outpath, file_name + '.srt')
+	img_diff_opt = v_infos['imgdiff_opt']
+
+	if os.path.exists(img_path):
+		print("remove %s" %img_path)
+		shutil.rmtree(img_path, ignore_errors=True)
+	os.mkdir(img_path)
+
+	# if no-sub is false
+	if img_diff_opt:
+		frame_infos, total_frames = capture_by_image_diff(cap, v_infos, img_path_name)
+	else:
+		frame_infos, total_frames = capture_by_subtitle(cap, v_infos, caption_file, img_path_name)
+
 	cap.release()
 	cv2.destroyAllWindows()
 
@@ -407,6 +534,7 @@ def md_insert_header(subject, depth):
 	return header
 
 def make_md_page(v_infos, nr_img, path_img, video_infos):
+	print(nr_img)
 	outpath = v_infos['file_path']
 	name_img = v_infos['file_name']
 	#url = args.url.lstrip("'").rstrip("'")
@@ -423,7 +551,7 @@ def make_md_page(v_infos, nr_img, path_img, video_infos):
 	fd.write(format_thumbnail_img)
 
 	for nr in range(nr_img):
-		numberd_name = name_img + str(nr)
+		numberd_name = name_img + '_0' + str(nr)
                 #FIXME: /imgs/* path must be a reletive path
 		#img = os.path.join(path_img, numberd_name) + IMG_FORMAT
 		img = os.path.join('imgs', numberd_name) + IMG_FORMAT
@@ -486,6 +614,7 @@ def parse_args():
 	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, type=int, help='Font size of caption (default: 30)')
 	parser.add_argument('-b', '--bg-opacity', dest='bg_opacity', default=0, type=float, help='Add backgound behind of caption text with opacity (0.0 ~ 1.0) (default opacity : 0.0)')
 	parser.add_argument('--no-sub', dest='nosub', action='store_true', help='If the video has a closed caption, no need to add caption additionally')
+	parser.add_argument('--img-diff', dest='imgdiff', action='store_true', help='capture frame by imagediff')
 
 	args = parser.parse_args()
 	print(args)

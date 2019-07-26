@@ -281,7 +281,7 @@ def crop_area(img, h_ratio=4, w_ratio=0.8):
 	return area
 
 def get_text_from_img(img):
-	text = image_to_string(img, lang='kor')
+	text = image_to_string(img, lang='kor', config='--psm 7')
 	return text
 
 def save_pil_img(pil_img, img_path):
@@ -290,17 +290,17 @@ def save_pil_img(pil_img, img_path):
 # Image Pre-prosessing for better extracting the subscript text from the image by tesseract-ocr
 def image_preprocess(img_orig, save_path=None):
 	# 1. cropping caption area
-	area = crop_area(img_orig, h_ratio=5, w_ratio=0.9) #cropping caption area
+	area = crop_area(img_orig, h_ratio=7, w_ratio=0.9) #cropping caption area
 	img_crop = img_orig.crop(area)
 
 	# 2. convert to grayscale
 	img_gray = img_crop.convert('L') # grayscale image
 
 	# convert to blur : not use
-	#img_gray_gaussian = img_gray.filter(ImageFilter.GaussianBlur(3))
+	img_gray_gaussian = img_gray.filter(ImageFilter.GaussianBlur(1))
 
 	# 3. convert to low contrast for better edge detecting
-	img_contrast_low = ImageEnhance.Contrast(img_gray).enhance(0.5)
+	img_contrast_low = ImageEnhance.Contrast(img_gray_gaussian).enhance(0.7)
 
 	# 4. get outline of text by edge detection
 	img_outline = img_contrast_low.filter(ImageFilter.FIND_EDGES)
@@ -347,6 +347,7 @@ def capture_by_subtitle(cap, v_infos, caption_file, img_path_name):
 				preprocessed_img = image_preprocess(img_orig, img_name_numbered)
 
 				frame_hash = imagehash.average_hash(preprocessed_img)
+
 				prev_frame_hash = None
 				prev_frame_hash_str = frame_infos[cap_cnt-1]['sub_hash']
 				if prev_frame_hash_str:
@@ -360,6 +361,7 @@ def capture_by_subtitle(cap, v_infos, caption_file, img_path_name):
 
 				# The threah is a tunnable value
 				# With a highier value, It would delete more duplicated images.
+				'''
 				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=0):
 					print('.', end='', flush=True)
 					savepath_dup = savepath + '.dupli.jpg'
@@ -372,6 +374,7 @@ def capture_by_subtitle(cap, v_infos, caption_file, img_path_name):
 					continue
 				else:
 					None
+				'''
 
 			# 3. Add caption text in plain frame
 			else:

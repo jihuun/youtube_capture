@@ -74,7 +74,8 @@ def download_youtube(args):
 	video_infos['nosub_opt'] = args.nosub
 	video_infos['imgdiff_opt'] = args.imgdiff
 	video_infos['bg_opacity'] = args.bg_opacity
-	video_infos['thumbnail'] = yt.thumbnail_url.replace('default.jpg', 'maxresdefault.jpg')
+	video_infos['thumbnail'] = 'https://img.youtube.com/vi/%s/maxresdefault.jpg' %yt.video_id
+
 	video_infos['frame_infos'] = None
 	print('The video informations:')
 	print(video_infos)

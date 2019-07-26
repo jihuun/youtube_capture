@@ -1,0 +1,1125 @@
+{
+	"url": "'https://youtu.be/dDk2R7eFibg'",
+	"title": "인류의 피부색은 왜 이토록 다양하게 진화했을까?",
+	"video_id": "dDk2R7eFibg",
+	"lang_code": "en",
+	"font_size": 30,
+	"file_name": "skin-color3",
+	"file_path": "/home/ubuntu/project/youtube_capture/results/skin-color3",
+	"nosub_opt": true,
+	"imgdiff_opt": false,
+	"bg_opacity": 0,
+	"thumbnail": "https://img.youtube.com/vi/dDk2R7eFibg/maxresdefault.jpg",
+	"frame_infos": [
+		{
+			"frame_num": 0,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_00.jpg",
+			"time_info": 4.0,
+			"script": "아 더 아 햇빛이 않는다",
+			"ocr_script": "00000 무더운이름입니다 이러분,선크림바르셨나요? 80809",
+			"hash": null,
+			"sub_hash": "00c9ffc383c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 1,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_01.jpg",
+			"time_info": 7.5,
+			"script": "무더운 여름입니다 여러분 썬크림 받으셨나요 우리가 아는 썬크림은 수백만",
+			"ocr_script": "」            수백만 년 전, 아프리카 적도 부근에서",
+			"hash": null,
+			"sub_hash": "0000ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 2,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_02.jpg",
+			"time_info": 10.5,
+			"script": "년 전 아프리카 적도 부근에서 인류의 조상이 처음 등장했을 때 당연히",
+			"ocr_script": "인류의 조상이 처음 등장했을 땐 당연히~ 없었습니다.",
+			"hash": null,
+			"sub_hash": "ffffff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 3,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_03.jpg",
+			"time_info": 14.0,
+			"script": "없었습니다",
+			"ocr_script": "그렇다면 우리 조상들은 어떻게 자외선의 공격에 대처했을까요?",
+			"hash": null,
+			"sub_hash": "ffffff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 4,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_04.jpg",
+			"time_info": 16.5,
+			"script": "그렇다면 우리 조상들은 어떻게 자외선 공격에 대처 있을까요",
+			"ocr_script": "그렇다면 우리 조상들은 어떻게 자외선의 공격에 대처했을까요?",
+			"hash": null,
+			"sub_hash": "ffffff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 5,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_05.jpg",
+			"time_info": 20.0,
+			"script": "그렇습니다 피부 아래에서 만들어지는 썬크림 즉 멜라닌을 이용 햇죠",
+			"ocr_script": "그럼습니다. 피부 아래에서 만들어지는 선크림, “멜라닌\"을 이용했죠.",
+			"hash": null,
+			"sub_hash": "ffffff818080ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 6,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_06.jpg",
+			"time_info": 24.0,
+			"script": "멜라니는 자외선으로부터 dna 가 손상되는 걸 막아주고 세포의 형성과",
+			"ocr_script": "멜라닌은 자외선으로부터 04#가 손상되는 컴 믹아 주고,",
+			"hash": null,
+			"sub_hash": "83cfff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 7,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_07.jpg",
+			"time_info": 28.5,
+			"script": "재생을 돕는 엽산 이란 중요한 분자가 자외선에 의해 분해되는 걸",
+			"ocr_script": "자외션에 의해 분해되는 걸 막아 줍니다.                        -",
+			"hash": null,
+			"sub_hash": "e0f0ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 8,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_08.jpg",
+			"time_info": 33.0,
+			"script": "막아줍니다 게다가 엽산이 정자 생산을 높고 태아에 신경과 혈관 발달에도",
+			"ocr_script": "태아의 신경과 혈관 빌달에도 꼭필요하다는 걸 떠올리면              -",
+			"hash": null,
+			"sub_hash": "e0f0ff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 9,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_09.jpg",
+			"time_info": 36.0,
+			"script": "꼭 필요하다는 걸 떠올리면 멜라닌 끈적거리지 도 백탁 현상 도 없는 정말",
+			"ocr_script": "멜라닌은 끈적거리지도, 백탁인상도 없는 정말 고마운 선크림입니다.",
+			"hash": null,
+			"sub_hash": "dfefff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 10,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_010.jpg",
+			"time_info": 40.5,
+			"script": "고마운 선크림 입니다",
+			"ocr_script": ": 미만, 밀라년은 극각의 색소라서 많이 만들이지민 피부색이 진이지는떠요.",
+			"hash": null,
+			"sub_hash": "8efeff000000ff60",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 11,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_011.jpg",
+			"time_info": 41.5,
+			"script": "다만 멜라니는 흑갈색의 색소 라서 많이 만들어지면 피부 색이 짙어지는",
+			"ocr_script": ": 다만 멜라닌은 잠색의 색소라서 많이 만듬어지먼 피부석이 점이지는데요:",
+			"hash": null,
+			"sub_hash": "ffffff000000ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 12,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_012.jpg",
+			"time_info": 45.5,
+			"script": "데요",
+			"ocr_script": "돔     그래서 자외선이 강하게 내리찌는 아프리카 적도 부근에서 술현한",
+			"hash": null,
+			"sub_hash": "ffffff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 13,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_013.jpg",
+			"time_info": 47.0,
+			"script": "그래서 자외선이 강하게 내리쬐는 아프리카 적도 부근에서 출연한 초기",
+			"ocr_script": "그래서 자외선이 강하게 내리쪼는 아프리카 적도 부근에서 술현한",
+			"hash": null,
+			"sub_hash": "ffffff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 14,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_014.jpg",
+			"time_info": 51.0,
+			"script": "이유는 짙은색 피부를 지내고 있었습니다",
+			"ocr_script": "초기 인류는 짐은색 피부은 지니고 있었습니다.",
+			"hash": null,
+			"sub_hash": "ffffffc3c1c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 15,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_015.jpg",
+			"time_info": 54.0,
+			"script": "일부 사람들은 피부 색이 짙으면 오히려 열을 많이 흡수하기 때문에 더위에",
+			"ocr_script": "일부 사람들은 피부색이 짐으면 오히려 열을 많이 읍수하기 때문에",
+			"hash": null,
+			"sub_hash": "00fbff8181a1ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 16,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_016.jpg",
+			"time_info": 58.0,
+			"script": "취약한 지 않냐 라는 붕 정을 품고 나는데 그렇지 않습니다 패피 3 의한",
+			"ocr_script": "“더위에 취약하지 앉냐\"란 궁금증을 품곤 하는데, 그렇지 않습니다.",
+			"hash": null,
+			"sub_hash": "00fbff8581a1ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 17,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_017.jpg",
+			"time_info": 62.5,
+			"script": "채운 증가는 적외선 의 영향을 많이 봤는데 짙은 3 p 우와 옅은 색",
+			"ocr_script": "햇빚에 의한체온 증가는 적외선의 영향을 많이 받는데",
+			"hash": null,
+			"sub_hash": "00cfffc381c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 18,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_018.jpg",
+			"time_info": 66.5,
+			"script": "피부는 햇빛 속에 적외선을 거의 비슷하게 흡수합니다 즉 더위를 느끼는",
+			"ocr_script": "~              거의 비슷하게 읍수함니다.",
+			"hash": null,
+			"sub_hash": "0020ffe7e7e7ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 19,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_019.jpg",
+			"time_info": 69.5,
+			"script": "정도는 온도와 습도의 영향을 많이 받을 뿐 피부색과 는 큰 연관이 없다는",
+			"ocr_script": "즉, 더위을 느끼는 정토는 온도와 습도에 영향을 많이 밭을 분",
+			"hash": null,
+			"sub_hash": "0ccfffc181c1ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 20,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_020.jpg",
+			"time_info": 73.5,
+			"script": "거죠",
+			"ocr_script": "-       :       느  피부색과는 큰연권이 없다는 거죠.",
+			"hash": null,
+			"sub_hash": "000effe7c3e3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 21,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_021.jpg",
+			"time_info": 75.5,
+			"script": "다시 본론으로 돌아와서 이렇듯 초기 인류의 피부색은 짙어 씁니다",
+			"ocr_script": "다시 본른으로 돌아와서",
+			"hash": null,
+			"sub_hash": "0000ffe7e7e7ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 22,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_022.jpg",
+			"time_info": 79.5,
+			"script": "그런데 지금의 인류는 왜 이렇게 아 피부색이 다양해진 걸까요",
+			"ocr_script": "그런데 지금의 인류는 왜 이렇게나 피부색이 다양해진 걸까요?",
+			"hash": null,
+			"sub_hash": "00ffff818189ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 23,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_023.jpg",
+			"time_info": 82.5,
+			"script": "지나가 빚어낸 피부색에 비밀 지금 시작합니다",
+			"ocr_script": "",
+			"hash": null,
+			"sub_hash": "0000ffe7e3e7ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 24,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_024.jpg",
+			"time_info": 86.5,
+			"script": "[음악]",
+			"ocr_script": "00002 이게 노다가",
+			"hash": null,
+			"sub_hash": "00fffefeffffff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 25,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_025.jpg",
+			"time_info": 89.5,
+			"script": "짙은 피부색을 지녔던 인류는 아프리카를 벗어나 전 세계로 퍼지기",
+			"ocr_script": "점은 피부색을 지넌 인류는 아프리카은 빗어나",
+			"hash": null,
+			"sub_hash": "30feffc3c1c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 26,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_026.jpg",
+			"time_info": 94.0,
+			"script": "시작하면서 피부색은 놀라운 변화를 맞이하게 됩니다",
+			"ocr_script": "” 전세계로퍼지기 시작하민서 피부색은 놀라운 번화은 맞이하게 됩니다.",
+			"hash": null,
+			"sub_hash": "b93fff818081ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 27,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_027.jpg",
+			"time_info": 97.5,
+			"script": "위도가 높은 지역에 정착한 인류는 피부 색이 옅어 지기 시작한 거죠",
+			"ocr_script": "위도가 높은 지역에 정착한 인류는 피부색이 얻어지기 시작한 거죠.",
+			"hash": null,
+			"sub_hash": "00e7ff81818dff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 28,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_028.jpg",
+			"time_info": 102.5,
+			"script": "정확히 말하면 짙은색 피부로 진행 상하게 굽고 옅은 색 피부를 지닌 사람",
+			"ocr_script": "정확히 말하면, 점은썩 피부을 지닌 사람든은 죽고,",
+			"hash": null,
+			"sub_hash": "00dfffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 29,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_029.jpg",
+			"time_info": 105.0,
+			"script": "즉 멜라닌 색소를 적혀진 사람들이 자연 선택되어 생존한 겁니다 여러분",
+			"ocr_script": ": 얻은색피부음지닌사람",
+			"hash": null,
+			"sub_hash": "0003ffe7e7e7ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 30,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_030.jpg",
+			"time_info": 109.5,
+			"script": "이상하지 않나요",
+			"ocr_script": "즉 멜라닌 색소은 적게 지닌 사람등이 자연선택되이 생존한겁니다.",
+			"hash": null,
+			"sub_hash": "00ffffa181a1ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 31,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_031.jpg",
+			"time_info": 112.5,
+			"script": "멜라닌 색소가 자외선을 차단해 주는 고마운 존재 라면 무조건 많을수록",
+			"ocr_script": "멜라닌 색소가 자외선을 차단해 주는 고마운 존재라면",
+			"hash": null,
+			"sub_hash": "007effc381c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 32,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_032.jpg",
+			"time_info": 116.0,
+			"script": "생존의 무기 할 것 같은데 왜 위도가 높은 지역에선 멜라닌을 잃고 피부가",
+			"ocr_script": "무조건 많을수록 생존에 유리한 것 같은데",
+			"hash": null,
+			"sub_hash": "000effc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 33,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_033.jpg",
+			"time_info": 120.5,
+			"script": "옅어진 사람들이 더 잘 살아남을 수 있었던 걸까요",
+			"ocr_script": "=  , 해 위도가 높은 지역에선 밀라닌을 잎고 피부가 연어진시람들이",
+			"hash": null,
+			"sub_hash": "60ffff818185ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 34,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_034.jpg",
+			"time_info": 124.5,
+			"script": "그 이유는 바로 자외선과 비타민 b 에 있습니다 이 그림을 볼까요",
+			"ocr_script": "그 이유는 바로 “자외선”과 “비타민 ㅁ\"에 있습니다.",
+			"hash": null,
+			"sub_hash": "007fffc3c3dbff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 35,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_035.jpg",
+			"time_info": 129.0,
+			"script": "지구 n 총 3종류의 자외선이 쏟아집니다 오존층의 완전히 흡수되는 uvc",
+			"ocr_script": "지구엔층세종류의자외션이쏟아집니다.",
+			"hash": null,
+			"sub_hash": "00e0ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 36,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_036.jpg",
+			"time_info": 134.0,
+			"script": "적당히 흡수되는 uv p 오존층 가져 뚫고 g4 까지 내려오는 uva",
+			"ocr_script": "적당히읍수되는 448,",
+			"hash": null,
+			"sub_hash": "00e0ffe7e7e7ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 37,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_037.jpg",
+			"time_info": 138.0,
+			"script": "테러 없기는 매한가지 지만 역설적이게도 인간이 체내에서 비타민 뒤를 합성",
+			"ocr_script": "|  옥    . 오존증마저 물고 지표까지 내려오는 4.",
+			"hash": null,
+			"sub_hash": "00e0ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 38,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_038.jpg",
+			"time_info": 142.5,
+			"script": "하려면 반드시 uvb 가 필요합니다",
+			"ocr_script": "초2 인간이 체내이서 비타민 ㅁ클 함성하려면",
+			"hash": null,
+			"sub_hash": "60e0ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 39,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_039.jpg",
+			"time_info": 145.0,
+			"script": "비타 및 위의 정부 채인 d 하이드로 콜레스테롤은 uvb 를 주어야만",
+			"ocr_script": "내 받드시 \"048\"가필요압니다!      나",
+			"hash": null,
+			"sub_hash": "00e0ffe7c3c7ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 40,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_040.jpg",
+			"time_info": 150.0,
+			"script": "비타민 d 로 변할 수 있기 때문입니다",
+			"ocr_script": "0    「    1008은 쩌야만 비타민 ㅁ로 변한 수 있기 때문입니다.",
+			"hash": null,
+			"sub_hash": "00feffc381c1ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 41,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_041.jpg",
+			"time_info": 153.0,
+			"script": "그런데 위로 가 높을수록 유부에 비는 대기를 통과하는 거리가 멀어져 쉽게",
+			"ocr_script": "：   :    1008을 찌어야만 비타민 ㅁ로 변한 수 있기 때문입니다.",
+			"hash": null,
+			"sub_hash": "00feffc381c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 42,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_042.jpg",
+			"time_info": 158.0,
+			"script": "흩어집니다 그래서 고위도 지역에서는 멜라닌이 반을 경우 자외선 차단 율은",
+			"ocr_script": "네            4006\"는 대기은 동과하는 거리가 멀어져 쉽게 은어집니다.",
+			"hash": null,
+			"sub_hash": "60f2ff8181c1ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 43,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_043.jpg",
+			"time_info": 162.5,
+			"script": "높아질 지 몰라도 체내의 비타민 a 합성 율은 떨어지게 되는 거죠",
+			"ocr_script": "고    그리서 고위도 지역에서는 멜라닌이 많을 경우,",
+			"hash": null,
+			"sub_hash": "606effc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 44,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_044.jpg",
+			"time_info": 165.0,
+			"script": "비타민 d 의 결핍은 칼슘 대사에 이상을 불러오고 그 결과 뼈가",
+			"ocr_script": "~    체내의 비타민 0ㅁ합성은은 떨어지게 되는 거죠.",
+			"hash": null,
+			"sub_hash": "606effc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 45,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_045.jpg",
+			"time_info": 170.0,
+			"script": "약해지거나 굳게 됩니다",
+			"ocr_script": "비타민 0ㅁ의 결픈 칼슴 대사에 이상을 물러오고",
+			"hash": null,
+			"sub_hash": "007effc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 46,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_046.jpg",
+			"time_info": 170.5,
+			"script": "또 변형 깨를 붕괴 시키기도 하며 심지어 기분과 정신건강 마저 무너질 수",
+			"ocr_script": "비타민 0ㅁ의 결픈 칼슴 대사에 이상을 물러오고",
+			"hash": null,
+			"sub_hash": "007fffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 47,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_047.jpg",
+			"time_info": 175.5,
+			"script": "있죠",
+			"ocr_script": ":         또민역게은 붕괴시키기도 하며, 고   ;",
+			"hash": null,
+			"sub_hash": "e3ffffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 48,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_048.jpg",
+			"time_info": 178.0,
+			"script": "결국 수십만 년 전 비타민 보조제 가 없던 수렵 채집 시절 6의 b 란",
+			"ocr_script": "타노      심지이 기분과 정신 건강마저무너질수있죠.",
+			"hash": null,
+			"sub_hash": "3effffc3c3c3ff10",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 49,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_049.jpg",
+			"time_info": 182.5,
+			"script": "자외선은 인류 조상들의 겐 생존의 빛이 어떤 셈입니다 따라서 위도가 높은",
+			"ocr_script": "결국, 수십만 년 전 비타민 보조재가 없던 수렴 채집 시절,",
+			"hash": null,
+			"sub_hash": "e9ffff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 50,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_050.jpg",
+			"time_info": 186.5,
+			"script": "지역으로 이동한 인류 조상들은 비타민 뒤를 효율적으로 합성할 위해 짙은",
+			"ocr_script": "ㅣ  008란자의선은인류조싱등이겐생존의 빅이있던샘입니다.",
+			"hash": null,
+			"sub_hash": "f3ffff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 51,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_051.jpg",
+			"time_info": 190.5,
+			"script": "피부를 벗어던지는 방향으로 선택 앞 을 받았습니다",
+			"ocr_script": ": 따라서위도가높은 지역으로 이동한인류조상들은",
+			"hash": null,
+			"sub_hash": "1a7fffc381c1ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 52,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_052.jpg",
+			"time_info": 194.0,
+			"script": "물론 멜라닌을 완전히 포기하지는 않았습니다 dna 가 파괴되고 엽산이",
+			"ocr_script": "' 점은 피부을 빗이 던지는 방양으로 선택압을 받았습니다.",
+			"hash": null,
+			"sub_hash": "1a7fff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 53,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_053.jpg",
+			"time_info": 198.0,
+			"script": "분해 되는 건 막을 정부의 멜라니는 필요 했으니까요 표 쉔 여 주립대",
+			"ocr_script": "몰롬 멜라닌을원전히포기하진앉았습니다.",
+			"hash": null,
+			"sub_hash": "107effc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 54,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_054.jpg",
+			"time_info": 201.0,
+			"script": "인류 아까의 이나 잡으로 숲의 박사는 앞서 말한 내용을 단 두 장의",
+			"ocr_script": "0148가 파괴되고 엽산이 분해되는 건 막을 정도의 멜라닌은 필요했으니까요.",
+			"hash": null,
+			"sub_hash": "7effff800080ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 55,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_055.jpg",
+			"time_info": 205.0,
+			"script": "사진으로 종이 있습니다",
+			"ocr_script": "편실베이니아 주림대의 인류약과의 니나 자반른스키 박사는",
+			"hash": null,
+			"sub_hash": "38ffff838183ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 56,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_056.jpg",
+			"time_info": 208.0,
+			"script": "첫번째 사진은 나사의 1 인공위성이 찍은 지표면에 염 평문 자외선 복사",
+			"ocr_script": "알써 말한 내용을 단 두장의 사진으르 점리있습니다.",
+			"hash": null,
+			"sub_hash": "183cffc381c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 57,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_057.jpg",
+			"time_info": 210.5,
+			"script": "랑이 되어 분홍색과 빨간색으로 물들어 있는 적도 꾸는 자외선이 많이",
+			"ocr_script": "-첫본째사진은 456의 한 인공위성(1015 7)이 찍은",
+			"hash": null,
+			"sub_hash": "6070ff818183ff60",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 58,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_058.jpg",
+			"time_info": 215.0,
+			"script": "도달한 지역입니다",
+			"ocr_script": "지표면의 연평균 자외선 복사량인데요.",
+			"hash": null,
+			"sub_hash": "0040ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 59,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_059.jpg",
+			"time_info": 216.0,
+			"script": "반면 1 회색 녹색 노랑 회색 으로 갈수록 즉 미드가 높아질수록 자외선의",
+			"ocr_script": "분응색과 발간색으로 묻든어 있는 적도 부근은",
+			"hash": null,
+			"sub_hash": "0066ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 60,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_060.jpg",
+			"time_info": 220.5,
+			"script": "양이 줄어들 줘",
+			"ocr_script": "",
+			"hash": null,
+			"sub_hash": "0000ffd3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 61,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_061.jpg",
+			"time_info": 223.0,
+			"script": "그리고 두번째 사진은 전세계 피부색 지도 이미나 적도 쪽으로 갈수록",
+			"ocr_script": "반면, 하늘색, 녹색, 노랑, 회색으로 칼수록",
+			"hash": null,
+			"sub_hash": "0002ffd3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 62,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_062.jpg",
+			"time_info": 227.5,
+			"script": "피부색에 짙어지고 급 뒤쪽을 피부 색이 옅어지는 게 보이시죠",
+			"ocr_script": "그리고 두 번째 사진은 전 세계 피부색 지도입니다.",
+			"hash": null,
+			"sub_hash": "005cffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 63,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_063.jpg",
+			"time_info": 230.5,
+			"script": "놀랍게도 자외선 지도와 정확히 일치합니다 이 사진들은 피부색과 자외선에",
+			"ocr_script": "적도 쪽으로 갈수록 피부씩이진어지고",
+			"hash": null,
+			"sub_hash": "004cffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 64,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_064.jpg",
+			"time_info": 234.5,
+			"script": "상관관계를 정말 잘 보여주고 있죠",
+			"ocr_script": "는람게도 자외선 지도와 점찍회 일치입니다.",
+			"hash": null,
+			"sub_hash": "0078ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 65,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_065.jpg",
+			"time_info": 237.0,
+			"script": "이 둘의 상관관계를 보여주는 또 다른 증거가 있습니다",
+			"ocr_script": "늘람게도 자외선 지도와 정확히 일치합니다.       :",
+			"hash": null,
+			"sub_hash": "007cffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 66,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_066.jpg",
+			"time_info": 240.5,
+			"script": "바로 고위도 지역에 사는 에스키모 r u2 족 인데요",
+			"ocr_script": "이 사진들은 피부색과 자외선의 상관 관게은 정말 잘 보여 주고 있죠.",
+			"hash": null,
+			"sub_hash": "00ffff8181a1ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 67,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_067.jpg",
+			"time_info": 244.0,
+			"script": "이들은 고위도 1 알레스카 주변에 살지만 피부가 에 어찌 않습니다 오히려",
+			"ocr_script": "이 돌의 성관 관게을 보여 주는 뜨 다른 증거가 있습니다.",
+			"hash": null,
+			"sub_hash": "00fbffc381c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 68,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_068.jpg",
+			"time_info": 247.5,
+			"script": "동양인의 갑주 그 이유는 이들의 식습관에 있는데요",
+			"ocr_script": "|        바르 고위도 지역에 사는 에스키모 알류트족인데요:        ㅣ",
+			"hash": null,
+			"sub_hash": "c7efffc381c1ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 69,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_069.jpg",
+			"time_info": 251.5,
+			"script": "이들은 주로 생선과 날고기를 먹는 덕분에 b",
+			"ocr_script": "이들은 고위도인 알래스카 주변에 살지만 피부가 연지 않습니다.   0",
+			"hash": null,
+			"sub_hash": "efffff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 70,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_070.jpg",
+			"time_info": 254.5,
+			"script": "비타민 d 를 충분히 섭취할 수 있습니다 굳이 백인처럼 피부가 여 터져",
+			"ocr_script": "1                     그 이유는 이들의 식습권에 있는데요.",
+			"hash": null,
+			"sub_hash": "c7cfffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 71,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_071.jpg",
+			"time_info": 259.0,
+			"script": "자외선에 많이 노출된 필요가 없었던 겁니다",
+			"ocr_script": "1                   비타민 ㅁ근 충분히 섭위알수있습니다.                별",
+			"hash": null,
+			"sub_hash": "c3cbffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 72,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_072.jpg",
+			"time_info": 262.5,
+			"script": "이렇듯 짙은 피부색으로 출발한 인류는 세계 각지로 퍼진 후 고위도 중의",
+			"ocr_script": ": 클이 빅인처럼피부가연이져 자외선에 많이 노슬된 필요가 없었던 것입니다.",
+			"hash": null,
+			"sub_hash": "7dffff000080ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 73,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_073.jpg",
+			"time_info": 266.5,
+			"script": "돋은 각 지역 기후에 적합한 피부색을 지니게 되었고 그들은 아주 아주",
+			"ocr_script": "이얼듯 겉은 피부색으로  순발한인류는",
+			"hash": null,
+			"sub_hash": "7d7bffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 74,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_074.jpg",
+			"time_info": 271.0,
+			"script": "행복하게 잘 살고 있는 듯 했습니다",
+			"ocr_script": "세게 각지로 퍼진 추, 고위도 중위도 등 각 지역 기추에 적험한",
+			"hash": null,
+			"sub_hash": "3fffff818181ff0f",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 75,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_075.jpg",
+			"time_info": 274.0,
+			"script": "그러나 16세기부터 19세기까지 지속적으로 자행된 유럽 열강들의 노예",
+			"ocr_script": "7 파부색을지니게했고,         063",
+			"hash": null,
+			"sub_hash": "0f1dffe7c7e7ff0f",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 76,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_076.jpg",
+			"time_info": 278.5,
+			"script": "무역이 참혹한 결과를 낳기 시작합니다",
+			"ocr_script": "、 그드은 이주 아주 임복하게 칼살고 있는 듯 했습니다.",
+			"hash": null,
+			"sub_hash": "0d9dff818181ff1f",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 77,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_077.jpg",
+			"time_info": 282.0,
+			"script": "왜 무역 때문에 아프리카 적의 도 지역에 있던 흑인들은 본인들의 의사와는",
+			"ocr_script": "",
+			"hash": null,
+			"sub_hash": "1282ffc3c3d3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 78,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_078.jpg",
+			"time_info": 286.0,
+			"script": "상관없이 유럽이나 아메리카 등 위도가 전혀 다른 지역으로 가게 된거죠",
+			"ocr_script": ". 유엄 일깅들의 노이 무역이 참족완컬과으낭기시적힙니다. 80",
+			"hash": null,
+			"sub_hash": "007cff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 79,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_079.jpg",
+			"time_info": 290.5,
+			"script": "고위도 지역으로 끌려간 흑인 노예 들의 삶은 비극적 이었읍니다 고위도",
+			"ocr_script": ":     _    본안 들의 의사와는 상관없이 유럽이나 아미리카 등 5 ,",
+			"hash": null,
+			"sub_hash": "00ffffc3c1c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 80,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_080.jpg",
+			"time_info": 293.0,
+			"script": "지역은 상대적으로 자외선 양이 적기에 이들은 충분한 비타민 d 를 만들지",
+			"ocr_script": "|   때   :본인들의 의사와는 상관없이 유럽이나 아메리카 등 나",
+			"hash": null,
+			"sub_hash": "00ffffc3c1c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 81,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_081.jpg",
+			"time_info": 297.5,
+			"script": "못했다고 합니다",
+			"ocr_script": "- 교윈드지역으로 콜러간 족인 노에듬의삶은 비적이었습니다.",
+			"hash": null,
+			"sub_hash": "00ffff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 82,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_082.jpg",
+			"time_info": 300.5,
+			"script": "자외선에 충분치 않은 곳에서 흑인 의 비타민 d 합성 능력은 100인 의",
+			"ocr_script": "ㅣ 교윈드지익은삼대적으로자의션앙이적있기에, 80801",
+			"hash": null,
+			"sub_hash": "0969ffc3c1c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 83,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_083.jpg",
+			"time_info": 304.0,
+			"script": "6분의 1 수준에 불과한 되요 그래서 노예로 팔려온 흑인들은 비타민 d",
+			"ocr_script": "",
+			"hash": null,
+			"sub_hash": "40e0ffc381c3ff80",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 84,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_084.jpg",
+			"time_info": 309.0,
+			"script": "부족으로 구루 병을 앓기 10쌍 이었습니다",
+			"ocr_script": "자외선이 충분치 않은 곳에서 옥인의 비타민 0 함성 능력은",
+			"hash": null,
+			"sub_hash": "00ffff8381c1ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 85,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_085.jpg",
+			"time_info": 312.5,
+			"script": "1991년 시체 세기 후반부터 18세기까지 운영된 미국 맨하튼의 한 흑인",
+			"ocr_script": "그래서 노에로 팔려온 즉인들은 비타민 0 부족으로",
+			"hash": null,
+			"sub_hash": "00ffffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 86,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_086.jpg",
+			"time_info": 317.0,
+			"script": "집단 매장 지수가 원유 굴드 를 분석한 결과 흑인들의 상당수가 구룹 병에",
+			"ocr_script": "구루병을 앉기 십상이었습니다.",
+			"hash": null,
+			"sub_hash": "0010ffc7c3e3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 87,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_087.jpg",
+			"time_info": 321.5,
+			"script": "걸렸던 것으로 밝혀져 축도 비타민 d 부족으로 면역기능에 이상이 생기면서",
+			"ocr_script": ": 1991년, 17세기 후반부터 18세기까지 운영된",
+			"hash": null,
+			"sub_hash": "0016ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 88,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_088.jpg",
+			"time_info": 325.5,
+			"script": "신경세포의 수초가 벗겨지는 질병이 다발성 경화증을 앓는 흑인도 많았습니다",
+			"ocr_script": "|] 을인들의싱당수가구루병에컬렸던것으로   박혀졌죠.",
+			"hash": null,
+			"sub_hash": "0078ffc381d3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 89,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_089.jpg",
+			"time_info": 329.0,
+			"script": "진짜 골치 아픈건 헌재 도 미국에 사는 흑인들은 비타민 d 결핍 문제를",
+			"ocr_script": "7 뜨비티미 부족으로 면역 기능에이성이샘기민서",
+			"hash": null,
+			"sub_hash": "0070ffc381c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 90,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_090.jpg",
+			"time_info": 332.5,
+			"script": "덮고 있다는 사실입니다",
+			"ocr_script": "0000 신전세포의수초가빚거지는질범인 으으",
+			"hash": null,
+			"sub_hash": "0000ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 91,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_091.jpg",
+			"time_info": 336.0,
+			"script": "2012년 미국 앨라배마 대학교 니콜 라이트 박사의 연구에 따르면",
+			"ocr_script": "0 발성경히증음않는 흑인도맘있습니다.",
+			"hash": null,
+			"sub_hash": "0020ffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 92,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_092.jpg",
+			"time_info": 339.5,
+			"script": "아프리카 계 미국인 들의 비타민 기 농부는 쉽고 난 5g 퍼 ml 로",
+			"ocr_script": "비타믿ㅁ컬찜문제를 경고 있다는 시설입니다. 0아",
+			"hash": null,
+			"sub_hash": "899bffc383c3ff23",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 93,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_093.jpg",
+			"time_info": 343.5,
+			"script": "이는 32나노 그래퍼 ml 에 미국 백인 보다 낮은 수치 얻고 앞 쪼리",
+			"ocr_script": "ㅣ 2012 미콕일라비마데학교의 니글 라이트 박사의연쿠에 따르민",
+			"hash": null,
+			"sub_hash": "00ffff8181adff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 94,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_094.jpg",
+			"time_info": 347.0,
+			"script": "카에 사는 흑인 에 비해서는 2배 이상 가졌다고 합니다",
+			"ocr_script": "아프리카게미국인들의 비타민 ㅁ능도는 1909/메로",
+			"hash": null,
+			"sub_hash": "40eeffc781c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 95,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_095.jpg",
+			"time_info": 350.5,
+			"script": "그리고 최근엔 비타 및 위에 부족이 당 눈앞이 만 암 에도 영향을",
+			"ocr_script": "아프리카게미국인들의 비타민 ㅁ능도는 1909/0께로",
+			"hash": null,
+			"sub_hash": "40eeffc781c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 96,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_096.jpg",
+			"time_info": 353.5,
+			"script": "미친다는 연구가 활발히 논의 되면서 아프리카계 미국인들의 팩 타민 d",
+			"ocr_script": "이는 3209/0미의 미국 백인보다 낮은 수치였고",
+			"hash": null,
+			"sub_hash": "40f0ffe3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 97,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_097.jpg",
+			"time_info": 357.5,
+			"script": "섭취 개선을 요구하는 목소리도 커지고 있죠",
+			"ocr_script": "아프리키에시는즉인이 비라서는 241 이상 낮왔다교힙니다. |",
+			"hash": null,
+			"sub_hash": "c4feff818181ff40",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 98,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_098.jpg",
+			"time_info": 361.0,
+			"script": "그리고 비대한 이전 문제는 흑인에게 에서만 나타나는 건 아닙니다 피부색이",
+			"ocr_script": "당뇨나 비만, 암에도 영향을 미친다는 연구가 환발히 논의되면서",
+			"hash": null,
+			"sub_hash": "efffff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 99,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_099.jpg",
+			"time_info": 364.5,
+			"script": "어떤 백인을 중 자외선이 강한 저희 쪽에 사는 사람들은 멜라닌 색소가",
+			"ocr_script": "아프리카게 미국인들의 비타민 ㅁ섭취개선을",
+			"hash": null,
+			"sub_hash": "c3ffffc3c3c3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 100,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0100.jpg",
+			"time_info": 369.0,
+			"script": "적은 탓에 p 화 암에 걸릴 확률이 높아졌습니다",
+			"ocr_script": "그리고 비단, 이런 문제는 름인에게서만 나타나는 건 아닙니다.          :",
+			"hash": null,
+			"sub_hash": "5f7fff818181ff1f",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 101,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0101.jpg",
+			"time_info": 372.5,
+			"script": "여기에 일광욕을 즐기는 사람들까지 더해 줘 지난 50년간 백인들의 흑색종",
+			"ocr_script": "피부색이 얻은 백인든 중 자의션이 강한 저워트 지역에 사는 사람들은",
+			"hash": null,
+			"sub_hash": "05fdff818185ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 102,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0102.jpg",
+			"time_info": 376.5,
+			"script": "발병률은 8배나 증가해 쭉 이처럼 진화의 속도가 어그는 그윽한 거주",
+			"ocr_script": "：    멜라닌색소가적은 탓이 피부임이 컬릴 확융이 높아줬습니다.       |",
+			"hash": null,
+			"sub_hash": "00bfff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 103,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0103.jpg",
+			"time_info": 381.0,
+			"script": "환경의 변화는 새로운 질병의 원인이 되기도 합니다",
+			"ocr_script": "2   여기메 일광욕을 즐기는 사랄들까지 더해져 : ㆍ",
+			"hash": null,
+			"sub_hash": "7f77ffc3c3c3ff21",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 104,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0104.jpg",
+			"time_info": 384.5,
+			"script": "이를 다른 관점으로 해석하면 인류의 다양한 피부색은 햇빛과 지나가 빚어낸",
+			"ocr_script": "지난 50년 간 백인듬의 육색증(악성피부증양) 빌병요은 8비나 증가있즈.",
+			"hash": null,
+			"sub_hash": "08e7ff810181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 105,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0105.jpg",
+			"time_info": 389.0,
+			"script": "형질이 뿐 절대적인 우열은 없다는 얘기가 됩니다",
+			"ocr_script": "보셔             이처럼 진화의 속도와 어긋난 금격환거주 환경의 번화는",
+			"hash": null,
+			"sub_hash": "6bffff818181ff80",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 106,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0106.jpg",
+			"time_info": 394.0,
+			"script": "그래서 수 백년동안 피부색으로 우열을 나눠 벌어진 참혹한 3 번들 또",
+			"ocr_script": "이을 다른 관점으로 해석하면 인류의 다양한피부색은",
+			"hash": null,
+			"sub_hash": "79ffff8181c1ff40",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 107,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0107.jpg",
+			"time_info": 398.0,
+			"script": "지금도 종종 벌어지는 인종차별 사건들은 안타까움을 더 하는게 아닐까요",
+			"ocr_script": "햇빚과 진화가 빚이낸 형질일 분",
+			"hash": null,
+			"sub_hash": "0000ffe7c3e3ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 108,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0108.jpg",
+			"time_info": 402.0,
+			"script": "이 영상이 재미있고 유익했다면 좋아요와 구독 알림설정 까지 꼭 눌러주세요",
+			"ocr_script": ": 그래서 수백년 등안피부색으로 우열을 나뉘 빌어진 참족한 사건들,  개",
+			"hash": null,
+			"sub_hash": "04feff818181ff00",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 109,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0109.jpg",
+			"time_info": 405.5,
+			"script": "지금까지 과학 드리미 얻습니다",
+			"ocr_script": "30서 수빅년동안 피부색으로우입은 나뉘 별이진 참죽인시걷는,  |",
+			"hash": null,
+			"sub_hash": "187fff818181ff04",
+			"usage": "ok"
+		},
+		{
+			"frame_num": 110,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/skin-color3/imgs/skin-color3_0110.jpg",
+			"time_info": 406.5,
+			"script": "감사합니",
+			"ocr_script": "뜨, 지금도 종좀 벌어지는 인종차별 사건들은",
+			"hash": null,
+			"sub_hash": "00f6ffc3c3c3ff00",
+			"usage": "ok"
+		}
+	]
+}

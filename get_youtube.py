@@ -282,7 +282,7 @@ def crop_area(img, h_ratio=4, w_ratio=0.8):
 	return area
 
 def get_text_from_img(img):
-	text = image_to_string(img, lang='kor', config='--psm 7')
+	text = image_to_string(img, lang='kor+eng', config='--psm 7')
 	return text
 
 def save_pil_img(pil_img, img_path):

@@ -59,13 +59,22 @@ def download_youtube(args):
 	else:
 		os.mkdir(outpath)
 
+	# Stream selection
+	#print(yt.streams.all(), '\n')
+	stream = yt.streams.get_by_itag('18') #FIXME: itag:18-360p,mp4 #TODO: if no itag:18?
+
+	# Sream download
+	stream.download(output_path=outpath, filename=file_name)
+
 	caption_lang = args.lang
 	caption_file = os.path.join(outpath, file_name + '.srt')
 	video_file = os.path.join(outpath, file_name + '.mp4')
-	video_infos = OrderedDict()
+	GEN_FILES_DEL.append(caption_file)
+	GEN_FILES_DEL.append(video_file)
 
+	video_infos = OrderedDict()
 	video_infos['url'] = url
-	video_infos['title'] = yt.title
+	video_infos['title'] = stream.title #TODO: fix from issue - KeyError: 'title'
 	video_infos['video_id'] = yt.video_id
 	video_infos['lang_code'] = args.lang
 	video_infos['font_size'] = args.fontsize
@@ -75,18 +84,9 @@ def download_youtube(args):
 	video_infos['imgdiff_opt'] = args.imgdiff
 	video_infos['bg_opacity'] = args.bg_opacity
 	video_infos['thumbnail'] = 'https://img.youtube.com/vi/%s/maxresdefault.jpg' %yt.video_id
-
 	video_infos['frame_infos'] = None
 	print('The video informations:')
 	print(video_infos)
-
-	# Stream selection
-	#print(yt.streams.all(), '\n')
-	stream = yt.streams.get_by_itag('18') #FIXME: itag:18-360p,mp4 #TODO: if no itag:18?
-
-	# Sream download
-	stream.download(output_path=outpath, filename=file_name)
-	GEN_FILES_DEL.append(video_file)
 
 	# Check if the caption code is exist in the video
 	#print(yt.captions.all())
@@ -108,7 +108,6 @@ def download_youtube(args):
 	else:
 		print('There is no caption in the Youtube video. Can not capture this video, Sorry. language code: \'%s\'\n' %(caption_code))
 		sys.exit()
-	GEN_FILES_DEL.append(caption_file)
 
 	return video_file, caption_file, video_infos
 

@@ -566,7 +566,7 @@ def make_md_page(v_infos, nr_img, path_img, video_infos):
 	fd.close()
 
 def get_num_img_path(outpath, name_img, num):
-	numberd_name = name_img + str(num)
+	numberd_name = name_img + '_0' + str(num)
 	img = os.path.join('imgs', numberd_name) + IMG_FORMAT
 	img_path = os.path.join(outpath, img)
 

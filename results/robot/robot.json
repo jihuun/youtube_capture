@@ -1,0 +1,845 @@
+{
+	"url": "'https://youtu.be/DHyUYg8X31c'",
+	"title": "Do Robots Deserve Rights? What if Machines Become Conscious?",
+	"video_id": "DHyUYg8X31c",
+	"lang_code": "en",
+	"font_size": 30,
+	"file_name": "robot",
+	"file_path": "/home/ubuntu/project/youtube_capture/results/robot",
+	"nosub_opt": false,
+	"imgdiff_opt": false,
+	"bg_opacity": 0.7,
+	"thumbnail": "https://img.youtube.com/vi/DHyUYg8X31c/maxresdefault.jpg",
+	"frame_infos": [
+		{
+			"frame_num": 0,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_00.jpg",
+			"time_info": 4.5,
+			"script": "토스터기가 여러분이 원하는 토스트를 예상하는 미래를 상상해보십시오.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 1,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_01.jpg",
+			"time_info": 9.5,
+			"script": "토스터기는 하루 종일 새롭고 흥미로운 유형의 토스트를 인터넷에서 검색합니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 2,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_02.jpg",
+			"time_info": 15.0,
+			"script": "어쩌면 여러분의 하루에 대해 묻고, 토스트 기술의 새로운 업적에 대해 이야기하고 싶어할지도 모릅니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 3,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_03.jpg",
+			"time_info": 19.0,
+			"script": "어느 선에서 이 토스터기는 사람이 될까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 4,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_04.jpg",
+			"time_info": 22.0,
+			"script": "어느 시점에서 토스터기가 감정을 가졌다는 것을 알게될까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 5,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_05.jpg",
+			"time_info": 25.5,
+			"script": "그렇다면 토스터기의 전원을 뽑는 것은, 살인과 다름없는 것일까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 6,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_06.jpg",
+			"time_info": 28.0,
+			"script": "우리가 계속 그들의 소유권을 주장할 수 있을까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 7,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_07.jpg",
+			"time_info": 31.0,
+			"script": "언젠가는 우리가 기계에게 \"권리\" 를 줄 수 밖에 없는 날이 올까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 8,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_08.jpg",
+			"time_info": 44.5,
+			"script": "인공지능은 이미 여러분의 곁에 와 있습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 9,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_09.jpg",
+			"time_info": 47.0,
+			"script": "인공지능은 대형 할인점의 간식 재고를 관리할 뿐 아니라,",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 10,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_010.jpg",
+			"time_info": 49.5,
+			"script": "적절한 인터넷 광고를 제공하기도 하고,",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 11,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_011.jpg",
+			"time_info": 53.0,
+			"script": "심지어 여러분이 읽는 기사들 중 일부는 처음부터 끝까지 기계에 의해 작성되어 있습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 12,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_012.jpg",
+			"time_info": 58.0,
+			"script": "우리는 지금 Siri와 같은 채팅봇을 보고 원시적인 시뮬레이션된 감정을 비웃고 있지만",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 13,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_013.jpg",
+			"time_info": 63.0,
+			"script": "곧 실제와 시뮬레이션된 인간성 사이의 경계선을 긋기가",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 14,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_014.jpg",
+			"time_info": 67.0,
+			"script": "어려운 존재들에 대처해야 할 것입니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 15,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_015.jpg",
+			"time_info": 71.0,
+			"script": "존재하는 기계중에 권리를 받을 만한 기계가 있을까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 16,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_016.jpg",
+			"time_info": 74.0,
+			"script": "아마 아직은 없을 겁니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 17,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_017.jpg",
+			"time_info": 76.5,
+			"script": "하지만 만약 그런 존재가 나타나더라도, 우리는 그에 대한 준비가 전혀 되어 있지 않을 것입니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 18,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_018.jpg",
+			"time_info": 81.0,
+			"script": "권리 철학의 대부분은 인공지능의 경우를 다루는데 적합하지 않습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 19,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_019.jpg",
+			"time_info": 87.0,
+			"script": "인간과 동물에 대한 대부분의 권리 주장은 의식에 대한 질문이 중심이 됩니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 20,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_020.jpg",
+			"time_info": 91.5,
+			"script": "불행하게도 아무도 의식이 뭔지 모릅니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 21,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_021.jpg",
+			"time_info": 96.0,
+			"script": "어떤 사람들은 의식이 물질이 아니라고 생각하고, 다른 사람들은 가스나 액체같은 상태의 물질이라고 말합니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 22,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_022.jpg",
+			"time_info": 102.5,
+			"script": "정확한 정의와는 상관없이 의식을 경험하고 있기 때문에 우리는 의식에 대한 직관적인 지식을 가집니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 23,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_023.jpg",
+			"time_info": 109.0,
+			"script": "우리는 자신과 주변을 인지하고 있으며 무의식이 어떤 느낌인지 알고 있습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 24,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_024.jpg",
+			"time_info": 114.5,
+			"script": "일부 신경 과학자들은 충분히 발전된 시스템이 의식을 생성 할 수 있다고 믿습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 25,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_025.jpg",
+			"time_info": 119.5,
+			"script": "그러니 만약 토스터기의 하드웨어가 충분히 강력하다면 자의식을 가질 수 있습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 26,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_026.jpg",
+			"time_info": 124.5,
+			"script": "만약 그렇다면, 토스터기가 권리를 받을 자격이 있을까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 27,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_027.jpg",
+			"time_info": 129.0,
+			"script": "글쎄요, 너무 이릅니다. 우리가 \"권리\"로 정의하는 것이 토스터기에게 이해가 될까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 28,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_028.jpg",
+			"time_info": 134.5,
+			"script": "의식은 고통받는 능력을 가진 존재이기 때문에 존재할 권리를 가집니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 29,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_029.jpg",
+			"time_info": 139.5,
+			"script": "이는 통증을 느낄뿐만 아니라 그것을 인지 할 수있는 능력을 의미합니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 30,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_030.jpg",
+			"time_info": 145.0,
+			"script": "로봇은 고통을 겪지 않으며, 우리가 프로그래밍하지 않은 이상은 그렇지 않을 것입니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 31,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_031.jpg",
+			"time_info": 150.5,
+			"script": "고통이나 즐거움이 없으면 선호하는 것도 없고 권리도 의미가 없습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 32,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_032.jpg",
+			"time_info": 156.0,
+			"script": "우리의 인권은 우리 자신의 프로그래밍에 깊게 묶여 있습니다. 예를 들어 고통을 싫어한다던지요.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 33,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_033.jpg",
+			"time_info": 160.5,
+			"script": "우리의 두뇌가 우리를 살아있게하기 위해 진화했기 때문이죠.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 34,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_034.jpg",
+			"time_info": 164.0,
+			"script": "뜨거운 불에 손을 대지 못하게 하거나 우리를 육식 동물로부터 도망가게합니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 35,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_035.jpg",
+			"time_info": 169.5,
+			"script": "그래서 우리는 고통을 유발하는 침해 행위로부터 우리를 보호할 수 있는 권리를 생각해냈습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 36,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_036.jpg",
+			"time_info": 173.5,
+			"script": "자유처럼 좀 더 추상적인 권리는",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 37,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_037.jpg",
+			"time_info": 177.5,
+			"script": "우리의 두뇌가 공정하고 불공정한 것을 식별하는 능력에 뿌리를 두고 있습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 38,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_038.jpg",
+			"time_info": 182.5,
+			"script": "움직일 수 없는 토스터가 철창안에 갖혀 있는걸 꺼릴까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 39,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_039.jpg",
+			"time_info": 187.0,
+			"script": "죽음에 대한 두려움이 없는데 해체되는걸 꺼릴까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 40,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_040.jpg",
+			"time_info": 191.5,
+			"script": "자존심이 필요없는데 모욕감을 느낄까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 41,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_041.jpg",
+			"time_info": 195.5,
+			"script": "하지만 고통과 감정을 느끼도록 로봇을 프로그래밍한다면 어떨까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 42,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_042.jpg",
+			"time_info": 199.5,
+			"script": "불의보다는 정의, 고통보다는 쾌락을 선호하고, 그것에 대해 인지한다면?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 43,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_043.jpg",
+			"time_info": 203.5,
+			"script": "토스터기들을 충분히 인간적으로 만들까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 44,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_044.jpg",
+			"time_info": 207.0,
+			"script": "많은 기술자들은 인공지능이 배울 수 있고",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 45,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_045.jpg",
+			"time_info": 211.5,
+			"script": "자기 자신보다 똑똑한 인공지능을 만들 수 있을 때",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 46,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_046.jpg",
+			"time_info": 215.0,
+			"script": "기술의 폭발이 일어날 것이라고 믿습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 47,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_047.jpg",
+			"time_info": 216.5,
+			"script": "* 눈동자로 들어가시오! * 기술의 폭발이 일어날 것이라고 믿습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 48,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_048.jpg",
+			"time_info": 220.0,
+			"script": "이 시점에서 우리의 로봇이 어떻게 프로그래밍되는지에 대한 질문은 대부분 우리가 통제 할 수 없을 것입니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 49,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_049.jpg",
+			"time_info": 225.0,
+			"script": "인공지능이 진화 생물학이 대부분의 생명체에 필요하다고 느끼는 것처럼",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 50,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_050.jpg",
+			"time_info": 229.5,
+			"script": "고통을 느낄 수 있는 능력을 프로그래밍할 필요가 있다는 것을 발견했다면 어떨까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 51,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_051.jpg",
+			"time_info": 233.5,
+			"script": "* 삶은 고통이요, 고통이 곧 삶이니라 * 이제는 로봇이 권리를 부여받을 자격이 있을까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 52,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_052.jpg",
+			"time_info": 237.5,
+			"script": "하지만 우리는 초지능형 로봇이 우리에게 주는 위험성에 대해 걱정할 필요는 없고",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 53,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_053.jpg",
+			"time_info": 241.5,
+			"script": "우리가 그들에게 줄 위험성에 대해 걱정해봐야합니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 54,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_054.jpg",
+			"time_info": 245.5,
+			"script": "우리의 전체적인 인간 정체성은 인간 예외주의의 개념을 기반으로 하는데",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 55,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_055.jpg",
+			"time_info": 250.5,
+			"script": "이는 우리가 굉장히 특별한 모양이 눈송이 같은 것이라, 자연 세계를 지배할 권리를 부여받았다고 믿는 것입니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 56,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_056.jpg",
+			"time_info": 255.5,
+			"script": "인간은 다른 존재들이 고통을 느낄 수 있다는 사실을 부인하던 역사가 있습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 57,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_057.jpg",
+			"time_info": 261.5,
+			"script": "과학 혁명 시기에, 르네 데카르트는 동물은 단지 오토마타, 즉 로봇일 뿐이라고 주장했습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 58,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_058.jpg",
+			"time_info": 267.5,
+			"script": "이런 주장대로라면, 토끼를 다치게 하는 것은 토끼 인형을 때리는 것과 별반 다르지 않은 수준의 부도덕에 지나지 않습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 59,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_059.jpg",
+			"time_info": 271.5,
+			"script": "그리고 인류에 대한 가장 큰 범죄의 대부분은",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 60,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_060.jpg",
+			"time_info": 276.0,
+			"script": "피해자들이 문명화된 인간보다는 동물에 가깝다는 식의 논리로 가해자들에 의해 정당화되어 온 바가 있습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 61,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_061.jpg",
+			"time_info": 282.5,
+			"script": "더 큰 문제는 우리가 로봇 권리를 부정함으로써 경제적 이익을 얻을 수 있다는 것입니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 62,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_062.jpg",
+			"time_info": 288.0,
+			"script": "지각력이 있는 인공지능을 (아마도 프로그래밍 된 고문을 통해) 우리가 원하는 일을 하도록 강요할 수 있다면",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 63,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_063.jpg",
+			"time_info": 292.5,
+			"script": "경제적 잠재력은 무한합니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 64,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_064.jpg",
+			"time_info": 295.0,
+			"script": "사실 우리가 이미 저질러 왔던 일이기도 하죠.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 65,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_065.jpg",
+			"time_info": 298.0,
+			"script": "폭력은 우리의 동료인 인간들을 강제로 일하게 하는 데 사용되었습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 66,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_066.jpg",
+			"time_info": 301.5,
+			"script": "그리고 우리는 이를 이념적으로 정당화시키는 데 큰 어려움이 없었습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 67,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_067.jpg",
+			"time_info": 304.0,
+			"script": "\"신께서 황금을 원하신다!\" 그리고 우리는 이를 이념적으로 정당화시키는 데 큰 어려움이 없었습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 68,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_068.jpg",
+			"time_info": 308.5,
+			"script": "노예 주인들은 노예에게 혜택을 주었다고 주장했습니다. 지붕이 있는 집을 지어주고 기독교를 가르쳤다는 것입니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 69,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_069.jpg",
+			"time_info": 315.0,
+			"script": "여성 참정권에 반대하는 남성들은 어려운 결정을 남성에게 맡겨 두는 것이 여성들에게는 이익이라고 주장했습니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 70,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_070.jpg",
+			"time_info": 323.0,
+			"script": "농부들은 동물들을 돌보고 먹이를 주었으니 우리가 먹고 싶은 음식을 공급하기 위해 그들을 도살하는 것은 정당하다고 말합니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 71,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_071.jpg",
+			"time_info": 329.0,
+			"script": "로봇에게 지각력이 생긴다 한들, 변명거리는 넘쳐날 겁니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 72,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_072.jpg",
+			"time_info": 333.0,
+			"script": "* 그만둬라 인간! * 로봇에게 권리가 필요없다고 말하는 사람들에게는, 특히 거기서 이익을 얻는 사람들에게는 말이죠.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 73,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_073.jpg",
+			"time_info": 336.0,
+			"script": "* 얘들은 일하는거 좋아해요. * 로봇에게 권리가 필요없다고 말하는 사람들에게는, 특히 거기서 이익을 얻는 사람들에게는 말이죠.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 74,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_074.jpg",
+			"time_info": 340.0,
+			"script": "인공지능은 철학적 경계에 관한 심각한 질문을 제기할 것입니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 75,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_075.jpg",
+			"time_info": 345.0,
+			"script": "우리가 궁금한 것은 지각력있는 로봇이 자의식이 있거나 권리를 가진다면,",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 76,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_076.jpg",
+			"time_info": 350.0,
+			"script": "그것은 무엇이 우리를 인간으로 만들고 권리를 받게 하는지와 같은 근본적인 질문을 강요합니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 77,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_077.jpg",
+			"time_info": 356.5,
+			"script": "우리가 생각하는 것에 관계없이, 질문은 가까운 미래에 해결 되야 할 것입니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 78,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_078.jpg",
+			"time_info": 363.0,
+			"script": "로봇들이 자신의 권리를 요구하기 시작하면 우리는 어떻게 행동 할까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 79,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_079.jpg",
+			"time_info": 369.0,
+			"script": "권리를 요구하는 로봇들이 우리에 대해 무엇을 가르쳐 줄 수 있을까요?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 80,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_080.jpg",
+			"time_info": 374.0,
+			"script": "Wisecrack의 우리 친구들은 드라마 \"웨스트월드\"의 철학을 사용하여 이 질문을 탐구하는 비디오를 만들었습니다",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 81,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_081.jpg",
+			"time_info": 379.0,
+			"script": "Wisecrack은 독특하고 철학적인 방식으로 대중 문화를 분석합니다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 82,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/robot/imgs/robot_082.jpg",
+			"time_info": 383.0,
+			"script": "동영상을 확인하고 채널을 구독하려면 여기를 클릭하세요",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		}
+	]
+}

@@ -1,7 +1,8 @@
 #! /bin/bash
 
-DEMO_BRANCH="demo/draw_sub"
+DEMO_BRANCH="demo/output_dir"
 CAP_CMD="time python3 get_youtube.py"
+OUTPUT_RESULT='results'
 
 usage() {
 	echo "Usage: $0 
@@ -82,13 +83,6 @@ git branch
 git checkout $DEMO_BRANCH
 git log --oneline
 
-rm *.json
-rm *.mp4
-rm *.srt*
-rm *.md
-git rm *.md
-git rm *.json
-
 echo " "
 usage
 echo " "
@@ -108,7 +102,7 @@ then
 	# NOTE: DO AFTER CONFIRMED THE BRANCH IS CREANED
 
 	# 3. Make a commit and push to the origin
-	git add $CAP_NAME.md $CAP_NAME.json imgs
+	git add $OUTPUT_RESULT
 	git commit -sm "demo $CAP_TAG_NUM $CAP_NAME"
 	git tag -a "demo#$CAP_TAG_NUM" HEAD -m "$CAP_TAG_NUM $CAP_NAME"
 	git push origin $DEMO_BRANCH

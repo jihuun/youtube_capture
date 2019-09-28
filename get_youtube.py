@@ -10,16 +10,20 @@ import cv2			#pip3 install opencv-python
 				# If there would be "numpy.core.multiarray" problem of numpy
 				#Do 'pip3 uninstall numpy' few times until all numpy version will be removed.
 				# https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
-from PIL import Image
+from PIL import Image, ImageFilter, ImageEnhance
+import PIL.ImageOps
 import imagehash
 import json
 from collections import OrderedDict
+from pytesseract import image_to_string
 
 DEFAULT_L_CODE = 'en'
+DEFAULT_VID_NAME = 'dl_video'
 IMG_FORMAT = '.jpg'
 GEN_FILES_DEL = []
 FONT_FILE = 'NanumGothic.ttf'
 FILE_PATH = os.path.dirname(os.path.realpath(__file__))
+RESULT_DIR = 'results'
 
 def is_caption_exist(cap_class, caption_lang):
 	ret = None
@@ -37,37 +41,52 @@ def is_caption_exist(cap_class, caption_lang):
 	return ret
 
 def download_youtube(args):
-	outpath = FILE_PATH
 	url = args.url
-	file_name = args.name
-	caption_lang = args.lang
-	caption_file = os.path.join(outpath, file_name + '.srt')
-	video_file = os.path.join(outpath, file_name + '.mp4')
-	video_infos = OrderedDict()
-
 	yt = YouTube(url)
-	video_infos['title'] = yt.title
-	video_infos['youtube_url'] = url
-	video_infos['lang_code'] = args.lang
-	video_infos['font_size'] = args.fontsize
-	video_infos['file_name'] = file_name
-	video_infos['nosub_opt'] = args.nosub
-	video_infos['thumbnail'] = yt.thumbnail_url.replace('default.jpg', 'maxresdefault.jpg')
-	video_infos['frame_infos'] = None
-	print('Downloading a video \"%s\"\n' %video_infos['title'])
-	print('Thumbnail URL is \"%s\"\n' %video_infos['thumbnail'])
-	'''
-	high_resolution_thumbnail_url = pytube.YouTube(YOUR_youtube_url).thumbnail_url.replace('default.jpg', 'hqdefault.jpg')
-	'''
+
+	file_name = args.name
+	if file_name == DEFAULT_VID_NAME:
+		file_name = yt.video_id
+
+	outpath = os.path.join(FILE_PATH, RESULT_DIR) # youtube_cature/results/
+	if not os.path.exists(outpath):
+		os.mkdir(outpath)
+
+	outpath = os.path.join(outpath, file_name) # youtube_cature/results/<file_name>/
+	if os.path.exists(outpath):
+		print('The requested video is already in the DB. No need to capture again.')
+		sys.exit()
+	else:
+		os.mkdir(outpath)
 
 	# Stream selection
 	#print(yt.streams.all(), '\n')
-	#stream = yt.streams.filter(file_extension='mp4').first() #TODO:
-	stream = yt.streams.get_by_itag('18') #FIXME: itag:18-360p,mp4
+	stream = yt.streams.get_by_itag('18') #FIXME: itag:18-360p,mp4 #TODO: if no itag:18?
 
 	# Sream download
 	stream.download(output_path=outpath, filename=file_name)
+
+	caption_lang = args.lang
+	caption_file = os.path.join(outpath, file_name + '.srt')
+	video_file = os.path.join(outpath, file_name + '.mp4')
+	GEN_FILES_DEL.append(caption_file)
 	GEN_FILES_DEL.append(video_file)
+
+	video_infos = OrderedDict()
+	video_infos['url'] = url
+	video_infos['title'] = stream.title #TODO: fix from issue - KeyError: 'title'
+	video_infos['video_id'] = yt.video_id
+	video_infos['lang_code'] = args.lang
+	video_infos['font_size'] = args.fontsize
+	video_infos['file_name'] = file_name
+	video_infos['file_path'] = outpath
+	video_infos['nosub_opt'] = args.nosub
+	video_infos['imgdiff_opt'] = args.imgdiff
+	video_infos['bg_opacity'] = args.bg_opacity
+	video_infos['thumbnail'] = 'https://img.youtube.com/vi/%s/maxresdefault.jpg' %yt.video_id
+	video_infos['frame_infos'] = None
+	print('The video informations:')
+	print(video_infos)
 
 	# Check if the caption code is exist in the video
 	#print(yt.captions.all())
@@ -89,7 +108,6 @@ def download_youtube(args):
 	else:
 		print('There is no caption in the Youtube video. Can not capture this video, Sorry. language code: \'%s\'\n' %(caption_code))
 		sys.exit()
-	GEN_FILES_DEL.append(caption_file)
 
 	return video_file, caption_file, video_infos
 
@@ -127,9 +145,13 @@ def get_ts_by_caption(caption_file):
 	lines = fp.readlines()
 	line_cnt = 0
 	frame_infos = []
+	length_lines = len(lines)
 
-	while line_cnt < len(lines):
+	while line_cnt < length_lines:
 		if not lines[line_cnt]:
+			break;
+
+		if line_cnt + 3 > length_lines:
 			break;
 
 		frame_num = lines[line_cnt][:-1]
@@ -144,9 +166,10 @@ def get_ts_by_caption(caption_file):
 		ts_dict['img_path'] = None
 		ts_dict['time_info'] = get_srt_mean_time(time_info)
 		ts_dict['script'] = remove_tags(script)
+		ts_dict['ocr_script'] = None
 		ts_dict['hash'] = None
 		ts_dict['sub_hash'] = None
-		ts_dict['usage'] = True
+		ts_dict['usage'] = 'ok'
 
 		frame_infos.append(ts_dict)
 
@@ -169,11 +192,11 @@ def gen_new_time_info(curr_t, next_t):
 # 2st end-time will be 3st start-time
 # ...
 # Nst end-time does not need to modify
-def modify_cap_time(args):
-	outpath = FILE_PATH
-	url = args.url
-	file_name = args.name
-	caption_lang = args.lang
+def modify_cap_time(v_infos):
+	outpath = v_infos['file_path']
+	url = v_infos['url']
+	file_name = v_infos['file_name']
+	caption_lang = v_infos['lang_code']
 	caption_file = os.path.join(outpath, file_name + '.srt')
 
 	fp = open(caption_file, 'r')
@@ -184,16 +207,20 @@ def modify_cap_time(args):
 
 	lines = fp.readlines()
 	line_cnt = 0
+	lenth_lines = len(lines)
 
-	while line_cnt < len(lines):
+	while line_cnt < lenth_lines:
 		if not lines[line_cnt]:
 			break;
 
 		# a final caption
-		if line_cnt + 5 > len(lines):
-			nfp.write(lines[line_cnt])
-			nfp.write(lines[line_cnt + 1])
-			nfp.write(lines[line_cnt + 2])
+		if line_cnt + 5 > lenth_lines:
+			if line_cnt < lenth_lines:
+				nfp.write(lines[line_cnt])
+			if line_cnt + 1 < lenth_lines:
+				nfp.write(lines[line_cnt + 1])
+			if line_cnt + 2 < lenth_lines:
+				nfp.write(lines[line_cnt + 2])
 			break;
 
 		frame_num = lines[line_cnt]
@@ -222,21 +249,8 @@ def cv_show_images(__frame, __duration):
 	cv2.putText(__frame, dur_str, (0, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0))
 	cv2.imshow('Img show by caption duration', __frame)
 
-'''
-Parameters
-img	Image.
-text	Text string to be drawn.
-org	Bottom-left corner of the text string in the image.
-fontFace	Font type, see cv::HersheyFonts.
-fontScale	Font scale factor that is multiplied by the font-specific base size.
-color	Text color.
-thickness	Thickness of the lines used to draw a text.
-lineType	Line type. See the line for details.
-bottomLeftOrigin	When true, the image data origin is at the bottom-left corner. Otherwise, it is at the top-left corner.
-'''
-
 def cv_save_images(__frame, __duration, __path, __infos, __cnt, __tot_frame, __font_size): #TODO: try:except:
-	rate = '%d/%d  %fs' %(__cnt, __tot_frame, __duration)
+	rate = '%d/%d  %fs' %(__cnt, (__tot_frame - 1), __duration)
 	font = cv2.FONT_HERSHEY_SIMPLEX
 	font_scale = 0.8
 	fs = round(__font_size * font_scale)
@@ -254,40 +268,63 @@ def compare_hash(prev, curr, thresh = 0):
 		ret = False
 	return ret
 
-def crop_img(img, h_ratio=4):
+# h_ratio: (1, 2, 3, ... )
+# w_ratio: (0.0 ~ 1.0)
+def crop_area(img, h_ratio=4, w_ratio=0.8):
 	w, h = img.size # Get dimensions
 
-	x = 0
-	y = h - (h / h_ratio)
-	wi = x + w
+	x = (w * (1 - w_ratio) * 0.5)
+	y = (h - (h / h_ratio))
+	wi = w - x
 	he = y + (h - y)
 	area = (x, y, wi, he)
 	return area
 
-def capture_video(args, target_file, caption_file):
-	cap = cv2.VideoCapture(target_file)
+def get_text_from_img(img):
+	text = image_to_string(img, lang='kor', config='--psm 7')
+	return text
+
+def save_pil_img(pil_img, img_path):
+	pil_img.save(img_path + '.jpg', 'JPEG')
+
+# Image Pre-prosessing for better extracting the subscript text from the image by tesseract-ocr
+def image_preprocess(img_orig, save_path=None):
+	# 1. cropping caption area
+	area = crop_area(img_orig, h_ratio=7, w_ratio=0.9) #cropping caption area
+	img_crop = img_orig.crop(area)
+
+	# 2. convert to grayscale
+	img_gray = img_crop.convert('L') # grayscale image
+
+	# convert to blur : not use
+	img_gray_gaussian = img_gray.filter(ImageFilter.GaussianBlur(1))
+
+	# 3. convert to low contrast for better edge detecting
+	img_contrast_low = ImageEnhance.Contrast(img_gray_gaussian).enhance(0.7)
+
+	# 4. get outline of text by edge detection
+	img_outline = img_contrast_low.filter(ImageFilter.FIND_EDGES)
+
+	# 5. change black background to white
+	img_outline_invert = PIL.ImageOps.invert(img_outline)
+	#save_pil_img(img_gray, img_path + '/gray_img_%d' % cap_cnt)
+	#save_pil_img(img_contrast_low, img_path + '/img_contrast_low_%d' % cap_cnt)
+	save_pil_img(img_outline_invert, save_path + '_outline.jpg')
+
+	return img_outline_invert
+
+def capture_by_subtitle(cap, v_infos, caption_file, img_path_name):
 
 	frame_infos, total_frames = get_ts_by_caption(caption_file)
 	fps = int(cap.get(cv2.CAP_PROP_FPS))
+	font_size = v_infos['font_size']
+	no_add_caption = v_infos['nosub_opt']
+	background_opacity = float(v_infos['bg_opacity'])
 	cap_cnt = 0
 	fcnt = 0
 	dup_cnt = 0
 
-	outpath = FILE_PATH
-	img_path = os.path.join(outpath, 'imgs')
-	file_name = args.name
-	caption_file = os.path.join(outpath, file_name + '.srt')
-	font_size = args.fontsize
-	no_add_caption = args.nosub
-	background_opacity = float(args.bg_opacity)
-
-	if os.path.exists(img_path):
-		print("remove %s" %img_path)
-		shutil.rmtree(img_path, ignore_errors=True)
-	os.mkdir(img_path)
-
-	print("number of total frames: %d\ntime stamps of each images:\n" %total_frames)
-	#print(frame_infos)
+	print("number of total frames: %d\nProcessing" %total_frames)
 
 	while(cap_cnt < total_frames):
 		ret, frame = cap.read()
@@ -297,20 +334,20 @@ def capture_video(args, target_file, caption_file):
 			#cv_show_images(frame, duration)
 
 			# 1. Save image
-			savepath = os.path.join(img_path, file_name + str(cap_cnt) + IMG_FORMAT) #TODO:imgs
+			img_name_numbered = img_path_name + '_0' + str(cap_cnt)
+			savepath = img_name_numbered + IMG_FORMAT
 			cv_save_images(frame, duration, savepath, frame_infos[cap_cnt], cap_cnt, total_frames, font_size)
 
 
 			# 2. Compare hash in case of --no-sub option.
 			#    Need to compare if closed-caption was changed or not.
 			if no_add_caption:
-				img_ori = Image.open(savepath)
-				#TODO: convert gray scale img_ori
-				#TODO: crop_img: width should be more narrow
-				area = crop_img(img_ori, h_ratio=4) #cropping caption area
-				img_c = img_ori.crop(area)
+				img_orig = Image.open(savepath)
+				# Image Preprosessing
+				preprocessed_img = image_preprocess(img_orig, img_name_numbered)
 
-				frame_hash = imagehash.average_hash(img_c)
+				frame_hash = imagehash.average_hash(preprocessed_img)
+
 				prev_frame_hash = None
 				prev_frame_hash_str = frame_infos[cap_cnt-1]['sub_hash']
 				if prev_frame_hash_str:
@@ -319,20 +356,25 @@ def capture_video(args, target_file, caption_file):
 				# Save hash value with string
 				frame_infos[cap_cnt]['sub_hash'] = '%s' %frame_hash
 
+				# extract a script from the image using Tesseract-ocr
+				frame_infos[cap_cnt]['ocr_script'] = get_text_from_img(preprocessed_img)
+
 				# The threah is a tunnable value
 				# With a highier value, It would delete more duplicated images.
-				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=1):
+				'''
+				if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=0):
 					print('.', end='', flush=True)
 					savepath_dup = savepath + '.dupli.jpg'
 					shutil.move(savepath, savepath_dup)
 					frame_infos[cap_cnt]['img_path'] = savepath_dup
-					frame_infos[cap_cnt]['usage'] = False
+					frame_infos[cap_cnt]['usage'] = 'duplicated'
 					dup_cnt +=1
 					cap_cnt += 1
 					fcnt += 1
 					continue
 				else:
 					None
+				'''
 
 			# 3. Add caption text in plain frame
 			else:
@@ -348,6 +390,103 @@ def capture_video(args, target_file, caption_file):
 			break
 
 	print('Done: %d duplicated image was deleted.' %dup_cnt)
+	return frame_infos, total_frames
+
+def cv_to_pil(cv_img):
+	cv_img = cv2.cvtColor(cv_img, cv2.COLOR_BGR2RGB)
+	pil_img = Image.fromarray(cv_img)
+
+	return pil_img
+
+def capture_by_image_diff(cap, v_infos, img_path_name):
+	fps = int(cap.get(cv2.CAP_PROP_FPS))
+	tot_fcnt = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+	play_time = tot_fcnt / fps
+
+	print(fps, tot_fcnt, play_time)
+
+	cap_cnt = 0
+	frame_no = 0
+	dup_cnt = 0
+	total_frames = round(play_time)
+	frame_infos = []
+
+	while (frame_no < tot_fcnt):
+		cap.set(1, frame_no);
+		ret, frame = cap.read()
+
+		img_name_numbered = img_path_name + '_0' + str(cap_cnt)
+		savepath = img_name_numbered + IMG_FORMAT
+		cv2.imwrite(savepath, frame)
+
+		#print(frame_no, cap_cnt)
+
+		ts_dict = OrderedDict()
+		ts_dict['frame_num'] = frame_no
+		ts_dict['img_path'] = None
+		ts_dict['time_info'] = cap_cnt
+		ts_dict['script'] = None
+		ts_dict['ocr_script'] = None
+		ts_dict['hash'] = None
+		ts_dict['sub_hash'] = None
+		ts_dict['usage'] = 'ok'
+		frame_infos.append(ts_dict)
+
+		#TODO:
+		img_orig = cv_to_pil(frame)
+
+		# Image Preprosessing
+		preprocessed_img = image_preprocess(img_orig, img_name_numbered)
+
+		# get image-hash
+		frame_hash = imagehash.average_hash(preprocessed_img)
+		prev_frame_hash = None
+		prev_frame_hash_str = frame_infos[cap_cnt-1]['sub_hash']
+		if prev_frame_hash_str:
+			prev_frame_hash = imagehash.hex_to_hash(prev_frame_hash_str)
+
+		# Save hash value with string
+		frame_infos[cap_cnt]['sub_hash'] = '%s' %frame_hash
+
+		# The threah is a tunnable value
+		# With a highier value, It would delete more duplicated images.
+		if prev_frame_hash and compare_hash(prev_frame_hash, frame_hash, thresh=0):
+			print('.', end='', flush=True)
+			savepath_dup = savepath + '.dupli.jpg'
+			shutil.move(savepath, savepath_dup)
+			frame_infos[cap_cnt]['img_path'] = savepath_dup
+			frame_infos[cap_cnt]['usage'] = 'duplicated'
+			dup_cnt +=1
+
+		cap_cnt += 1
+		frame_no = fps * cap_cnt
+
+	print('Done: %d duplicated image was deleted.' %dup_cnt)
+
+	return frame_infos, total_frames
+
+
+def capture_video(v_infos, target_file, caption_file):
+	cap = cv2.VideoCapture(target_file)
+
+	outpath = v_infos['file_path']
+	img_path = os.path.join(outpath, 'imgs')
+	file_name = v_infos['file_name']
+	img_path_name = os.path.join(img_path, file_name)
+	caption_file = os.path.join(outpath, file_name + '.srt')
+	img_diff_opt = v_infos['imgdiff_opt']
+
+	if os.path.exists(img_path):
+		print("remove %s" %img_path)
+		shutil.rmtree(img_path, ignore_errors=True)
+	os.mkdir(img_path)
+
+	# if no-sub is false
+	if img_diff_opt:
+		frame_infos, total_frames = capture_by_image_diff(cap, v_infos, img_path_name)
+	else:
+		frame_infos, total_frames = capture_by_subtitle(cap, v_infos, caption_file, img_path_name)
+
 	cap.release()
 	cv2.destroyAllWindows()
 
@@ -360,20 +499,21 @@ def wait_job_done(pool):
 			raise subprocess.CalledProcessError(p.returncode, p.args)
 
 # This is ffmped command on bash shell
+# Not using anymore
 def make_ffmpeg_cmd(_input, _output, srt, font_size):
 	return 'ffmpeg -i ' + _input + ' -vf' + ' subtitles=' + srt + ':force_style=\'Fontsize=' + str(font_size) + '\'' + ' -acodec copy ' + _output
 
 
-def combine_caption(args, input_video, caption_file):
+def combine_caption(v_infos, input_video, caption_file):
 	bg_pool = []
-	outpath = FILE_PATH
-	output_video = args.name + '_sub' + '.mp4'
+	outpath = v_infos['file_path']
+	output_video = v_infos['file_name'] + '_sub' + '.mp4'
 
 	path_output_video = os.path.join(outpath, output_video)
 	if os.path.exists(path_output_video):
 		os.remove(path_output_video)
 
-	cmd = make_ffmpeg_cmd(input_video, output_video, caption_file, args.fontsize)
+	cmd = make_ffmpeg_cmd(input_video, output_video, caption_file, v_infos['font_size'])
 	bg_pool.append(subprocess.Popen([cmd], cwd=outpath, shell=True))
 	wait_job_done(bg_pool)
 	GEN_FILES_DEL.append(path_output_video)
@@ -393,9 +533,13 @@ def md_insert_header(subject, depth):
 	header += ' ' + subject + '  \n----\n'
 	return header
 
-def make_md_page(args, nr_img, path_img, name_img, video_infos):
-	outpath = FILE_PATH
-	url = args.url.lstrip("'").rstrip("'")
+def make_md_page(v_infos, nr_img, path_img, video_infos):
+	print(nr_img)
+	outpath = v_infos['file_path']
+	name_img = v_infos['file_name']
+	#url = args.url.lstrip("'").rstrip("'")
+	url = v_infos['url'].lstrip("'").rstrip("'")
+
 	md_file = os.path.join(outpath, name_img + '.md')
 	fd = open(md_file, 'w')
 
@@ -407,7 +551,7 @@ def make_md_page(args, nr_img, path_img, name_img, video_infos):
 	fd.write(format_thumbnail_img)
 
 	for nr in range(nr_img):
-		numberd_name = name_img + str(nr)
+		numberd_name = name_img + '_0' + str(nr)
                 #FIXME: /imgs/* path must be a reletive path
 		#img = os.path.join(path_img, numberd_name) + IMG_FORMAT
 		img = os.path.join('imgs', numberd_name) + IMG_FORMAT
@@ -421,6 +565,43 @@ def make_md_page(args, nr_img, path_img, name_img, video_infos):
 	fd.write(format_source)
 	fd.close()
 
+def get_num_img_path(outpath, name_img, num):
+	numberd_name = name_img + '_0' + str(num)
+	img = os.path.join('imgs', numberd_name) + IMG_FORMAT
+	img_path = os.path.join(outpath, img)
+
+	return img_path
+
+def get_img_size(img_path):
+	img = Image.open(img_path)
+	return img.size
+
+def make_single_picture(v_infos, nr_img, path_img, video_infos):
+	outpath = v_infos['file_path']
+	name_img = v_infos['file_name']
+	url = v_infos['url'].lstrip("'").rstrip("'")
+	x = 0
+	y = 0
+	img0_path = get_num_img_path(outpath, name_img, 0)
+	tot_w, tot_h = get_img_size(img0_path)
+	tot_h = tot_h * nr_img
+
+	print('Result image size: %d x %d' %(tot_w, tot_h))
+	result = Image.new("RGB", (tot_w, tot_h))
+
+	for nr in range(nr_img):
+		img_path = get_num_img_path(outpath, name_img, nr)
+
+		if os.path.exists(img_path):
+			# append pic under the orig pic
+			img_append = Image.open(img_path)
+			w, h = img_append.size
+			img_append.thumbnail((w, h), Image.ANTIALIAS)
+			result.paste(img_append, (x, y, x + w, y + h))
+			y = y + h
+
+	result.save(os.path.join(outpath, name_img + '_conbined.jpg'))
+
 #TODO: is the caption has overlap issue?
 def need_modify_cap():
 	return True
@@ -428,18 +609,19 @@ def need_modify_cap():
 def parse_args():
 	parser = argparse.ArgumentParser(description='Screen capture automatically from Youtube video\nexample: python3 get_youtube.py -u <youtube link> -n <outfile name> -l <language> -f <fontsize>')
 	parser.add_argument('-u', '--url', dest='url', help='Youtube vedio url')
-	parser.add_argument('-n', '--name', dest='name', default='downloaded_video', help='Output file name')
+	parser.add_argument('-n', '--name', dest='name', default=DEFAULT_VID_NAME, help='Output file name')
 	parser.add_argument('-l', '--lang', dest='lang', default=DEFAULT_L_CODE, help='Caption language code (default: en)')
 	parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, type=int, help='Font size of caption (default: 30)')
 	parser.add_argument('-b', '--bg-opacity', dest='bg_opacity', default=0, type=float, help='Add backgound behind of caption text with opacity (0.0 ~ 1.0) (default opacity : 0.0)')
 	parser.add_argument('--no-sub', dest='nosub', action='store_true', help='If the video has a closed caption, no need to add caption additionally')
+	parser.add_argument('--img-diff', dest='imgdiff', action='store_true', help='capture frame by imagediff')
 
 	args = parser.parse_args()
 	print(args)
 	return args
 
 def make_json(v_infos):
-	outpath = FILE_PATH
+	outpath = v_infos['file_path']
 	file_name = v_infos['file_name']
 	json_file = os.path.join(outpath, file_name + '.json')
 
@@ -450,23 +632,25 @@ def make_json(v_infos):
 	v_infos_json = json.dumps(v_infos, ensure_ascii=False, indent="\t")
 	fd.write(v_infos_json)
 
+def del_unneccesary_files(gen_files):
+	print('These unneccesary files are removed\n', gen_files)
+	for f in gen_files:
+		if os.path.exists(f):
+			os.remove(f)
+
 def main():
 	args = parse_args()
 	video, caption, v_infos = download_youtube(args)
 	if need_modify_cap():
-		caption = modify_cap_time(args)
+		caption = modify_cap_time(v_infos)
 
-	#video_sub = combine_caption(args, video, caption) #TODO:
-	nr_imgs, img_path, f_infos = capture_video(args, video, caption)
-	make_md_page(args, nr_imgs, img_path, args.name, v_infos)
+	nr_imgs, img_path, f_infos = capture_video(v_infos, video, caption)
+	make_md_page(v_infos, nr_imgs, img_path, v_infos)
 
 	v_infos['frame_infos'] = f_infos
 	make_json(v_infos)
-
-	print(GEN_FILES_DEL)
-	for f in GEN_FILES_DEL:
-		if os.path.exists(f):
-			os.remove(f)
+	del_unneccesary_files(GEN_FILES_DEL)
+	make_single_picture(v_infos, nr_imgs, img_path, v_infos)
 
 if __name__ == "__main__":
 	main()

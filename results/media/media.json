@@ -1,0 +1,605 @@
+{
+	"url": "'https://youtu.be/34LGPIXvU5M'",
+	"title": "Noam Chomsky - The 5 Filters of the Mass Media Machine",
+	"video_id": "34LGPIXvU5M",
+	"lang_code": "en",
+	"font_size": 30,
+	"file_name": "media",
+	"file_path": "/home/ubuntu/project/youtube_capture/results/media",
+	"nosub_opt": false,
+	"imgdiff_opt": false,
+	"bg_opacity": 0.7,
+	"thumbnail": "https://img.youtube.com/vi/34LGPIXvU5M/maxresdefault.jpg",
+	"frame_infos": [
+		{
+			"frame_num": 0,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_00.jpg",
+			"time_info": 6.0,
+			"script": "선전",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 1,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_01.jpg",
+			"time_info": 8.5,
+			"script": "이 단어는 북한이나 카자흐스탄, 이란 같은",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 2,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_02.jpg",
+			"time_info": 12.0,
+			"script": "나라를 얘기할 때 사용한다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 3,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_03.jpg",
+			"time_info": 20.5,
+			"script": "이들 국가는 서구 미디어에서 볼때 독재로 분류된다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 4,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_04.jpg",
+			"time_info": 27.5,
+			"script": "언론의 자유, 생각의 자유",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 5,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_05.jpg",
+			"time_info": 30.5,
+			"script": "이런 표현은 미국, 프랑스, 호주와 같은 나라",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 6,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_06.jpg",
+			"time_info": 34.5,
+			"script": "혹은 민주주의를 얘기할 때 사용한다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 7,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_07.jpg",
+			"time_info": 38.0,
+			"script": " ",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 8,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_08.jpg",
+			"time_info": 42.0,
+			"script": "1988년 노암 촘스키는 에드워드 허만과 함께",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 9,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_09.jpg",
+			"time_info": 46.0,
+			"script": "\"제조된 동의\" 라는 책을 썼다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 10,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_010.jpg",
+			"time_info": 53.0,
+			"script": "이 책은 미디어가 정치권력을 견제한다는 고정관념을 깼다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 11,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_011.jpg",
+			"time_info": 58.5,
+			"script": "대중을 위해 미디어가 환기하고, 일한다는 생각",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 12,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_012.jpg",
+			"time_info": 62.5,
+			"script": "말하자면, 대중이 보다 정치 프로세스에 참여할 수 있게 한다는 생각을 모두 깨뜨렸다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 13,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_013.jpg",
+			"time_info": 67.0,
+			"script": "사실은 미디어가 우리의 동의를 제조한다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 14,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_014.jpg",
+			"time_info": 72.0,
+			"script": "미디어는 권력을 누리는 자들이 우리에게 하고 싶은 얘기를 대신 얘기한다. 대중이 그 생각과 어긋나지 않게.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 15,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_015.jpg",
+			"time_info": 81.5,
+			"script": "민주주의는 선전 기계로 동원되는 미디어의 도움으로 무대위에 전개된다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 16,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_016.jpg",
+			"time_info": 87.0,
+			"script": "미디어는 다섯가지 필터로 운용된다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 17,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_017.jpg",
+			"time_info": 90.5,
+			"script": "첫번째는 소유권이다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 18,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_018.jpg",
+			"time_info": 93.5,
+			"script": "미디어 회사는 대기업이다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 19,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_019.jpg",
+			"time_info": 97.5,
+			"script": "드물지 않게, 미디어 회사들은 더 큰 재벌들의 자회사이다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 20,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_020.jpg",
+			"time_info": 100.0,
+			"script": "이들 회사들의 목표?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 21,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_021.jpg",
+			"time_info": 101.5,
+			"script": "물론 돈이다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 22,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_022.jpg",
+			"time_info": 105.0,
+			"script": "그래서 이들 미디어 회사들은 수익만 보장한다면 무엇이라도 밀어준다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 23,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_023.jpg",
+			"time_info": 111.0,
+			"script": "비판적 저널리즘은 이들 회사의 관심과 필요로 볼 때 뒷자리를 차지한다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 24,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_024.jpg",
+			"time_info": 122.5,
+			"script": "두번째 필터는 광고의 진정한 역할이 뭔지 알려준다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 25,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_025.jpg",
+			"time_info": 128.0,
+			"script": "미디어를 운영하는데에는 소비자가 내는 돈으로 감당이 되지 않는다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 26,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_026.jpg",
+			"time_info": 132.0,
+			"script": "나머지는 누가 채우고 있지?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 27,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_027.jpg",
+			"time_info": 134.5,
+			"script": "광고주들이다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 28,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_028.jpg",
+			"time_info": 136.5,
+			"script": "광고주들은 무엇을 위해 돈을 내나?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 29,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_029.jpg",
+			"time_info": 139.0,
+			"script": "독자, 시청자들이다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 30,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_030.jpg",
+			"time_info": 143.5,
+			"script": "미디어가 대중에게 그들의 상품을 파는 것은 전체 모습의 일부일 뿐다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 31,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_031.jpg",
+			"time_info": 149.0,
+			"script": "그들은 광고주에게 당신들을 판다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 32,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_032.jpg",
+			"time_info": 156.5,
+			"script": "체제는 어떻게 미디어를 관리할까?",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 33,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_033.jpg",
+			"time_info": 159.0,
+			"script": "바로 세번째 필터가 필요하다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 34,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_034.jpg",
+			"time_info": 163.5,
+			"script": "저널리즘은 권력을 견제할 수 없다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 35,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_035.jpg",
+			"time_info": 166.5,
+			"script": "왜냐하면 전체 시스템은 서로의 공모를 장려한다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 36,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_036.jpg",
+			"time_info": 175.0,
+			"script": "정부, 회사, 큰 기관들은 어떻게 미디어 게임을 수행해야 하는지 알고 있다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 37,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_037.jpg",
+			"time_info": 180.0,
+			"script": "그들은 뉴스 내용에 영향을 미치는 방법을 알고 있다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 38,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_038.jpg",
+			"time_info": 185.0,
+			"script": "그들은 미디어에게 소위 전문가라는 사람들로 부터의 공식 입장, 인터뷰 등을 지속적으로 제공한다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 39,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_039.jpg",
+			"time_info": 190.0,
+			"script": "그들은 저널리즘의 프로세스에 자기 자신들이 꼭 필요하도록 만든다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 40,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_040.jpg",
+			"time_info": 194.5,
+			"script": "그래서 권력에 있는 자들과 그것을 알리는 미디어는 한 침대에 같이 있는 셈이다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 41,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_041.jpg",
+			"time_info": 200.5,
+			"script": "만약 당신이 권력에 의문을 던지고자 한다면, 어려운 길로 몰릴것이다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 42,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_042.jpg",
+			"time_info": 204.5,
+			"script": "당신의 이름은 무시되고, 미디어 안으로 들어갈 수 없다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 43,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_043.jpg",
+			"time_info": 207.0,
+			"script": "접근할 방법은 없으며",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 44,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_044.jpg",
+			"time_info": 209.5,
+			"script": "당신의 이야기는 묻히게 된다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 45,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_045.jpg",
+			"time_info": 215.5,
+			"script": "만약 어떤 저널리스트, 내부 고발자, 기타의 소스들이 주류로 부터 어긋나 있다면",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 46,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_046.jpg",
+			"time_info": 219.5,
+			"script": "그들은 매도된다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 47,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_047.jpg",
+			"time_info": 222.5,
+			"script": "이게 바로 네번째 필터다. 그들의 이야기가 권력자들에게 불편하다면,",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 48,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_048.jpg",
+			"time_info": 228.5,
+			"script": "이러한 불편한 이야기와 정보원은 별것 아닌것으로 치부되며 매도 기계가 동작한다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 49,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_049.jpg",
+			"time_info": 233.5,
+			"script": "그리고 대화는 다른 방향으로 유도된다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 50,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_050.jpg",
+			"time_info": 240.5,
+			"script": "동의를 제조하기 위해서는 \"적\"이 필요하다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 51,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_051.jpg",
+			"time_info": 244.5,
+			"script": "바로 다섯번째 필터가 \"공적\"이다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 52,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_052.jpg",
+			"time_info": 247.0,
+			"script": "공산주의",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 53,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_053.jpg",
+			"time_info": 248.5,
+			"script": "테러리스트",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 54,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_054.jpg",
+			"time_info": 250.0,
+			"script": "이민자들",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 55,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_055.jpg",
+			"time_info": 254.0,
+			"script": "이런 \"공적\" 이나 두려운 악귀들은 대중의 의견을 테두리 안으로 몰아 넣는다.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 56,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_056.jpg",
+			"time_info": 259.0,
+			"script": "다섯가지 필터들.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 57,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_057.jpg",
+			"time_info": 261.0,
+			"script": "하나의 큰 미디어 이론.",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		},
+		{
+			"frame_num": 58,
+			"img_path": "/home/ubuntu/project/youtube_capture/results/media/imgs/media_058.jpg",
+			"time_info": 265.0,
+			"script": "당신의 동의는 미디어를 통해 24시간 제조되고 있다",
+			"ocr_script": null,
+			"hash": null,
+			"sub_hash": null,
+			"usage": "ok"
+		}
+	]
+}

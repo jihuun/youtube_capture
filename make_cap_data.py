@@ -2,6 +2,7 @@
 # Generate default video information json structure
 
 from copy import deepcopy
+from logger import *
 
 video_info = {
         'url': '',
@@ -23,7 +24,7 @@ class cap_data(dict):
         self.update(video_info)
 
 def example():
-    print(cap_data())
+    logger.debug(cap_data())
 
 if __name__ == '__main__':
     example()

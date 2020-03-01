@@ -108,3 +108,4 @@ venv.bak/
 
 # results
 results/
+.DS_Store

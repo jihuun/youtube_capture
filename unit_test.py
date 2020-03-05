@@ -77,7 +77,7 @@ class test_download_youtube(unittest.TestCase):
         srtfile = os.path.join(test_fpath, test_fname + '.srt')
 
         a = srt_to_list(srtfile)
-        pprint.pprint(a)
+        #pprint.pprint(a)
 
 
 def get_curpath():

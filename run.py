@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
 import os
+import sys
 import argparse
 import shutil
 import pprint
@@ -10,7 +11,7 @@ from subtitle import srt_to_list
 from make_cap_data import cap_data
 from capture import capture_by_subs
 
-DEF_L_CODE = 'en'
+DEF_L_CODE = 'ko'
 DEF_VID_NAME = 'dl_video'
 
 class make_youtube_info(dict):
@@ -38,8 +39,12 @@ class make_youtube_info(dict):
 
     def __make_download_dir(self):
         result_path = os.path.join(get_curpath(), 'results', self.arg_name)
-        if self.arg_retry and os.path.exists(result_path):
-            shutil.rmtree(result_path)
+        if os.path.exists(result_path):
+            if self.arg_retry:
+                shutil.rmtree(result_path)
+            else:
+                logger.info('The result "%s" is already exist. Try again with --retry option' %self.arg_name)
+                sys.exit()
         os.makedirs(result_path)
         return result_path
 
@@ -74,9 +79,9 @@ def get_curpath():
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Screen capture automatically from Youtube video\nexample: run.py -u <youtube link> -n <outfile name> -l <language> -f <fontsize>')
-    parser.add_argument('-u', '--url', dest='url', help='Youtube vedio url')
+    parser.add_argument('-u', '--url', dest='url', required=True, help='Youtube vedio url')
     parser.add_argument('-n', '--name', dest='name', default=DEF_VID_NAME, help='Output file name')
-    parser.add_argument('-l', '--lang', dest='lang', default=DEF_L_CODE, help='Caption language code (default: en)')
+    parser.add_argument('-l', '--lang', dest='lang', default=DEF_L_CODE, help='Caption language code (default: %s)'%DEF_L_CODE)
     parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, type=int, help='Font size of caption (default: 30)')
     parser.add_argument('-b', '--bg-opacity', dest='bg_opacity', default=0, type=float, help='Add backgound behind of caption text with opacity (0.0 ~ 1.0) (default opacity : 0.0)')
     parser.add_argument('--no-sub', dest='nosub', action='store_true', help='If the video has a closed caption, no need to add caption additionally')
@@ -92,19 +97,6 @@ def main():
     video_info = make_youtube_info(args.url, args.name, args.lang, args.retry, args.fontsize)
     video_info.save_json()
     capture_by_subs(video_info)
-    '''
-    video, caption, v_infos = download_youtube(args)
-    if need_modify_cap():
-            caption = modify_cap_time(v_infos)
-
-    nr_imgs, img_path, f_infos = capture_video(v_infos, video, caption)
-    make_md_page(v_infos, nr_imgs, img_path, v_infos)
-
-    v_infos['frame_infos'] = f_infos
-    make_json(v_infos)
-    del_unneccesary_files(GEN_FILES_DEL)
-    make_single_picture(v_infos, nr_imgs, img_path, v_infos)
-    '''
 
 if __name__ == "__main__":
     main()

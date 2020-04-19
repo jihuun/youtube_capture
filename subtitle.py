@@ -3,13 +3,43 @@ import datetime
 import srt
 # See usage of srt module: https://srt.readthedocs.io/
 # datetime: https://minus31.github.io/2018/07/28/python-date/
+import pysrt
 import copy
 import pprint
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
 
+# using pysrt module
 class srt_to_list(list):
+    def __init__(self, srt_file):
+        subs = pysrt.open(srt_file)
+        self.make_frame_list(subs)
+
+    def make_frame_list(self, subs):
+        for idx, sub in enumerate(subs):
+            ts = self.calc_timestamp(sub.start.seconds, sub.end.seconds)
+            script = sub.text
+            frame = self.set_ts_dict(idx, ts, script)
+            self.append(frame)
+
+    def calc_timestamp(self, st, ed):
+        return st + float((ed - st) / 2)
+
+    def set_ts_dict(self, idx, ts, script):
+        ts_dict = dict()
+        ts_dict['frame_num'] = idx
+        ts_dict['img_path'] = None
+        ts_dict['time_info'] = ts
+        ts_dict['script'] = script
+        ts_dict['ocr_script'] = None
+        ts_dict['hash'] = None
+        ts_dict['sub_hash'] = None
+        ts_dict['usage'] = 'ok'
+        return ts_dict
+
+# using srt module: deprecated
+class srt_to_list_deprecated(list):
     def __init__(self, srt_file):
         with open(srt_file, 'r') as fp:
             self.data = list(srt.parse(fp.read()))

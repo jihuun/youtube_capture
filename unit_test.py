@@ -14,6 +14,11 @@ class test_test(unittest.TestCase):
     def test_success(self):
         self.assertEqual(10, 10)
 
+class test_pysrt(unittest.TestCase):
+    def test_load_srt(self):
+        a = srt_to_list('/Users/jihuun/project/youtube_capture/test_data/wrong_srt_test/dl_video.srt')
+        self.assertEqual('우리에게 달렸습니다!', a[116]['script'])
+
 class test_make_cap_data(unittest.TestCase):
     def test_gen_structure(self):
         default_font_size = 30

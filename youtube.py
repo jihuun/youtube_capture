@@ -53,8 +53,8 @@ class youtube():
 
     def get_available_langs(self, cap):
         ret = []
-        for l in cap.all():
-            ret.append(l.__dict__['code'])
+        for key, val in cap.lang_code_index.items():
+            ret.append(val.code) #NOTE: val.name show name of code
         return ret
 
     def __save_caption_file(self, cap, fpath, fname):

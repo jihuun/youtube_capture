@@ -33,6 +33,26 @@ class test_make_cap_data(unittest.TestCase):
         self.assertEqual(30, get_fs)
         self.assertEqual(40, get_fs2)
 
+class test_get_lang_list(unittest.TestCase):
+    def get_lang_list(self, url):
+        yt = youtube(url)
+        caption = yt.get_captions()
+        return yt.get_available_langs(caption)
+
+    def test_is_list(self):
+        url = 'https://youtu.be/QImCld9YubE'
+        self.assertEqual(type(self.get_lang_list(url)), type([]))
+
+    def test_get_multiple_list(self):
+        url = 'https://youtu.be/QImCld9YubE'
+        tobe = ['gl', 'el', 'nl', 'nl-NL', 'no', 'de', 'la', 'ru', 'ro', 'ml', 'ms', 'mn', 'vi', 'sr', 'sv', 'es', 'es-US', 'sl', 'ar', 'az', 'af', 'et', 'en', 'uk', 'it', 'id', 'ja', 'jv', 'zh', 'zh-Hans', 'zh-TW', 'zh-HK', 'cs', 'th', 'tr', 'tk', 'fa', 'pt', 'pt-BR', 'pl', 'fr', 'fr-CA', 'fi', 'fil', 'ko', 'hu', 'iw', 'hi']
+        getcode_list = (self.get_lang_list(url))
+        self.assertCountEqual(tobe, getcode_list)
+
+    def test_get_no_lang(self):
+        url = 'https://youtu.be/1q3z-pyZd2E'
+        self.assertEqual([], self.get_lang_list(url))
+
 class test_download_youtube(unittest.TestCase):
     def test_instance(self):
         test_url = TEST_VIDEO

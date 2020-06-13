@@ -74,6 +74,12 @@ class make_youtube_info(dict):
             v_infos_json = json.dumps(self, ensure_ascii=False, indent="\t")
             fp.write(v_infos_json)
 
+def get_lang_list(url):
+    yt = youtube(url)
+    #FIXME: pytube.exceptions.VideoUnavailable: fTTGALaRZoc is unavailable
+    caption = yt.get_captions()
+    print(yt.get_available_langs(caption))
+
 def get_curpath():
     return os.getcwd()
 
@@ -84,16 +90,20 @@ def parse_args():
     parser.add_argument('-l', '--lang', dest='lang', default=DEF_L_CODE, help='Caption language code (default: %s)'%DEF_L_CODE)
     parser.add_argument('-f', '--fontsize', dest='fontsize', default=30, type=int, help='Font size of caption (default: 30)')
     parser.add_argument('-b', '--bg-opacity', dest='bg_opacity', default=0, type=float, help='Add backgound behind of caption text with opacity (0.0 ~ 1.0) (default opacity : 0.0)')
+    parser.add_argument('--lang-list', dest='lang_list', action='store_true', help='show the available language list')
     parser.add_argument('--no-sub', dest='nosub', action='store_true', help='If the video has a closed caption, no need to add caption additionally')
     parser.add_argument('--img-diff', dest='imgdiff', action='store_true', help='capture frame by imagediff')
     parser.add_argument('-r', '--retry', dest='retry', action='store_true', help='Retry download video')
 
     args = parser.parse_args()
-    logger.info(args)
     return args
 
 def main():
     args = parse_args()
+    if args.lang_list:
+        get_lang_list(args.url)
+        sys.exit(0)
+    logger.info(args)
     video_info = make_youtube_info(args.url, args.name, args.lang, args.retry, args.fontsize)
     video_info.save_json()
     capture_by_subs(video_info)

@@ -4,6 +4,7 @@ import unittest
 import os
 import shutil
 import pprint
+import pysrt
 from youtube import *
 from make_cap_data import *
 from subtitle import *
@@ -14,10 +15,18 @@ class test_test(unittest.TestCase):
     def test_success(self):
         self.assertEqual(10, 10)
 
+SRT_FILE='/Users/jihuun/project/youtube_capture/test_data/wrong_srt_test/dl_video.srt'
 class test_pysrt(unittest.TestCase):
     def test_load_srt(self):
-        a = srt_to_list('/Users/jihuun/project/youtube_capture/test_data/wrong_srt_test/dl_video.srt')
+        a = srt_to_list(SRT_FILE)
         self.assertEqual('우리에게 달렸습니다!', a[116]['script'])
+
+    def test_calc_min_to_sec(self):
+        a = srt_to_list(SRT_FILE)
+        subs = pysrt.open(SRT_FILE)
+        st_sec, ed_sec = a.convert_to_sec(0,20,35,1,12,59)
+        self.assertEqual(st_sec, 1235)
+        self.assertEqual(ed_sec, 4379)
 
 class test_make_cap_data(unittest.TestCase):
     def test_gen_structure(self):
@@ -42,12 +51,13 @@ class test_get_lang_list(unittest.TestCase):
     def test_is_list(self):
         url = 'https://youtu.be/QImCld9YubE'
         self.assertEqual(type(self.get_lang_list(url)), type([]))
-
+    '''
     def test_get_multiple_list(self):
         url = 'https://youtu.be/QImCld9YubE'
         tobe = ['gl', 'el', 'nl', 'nl-NL', 'no', 'de', 'la', 'ru', 'ro', 'ml', 'ms', 'mn', 'vi', 'sr', 'sv', 'es', 'es-US', 'sl', 'ar', 'az', 'af', 'et', 'en', 'uk', 'it', 'id', 'ja', 'jv', 'zh', 'zh-Hans', 'zh-TW', 'zh-HK', 'cs', 'th', 'tr', 'tk', 'fa', 'pt', 'pt-BR', 'pl', 'fr', 'fr-CA', 'fi', 'fil', 'ko', 'hu', 'iw', 'hi']
         getcode_list = (self.get_lang_list(url))
         self.assertCountEqual(tobe, getcode_list)
+    '''
 
     def test_get_no_lang(self):
         url = 'https://youtu.be/1q3z-pyZd2E'

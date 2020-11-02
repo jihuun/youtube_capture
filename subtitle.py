@@ -18,10 +18,18 @@ class srt_to_list(list):
 
     def make_frame_list(self, subs):
         for idx, sub in enumerate(subs):
-            ts = self.calc_timestamp(sub.start.seconds, sub.end.seconds)
+            st_sec, end_sec = self.convert_to_sec(
+                    sub.start.hours, sub.start.minutes, sub.start.seconds,
+                    sub.end.hours, sub.end.minutes, sub.end.seconds)
+            ts = self.calc_timestamp(st_sec, end_sec)
             script = sub.text
             frame = self.set_ts_dict(idx, ts, script)
             self.append(frame)
+
+    def convert_to_sec(self, st_h, st_m, st_s, ed_h, ed_m, ed_s):
+        st = (st_h * 3600) + (st_m * 60) + st_s
+        ed = (ed_h * 3600) + (ed_m * 60) + ed_s
+        return st, ed
 
     def calc_timestamp(self, st, ed):
         return st + float((ed - st) / 2)

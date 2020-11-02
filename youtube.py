@@ -71,6 +71,9 @@ class youtube():
             alternative_langs = self.get_available_langs(captions)
             logger.critical('The caption language (%s) is not exist, try another lang in %s' %(lang, alternative_langs))
             raise SystemExit
+
+        # TODO here: get langcode from en to real code(en_GB or somethings)
+
         self.__save_caption_code(lang)
         caption = captions.get_by_language_code(lang)
         result = self.__save_caption_file(caption, fpath, fname)

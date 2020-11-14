@@ -70,7 +70,7 @@ class make_youtube_info(dict):
         self['thumbnail'] = 'https://img.youtube.com/vi/%s/maxresdefault.jpg' %self.yt.info.video_id
 
     def save_json(self):
-        with open(self.json_path, 'w') as fp:
+        with open(self.json_path, 'w', encoding='utf8') as fp:
             v_infos_json = json.dumps(self, ensure_ascii=False, indent="\t")
             fp.write(v_infos_json)
 

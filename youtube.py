@@ -61,7 +61,7 @@ class youtube():
         if fname == None:
             fname = self.vinfo['video_id']
         tgt = os.path.join(fpath, fname + '.srt')
-        with open(tgt, 'w') as fp:
+        with open(tgt, 'w', encoding='utf8') as fp:
             fp.write(cap.generate_srt_captions())
         return tgt
 

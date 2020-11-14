@@ -9,7 +9,7 @@ from logger import *
 from youtube import youtube
 from subtitle import srt_to_list
 from make_cap_data import cap_data
-from capture import capture_by_subs
+from capture import capture_by_subs, download_thumbnail
 
 DEF_L_CODE = 'ko'
 DEF_VID_NAME = 'dl_video'
@@ -107,6 +107,7 @@ def main():
     video_info = make_youtube_info(args.url, args.name, args.lang, args.retry, args.fontsize)
     video_info.save_json()
     capture_by_subs(video_info)
+    download_thumbnail(video_info)
 
 if __name__ == "__main__":
     main()

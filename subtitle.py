@@ -14,7 +14,8 @@ from PIL import ImageDraw
 class srt_to_list(list):
     def __init__(self, srt_file):
         subs = pysrt.open(srt_file)
-        self.make_frame_list(subs)
+        self.append(self.set_ts_dict(0, 0, '')) # img0 : thumbnail image
+        self.make_frame_list(subs) # img1~ : captured images
 
     def make_frame_list(self, subs):
         for idx, sub in enumerate(subs):
@@ -23,7 +24,7 @@ class srt_to_list(list):
                     sub.end.hours, sub.end.minutes, sub.end.seconds)
             ts = self.calc_timestamp(st_sec, end_sec)
             script = sub.text
-            frame = self.set_ts_dict(idx, ts, script)
+            frame = self.set_ts_dict(idx + 1, ts, script)
             self.append(frame)
 
     def convert_to_sec(self, st_h, st_m, st_s, ed_h, ed_m, ed_s):

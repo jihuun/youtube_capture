@@ -19,7 +19,7 @@ SRT_FILE='/Users/jihuun/project/youtube_capture/test_data/wrong_srt_test/dl_vide
 class test_pysrt(unittest.TestCase):
     def test_load_srt(self):
         a = srt_to_list(SRT_FILE)
-        self.assertEqual('우리에게 달렸습니다!', a[116]['script'])
+        self.assertEqual('우리에게 달렸습니다!', a[117]['script'])
 
     def test_calc_min_to_sec(self):
         a = srt_to_list(SRT_FILE)

@@ -12,11 +12,16 @@ IMG_FORMAT = '.jpg'
 FONT_FILE = 'NanumGothic.ttf'
 
 class download_thumbnail():
-    def __init__(self, v_info):
+    def __init__(self, v_info, bake_title=False):
         self.__title = v_info['title']
         self.__thumbnail_url = v_info['thumbnail']
+        self.__fontsize = v_info['font_size']
+        self.__bg_opacity = v_info['bg_opacity']
         self.__imgpath = os.path.join(v_info['file_path'], 'imgs', 'frame_0' + IMG_FORMAT)
+
         self.__download_thumbnail()
+        if bake_title:
+            self.__bake_title()
 
     def __download_thumbnail(self):
         url = self.__thumbnail_url
@@ -27,6 +32,13 @@ class download_thumbnail():
                 f.write(r.content)
         else:
             logger.info('Error: fail to download thrumbnail img. (status code: %d, url: %s)' %(r.status_code, self.__thumbnail_url))
+
+    def __bake_title(self):
+        path = self.__imgpath
+        text = self.__title
+        font_size = int(self.__fontsize * 2)
+        background_opacity = self.__bg_opacity
+        bake_caption(path, text, FONT_FILE, font_size, background_opacity)
 
 class capture_by_subs():
     def __init__(self, v_info):

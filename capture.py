@@ -18,6 +18,7 @@ class download_thumbnail():
         self.__fontsize = v_info['font_size']
         self.__bg_opacity = v_info['bg_opacity']
         self.__imgpath = os.path.join(v_info['file_path'], 'imgs', 'frame_0' + IMG_FORMAT)
+        v_info['frame_infos'][0]['img_path'] = self.__imgpath
 
         self.__download_thumbnail()
         if bake_title:

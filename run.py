@@ -105,9 +105,9 @@ def main():
         sys.exit(0)
     logger.info(args)
     video_info = make_youtube_info(args.url, args.name, args.lang, args.retry, args.fontsize)
-    video_info.save_json()
     capture_by_subs(video_info)
     download_thumbnail(video_info, bake_title=True)
+    video_info.save_json()
 
 if __name__ == "__main__":
     main()

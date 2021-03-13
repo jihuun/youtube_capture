@@ -5,6 +5,7 @@ import argparse
 import shutil
 import pprint
 import json
+import requests
 from logger import *
 from youtube import youtube
 from subtitle import srt_to_list
@@ -56,6 +57,18 @@ class make_youtube_info(dict):
     def __set_frame_info(self, srtfile_path):
         self['frame_infos'] = srt_to_list(srtfile_path)
 
+    def __get_thumbnail_url(self, videoid):
+        res_priority = ['maxresdefault', 'sddefault', 'hqdefault', 'mqdefault', '0', 'default']
+        for resolution in res_priority:
+            url = 'https://img.youtube.com/vi/%s/%s.jpg' %(videoid, resolution)
+            r = requests.get(url, stream = True)
+            if r.status_code == 200:
+                print('thumbnail url: %s' %url)
+                return url
+            else:
+                continue
+        return None
+
     def __update_header(self, ret_path):
         self['url'] = self.arg_url
         self['title'] = self.yt.info.title
@@ -67,7 +80,7 @@ class make_youtube_info(dict):
         self['nosub_opt'] = None
         self['imgdiff_opt'] = None
         self['bg_opacity'] = 0.7 # TODO: get form option?
-        self['thumbnail'] = 'https://img.youtube.com/vi/%s/maxresdefault.jpg' %self.yt.info.video_id
+        self['thumbnail'] = self.__get_thumbnail_url(self.yt.info.video_id)
 
     def save_json(self):
         with open(self.json_path, 'w', encoding='utf8') as fp:

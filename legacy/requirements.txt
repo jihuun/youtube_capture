@@ -1,7 +1,7 @@
 ImageHash==4.0
 numpy==1.17.2
 opencv-python==4.1.1.26
-Pillow==6.1.0
+Pillow==9.0.0
 pytesseract==0.3.0
 pytube==9.5.2
 PyWavelets==1.0.3
